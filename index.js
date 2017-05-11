@@ -4,19 +4,19 @@ const fs = require('fs');
 const path = require('path');
 
 /**
- * config() Return a country's tokens or if not specified all tokens available
+ * config() Return a Language's tokens or if not specified all tokens available
  *
- * @param {String} country [optional] ISO 639-1 Code - If not specified return object of all codes
+ * @param {String} lang [optional] ISO 639-1 Code - If not specified return object of all codes
  *
- * @return {Array|Object} Return an array for a single country or an object map of all tokens by ISO code
+ * @return {Array|Object} Return an array for a single lang tokens or an object map of all tokens by ISO code
  */
-function config(country) {
-    if (country && (typeof country !== 'string' || country.length != 2)) throw Error('optional country param must be string containing 2 letter ISO 639-1 Code');
+function config(lang) {
+    if (lang && (typeof lang !== 'string' || lang.length != 2)) throw Error('optional lang param must be string containing 2 letter ISO 639-1 Code');
 
-    if (country) {
+    if (lang) {
         if (!fs.statSync(path.resolve(__dirname, './tokens/'))) return [];
 
-        return require(`./tokens/${country}.json`);
+        return require(`./tokens/${lang}.json`);
     }
 
     const tokens = {};
