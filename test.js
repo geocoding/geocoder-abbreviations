@@ -29,7 +29,7 @@ tape((t) => {
         t.error(err);
 
         files.forEach((file) => {
-            if (!file.match(/\.json/)) return;
+            if (!file.match(/\.json/) || file.match(/global/)) return;
 
             let lang = path.basename(file, '.json');
             let tokens = config(lang);
@@ -44,7 +44,11 @@ tape((t) => {
 tape((t) => {
     let tokens = config();
 
+    t.equals(typeof tokens.global, 'object');
+
     Object.keys(tokens).forEach((token) => {
+        if (token === 'global') return;
+
         t.equals(token.length, 2, 'token is length 2');
         t.ok(Array.isArray(tokens[token]), 'token refs array');
         t.ok(tokens[token].length > 0, 'array has length');
