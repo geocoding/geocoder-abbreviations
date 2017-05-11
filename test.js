@@ -7,22 +7,22 @@ const config = require('./index');
 tape((t) => {
     t.throws(() => {
         config([]);
-    }, /optional country param must be string/);
+    }, /optional lang param must be string/);
 
     t.throws(() => {
         config('adsg');
-    }, /optional country param must be string/);
+    }, /optional lang param must be string/);
 
     t.throws(() => {
         config(2355);
-    }, /optional country param must be string/);
+    }, /optional lang param must be string/);
 
     t.throws(() => {
         config({});
-    }, /optional country param must be string/);
+    }, /optional lang param must be string/);
 
     t.end();
-}, 'invalid country input');
+}, 'invalid lang input');
 
 tape((t) => {
     fs.readdir(__dirname + '/tokens/', (err, files) => {
@@ -39,7 +39,7 @@ tape((t) => {
         });
         t.end();
     });
-}, 'each country can be accessed');
+}, 'each lang can be accessed');
 
 tape((t) => {
     let tokens = config();

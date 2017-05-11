@@ -4,7 +4,7 @@
   "description": "Language/Country Specific Street Abbreviations",
   "main": "index.js",
   "scripts": {
-    "test": "tape index.js"
+    "test": "tape test.js"
   },
   "repository": {
     "type": "git",
