@@ -1,3 +1,5 @@
+module.exports = config;
+
 const fs = require('fs');
 const path = require('path');
 
@@ -9,7 +11,13 @@ const path = require('path');
  * @return {Array|Object} Return an array for a single country or an object map of all tokens by ISO code
  */
 function config(country) {
-    if (country) return require(`./tokens/${token}.json`);
+    if (country && (typeof country !== 'string' || country.length != 2)) throw Error('optional country param must be string containing 2 letter ISO 639-1 Code');
+
+    if (country) {
+        if (!fs.statSync(path.resolve(__dirname, './tokens/'))) return [];
+
+        return require(`./tokens/${country}.json`);
+    }
 
     const tokens = {};
 
