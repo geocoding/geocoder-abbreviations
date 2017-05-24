@@ -46,6 +46,10 @@ tape((t) => {
 
     t.equals(typeof tokens.global, 'object');
 
+    for (let token in tokens.global) {
+        t.ok(new RegExp(token))
+    }
+
     Object.keys(tokens).forEach((token) => {
         if (token === 'global') return;
 
