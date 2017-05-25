@@ -1,6 +1,6 @@
 {
   "name": "@mapbox/geocoder-abbreviations",
-  "version": "1.3.2",
+  "version": "1.3.4",
   "description": "Language/Country Specific Street Abbreviations",
   "main": "index.js",
   "scripts": {
