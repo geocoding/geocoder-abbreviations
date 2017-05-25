@@ -12,6 +12,7 @@ const path = require('path');
  * @return {Array|Object} Return an array for a single lang tokens or an object map of all tokens by ISO code
  */
 function config(lang, singletons) {
+    'use strict';
     singletons = !!singletons;
 
     if (lang && (typeof lang !== 'string' || lang.length != 2)) throw Error('optional lang param must be string containing 2 letter ISO 639-1 Code');

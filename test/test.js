@@ -63,13 +63,12 @@ tape((t) => {
 
 tape((t) => {
     if (process.env.UPDATE) {
-	fs.writeFileSync(__dirname + '/fixtures/et-no-singletons.json', JSON.stringify(config('et')));
-	fs.writeFileSync(__dirname + '/fixtures/et-singletons.json', JSON.stringify(config('et', true)));
-	t.fail('updated fixtures');
-    }
-    else {
-	t.deepEquals(config('et'), require(__dirname + '/fixtures/et-no-singletons.json', 'singletons off'));
-	t.deepEquals(config('et', true), require(__dirname + '/fixtures/et-singletons.json', 'singletons on'));
+        fs.writeFileSync(__dirname + '/fixtures/et-no-singletons.json', JSON.stringify(config('et')));
+        fs.writeFileSync(__dirname + '/fixtures/et-singletons.json', JSON.stringify(config('et', true)));
+        t.fail('updated fixtures');
+    } else {
+        t.deepEquals(config('et'), require(__dirname + '/fixtures/et-no-singletons.json', 'singletons off'));
+        t.deepEquals(config('et', true), require(__dirname + '/fixtures/et-singletons.json', 'singletons on'));
     }
     t.end();
 }, 'singletons');
