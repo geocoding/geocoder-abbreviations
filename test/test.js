@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const tape = require('tape');
 
-const config = require('./index');
+const config = require('..');
 
 tape((t) => {
     t.throws(() => {
@@ -25,7 +25,7 @@ tape((t) => {
 }, 'invalid lang input');
 
 tape((t) => {
-    fs.readdir(__dirname + '/tokens/', (err, files) => {
+    fs.readdir(__dirname + '/../tokens/', (err, files) => {
         t.error(err);
 
         files.forEach((file) => {
@@ -60,3 +60,16 @@ tape((t) => {
 
     t.end();
 }, 'return all countries')
+
+tape((t) => {
+    if (process.env.UPDATE) {
+	fs.writeFileSync(__dirname + '/fixtures/et-no-singletons.json', JSON.stringify(config('et')));
+	fs.writeFileSync(__dirname + '/fixtures/et-singletons.json', JSON.stringify(config('et', true)));
+	t.fail('updated fixtures');
+    }
+    else {
+	t.deepEquals(config('et'), require(__dirname + '/fixtures/et-no-singletons.json', 'singletons off'));
+	t.deepEquals(config('et', true), require(__dirname + '/fixtures/et-singletons.json', 'singletons on'));
+    }
+    t.end();
+}, 'singletons');
