@@ -73,3 +73,14 @@ tape((t) => {
     }
     t.end();
 }, 'singletons');
+
+tape((t) => {
+    let data = JSON.parse(fs.readFileSync(__dirname + '/../tokens/global.json'));
+    let str = "Abelmannstraße";
+    for (let from in data) {
+        let to = data[from];
+        str = str.replace(new RegExp(from), to);
+    }
+    t.deepEquals(str, "Abelmann str", "-strasse replacement works");
+    t.end();
+}, 'test individual replacement');
