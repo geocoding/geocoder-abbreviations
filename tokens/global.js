@@ -43,7 +43,7 @@ module.exports = () => {
     const BOUNDARIES = "[\\s\\u2000-\\u206F\\u2E00-\\u2E7F\\\\'!\"#$%&()*+,\\-.\\/:;<=>?@\\[\\]^_`{|}~]"
 
     for (let find in stdBoundaries) {
-        tokens[`(${BOUNDARIES}|^)${find}(${BOUNDARIES}|$)`] = stdBoundaries[find];
+        tokens[`(?:${BOUNDARIES}|^)${find}(?:${BOUNDARIES}|$)`] = stdBoundaries[find];
     }
 
     let custBoundaries = {
