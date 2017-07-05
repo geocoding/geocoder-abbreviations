@@ -42,7 +42,7 @@ function config(lang, singletons) {
         } else if (token.match(/\.js$/)) {
             let js = require(`./tokens/${token.replace('\.js$', '')}`);
 
-            tokens[token.replace(/\.js/, '')] = singletons ? js : removeSingletons(js);
+            tokens[token.replace(/\.js/, '')] = singletons ? js() : removeSingletons(js());
         } else {
             return;
         } 
