@@ -1,9 +1,10 @@
 module.exports = () => {
-    //Prepend Standard (?:\\s|^)
-    //Postpend Standard (?:\\s|$)
+    let tokens = {};
 
-    let stdBoundaries = [
-        "(\\s|^)P\\.?\\ ?O\\.? Box [0-9]+": " ",
+    //Prepend Standard word boundaries + ^
+    //Postpend Standard word boundaries + $
+    let stdBoundaries = {
+        "P\\.?\\ ?O\\.? Box [0-9]+": " ",
         "(.+)(strasse|str|straße)": " $1 str ",
         "Suite [0-9]+": " ",
         "Suite [a-z]": " ",
@@ -34,14 +35,16 @@ module.exports = () => {
         "Van De": " vd ",
         "Van Den": " vd ",
         "Van Der": " vd ",
-        "Câmara Municipal": " CM ",
-    ];
+        "Câmara Municipal": " CM "
+    };
 
-    stdBoundaries.map((reg) => {
-        return `(?:\\s|^)${reg}(?:\\s|$)`;
-    });
+    const BOUNDARIES = "[\\s\\u2000-\\u206F\\u2E00-\\u2E7F\\\\'!\"#$%&()*+,\\-.\\/:;<=>?@\\[\\]^_`{|}~]"
 
-    let tokens = stdBoundaries.concat([
+    for (let find in stdBoundaries) {
+        tokens[`(${BOUNDARIES}|^)${find}(${BOUNDARIES}|$)`] = stdBoundaries[find];
+    }
+
+    let custBoundaries = {
         "\\b1丁目\\b": " 一丁目 ",
         "\\b2丁目\\b": " 二丁目 ",
         "\\b3丁目\\b": " 三丁目 ",
@@ -53,7 +56,11 @@ module.exports = () => {
         "\\b9丁目\\b": " 九丁目 ",
         "\\b10丁目\\b": " 十丁目 ",
         "^([\\u1100-\\u11FF\\u2E80-\\u2EFF\\u3000-\\u303F\\u3040-\\u309F\\u30A0-\\u30FF\\u3100-\\u312F\\u3130-\\u318F\\u31C0-\\u31EF\\u31F0-\\u31FF\\u3200-\\u32FF\\u3300-\\u33FF\\u3400-\\u4DBF\\u4E00-\\u9FFF\\uF900-\\uFAFF\\uFE30-\\uFE4F\\s]+)(\\s*)([0-9]+)-([0-9]+)(.*)$": "$1$5 $3"
-    ]);
+    }
+
+    for (let find in custBoundaries) {
+        tokens[find] = custBoundaries[find];
+    }
 
     return tokens;
 }
