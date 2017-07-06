@@ -121,6 +121,7 @@
         "Artery"
     ],
     [
+        "Av",
         "Ave",
         "Avenue"
     ],
@@ -300,6 +301,10 @@
         "Creek"
     ],
     [
+        "Crpk",
+        "Carpark"
+    ],
+    [
         "Crse",
         "Course"
     ],
@@ -436,6 +441,10 @@
     [
         "Flt",
         "Flat"
+    ],
+    [
+        "Ftrl",
+        "Firetrail"
     ],
     [
         "Flts",
@@ -884,6 +893,10 @@
         "Quarters"
     ],
     [
+        "Qy",
+        "Quay"
+    ],
+    [
         "Qys",
         "Quays"
     ],
@@ -1034,6 +1047,10 @@
     [
         "Std",
         "Stadium"
+    ],
+    [
+        "Stps",
+        "Steps"
     ],
     [
         "Stg",
