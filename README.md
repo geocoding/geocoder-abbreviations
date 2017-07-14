@@ -13,6 +13,6 @@ And non-english language codes like the indonesian
 
 ## Usage
 
-index.js exposes a single function with an optional `lang` arg or if null returns a map of all the tokens seprated by language.
+index.js exposes a single function with an optional `lang` arg or if null returns a map of all the tokens separated by language.
 
 See the index.js JSDoc for more details
