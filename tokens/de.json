@@ -122,5 +122,17 @@
     [
         "z",
         "zum"
+    ],
+    [
+        "ä",
+        {"skipBoundaries": true, "skipDiacriticStripping": true, "text": "ae"}
+    ],
+    [
+        "ö",
+        {"skipBoundaries": true, "skipDiacriticStripping": true, "text": "oe"}
+    ],
+    [
+        "ü",
+        {"skipBoundaries": true, "skipDiacriticStripping": true, "text": "ue"}
     ]
 ]
