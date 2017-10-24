@@ -172,6 +172,7 @@
         "Bottom"
     ],
     [
+        "bd",
         "Blvd",
         "Boulevard"
     ],
@@ -817,6 +818,10 @@
         "Piazza"
     ],
     [
+        "Pike",
+        "Pk"
+    ],
+    [
         "Pk",
         "Peak"
     ],
@@ -965,6 +970,10 @@
     [
         "Rty",
         "Rotary"
+    ],
+    [
+        "Row",
+        "Rw"
     ],
     [
         "S",
