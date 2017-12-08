@@ -55,6 +55,7 @@
         "Av",
         "Avd",
         "Avda",
+        "Avnda",
         "Avenida"
     ],
     [
@@ -147,6 +148,7 @@
     ],
     [
         "Cl",
+        "Cll",
         "Calle"
     ],
     [
@@ -241,6 +243,9 @@
     [
         "Czada",
         "Calzada"
+    ],
+    [
+        "de"
     ],
     [
         "Demar",
@@ -395,6 +400,7 @@
     ],
     [
         "Po",
+        "Pso",
         "Paseo"
     ],
     [
@@ -550,6 +556,7 @@
         "Vecindario"
     ],
     [
+        "Ver",
         "Vreda",
         "Vereda"
     ],
