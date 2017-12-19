@@ -697,7 +697,7 @@
     ],
     [
         "Mcplty",
-        "Municpality"
+        "Municipality"
     ],
     [
         "Mdw",
@@ -878,6 +878,9 @@
         "Pathway"
     ],
     [
+        "Py",
+        "Pky",
+        "Pw",
         "Pwy",
         "Pkwy",
         "Prkwy",
