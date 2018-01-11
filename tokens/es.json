@@ -56,6 +56,7 @@
         "Avd",
         "Avda",
         "Avnda",
+        "Avinguda",
         "Avenida"
     ],
     [
@@ -137,6 +138,7 @@
         "Callejuela"
     ],
     [
+        "Cj",
         "Cjon",
         "Cllon",
         "Callej",
@@ -149,7 +151,8 @@
     [
         "Cl",
         "Cll",
-        "Calle"
+        "Calle",
+        "Carrer"
     ],
     [
         "Cllja",
@@ -160,6 +163,7 @@
         "Callizo"
     ],
     [
+        "Cm",
         "Cno",
         "Cmno",
         "Camino"
@@ -225,6 +229,7 @@
         "Costanilla"
     ],
     [
+        "Cr",
         "Ctra",
         "Carretera"
     ],
@@ -246,6 +251,12 @@
     ],
     [
         "de"
+    ],
+    [
+        "del"
+    ],
+    [
+        "don"
     ],
     [
         "Demar",
@@ -388,6 +399,7 @@
         "Pl",
         "Pza",
         "Plza",
+        "Plaça",
         "Plaza"
     ],
     [
@@ -400,6 +412,7 @@
     ],
     [
         "Po",
+        "Ps",
         "Pso",
         "Paseo"
     ],
@@ -492,8 +505,13 @@
         "Rotonda"
     ],
     [
+        "Ru",
+        "Rúa"
+    ],
+    [
         "S",
-        "San"
+        "San",
+        "Sant"
     ],
     [
         "Sanat",
@@ -530,6 +548,10 @@
     [
         "Tras",
         "Trasera"
+    ],
+    [
+        "Tr",
+        "Travesia"
     ],
     [
         "Trrnt",
