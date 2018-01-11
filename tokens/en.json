@@ -1,5 +1,85 @@
 [
     [
+        "one",
+        "1"
+    ],
+    [
+        "two",
+        "2"
+    ],
+    [
+        "three",
+        "3"
+    ],
+    [
+        "four",
+        "r41"
+    ],
+    [
+        "five",
+        "5"
+    ],
+    [
+        "six",
+        "6"
+    ],
+    [
+        "seven",
+        "7"
+    ],
+    [
+        "eight",
+        "8"
+    ],
+    [
+        "nine",
+        "9"
+    ],
+    [
+        "ten",
+        "10"
+    ],
+    [
+        "eleven",
+        "11"
+    ],
+    [
+        "twelve",
+        "12"
+    ],
+    [
+        "thirteen",
+        "13"
+    ],
+    [
+        "fourteen",
+        "14"
+    ],
+    [
+        "fifteen",
+        "15"
+    ],
+    [
+        "sixteen",
+        "16"
+    ],
+    [
+        "seventeen",
+        "17"
+    ],
+    [
+        "eighteen",
+        "18"
+    ],
+    [
+        "nineteen",
+        "19"
+    ],
+    [
+        "twenty",
+        "20"
+    ],
+    [
         "10th",
         "Tenth"
     ],
@@ -172,6 +252,7 @@
         "Bottom"
     ],
     [
+        "Blv",
         "Blvd",
         "Boulevard"
     ],
@@ -206,8 +287,7 @@
     ],
     [
         "Ch",
-        "Chase",
-        "Church"
+        "Chase"
     ],
     [
         "Chk",
@@ -252,6 +332,10 @@
         "Common"
     ],
     [
+        "Cmns",
+        "Commons"
+    ],
+    [
         "Cnl",
         "Canal"
     ],
@@ -259,6 +343,10 @@
         "Cnr",
         "Cor",
         "Corner"
+    ],
+    [
+        "Co",
+        "County"
     ],
     [
         "Coll",
@@ -643,6 +731,10 @@
         "Keys"
     ],
     [
+        "Loop",
+        "Lp"
+    ],
+    [
         "Lck",
         "Lock"
     ],
@@ -833,6 +925,10 @@
         "Piazza"
     ],
     [
+        "Pike",
+        "Pk"
+    ],
+    [
         "Pk",
         "Park",
         "Peak"
@@ -992,6 +1088,10 @@
         "Rotary"
     ],
     [
+        "Row",
+        "Rw"
+    ],
+    [
         "S",
         "Sth",
         "South"
@@ -999,10 +1099,6 @@
     [
         "Sbwy",
         "Subway"
-    ],
-    [
-        "Sch",
-        "School"
     ],
     [
         "SE",
@@ -1066,7 +1162,6 @@
         "Street"
     ],
     [
-        "Sta",
         "Stn",
         "Station"
     ],
