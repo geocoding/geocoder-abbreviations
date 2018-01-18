@@ -7,7 +7,6 @@ module.exports = () => {
         "P\\.?\\ ?O\\.? Box [0-9]+": " ",
         "(.+)(strasse|str|straße)": " $1 str ",
         "Suite [0-9]+": " ",
-        "s/n": " ",
         "Suite [0-9]+-[0-9]+": " ",
         "Suite [0-9]+[a-z]": " ",
         "Suite [a-z]": " ",
