@@ -303,6 +303,7 @@
     ],
     [
         "Cl",
+        "Clo",
         "Close",
         "Clinic"
     ],
@@ -454,7 +455,9 @@
     ],
     [
         "Dr",
-        "Drive"
+        "Dv",
+        "Drive",
+        "Divide"
     ],
     [
         "Drs",
@@ -465,15 +468,12 @@
         "District"
     ],
     [
-        "Dv",
-        "Divide"
-    ],
-    [
         "Dvwy",
         "Driveway"
     ],
     [
         "E",
+        "Est",
         "East"
     ],
     [
@@ -536,6 +536,10 @@
     [
         "Flts",
         "Flats"
+    ],
+    [
+        "Fm",
+        "Farm"
     ],
     [
         "Folw",
@@ -608,6 +612,7 @@
     ],
     [
         "Gr",
+        "Gro",
         "Grove"
     ],
     [
@@ -619,6 +624,7 @@
         "Grade"
     ],
     [
+        "Gn",
         "Grn",
         "Green"
     ],
@@ -653,6 +659,10 @@
     [
         "Hosp",
         "Hospital"
+    ],
+    [
+        "Ho",
+        "House"
     ],
     [
         "Htl",
@@ -762,6 +772,7 @@
     ],
     [
         "Ln",
+        "La",
         "Lane"
     ],
     [
@@ -799,6 +810,10 @@
     [
         "Mdws",
         "Meadows"
+    ],
+    [
+        "Mws",
+        "Mews"
     ],
     [
         "Mg",
@@ -850,6 +865,7 @@
     ],
     [
         "N",
+        "Nth",
         "North"
     ],
     [
@@ -914,6 +930,7 @@
     ],
     [
         "Pk",
+        "Park",
         "Peak"
     ],
     [
@@ -1038,12 +1055,20 @@
         "Ranch"
     ],
     [
+        "Rw",
+        "Row"
+    ],
+    [
         "Rpd",
         "Rapid"
     ],
     [
         "Rpds",
         "Rapids"
+    ],
+    [
+        "Rse",
+        "Rise"
     ],
     [
         "Rst",
@@ -1068,6 +1093,7 @@
     ],
     [
         "S",
+        "Sth",
         "South"
     ],
     [
@@ -1275,7 +1301,12 @@
     ],
     [
         "W",
+        "Wst",
         "West"
+    ],
+    [
+        "Wd",
+        "Wood"
     ],
     [
         "Whrf",
@@ -1284,6 +1315,10 @@
     [
         "Wkwy",
         "Walkway"
+    ],
+    [
+        "Wlk",
+        "Walk"
     ],
     [
         "Wy",
