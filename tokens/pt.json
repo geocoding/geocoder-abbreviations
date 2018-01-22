@@ -74,12 +74,23 @@
         "Coronel"
     ],
     [
+        "Chac",
+        "Chácara",
+        "Chacara",
+        "Chácaras"
+    ],
+    [
         "Cmdt",
         "Comandante"
     ],
     [
         "Comend",
         "Comendador"
+    ],
+    [
+        "Cj",
+        "Conjunto",
+        "Conjuntos"
     ],
     [
         "Cons",
@@ -284,6 +295,7 @@
     [
         "Q",
         "Qd",
+        "Qr",
         "Quadra"
     ],
     [
