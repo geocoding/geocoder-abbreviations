@@ -1,45 +1,49 @@
 [
     [
-        "väg",
-        "v",
-        "vägen"
+        "([a-z]+)vägen",
+        "$1v"
     ],
     [
-        "gatan",
-        "g",
-        "gata"
+        "([a-z]+)väg",
+        "$1v"
     ],
     [
-        "gränd",
-        "gr",
-        "gränden"
+        "([a-z]+)gatan",
+        "$1g"
+    ],
+    [ 
+        "([a-z]+)gata",
+        "$1g"
     ],
     [
-        "gamla",
-        "G:la"
+        "([a-z]+)gränd",
+        "$1gr"
+    ],
+    [ 
+        "([a-z]+)gränden",
+        "$1g"
+    ],
+    [
+        "gamla"
     ],
     [
         "södra",
         "s"
     ],
     [
-        "södra",
-        "s:a"
+        "södra"
     ],
     [
         "norra",
-        "n",
-        "n:a"
+        "n"
     ],
     [
         "östra",
-        "ö",
-        "ö:a"
+        "ö"
     ],
     [
         "västra",
-        "v",
-        "v:a"
+        "v"
     ],
     [
         "stig",
@@ -47,12 +51,10 @@
         "stigen"
     ],
     [
-        "sankt",
-        "s:t"
+        "sankt"
     ],
     [
-        "sankta",
-        "s:ta"
+        "sankta"
     ],
     [
         "plats",
