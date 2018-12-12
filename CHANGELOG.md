@@ -10,6 +10,10 @@
 
 # Version History
 
+## v2.4.0
+
+- :tada: Add Russian tokens
+
 ## v2.3.2
 
 - Add CHANGELOG.md
