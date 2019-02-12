@@ -5,6 +5,8 @@
             "רחוב"
         ],
         "full": "רחוב",
-        "canonical": "רח׳"
+        "canonical": "רח׳",
+        "only_layers": ["address"],
+        "note": "translates to 'street'"
     }
 ]

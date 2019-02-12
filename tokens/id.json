@@ -6,23 +6,9 @@
             "jalan"
         ],
         "full": "jalan",
-        "canonical": "jl"
-    },
-    {
-        "tokens": [
-            "jl",
-            "jalan"
-        ],
-        "full": "jalan",
-        "canonical": "jl"
-    },
-    {
-        "tokens": [
-            "jl",
-            "jln"
-        ],
-        "full": "jln",
-        "canonical": "jl"
+        "canonical": "jl",
+        "only_layers": ["address"],
+        "note": "translates to 'street'"
     },
     {
         "tokens": [
@@ -30,37 +16,15 @@
             "gang"
         ],
         "full": "gang",
-        "canonical": "gg"
+        "canonical": "gg",
+        "only_layers": ["address"],
+        "note": "translates to 'alley'"
     },
     {
         "tokens": [
             "lrg",
             "lor",
             "lorong",
-            "lorang"
-        ],
-        "full": "lorang",
-        "canonical": "lrg"
-    },
-    {
-        "tokens": [
-            "lrg",
-            "lorong"
-        ],
-        "full": "lorong",
-        "canonical": "lrg"
-    },
-    {
-        "tokens": [
-            "lrg",
-            "lor"
-        ],
-        "full": "lor",
-        "canonical": "lrg"
-    },
-    {
-        "tokens": [
-            "lrg",
             "lorang"
         ],
         "full": "lorang",
@@ -101,22 +65,6 @@
     },
     {
         "tokens": [
-            "trk",
-            "track"
-        ],
-        "full": "track",
-        "canonical": "trk"
-    },
-    {
-        "tokens": [
-            "trk",
-            "tck"
-        ],
-        "full": "tck",
-        "canonical": "trk"
-    },
-    {
-        "tokens": [
             "cr",
             "cres",
             "cresent",
@@ -127,70 +75,16 @@
     },
     {
         "tokens": [
-            "cr",
-            "crescent"
-        ],
-        "full": "crescent",
-        "canonical": "cr"
-    },
-    {
-        "tokens": [
-            "cr",
-            "cres"
-        ],
-        "full": "cres",
-        "canonical": "cr"
-    },
-    {
-        "tokens": [
-            "cr",
-            "cresent"
-        ],
-        "full": "cresent",
-        "canonical": "cr"
-    },
-    {
-        "tokens": [
             "bvd",
             "blvd",
             "boulvard",
             "boulevard",
             "bouleyard"
         ],
-        "full": "bouleyard",
-        "canonical": "bvd"
-    },
-    {
-        "tokens": [
-            "bvd",
-            "boulevard"
-        ],
         "full": "boulevard",
-        "canonical": "bvd"
-    },
-    {
-        "tokens": [
-            "bvd",
-            "blvd"
-        ],
-        "full": "blvd",
-        "canonical": "bvd"
-    },
-    {
-        "tokens": [
-            "bvd",
-            "bouleyard"
-        ],
-        "full": "bouleyard",
-        "canonical": "bvd"
-    },
-    {
-        "tokens": [
-            "bvd",
-            "boulvard"
-        ],
-        "full": "boulvard",
-        "canonical": "bvd"
+        "canonical": "bvd",
+        "only_layers": ["address"],
+        "note": "translates to 'boulevard'"
     },
     {
         "tokens": [
@@ -200,31 +94,9 @@
             "avenue"
         ],
         "full": "avenue",
-        "canonical": "av"
-    },
-    {
-        "tokens": [
-            "av",
-            "avenue"
-        ],
-        "full": "avenue",
-        "canonical": "av"
-    },
-    {
-        "tokens": [
-            "av",
-            "ave"
-        ],
-        "full": "ave",
-        "canonical": "av"
-    },
-    {
-        "tokens": [
-            "av",
-            "avnue"
-        ],
-        "full": "avnue",
-        "canonical": "av"
+        "canonical": "av",
+        "only_layers": ["address"],
+        "note": "translates to 'avenue'"
     },
     {
         "tokens": [
@@ -240,7 +112,9 @@
             "lane"
         ],
         "full": "lane",
-        "canonical": "l"
+        "canonical": "l",
+        "only_layers": ["address"],
+        "note": "translates to 'lane'"
     },
     {
         "tokens": [
@@ -264,7 +138,9 @@
             "highway"
         ],
         "full": "highway",
-        "canonical": "hwy"
+        "canonical": "hwy",
+        "only_layers": ["address"],
+        "note": "translates to 'highway'"
     },
     {
         "tokens": [
@@ -280,7 +156,9 @@
             "parkway"
         ],
         "full": "parkway",
-        "canonical": "pwy"
+        "canonical": "pwy",
+        "only_layers": ["address"],
+        "note": "translates to 'parkway'"
     },
     {
         "tokens": [

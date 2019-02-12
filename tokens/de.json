@@ -2,15 +2,6 @@
     {
         "tokens": [
             "a",
-            "am",
-            "an"
-        ],
-        "full": "an",
-        "canonical": "a"
-    },
-    {
-        "tokens": [
-            "a",
             "am"
         ],
         "full": "am",
@@ -35,31 +26,6 @@
     },
     {
         "tokens": [
-            "Bf",
-            "Bhf"
-        ],
-        "full": "Bhf",
-        "canonical": "Bf"
-    },
-    {
-        "tokens": [
-            "Bf",
-            "Bahnhof"
-        ],
-        "full": "Bahnhof",
-        "canonical": "Bf"
-    },
-    {
-        "tokens": [
-            "bg",
-            "berg",
-            "burg"
-        ],
-        "full": "burg",
-        "canonical": "bg"
-    },
-    {
-        "tokens": [
             "bg",
             "berg"
         ],
@@ -80,7 +46,9 @@
             "Brücke"
         ],
         "full": "Brücke",
-        "canonical": "Br"
+        "canonical": "Br",
+        "only_layers": ["address"],
+        "note": "translates to 'bridge'"
     },
     {
         "tokens": [
@@ -88,7 +56,9 @@
             "Chaussee"
         ],
         "full": "Chaussee",
-        "canonical": "Ch"
+        "canonical": "Ch",
+        "only_layers": ["address"],
+        "note": "translates to 'highway'"
     },
     {
         "tokens": [
@@ -128,17 +98,9 @@
             "Gasse"
         ],
         "full": "Gasse",
-        "canonical": "G"
-    },
-    {
-        "tokens": [
-            "Gr",
-            "Große",
-            "Großer",
-            "Großes"
-        ],
-        "full": "Großes",
-        "canonical": "Gr"
+        "canonical": "G",
+        "only_layers": ["address"],
+        "note": "translates to 'alley'"
     },
     {
         "tokens": [
@@ -191,16 +153,6 @@
     {
         "tokens": [
             "Kl",
-            "Kleine",
-            "Kleiner",
-            "Kleines"
-        ],
-        "full": "Kleines",
-        "canonical": "Kl"
-    },
-    {
-        "tokens": [
-            "Kl",
             "Kleine"
         ],
         "full": "Kleine",
@@ -229,23 +181,9 @@
             "Kreis"
         ],
         "full": "Kreis",
-        "canonical": "Kr"
-    },
-    {
-        "tokens": [
-            "Kr",
-            "Krs"
-        ],
-        "full": "Krs",
-        "canonical": "Kr"
-    },
-    {
-        "tokens": [
-            "Kr",
-            "Kreis"
-        ],
-        "full": "Kreis",
-        "canonical": "Kr"
+        "canonical": "Kr",
+        "only_layers": ["address"],
+        "note": "translates to 'circle'"
     },
     {
         "tokens": [
@@ -260,53 +198,11 @@
     },
     {
         "tokens": [
-            "Lk",
-            "Lkr"
-        ],
-        "full": "Lkr",
-        "canonical": "Lk"
-    },
-    {
-        "tokens": [
-            "Lk",
-            "Lkrs"
-        ],
-        "full": "Lkrs",
-        "canonical": "Lk"
-    },
-    {
-        "tokens": [
-            "Lk",
-            "Landkrs"
-        ],
-        "full": "Landkrs",
-        "canonical": "Lk"
-    },
-    {
-        "tokens": [
-            "Lk",
-            "Landkreis"
-        ],
-        "full": "Landkreis",
-        "canonical": "Lk"
-    },
-    {
-        "tokens": [
             "o",
             "ob"
         ],
         "full": "ob",
         "canonical": "o"
-    },
-    {
-        "tokens": [
-            "Ob",
-            "Obere",
-            "Oberer",
-            "Oberes"
-        ],
-        "full": "Oberes",
-        "canonical": "Ob"
     },
     {
         "tokens": [
@@ -363,33 +259,9 @@
             "Strasse"
         ],
         "full": "Strasse",
-        "canonical": "Str"
-    },
-    {
-        "tokens": [
-            "Str",
-            "Strasse"
-        ],
-        "full": "Strasse",
-        "canonical": "Str"
-    },
-    {
-        "tokens": [
-            "Str",
-            "Straße"
-        ],
-        "full": "Straße",
-        "canonical": "Str"
-    },
-    {
-        "tokens": [
-            "U",
-            "Untere",
-            "Unterer",
-            "Unteres"
-        ],
-        "full": "Unteres",
-        "canonical": "U"
+        "canonical": "Str",
+        "only_layers": ["address"],
+        "note": "translates to 'street'"
     },
     {
         "tokens": [
@@ -429,7 +301,9 @@
             "Weg"
         ],
         "full": "Weg",
-        "canonical": "Wg"
+        "canonical": "Wg",
+        "only_layers": ["address"],
+        "note": "translates to 'path'"
     },
     {
         "tokens": [
@@ -442,49 +316,31 @@
     {
         "tokens": [
             "ä",
-            {
-                "skipBoundaries": true,
-                "text": "ae",
-                "skipDiacriticStripping": true
-            }
+            "ae"
         ],
-        "full": {
-            "skipBoundaries": true,
-            "text": "ae",
-            "skipDiacriticStripping": true
-        },
-        "canonical": "ä"
+        "skipBoundaries": true,
+        "full": "ae",
+        "skipDiacriticStripping": true,
+        "canonical": "ü"
     },
     {
         "tokens": [
             "ö",
-            {
-                "skipBoundaries": true,
-                "text": "oe",
-                "skipDiacriticStripping": true
-            }
+            "oe"
         ],
-        "full": {
-            "skipBoundaries": true,
-            "text": "oe",
-            "skipDiacriticStripping": true
-        },
-        "canonical": "ö"
+        "skipBoundaries": true,
+        "full": "oe",
+        "skipDiacriticStripping": true,
+        "canonical": "ü"
     },
     {
         "tokens": [
             "ü",
-            {
-                "skipBoundaries": true,
-                "text": "ue",
-                "skipDiacriticStripping": true
-            }
+            "ue"
         ],
-        "full": {
-            "skipBoundaries": true,
-            "text": "ue",
-            "skipDiacriticStripping": true
-        },
+        "skipBoundaries": true,
+        "full": "ue",
+        "skipDiacriticStripping": true,
         "canonical": "ü"
     }
 ]

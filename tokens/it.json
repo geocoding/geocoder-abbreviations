@@ -5,7 +5,9 @@
             "Calle"
         ],
         "full": "Calle",
-        "canonical": "C.le"
+        "canonical": "C.le",
+        "only_layers": ["address"],
+        "note": "translates to 'street'"
     },
     {
         "tokens": [
@@ -30,15 +32,6 @@
         ],
         "full": "Corte",
         "canonical": "C.te"
-    },
-    {
-        "tokens": [
-            "X",
-            "Decima",
-            "Decimo"
-        ],
-        "full": "Decimo",
-        "canonical": "X"
     },
     {
         "tokens": [
@@ -91,22 +84,6 @@
     },
     {
         "tokens": [
-            "P.za",
-            "P.zza"
-        ],
-        "full": "P.zza",
-        "canonical": "P.za"
-    },
-    {
-        "tokens": [
-            "P.za",
-            "Piazza"
-        ],
-        "full": "Piazza",
-        "canonical": "P.za"
-    },
-    {
-        "tokens": [
             "P.le",
             "Piazzale"
         ],
@@ -144,16 +121,6 @@
         ],
         "full": "Salizada",
         "canonical": "S.da"
-    },
-    {
-        "tokens": [
-            "S.",
-            "San",
-            "Santa",
-            "Santo"
-        ],
-        "full": "Santo",
-        "canonical": "S."
     },
     {
         "tokens": [
@@ -201,7 +168,9 @@
             "Via"
         ],
         "full": "Via",
-        "canonical": "V."
+        "canonical": "V.",
+        "only_layers": ["address"],
+        "note": "translates to 'street'"
     },
     {
         "tokens": [
@@ -217,6 +186,8 @@
             "Vicolo"
         ],
         "full": "Vicolo",
-        "canonical": "V.lo"
+        "canonical": "V.lo",
+        "only_layers": ["address"],
+        "note": "translates to 'alley'"
     }
 ]

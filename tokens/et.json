@@ -10,22 +10,6 @@
     },
     {
         "tokens": [
-            "A",
-            "asfalt"
-        ],
-        "full": "asfalt",
-        "canonical": "A"
-    },
-    {
-        "tokens": [
-            "A",
-            "betoon"
-        ],
-        "full": "betoon",
-        "canonical": "A"
-    },
-    {
-        "tokens": [
             "a-k",
             "alevik"
         ],
@@ -195,22 +179,6 @@
     },
     {
         "tokens": [
-            "LK",
-            "lka"
-        ],
-        "full": "lka",
-        "canonical": "LK"
-    },
-    {
-        "tokens": [
-            "LK",
-            "looduskaitseala"
-        ],
-        "full": "looduskaitseala",
-        "canonical": "LK"
-    },
-    {
-        "tokens": [
             "M",
             "munakivisillutis"
         ],
@@ -239,7 +207,9 @@
             "maantee"
         ],
         "full": "maantee",
-        "canonical": "mnt"
+        "canonical": "mnt",
+        "only_layers": ["address"],
+        "note": "translates to 'road'"
     },
     {
         "tokens": [
@@ -261,22 +231,6 @@
         "tokens": [
             "mv",
             "mtsv",
-            "metsavaht"
-        ],
-        "full": "metsavaht",
-        "canonical": "mv"
-    },
-    {
-        "tokens": [
-            "mv",
-            "mtsv"
-        ],
-        "full": "mtsv",
-        "canonical": "mv"
-    },
-    {
-        "tokens": [
-            "mv",
             "metsavaht"
         ],
         "full": "metsavaht",
@@ -352,7 +306,9 @@
             "puiestee"
         ],
         "full": "puiestee",
-        "canonical": "pst"
+        "canonical": "pst",
+        "only_layers": ["address"],
+        "note": "translates to 'avenue'"
     },
     {
         "tokens": [
@@ -369,22 +325,6 @@
             "rahvamaja"
         ],
         "full": "rahvamaja",
-        "canonical": "rhvm"
-    },
-    {
-        "tokens": [
-            "rhvm",
-            "rahvamaja"
-        ],
-        "full": "rahvamaja",
-        "canonical": "rhvm"
-    },
-    {
-        "tokens": [
-            "rhvm",
-            "klubi"
-        ],
-        "full": "klubi",
         "canonical": "rhvm"
     },
     {
@@ -465,7 +405,9 @@
             "tänav"
         ],
         "full": "tänav",
-        "canonical": "tn"
+        "canonical": "tn",
+        "only_layers": ["address"],
+        "note": "translates to 'street'"
     },
     {
         "tokens": [

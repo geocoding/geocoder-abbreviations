@@ -93,7 +93,9 @@
             "Autopista"
         ],
         "full": "Autopista",
-        "canonical": "Auto"
+        "canonical": "Auto",
+        "only_layers": ["address"],
+        "note": "translates to 'freeway'"
     },
     {
         "tokens": [
@@ -101,7 +103,9 @@
             "Autovía"
         ],
         "full": "Autovía",
-        "canonical": "Autov"
+        "canonical": "Autov",
+        "only_layers": ["address"],
+        "note": "translates to 'dual carriageway'"
     },
     {
         "tokens": [
@@ -112,69 +116,15 @@
             "Avenida",
             "Avinguda"
         ],
-        "full": "Avinguda",
-        "canonical": "Av"
-    },
-    {
-        "tokens": [
-            "Av",
-            "Avd"
-        ],
-        "full": "Avd",
-        "canonical": "Av"
-    },
-    {
-        "tokens": [
-            "Av",
-            "Avda"
-        ],
-        "full": "Avda",
-        "canonical": "Av"
-    },
-    {
-        "tokens": [
-            "Av",
-            "Avnda"
-        ],
-        "full": "Avnda",
-        "canonical": "Av"
-    },
-    {
-        "tokens": [
-            "Av",
-            "Avinguda"
-        ],
-        "full": "Avinguda",
-        "canonical": "Av"
-    },
-    {
-        "tokens": [
-            "Av",
-            "Avenida"
-        ],
         "full": "Avenida",
-        "canonical": "Av"
+        "canonical": "Av",
+        "only_layers": ["address"],
+        "note": "translates to 'avenue'; 'avenida' is Castillian whereas 'avinguda' is Catalan'"
     },
     {
         "tokens": [
             "B",
             "Bda",
-            "Banda"
-        ],
-        "full": "Banda",
-        "canonical": "B"
-    },
-    {
-        "tokens": [
-            "B",
-            "Bda"
-        ],
-        "full": "Bda",
-        "canonical": "B"
-    },
-    {
-        "tokens": [
-            "B",
             "Banda"
         ],
         "full": "Banda",
@@ -223,22 +173,6 @@
     },
     {
         "tokens": [
-            "Bo",
-            "Barro"
-        ],
-        "full": "Barro",
-        "canonical": "Bo"
-    },
-    {
-        "tokens": [
-            "Bo",
-            "Barrio"
-        ],
-        "full": "Barrio",
-        "canonical": "Bo"
-    },
-    {
-        "tokens": [
             "Bqllo",
             "Barranquil"
         ],
@@ -267,7 +201,9 @@
             "Bulevar"
         ],
         "full": "Bulevar",
-        "canonical": "Bulev"
+        "canonical": "Bulev",
+        "only_layers": ["address"],
+        "note": "translates to 'boulevard'"
     },
     {
         "tokens": [
@@ -339,7 +275,9 @@
             "Callejuela"
         ],
         "full": "Callejuela",
-        "canonical": "Cjla"
+        "canonical": "Cjla",
+        "only_layers": ["address"],
+        "note": "translates to 'lane'"
     },
     {
         "tokens": [
@@ -350,39 +288,9 @@
             "Callejón"
         ],
         "full": "Callejón",
-        "canonical": "Cj"
-    },
-    {
-        "tokens": [
-            "Cj",
-            "Cjon"
-        ],
-        "full": "Cjon",
-        "canonical": "Cj"
-    },
-    {
-        "tokens": [
-            "Cj",
-            "Cllon"
-        ],
-        "full": "Cllon",
-        "canonical": "Cj"
-    },
-    {
-        "tokens": [
-            "Cj",
-            "Callej"
-        ],
-        "full": "Callej",
-        "canonical": "Cj"
-    },
-    {
-        "tokens": [
-            "Cj",
-            "Callejón"
-        ],
-        "full": "Callejón",
-        "canonical": "Cj"
+        "canonical": "Cj",
+        "only_layers": ["address"],
+        "note": "translates to 'alley'"
     },
     {
         "tokens": [
@@ -399,32 +307,10 @@
             "Calle",
             "Carrer"
         ],
-        "full": "Carrer",
-        "canonical": "Cl"
-    },
-    {
-        "tokens": [
-            "Cl",
-            "Cll"
-        ],
-        "full": "Cll",
-        "canonical": "Cl"
-    },
-    {
-        "tokens": [
-            "Cl",
-            "Calle"
-        ],
         "full": "Calle",
-        "canonical": "Cl"
-    },
-    {
-        "tokens": [
-            "Cl",
-            "Carrer"
-        ],
-        "full": "Carrer",
-        "canonical": "Cl"
+        "canonical": "Cl",
+        "only_layers": ["address"],
+        "note": "translates to 'street' ('carrer' is Catalan)"
     },
     {
         "tokens": [
@@ -432,7 +318,9 @@
             "Calleja"
         ],
         "full": "Calleja",
-        "canonical": "Cllja"
+        "canonical": "Cllja",
+        "only_layers": ["address"],
+        "note": "translates to 'lane'"
     },
     {
         "tokens": [
@@ -451,39 +339,9 @@
             "Camino"
         ],
         "full": "Camino",
-        "canonical": "Cm"
-    },
-    {
-        "tokens": [
-            "Cm",
-            "Cno"
-        ],
-        "full": "Cno",
-        "canonical": "Cm"
-    },
-    {
-        "tokens": [
-            "Cm",
-            "Cam"
-        ],
-        "full": "Cam",
-        "canonical": "Cm"
-    },
-    {
-        "tokens": [
-            "Cm",
-            "Cmno"
-        ],
-        "full": "Cmno",
-        "canonical": "Cm"
-    },
-    {
-        "tokens": [
-            "Cm",
-            "Camino"
-        ],
-        "full": "Camino",
-        "canonical": "Cm"
+        "canonical": "Cm",
+        "only_layers": ["address"],
+        "note": "translates to 'path'"
     },
     {
         "tokens": [
@@ -563,7 +421,9 @@
             "Carril"
         ],
         "full": "Carril",
-        "canonical": "Crril"
+        "canonical": "Crril",
+        "only_layers": ["address"],
+        "note": "translates to 'lane'"
     },
     {
         "tokens": [
@@ -612,23 +472,9 @@
             "Carretera"
         ],
         "full": "Carretera",
-        "canonical": "Cr"
-    },
-    {
-        "tokens": [
-            "Cr",
-            "Ctra"
-        ],
-        "full": "Ctra",
-        "canonical": "Cr"
-    },
-    {
-        "tokens": [
-            "Cr",
-            "Carretera"
-        ],
-        "full": "Carretera",
-        "canonical": "Cr"
+        "canonical": "Cr",
+        "only_layers": ["address"],
+        "note": "translates to 'highway'"
     },
     {
         "tokens": [
@@ -660,7 +506,9 @@
             "Calzada"
         ],
         "full": "Calzada",
-        "canonical": "Czada"
+        "canonical": "Czada",
+        "only_layers": ["address"],
+        "note": "translates to 'road'"
     },
     {
         "tokens": [
@@ -807,22 +655,6 @@
         "tokens": [
             "Fca",
             "Fbrca",
-            "Fábrica"
-        ],
-        "full": "Fábrica",
-        "canonical": "Fca"
-    },
-    {
-        "tokens": [
-            "Fca",
-            "Fbrca"
-        ],
-        "full": "Fbrca",
-        "canonical": "Fca"
-    },
-    {
-        "tokens": [
-            "Fca",
             "Fábrica"
         ],
         "full": "Fábrica",
@@ -985,38 +817,6 @@
     },
     {
         "tokens": [
-            "Pl",
-            "Pza"
-        ],
-        "full": "Pza",
-        "canonical": "Pl"
-    },
-    {
-        "tokens": [
-            "Pl",
-            "Plza"
-        ],
-        "full": "Plza",
-        "canonical": "Pl"
-    },
-    {
-        "tokens": [
-            "Pl",
-            "Plaça"
-        ],
-        "full": "Plaça",
-        "canonical": "Pl"
-    },
-    {
-        "tokens": [
-            "Pl",
-            "Plaza"
-        ],
-        "full": "Plaza",
-        "canonical": "Pl"
-    },
-    {
-        "tokens": [
             "Plzla",
             "Plazuela"
         ],
@@ -1039,7 +839,9 @@
             "Paseo"
         ],
         "full": "Paseo",
-        "canonical": "Po"
+        "canonical": "Po",
+        "only_layers": ["address"],
+        "note": "translates to 'walk'"
     },
     {
         "tokens": [
@@ -1127,7 +929,9 @@
             "Pasaje"
         ],
         "full": "Pasaje",
-        "canonical": "Psaje"
+        "canonical": "Psaje",
+        "only_layers": ["address"],
+        "note": "translates to 'passage'"
     },
     {
         "tokens": [
@@ -1239,7 +1043,9 @@
             "Rotonda"
         ],
         "full": "Rotonda",
-        "canonical": "Rtda"
+        "canonical": "Rtda",
+        "only_layers": ["address"],
+        "note": "translates to 'roundabout'"
     },
     {
         "tokens": [

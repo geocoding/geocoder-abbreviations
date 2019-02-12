@@ -37,7 +37,9 @@
             "boulevard"
         ],
         "full": "boulevard",
-        "canonical": "boulev"
+        "canonical": "boulev",
+        "only_layers": ["address"],
+        "note": "translates to 'boulevard'"
     },
     {
         "tokens": [
@@ -106,22 +108,6 @@
     },
     {
         "tokens": [
-            "Dr",
-            "Doctor"
-        ],
-        "full": "Doctor",
-        "canonical": "Dr"
-    },
-    {
-        "tokens": [
-            "Dr",
-            "Dokter"
-        ],
-        "full": "Dokter",
-        "canonical": "Dr"
-    },
-    {
-        "tokens": [
             "dre",
             "Douairière"
         ],
@@ -142,7 +128,9 @@
             "dwarsstraat"
         ],
         "full": "dwarsstraat",
-        "canonical": "DWSTR"
+        "canonical": "DWSTR",
+        "only_layers": ["address"],
+        "note": "translates to 'cross street'"
     },
     {
         "tokens": [
@@ -163,16 +151,6 @@
     {
         "tokens": [
             "gr",
-            "graaf",
-            "Gracht",
-            "gravin"
-        ],
-        "full": "gravin",
-        "canonical": "gr"
-    },
-    {
-        "tokens": [
-            "gr",
             "graaf"
         ],
         "full": "graaf",
@@ -184,7 +162,9 @@
             "Gracht"
         ],
         "full": "Gracht",
-        "canonical": "gr"
+        "canonical": "gr",
+        "only_layers": ["address"],
+        "note": "translates to 'canal'"
     },
     {
         "tokens": [
@@ -201,16 +181,6 @@
         ],
         "full": "heilige",
         "canonical": "h"
-    },
-    {
-        "tokens": [
-            "hg",
-            "hege",
-            "hoge",
-            "hoog"
-        ],
-        "full": "hoog",
-        "canonical": "hg"
     },
     {
         "tokens": [
@@ -319,15 +289,6 @@
     {
         "tokens": [
             "kl",
-            "klein",
-            "kleine"
-        ],
-        "full": "kleine",
-        "canonical": "kl"
-    },
-    {
-        "tokens": [
-            "kl",
             "klein"
         ],
         "full": "klein",
@@ -352,15 +313,6 @@
     {
         "tokens": [
             "Kon",
-            "Koning",
-            "Koningin"
-        ],
-        "full": "Koningin",
-        "canonical": "Kon"
-    },
-    {
-        "tokens": [
-            "Kon",
             "Koning"
         ],
         "full": "Koning",
@@ -373,15 +325,6 @@
         ],
         "full": "Koningin",
         "canonical": "Kon"
-    },
-    {
-        "tokens": [
-            "Kte",
-            "Kort",
-            "Korte"
-        ],
-        "full": "Korte",
-        "canonical": "Kte"
     },
     {
         "tokens": [
@@ -426,16 +369,6 @@
     {
         "tokens": [
             "lg",
-            "laag",
-            "lage",
-            "lege"
-        ],
-        "full": "lege",
-        "canonical": "lg"
-    },
-    {
-        "tokens": [
-            "lg",
             "laag"
         ],
         "full": "laag",
@@ -463,7 +396,9 @@
             "Laan"
         ],
         "full": "Laan",
-        "canonical": "ln"
+        "canonical": "ln",
+        "only_layers": ["address"],
+        "note": "translates to 'lane'"
     },
     {
         "tokens": [
@@ -556,15 +491,6 @@
     {
         "tokens": [
             "nw",
-            "nieuw",
-            "nieuwe"
-        ],
-        "full": "nieuwe",
-        "canonical": "nw"
-    },
-    {
-        "tokens": [
-            "nw",
             "nieuw"
         ],
         "full": "nieuw",
@@ -593,15 +519,6 @@
         ],
         "full": "oost",
         "canonical": "o"
-    },
-    {
-        "tokens": [
-            "olv",
-            "Onze-Lieve-Vrouw",
-            "Onze-Lieve-Vrouwe"
-        ],
-        "full": "Onze-Lieve-Vrouwe",
-        "canonical": "olv"
     },
     {
         "tokens": [
@@ -650,15 +567,6 @@
         ],
         "full": "plantsoen",
         "canonical": "plnts"
-    },
-    {
-        "tokens": [
-            "Pr",
-            "Prins",
-            "Prinses"
-        ],
-        "full": "Prinses",
-        "canonical": "Pr"
     },
     {
         "tokens": [
@@ -754,7 +662,9 @@
             "steeg"
         ],
         "full": "steeg",
-        "canonical": "stg"
+        "canonical": "stg",
+        "only_layers": ["address"],
+        "note": "translates to 'alley'"
     },
     {
         "tokens": [
@@ -762,7 +672,9 @@
             "Straat"
         ],
         "full": "Straat",
-        "canonical": "str"
+        "canonical": "str",
+        "only_layers": ["address"],
+        "note": "translates to 'street'"
     },
     {
         "tokens": [
@@ -770,7 +682,9 @@
             "straatweg"
         ],
         "full": "straatweg",
-        "canonical": "strwg"
+        "canonical": "strwg",
+        "only_layers": ["address"],
+        "note": "translates to 'street-road'"
     },
     {
         "tokens": [
@@ -778,7 +692,9 @@
             "Steenweg"
         ],
         "full": "Steenweg",
-        "canonical": "stwg"
+        "canonical": "stwg",
+        "only_layers": ["address"],
+        "note": "translates to 'alley-road'"
     },
     {
         "tokens": [
@@ -835,23 +751,6 @@
         ],
         "full": "wethouder",
         "canonical": "weth"
-    },
-    {
-        "tokens": [
-            "wg",
-            "Weg",
-            "weg"
-        ],
-        "full": "weg",
-        "canonical": "wg"
-    },
-    {
-        "tokens": [
-            "wg",
-            "Weg"
-        ],
-        "full": "Weg",
-        "canonical": "wg"
     },
     {
         "tokens": [

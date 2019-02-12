@@ -174,7 +174,9 @@
             "Autoroute"
         ],
         "full": "Autoroute",
-        "canonical": "A"
+        "canonical": "A",
+        "only_layers": ["address"],
+        "note": "translates to 'highway'"
     },
     {
         "tokens": [
@@ -214,7 +216,9 @@
             "Allée"
         ],
         "full": "Allée",
-        "canonical": "All"
+        "canonical": "All",
+        "only_layers": ["address"],
+        "note": "translates to 'alley'"
     },
     {
         "tokens": [
@@ -238,7 +242,9 @@
             "Avenue"
         ],
         "full": "Avenue",
-        "canonical": "Av"
+        "canonical": "Av",
+        "only_layers": ["address"],
+        "note": "translates to 'avenue'"
     },
     {
         "tokens": [
@@ -280,16 +286,9 @@
             "Boulevard"
         ],
         "full": "Boulevard",
-        "canonical": "Bd"
-    },
-    {
-        "tokens": [
-            "Ch",
-            "Chemin",
-            "Chaussée"
-        ],
-        "full": "Chaussée",
-        "canonical": "Ch"
+        "canonical": "Bd",
+        "only_layers": ["address"],
+        "note": "translates to 'boulevard'"
     },
     {
         "tokens": [
@@ -297,7 +296,9 @@
             "Chemin"
         ],
         "full": "Chemin",
-        "canonical": "Ch"
+        "canonical": "Ch",
+        "only_layers": ["address"],
+        "note": "translates to 'path'"
     },
     {
         "tokens": [
@@ -305,7 +306,9 @@
             "Chaussée"
         ],
         "full": "Chaussée",
-        "canonical": "Ch"
+        "canonical": "Ch",
+        "only_layers": ["address"],
+        "note": "translates to 'roadway'"
     },
     {
         "tokens": [
@@ -313,7 +316,9 @@
             "Cours"
         ],
         "full": "Cours",
-        "canonical": "Crs"
+        "canonical": "Crs",
+        "only_layers": ["address"],
+        "note": "translates to 'course'"
     },
     {
         "tokens": [
@@ -569,7 +574,9 @@
             "Rue"
         ],
         "full": "Rue",
-        "canonical": "R"
+        "canonical": "R",
+        "only_layers": ["address"],
+        "note": "translates to 'road'"
     },
     {
         "tokens": [
@@ -585,7 +592,9 @@
             "Ruelle"
         ],
         "full": "Ruelle",
-        "canonical": "Rlle"
+        "canonical": "Rlle",
+        "only_layers": ["address"],
+        "note": "translates to 'alley'"
     },
     {
         "tokens": [

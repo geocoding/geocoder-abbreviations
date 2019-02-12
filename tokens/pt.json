@@ -5,7 +5,9 @@
             "Alameda"
         ],
         "full": "Alameda",
-        "canonical": "Al"
+        "canonical": "Al",
+        "only_layers": ["address"],
+        "note": "translates to 'avenue'"
     },
     {
         "tokens": [
@@ -45,7 +47,9 @@
             "Avenida"
         ],
         "full": "Avenida",
-        "canonical": "Av"
+        "canonical": "Av",
+        "only_layers": ["address"],
+        "note": "translates to 'avenue'"
     },
     {
         "tokens": [
@@ -66,27 +70,13 @@
     },
     {
         "tokens": [
-            "B",
-            "Br"
-        ],
-        "full": "Br",
-        "canonical": "B"
-    },
-    {
-        "tokens": [
-            "B",
-            "Bairro"
-        ],
-        "full": "Bairro",
-        "canonical": "B"
-    },
-    {
-        "tokens": [
             "Bc",
             "Beco"
         ],
         "full": "Beco",
-        "canonical": "Bc"
+        "canonical": "Bc",
+        "only_layers": ["address"],
+        "note": "translates to 'alley'"
     },
     {
         "tokens": [
@@ -126,7 +116,9 @@
             "Caminho"
         ],
         "full": "Caminho",
-        "canonical": "Cam"
+        "canonical": "Cam",
+        "only_layers": ["address"],
+        "note": "translates to 'way'"
     },
     {
         "tokens": [
@@ -156,22 +148,6 @@
         "tokens": [
             "Cel",
             "Cor",
-            "Coronel"
-        ],
-        "full": "Coronel",
-        "canonical": "Cel"
-    },
-    {
-        "tokens": [
-            "Cel",
-            "Cor"
-        ],
-        "full": "Cor",
-        "canonical": "Cel"
-    },
-    {
-        "tokens": [
-            "Cel",
             "Coronel"
         ],
         "full": "Coronel",
@@ -295,15 +271,6 @@
     {
         "tokens": [
             "Dr",
-            "Doutor",
-            "Doutora"
-        ],
-        "full": "Doutora",
-        "canonical": "Dr"
-    },
-    {
-        "tokens": [
-            "Dr",
             "Doutor"
         ],
         "full": "Doutor",
@@ -336,22 +303,6 @@
     },
     {
         "tokens": [
-            "Ed",
-            "Edf"
-        ],
-        "full": "Edf",
-        "canonical": "Ed"
-    },
-    {
-        "tokens": [
-            "Ed",
-            "Edifício"
-        ],
-        "full": "Edifício",
-        "canonical": "Ed"
-    },
-    {
-        "tokens": [
             "Emb",
             "Embaixador"
         ],
@@ -362,22 +313,6 @@
         "tokens": [
             "Enf",
             "Enfo",
-            "Enfermeiro"
-        ],
-        "full": "Enfermeiro",
-        "canonical": "Enf"
-    },
-    {
-        "tokens": [
-            "Enf",
-            "Enfo"
-        ],
-        "full": "Enfo",
-        "canonical": "Enf"
-    },
-    {
-        "tokens": [
-            "Enf",
             "Enfermeiro"
         ],
         "full": "Enfermeiro",
@@ -421,7 +356,9 @@
             "Estrada"
         ],
         "full": "Estrada",
-        "canonical": "Estr"
+        "canonical": "Estr",
+        "only_layers": ["address"],
+        "note": "translates to 'road'"
     },
     {
         "tokens": [
@@ -450,22 +387,6 @@
     },
     {
         "tokens": [
-            "Gal",
-            "Gen"
-        ],
-        "full": "Gen",
-        "canonical": "Gal"
-    },
-    {
-        "tokens": [
-            "Gal",
-            "General"
-        ],
-        "full": "General",
-        "canonical": "Gal"
-    },
-    {
-        "tokens": [
             "Hab",
             "Habitação"
         ],
@@ -476,22 +397,6 @@
         "tokens": [
             "Im",
             "Ima",
-            "Irmã"
-        ],
-        "full": "Irmã",
-        "canonical": "Im"
-    },
-    {
-        "tokens": [
-            "Im",
-            "Ima"
-        ],
-        "full": "Ima",
-        "canonical": "Im"
-    },
-    {
-        "tokens": [
-            "Im",
             "Irmã"
         ],
         "full": "Irmã",
@@ -548,24 +453,6 @@
     {
         "tokens": [
             "Lg",
-            "Lug",
-            "Largo",
-            "Lugar"
-        ],
-        "full": "Lugar",
-        "canonical": "Lg"
-    },
-    {
-        "tokens": [
-            "Lg",
-            "Lug"
-        ],
-        "full": "Lug",
-        "canonical": "Lg"
-    },
-    {
-        "tokens": [
-            "Lg",
             "Largo"
         ],
         "full": "Largo",
@@ -574,6 +461,7 @@
     {
         "tokens": [
             "Lg",
+            "Lug",
             "Lugar"
         ],
         "full": "Lugar",
@@ -618,15 +506,6 @@
         ],
         "full": "Marechal",
         "canonical": "Mal"
-    },
-    {
-        "tokens": [
-            "Me",
-            "Madre",
-            "Mestre"
-        ],
-        "full": "Mestre",
-        "canonical": "Me"
     },
     {
         "tokens": [
@@ -776,44 +655,11 @@
     },
     {
         "tokens": [
-            "Q",
-            "Qd"
-        ],
-        "full": "Qd",
-        "canonical": "Q"
-    },
-    {
-        "tokens": [
-            "Q",
-            "Qr"
-        ],
-        "full": "Qr",
-        "canonical": "Q"
-    },
-    {
-        "tokens": [
-            "Q",
-            "Quadra"
-        ],
-        "full": "Quadra",
-        "canonical": "Q"
-    },
-    {
-        "tokens": [
             "Qta",
             "Quinta"
         ],
         "full": "Quinta",
         "canonical": "Qta"
-    },
-    {
-        "tokens": [
-            "R",
-            "Rio",
-            "Rua"
-        ],
-        "full": "Rua",
-        "canonical": "R"
     },
     {
         "tokens": [
@@ -829,7 +675,9 @@
             "Rua"
         ],
         "full": "Rua",
-        "canonical": "R"
+        "canonical": "R",
+        "only_layers": ["address"],
+        "note": "translates to 'street'"
     },
     {
         "tokens": [
@@ -837,35 +685,9 @@
             "Rotunda"
         ],
         "full": "Rotunda",
-        "canonical": "Rot"
-    },
-    {
-        "tokens": [
-            "S",
-            "Sr",
-            "Sra",
-            "São",
-            "Senhor",
-            "Senhora"
-        ],
-        "full": "Senhora",
-        "canonical": "S"
-    },
-    {
-        "tokens": [
-            "S",
-            "Sr"
-        ],
-        "full": "Sr",
-        "canonical": "S"
-    },
-    {
-        "tokens": [
-            "S",
-            "Sra"
-        ],
-        "full": "Sra",
-        "canonical": "S"
+        "canonical": "Rot",
+        "only_layers": ["address"],
+        "note": "translates to 'roundabout'"
     },
     {
         "tokens": [
@@ -878,6 +700,7 @@
     {
         "tokens": [
             "S",
+            "Sr",
             "Senhor"
         ],
         "full": "Senhor",
@@ -886,6 +709,7 @@
     {
         "tokens": [
             "S",
+            "Sra",
             "Senhora"
         ],
         "full": "Senhora",
@@ -919,22 +743,6 @@
         "tokens": [
             "St",
             "Sto",
-            "Santo"
-        ],
-        "full": "Santo",
-        "canonical": "St"
-    },
-    {
-        "tokens": [
-            "St",
-            "Sto"
-        ],
-        "full": "Sto",
-        "canonical": "St"
-    },
-    {
-        "tokens": [
-            "St",
             "Santo"
         ],
         "full": "Santo",
@@ -977,30 +785,6 @@
             "Tv",
             "Trv",
             "Trav",
-            "Travessa"
-        ],
-        "full": "Travessa",
-        "canonical": "Tv"
-    },
-    {
-        "tokens": [
-            "Tv",
-            "Trv"
-        ],
-        "full": "Trv",
-        "canonical": "Tv"
-    },
-    {
-        "tokens": [
-            "Tv",
-            "Trav"
-        ],
-        "full": "Trav",
-        "canonical": "Tv"
-    },
-    {
-        "tokens": [
-            "Tv",
             "Travessa"
         ],
         "full": "Travessa",

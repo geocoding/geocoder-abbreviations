@@ -325,7 +325,8 @@
             "Access"
         ],
         "full": "Access",
-        "canonical": "Accs"
+        "canonical": "Accs",
+        "only_layers": ["address"]
     },
     {
         "tokens": [
@@ -333,7 +334,8 @@
             "Alleyway"
         ],
         "full": "Alleyway",
-        "canonical": "Alwy"
+        "canonical": "Alwy",
+        "only_layers": ["address"]
     },
     {
         "tokens": [
@@ -342,23 +344,8 @@
             "Alley"
         ],
         "full": "Alley",
-        "canonical": "Aly"
-    },
-    {
-        "tokens": [
-            "Aly",
-            "Ally"
-        ],
-        "full": "Ally",
-        "canonical": "Aly"
-    },
-    {
-        "tokens": [
-            "Aly",
-            "Alley"
-        ],
-        "full": "Alley",
-        "canonical": "Aly"
+        "canonical": "Aly",
+        "only_layers": ["address"]
     },
     {
         "tokens": [
@@ -366,7 +353,8 @@
             "Amble"
         ],
         "full": "Amble",
-        "canonical": "Ambl"
+        "canonical": "Ambl",
+        "only_layers": ["address"]
     },
     {
         "tokens": [
@@ -374,7 +362,8 @@
             "Approach"
         ],
         "full": "Approach",
-        "canonical": "App"
+        "canonical": "App",
+        "only_layers": ["address"]
     },
     {
         "tokens": [
@@ -406,7 +395,8 @@
             "Arterial"
         ],
         "full": "Arterial",
-        "canonical": "Artl"
+        "canonical": "Artl",
+        "only_layers": ["address"]
     },
     {
         "tokens": [
@@ -414,7 +404,8 @@
             "Artery"
         ],
         "full": "Artery",
-        "canonical": "Arty"
+        "canonical": "Arty",
+        "only_layers": ["address"]
     },
     {
         "tokens": [
@@ -423,23 +414,8 @@
             "Avenue"
         ],
         "full": "Avenue",
-        "canonical": "Av"
-    },
-    {
-        "tokens": [
-            "Av",
-            "Ave"
-        ],
-        "full": "Ave",
-        "canonical": "Av"
-    },
-    {
-        "tokens": [
-            "Av",
-            "Avenue"
-        ],
-        "full": "Avenue",
-        "canonical": "Av"
+        "canonical": "Av",
+        "only_layers": ["address"]
     },
     {
         "tokens": [
@@ -492,15 +468,6 @@
     {
         "tokens": [
             "Br",
-            "Brace",
-            "Branch"
-        ],
-        "full": "Branch",
-        "canonical": "Br"
-    },
-    {
-        "tokens": [
-            "Br",
             "Brace"
         ],
         "full": "Brace",
@@ -512,7 +479,8 @@
             "Branch"
         ],
         "full": "Branch",
-        "canonical": "Br"
+        "canonical": "Br",
+        "only_layers": ["address"]
     },
     {
         "tokens": [
@@ -520,16 +488,8 @@
             "Bridge"
         ],
         "full": "Bridge",
-        "canonical": "Brg"
-    },
-    {
-        "tokens": [
-            "Brk",
-            "Break",
-            "Brook"
-        ],
-        "full": "Brook",
-        "canonical": "Brk"
+        "canonical": "Brg",
+        "only_layers": ["address"]
     },
     {
         "tokens": [
@@ -570,7 +530,8 @@
             "Boulevard"
         ],
         "full": "Boulevard",
-        "canonical": "Blv"
+        "canonical": "Blv",
+        "only_layers": ["address"]
     },
     {
         "tokens": [
@@ -594,7 +555,8 @@
             "Boardwalk"
         ],
         "full": "Boardwalk",
-        "canonical": "Bwlk"
+        "canonical": "Bwlk",
+        "only_layers": ["address"]
     },
     {
         "tokens": [
@@ -603,23 +565,8 @@
             "Bypass"
         ],
         "full": "Bypass",
-        "canonical": "Byp"
-    },
-    {
-        "tokens": [
-            "Byp",
-            "Bypa"
-        ],
-        "full": "Bypa",
-        "canonical": "Byp"
-    },
-    {
-        "tokens": [
-            "Byp",
-            "Bypass"
-        ],
-        "full": "Bypass",
-        "canonical": "Byp"
+        "canonical": "Byp",
+        "only_layers": ["address"]
     },
     {
         "tokens": [
@@ -635,7 +582,8 @@
             "Byway"
         ],
         "full": "Byway",
-        "canonical": "Bywy"
+        "canonical": "Bywy",
+        "only_layers": ["address"]
     },
     {
         "tokens": [
@@ -659,7 +607,8 @@
             "Circuit"
         ],
         "full": "Circuit",
-        "canonical": "Cct"
+        "canonical": "Cct",
+        "only_layers": ["address"]
     },
     {
         "tokens": [
@@ -667,7 +616,8 @@
             "Chase"
         ],
         "full": "Chase",
-        "canonical": "Ch"
+        "canonical": "Ch",
+        "only_layers": ["address"]
     },
     {
         "tokens": [
@@ -683,7 +633,8 @@
             "Circle"
         ],
         "full": "Circle",
-        "canonical": "Cir"
+        "canonical": "Cir",
+        "only_layers": ["address"]
     },
     {
         "tokens": [
@@ -696,12 +647,20 @@
     {
         "tokens": [
             "Cl",
-            "Clo",
-            "Close",
             "Clinic"
         ],
         "full": "Clinic",
         "canonical": "Cl"
+    },
+    {
+        "tokens": [
+            "Cl",
+            "Clo",
+            "Close",
+        ],
+        "full": "Close",
+        "canonical": "Cl",
+        "only_layers": ["address"]
     },
     {
         "tokens": [
@@ -717,7 +676,8 @@
             "Close"
         ],
         "full": "Close",
-        "canonical": "Cl"
+        "canonical": "Cl",
+        "only_layers": ["address"]
     },
     {
         "tokens": [
@@ -757,7 +717,8 @@
             "Calle"
         ],
         "full": "Calle",
-        "canonical": "Cll"
+        "canonical": "Cll",
+        "only_layers": ["address"]
     },
     {
         "tokens": [
@@ -802,22 +763,6 @@
     },
     {
         "tokens": [
-            "Cnr",
-            "Cor"
-        ],
-        "full": "Cor",
-        "canonical": "Cnr"
-    },
-    {
-        "tokens": [
-            "Cnr",
-            "Corner"
-        ],
-        "full": "Corner",
-        "canonical": "Cnr"
-    },
-    {
-        "tokens": [
             "Co",
             "County"
         ],
@@ -838,7 +783,8 @@
             "Concourse"
         ],
         "full": "Concourse",
-        "canonical": "Con"
+        "canonical": "Con",
+        "only_layers": ["address"]
     },
     {
         "tokens": [
@@ -926,7 +872,8 @@
             "Crest"
         ],
         "full": "Crest",
-        "canonical": "Crst"
+        "canonical": "Crst",
+        "only_layers": ["address"]
     },
     {
         "tokens": [
@@ -934,7 +881,8 @@
             "Cul-de-sac"
         ],
         "full": "Cul-de-sac",
-        "canonical": "Csac"
+        "canonical": "Csac",
+        "only_layers": ["address"]
     },
     {
         "tokens": [
@@ -942,7 +890,8 @@
             "Causeway"
         ],
         "full": "Causeway",
-        "canonical": "Cswy"
+        "canonical": "Cswy",
+        "only_layers": ["address"]
     },
     {
         "tokens": [
@@ -950,7 +899,8 @@
             "Court"
         ],
         "full": "Court",
-        "canonical": "Ct"
+        "canonical": "Ct",
+        "only_layers": ["address"]
     },
     {
         "tokens": [
@@ -958,23 +908,7 @@
             "Center",
             "Centre"
         ],
-        "full": "Centre",
-        "canonical": "Ctr"
-    },
-    {
-        "tokens": [
-            "Ctr",
-            "Center"
-        ],
         "full": "Center",
-        "canonical": "Ctr"
-    },
-    {
-        "tokens": [
-            "Ctr",
-            "Centre"
-        ],
-        "full": "Centre",
         "canonical": "Ctr"
     },
     {
@@ -991,7 +925,8 @@
             "Courts"
         ],
         "full": "Courts",
-        "canonical": "Cts"
+        "canonical": "Cts",
+        "only_layers": ["address"]
     },
     {
         "tokens": [
@@ -1007,7 +942,8 @@
             "Curve"
         ],
         "full": "Curve",
-        "canonical": "Curv"
+        "canonical": "Curv",
+        "only_layers": ["address"]
     },
     {
         "tokens": [
@@ -1073,7 +1009,8 @@
             "Drive"
         ],
         "full": "Drive",
-        "canonical": "Dr"
+        "canonical": "Dr",
+        "only_layers": ["address"]
     },
     {
         "tokens": [
@@ -1089,7 +1026,8 @@
             "Drives"
         ],
         "full": "Drives",
-        "canonical": "Drs"
+        "canonical": "Drs",
+        "only_layers": ["address"]
     },
     {
         "tokens": [
@@ -1105,7 +1043,8 @@
             "Driveway"
         ],
         "full": "Driveway",
-        "canonical": "Dvwy"
+        "canonical": "Dvwy",
+        "only_layers": ["address"]
     },
     {
         "tokens": [
@@ -1146,7 +1085,8 @@
             "Entrance"
         ],
         "full": "Entrance",
-        "canonical": "Ent"
+        "canonical": "Ent",
+        "only_layers": ["address"]
     },
     {
         "tokens": [
@@ -1179,23 +1119,8 @@
             "Expressway"
         ],
         "full": "Expressway",
-        "canonical": "Exp"
-    },
-    {
-        "tokens": [
-            "Exp",
-            "Expy"
-        ],
-        "full": "Expy",
-        "canonical": "Exp"
-    },
-    {
-        "tokens": [
-            "Exp",
-            "Expressway"
-        ],
-        "full": "Expressway",
-        "canonical": "Exp"
+        "canonical": "Exp",
+        "only_layers": ["address"]
     },
     {
         "tokens": [
@@ -1323,7 +1248,8 @@
             "Fork"
         ],
         "full": "Fork",
-        "canonical": "Frk"
+        "canonical": "Frk",
+        "only_layers": ["address"]
     },
     {
         "tokens": [
@@ -1352,15 +1278,6 @@
     {
         "tokens": [
             "Ft",
-            "Feet",
-            "Fort"
-        ],
-        "full": "Fort",
-        "canonical": "Ft"
-    },
-    {
-        "tokens": [
-            "Ft",
             "Feet"
         ],
         "full": "Feet",
@@ -1380,7 +1297,8 @@
             "Footway"
         ],
         "full": "Footway",
-        "canonical": "Ftwy"
+        "canonical": "Ftwy",
+        "only_layers": ["address"]
     },
     {
         "tokens": [
@@ -1388,7 +1306,8 @@
             "Freeway"
         ],
         "full": "Freeway",
-        "canonical": "Fwy"
+        "canonical": "Fwy",
+        "only_layers": ["address"]
     },
     {
         "tokens": [
@@ -1526,7 +1445,8 @@
             "Highroad"
         ],
         "full": "Highroad",
-        "canonical": "Hird"
+        "canonical": "Hird",
+        "only_layers": ["address"]
     },
     {
         "tokens": [
@@ -1598,7 +1518,8 @@
             "Highway"
         ],
         "full": "Highway",
-        "canonical": "Hwy"
+        "canonical": "Hwy",
+        "only_layers": ["address"]
     },
     {
         "tokens": [
@@ -1653,30 +1574,6 @@
             "Jn",
             "Jct",
             "Jnc",
-            "Junction"
-        ],
-        "full": "Junction",
-        "canonical": "Jn"
-    },
-    {
-        "tokens": [
-            "Jn",
-            "Jct"
-        ],
-        "full": "Jct",
-        "canonical": "Jn"
-    },
-    {
-        "tokens": [
-            "Jn",
-            "Jnc"
-        ],
-        "full": "Jnc",
-        "canonical": "Jn"
-    },
-    {
-        "tokens": [
-            "Jn",
             "Junction"
         ],
         "full": "Junction",
@@ -1809,7 +1706,8 @@
             "Lane"
         ],
         "full": "Lane",
-        "canonical": "Ln"
+        "canonical": "Ln",
+        "only_layers": ["address"]
     },
     {
         "tokens": [
@@ -1841,7 +1739,8 @@
             "Laneway"
         ],
         "full": "Laneway",
-        "canonical": "Lnwy"
+        "canonical": "Lnwy",
+        "only_layers": ["address"]
     },
     {
         "tokens": [
@@ -1945,7 +1844,8 @@
             "Meander"
         ],
         "full": "Meander",
-        "canonical": "Mndr"
+        "canonical": "Mndr",
+        "only_layers": ["address"]
     },
     {
         "tokens": [
@@ -2001,7 +1901,8 @@
             "Motorway"
         ],
         "full": "Motorway",
-        "canonical": "Mtwy"
+        "canonical": "Mtwy",
+        "only_layers": ["address"]
     },
     {
         "tokens": [
@@ -2098,7 +1999,8 @@
             "Overpass"
         ],
         "full": "Overpass",
-        "canonical": "Ovps"
+        "canonical": "Ovps",
+        "only_layers": ["address"]
     },
     {
         "tokens": [
@@ -2216,22 +2118,6 @@
     },
     {
         "tokens": [
-            "Plz",
-            "Plza"
-        ],
-        "full": "Plza",
-        "canonical": "Plz"
-    },
-    {
-        "tokens": [
-            "Plz",
-            "Plaza"
-        ],
-        "full": "Plaza",
-        "canonical": "Plz"
-    },
-    {
-        "tokens": [
             "Pr",
             "Prairie"
         ],
@@ -2281,22 +2167,6 @@
     },
     {
         "tokens": [
-            "Pt",
-            "Pnt"
-        ],
-        "full": "Pnt",
-        "canonical": "Pt"
-    },
-    {
-        "tokens": [
-            "Pt",
-            "Point"
-        ],
-        "full": "Point",
-        "canonical": "Pt"
-    },
-    {
-        "tokens": [
             "Pts",
             "Points"
         ],
@@ -2317,7 +2187,8 @@
             "Pathway"
         ],
         "full": "Pathway",
-        "canonical": "Pway"
+        "canonical": "Pway",
+        "only_layers": ["address"]
     },
     {
         "tokens": [
@@ -2330,55 +2201,8 @@
             "Parkway"
         ],
         "full": "Parkway",
-        "canonical": "Py"
-    },
-    {
-        "tokens": [
-            "Py",
-            "Pky"
-        ],
-        "full": "Pky",
-        "canonical": "Py"
-    },
-    {
-        "tokens": [
-            "Py",
-            "Pw"
-        ],
-        "full": "Pw",
-        "canonical": "Py"
-    },
-    {
-        "tokens": [
-            "Py",
-            "Pwy"
-        ],
-        "full": "Pwy",
-        "canonical": "Py"
-    },
-    {
-        "tokens": [
-            "Py",
-            "Pkwy"
-        ],
-        "full": "Pkwy",
-        "canonical": "Py"
-    },
-    {
-        "tokens": [
-            "Py",
-            "Prkwy"
-        ],
-        "full": "Prkwy",
-        "canonical": "Py"
-    },
-    {
-        "tokens": [
-            "Py",
-            "Parkway"
-        ],
-        "full": "Parkway",
-        "canonical": "Py"
+        "canonical": "Pkwy",
+        "only_layers": ["address"]
     },
     {
         "tokens": [
@@ -2423,22 +2247,6 @@
     },
     {
         "tokens": [
-            "R",
-            "Riv"
-        ],
-        "full": "Riv",
-        "canonical": "R"
-    },
-    {
-        "tokens": [
-            "R",
-            "River"
-        ],
-        "full": "River",
-        "canonical": "R"
-    },
-    {
-        "tokens": [
             "Radl",
             "Radial"
         ],
@@ -2451,28 +2259,13 @@
             "Road"
         ],
         "full": "Road",
-        "canonical": "Rd"
+        "canonical": "Rd",
+        "only_layers": ["address"]
     },
     {
         "tokens": [
             "Rdg",
             "Rdge",
-            "Ridge"
-        ],
-        "full": "Ridge",
-        "canonical": "Rdg"
-    },
-    {
-        "tokens": [
-            "Rdg",
-            "Rdge"
-        ],
-        "full": "Rdge",
-        "canonical": "Rdg"
-    },
-    {
-        "tokens": [
-            "Rdg",
             "Ridge"
         ],
         "full": "Ridge",
@@ -2492,7 +2285,8 @@
             "Roads"
         ],
         "full": "Roads",
-        "canonical": "Rds"
+        "canonical": "Rds",
+        "only_layers": ["address"]
     },
     {
         "tokens": [
@@ -2565,23 +2359,8 @@
             "Route"
         ],
         "full": "Route",
-        "canonical": "Rt"
-    },
-    {
-        "tokens": [
-            "Rt",
-            "Rte"
-        ],
-        "full": "Rte",
-        "canonical": "Rt"
-    },
-    {
-        "tokens": [
-            "Rt",
-            "Route"
-        ],
-        "full": "Route",
-        "canonical": "Rt"
+        "canonical": "Rt",
+        "only_layers": ["address"]
     },
     {
         "tokens": [
@@ -2597,7 +2376,8 @@
             "Rotary"
         ],
         "full": "Rotary",
-        "canonical": "Rty"
+        "canonical": "Rty",
+        "only_layers": ["address"]
     },
     {
         "tokens": [
@@ -2755,15 +2535,6 @@
     {
         "tokens": [
             "St",
-            "Saint",
-            "Street"
-        ],
-        "full": "Street",
-        "canonical": "St"
-    },
-    {
-        "tokens": [
-            "St",
             "Saint"
         ],
         "full": "Saint",
@@ -2775,7 +2546,8 @@
             "Street"
         ],
         "full": "Street",
-        "canonical": "St"
+        "canonical": "St",
+        "only_layers": ["address"]
     },
     {
         "tokens": [
@@ -2848,23 +2620,7 @@
             "Terrace"
         ],
         "full": "Terrace",
-        "canonical": "Tce"
-    },
-    {
-        "tokens": [
-            "Tce",
-            "Ter"
-        ],
-        "full": "Ter",
-        "canonical": "Tce"
-    },
-    {
-        "tokens": [
-            "Tce",
-            "Terrace"
-        ],
-        "full": "Terrace",
-        "canonical": "Tce"
+        "canonical": "Ter"
     },
     {
         "tokens": [
@@ -2872,7 +2628,8 @@
             "Trafficway"
         ],
         "full": "Trafficway",
-        "canonical": "Tfwy"
+        "canonical": "Tfwy",
+        "only_layers": ["address"]
     },
     {
         "tokens": [
@@ -2880,7 +2637,8 @@
             "Thoroughfare"
         ],
         "full": "Thoroughfare",
-        "canonical": "Thfr"
+        "canonical": "Thfr",
+        "only_layers": ["address"]
     },
     {
         "tokens": [
@@ -2888,7 +2646,8 @@
             "Thruway"
         ],
         "full": "Thruway",
-        "canonical": "Thwy"
+        "canonical": "Thwy",
+        "only_layers": ["address"]
     },
     {
         "tokens": [
@@ -2896,7 +2655,8 @@
             "Tollway"
         ],
         "full": "Tollway",
-        "canonical": "Tlwy"
+        "canonical": "Tlwy",
+        "only_layers": ["address"]
     },
     {
         "tokens": [
@@ -2904,7 +2664,8 @@
             "Turnpike"
         ],
         "full": "Turnpike",
-        "canonical": "Tpke"
+        "canonical": "Tpke",
+        "only_layers": ["address"]
     },
     {
         "tokens": [
@@ -2941,27 +2702,12 @@
     },
     {
         "tokens": [
-            "Tr",
-            "Trl"
-        ],
-        "full": "Trl",
-        "canonical": "Tr"
-    },
-    {
-        "tokens": [
-            "Tr",
-            "Trail"
-        ],
-        "full": "Trail",
-        "canonical": "Tr"
-    },
-    {
-        "tokens": [
             "Tunl",
             "Tunnel"
         ],
         "full": "Tunnel",
-        "canonical": "Tunl"
+        "canonical": "Tunl",
+        "only_layers": ["address"]
     },
     {
         "tokens": [
@@ -2994,23 +2740,8 @@
             "Underpass"
         ],
         "full": "Underpass",
-        "canonical": "Unp"
-    },
-    {
-        "tokens": [
-            "Unp",
-            "Upas"
-        ],
-        "full": "Upas",
-        "canonical": "Unp"
-    },
-    {
-        "tokens": [
-            "Unp",
-            "Underpass"
-        ],
-        "full": "Underpass",
-        "canonical": "Unp"
+        "canonical": "Upas",
+        "only_layers": ["address"]
     },
     {
         "tokens": [
@@ -3027,44 +2758,13 @@
             "Viaduct"
         ],
         "full": "Viaduct",
-        "canonical": "Via"
-    },
-    {
-        "tokens": [
-            "Via",
-            "Viad"
-        ],
-        "full": "Viad",
-        "canonical": "Via"
-    },
-    {
-        "tokens": [
-            "Via",
-            "Viaduct"
-        ],
-        "full": "Viaduct",
-        "canonical": "Via"
+        "canonical": "Via",
+        "only_layers": ["address"]
     },
     {
         "tokens": [
             "Vis",
             "Vsta",
-            "Vista"
-        ],
-        "full": "Vista",
-        "canonical": "Vis"
-    },
-    {
-        "tokens": [
-            "Vis",
-            "Vsta"
-        ],
-        "full": "Vsta",
-        "canonical": "Vis"
-    },
-    {
-        "tokens": [
-            "Vis",
             "Vista"
         ],
         "full": "Vista",
@@ -3082,22 +2782,6 @@
         "tokens": [
             "Vlg",
             "Vill",
-            "Village"
-        ],
-        "full": "Village",
-        "canonical": "Vlg"
-    },
-    {
-        "tokens": [
-            "Vlg",
-            "Vill"
-        ],
-        "full": "Vill",
-        "canonical": "Vlg"
-    },
-    {
-        "tokens": [
-            "Vlg",
             "Village"
         ],
         "full": "Village",
@@ -3190,7 +2874,8 @@
             "Walkway"
         ],
         "full": "Walkway",
-        "canonical": "Wkwy"
+        "canonical": "Wkwy",
+        "only_layers": ["address"]
     },
     {
         "tokens": [
@@ -3206,7 +2891,8 @@
             "Way"
         ],
         "full": "Way",
-        "canonical": "Wy"
+        "canonical": "Wy",
+        "only_layers": ["address"]
     },
     {
         "tokens": [
@@ -3218,47 +2904,8 @@
             "Crescent"
         ],
         "full": "Crescent",
-        "canonical": "X"
-    },
-    {
-        "tokens": [
-            "X",
-            "Cr"
-        ],
-        "full": "Cr",
-        "canonical": "X"
-    },
-    {
-        "tokens": [
-            "X",
-            "Cres"
-        ],
-        "full": "Cres",
-        "canonical": "X"
-    },
-    {
-        "tokens": [
-            "X",
-            "Crss"
-        ],
-        "full": "Crss",
-        "canonical": "X"
-    },
-    {
-        "tokens": [
-            "X",
-            "Cross"
-        ],
-        "full": "Cross",
-        "canonical": "X"
-    },
-    {
-        "tokens": [
-            "X",
-            "Crescent"
-        ],
-        "full": "Crescent",
-        "canonical": "X"
+        "canonical": "X",
+        "only_layers": ["address"]
     },
     {
         "tokens": [
@@ -3266,6 +2913,7 @@
             "Crossing"
         ],
         "full": "Crossing",
-        "canonical": "Xing"
+        "canonical": "Xing",
+        "only_layers": ["address"]
     }
 ]
