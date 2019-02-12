@@ -535,22 +535,6 @@
     },
     {
         "tokens": [
-            "Blv",
-            "Blvd"
-        ],
-        "full": "Blvd",
-        "canonical": "Blv"
-    },
-    {
-        "tokens": [
-            "Blv",
-            "Boulevard"
-        ],
-        "full": "Boulevard",
-        "canonical": "Blv"
-    },
-    {
-        "tokens": [
             "Bwlk",
             "Boardwalk"
         ],
@@ -642,7 +626,8 @@
             "Circles"
         ],
         "full": "Circles",
-        "canonical": "Cirs"
+        "canonical": "Cirs",
+        "only_layers": ["address"]
     },
     {
         "tokens": [
@@ -661,31 +646,6 @@
         "full": "Close",
         "canonical": "Cl",
         "only_layers": ["address"]
-    },
-    {
-        "tokens": [
-            "Cl",
-            "Clo"
-        ],
-        "full": "Clo",
-        "canonical": "Cl"
-    },
-    {
-        "tokens": [
-            "Cl",
-            "Close"
-        ],
-        "full": "Close",
-        "canonical": "Cl",
-        "only_layers": ["address"]
-    },
-    {
-        "tokens": [
-            "Cl",
-            "Clinic"
-        ],
-        "full": "Clinic",
-        "canonical": "Cl"
     },
     {
         "tokens": [
@@ -989,23 +949,6 @@
         "tokens": [
             "Dr",
             "Dv",
-            "Drive",
-            "Divide"
-        ],
-        "full": "Divide",
-        "canonical": "Dr"
-    },
-    {
-        "tokens": [
-            "Dr",
-            "Dv"
-        ],
-        "full": "Dv",
-        "canonical": "Dr"
-    },
-    {
-        "tokens": [
-            "Dr",
             "Drive"
         ],
         "full": "Drive",
@@ -1014,11 +957,11 @@
     },
     {
         "tokens": [
-            "Dr",
+            "Dv",
             "Divide"
         ],
         "full": "Divide",
-        "canonical": "Dr"
+        "canonical": "Dv"
     },
     {
         "tokens": [
@@ -1050,22 +993,6 @@
         "tokens": [
             "E",
             "Est",
-            "East"
-        ],
-        "full": "East",
-        "canonical": "E"
-    },
-    {
-        "tokens": [
-            "E",
-            "Est"
-        ],
-        "full": "Est",
-        "canonical": "E"
-    },
-    {
-        "tokens": [
-            "E",
             "East"
         ],
         "full": "East",
@@ -1360,22 +1287,6 @@
     },
     {
         "tokens": [
-            "Gr",
-            "Gro"
-        ],
-        "full": "Gro",
-        "canonical": "Gr"
-    },
-    {
-        "tokens": [
-            "Gr",
-            "Grove"
-        ],
-        "full": "Grove",
-        "canonical": "Gr"
-    },
-    {
-        "tokens": [
             "Gra",
             "Grange"
         ],
@@ -1394,22 +1305,6 @@
         "tokens": [
             "Gn",
             "Grn",
-            "Green"
-        ],
-        "full": "Green",
-        "canonical": "Gn"
-    },
-    {
-        "tokens": [
-            "Gn",
-            "Grn"
-        ],
-        "full": "Grn",
-        "canonical": "Gn"
-    },
-    {
-        "tokens": [
-            "Gn",
             "Green"
         ],
         "full": "Green",
@@ -1711,22 +1606,6 @@
     },
     {
         "tokens": [
-            "Ln",
-            "La"
-        ],
-        "full": "La",
-        "canonical": "Ln"
-    },
-    {
-        "tokens": [
-            "Ln",
-            "Lane"
-        ],
-        "full": "Lane",
-        "canonical": "Ln"
-    },
-    {
-        "tokens": [
             "Lndg",
             "Landing"
         ],
@@ -1915,22 +1794,6 @@
     },
     {
         "tokens": [
-            "N",
-            "Nth"
-        ],
-        "full": "Nth",
-        "canonical": "N"
-    },
-    {
-        "tokens": [
-            "N",
-            "North"
-        ],
-        "full": "North",
-        "canonical": "N"
-    },
-    {
-        "tokens": [
             "Nck",
             "Neck"
         ],
@@ -2048,15 +1911,6 @@
             "Pike"
         ],
         "full": "Pike",
-        "canonical": "Pk"
-    },
-    {
-        "tokens": [
-            "Pk",
-            "Park",
-            "Peak"
-        ],
-        "full": "Peak",
         "canonical": "Pk"
     },
     {
@@ -2391,22 +2245,6 @@
         "tokens": [
             "S",
             "Sth",
-            "South"
-        ],
-        "full": "South",
-        "canonical": "S"
-    },
-    {
-        "tokens": [
-            "S",
-            "Sth"
-        ],
-        "full": "Sth",
-        "canonical": "S"
-    },
-    {
-        "tokens": [
-            "S",
             "South"
         ],
         "full": "South",
@@ -2831,22 +2669,6 @@
         "tokens": [
             "W",
             "Wst",
-            "West"
-        ],
-        "full": "West",
-        "canonical": "W"
-    },
-    {
-        "tokens": [
-            "W",
-            "Wst"
-        ],
-        "full": "Wst",
-        "canonical": "W"
-    },
-    {
-        "tokens": [
-            "W",
             "West"
         ],
         "full": "West",

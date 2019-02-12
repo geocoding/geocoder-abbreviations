@@ -5,7 +5,9 @@
             "([a-z]+)vägen"
         ],
         "full": "([a-z]+)vägen",
-        "canonical": "$1v"
+        "canonical": "$1v",
+        "only_layers": ["address"],
+        "note": "translates to 'way'"
     },
     {
         "tokens": [
@@ -13,7 +15,9 @@
             "([a-z]+)väg"
         ],
         "full": "([a-z]+)väg",
-        "canonical": "$1v"
+        "canonical": "$1v",
+        "only_layers": ["address"],
+        "note": "translates to 'way'"
     },
     {
         "tokens": [
@@ -21,7 +25,9 @@
             "([a-z]+)gatan"
         ],
         "full": "([a-z]+)gatan",
-        "canonical": "$1g"
+        "canonical": "$1g",
+        "only_layers": ["address"],
+        "note": "translates to 'street'"
     },
     {
         "tokens": [
@@ -29,7 +35,9 @@
             "([a-z]+)gata"
         ],
         "full": "([a-z]+)gata",
-        "canonical": "$1g"
+        "canonical": "$1g",
+        "only_layers": ["address"],
+        "note": "translates to 'street'"
     },
     {
         "tokens": [
@@ -37,7 +45,9 @@
             "([a-z]+)gränd"
         ],
         "full": "([a-z]+)gränd",
-        "canonical": "$1gr"
+        "canonical": "$1gr",
+        "only_layers": ["address"],
+        "note": "translates to 'alley'"
     },
     {
         "tokens": [
@@ -45,7 +55,9 @@
             "([a-z]+)gränden"
         ],
         "full": "([a-z]+)gränden",
-        "canonical": "$1g"
+        "canonical": "$1g",
+        "only_layers": ["address"],
+        "note": "translates to 'alley'"
     },
     {
         "tokens": [
@@ -61,13 +73,6 @@
         ],
         "full": "södra",
         "canonical": "s"
-    },
-    {
-        "tokens": [
-            "södra"
-        ],
-        "full": "södra",
-        "canonical": "södra"
     },
     {
         "tokens": [
@@ -96,19 +101,12 @@
     {
         "tokens": [
             "st",
-            "stig",
-            "stigen"
-        ],
-        "full": "stigen",
-        "canonical": "st"
-    },
-    {
-        "tokens": [
-            "st",
             "stig"
         ],
         "full": "stig",
-        "canonical": "st"
+        "canonical": "st",
+        "only_layers": ["address"],
+        "note": "translates to 'path'"
     },
     {
         "tokens": [
@@ -116,7 +114,9 @@
             "stigen"
         ],
         "full": "stigen",
-        "canonical": "st"
+        "canonical": "st",
+        "only_layers": ["address"],
+        "note": "translates to 'path'"
     },
     {
         "tokens": [
@@ -131,15 +131,6 @@
         ],
         "full": "sankta",
         "canonical": "sankta"
-    },
-    {
-        "tokens": [
-            "pl",
-            "plats",
-            "platsen"
-        ],
-        "full": "platsen",
-        "canonical": "pl"
     },
     {
         "tokens": [

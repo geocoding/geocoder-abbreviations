@@ -180,22 +180,6 @@
     },
     {
         "tokens": [
-            "A",
-            "Aut"
-        ],
-        "full": "Aut",
-        "canonical": "A"
-    },
-    {
-        "tokens": [
-            "A",
-            "Autoroute"
-        ],
-        "full": "Autoroute",
-        "canonical": "A"
-    },
-    {
-        "tokens": [
             "Abb",
             "Abbaye"
         ],
@@ -259,30 +243,6 @@
             "Bd",
             "Boul",
             "Blvd",
-            "Boulevard"
-        ],
-        "full": "Boulevard",
-        "canonical": "Bd"
-    },
-    {
-        "tokens": [
-            "Bd",
-            "Boul"
-        ],
-        "full": "Boul",
-        "canonical": "Bd"
-    },
-    {
-        "tokens": [
-            "Bd",
-            "Blvd"
-        ],
-        "full": "Blvd",
-        "canonical": "Bd"
-    },
-    {
-        "tokens": [
-            "Bd",
             "Boulevard"
         ],
         "full": "Boulevard",

@@ -845,30 +845,6 @@
     },
     {
         "tokens": [
-            "Po",
-            "Ps"
-        ],
-        "full": "Ps",
-        "canonical": "Po"
-    },
-    {
-        "tokens": [
-            "Po",
-            "Pso"
-        ],
-        "full": "Pso",
-        "canonical": "Po"
-    },
-    {
-        "tokens": [
-            "Po",
-            "Paseo"
-        ],
-        "full": "Paseo",
-        "canonical": "Po"
-    },
-    {
-        "tokens": [
             "Polig",
             "Polígono"
         ],
@@ -1061,23 +1037,7 @@
             "San",
             "Sant"
         ],
-        "full": "Sant",
-        "canonical": "S"
-    },
-    {
-        "tokens": [
-            "S",
-            "San"
-        ],
         "full": "San",
-        "canonical": "S"
-    },
-    {
-        "tokens": [
-            "S",
-            "Sant"
-        ],
-        "full": "Sant",
         "canonical": "S"
     },
     {
@@ -1212,22 +1172,6 @@
         "tokens": [
             "Ver",
             "Vreda",
-            "Vereda"
-        ],
-        "full": "Vereda",
-        "canonical": "Ver"
-    },
-    {
-        "tokens": [
-            "Ver",
-            "Vreda"
-        ],
-        "full": "Vreda",
-        "canonical": "Ver"
-    },
-    {
-        "tokens": [
-            "Ver",
             "Vereda"
         ],
         "full": "Vereda",

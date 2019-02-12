@@ -165,30 +165,6 @@
     },
     {
         "tokens": [
-            "Chac",
-            "Chácara"
-        ],
-        "full": "Chácara",
-        "canonical": "Chac"
-    },
-    {
-        "tokens": [
-            "Chac",
-            "Chacara"
-        ],
-        "full": "Chacara",
-        "canonical": "Chac"
-    },
-    {
-        "tokens": [
-            "Chac",
-            "Chácaras"
-        ],
-        "full": "Chácaras",
-        "canonical": "Chac"
-    },
-    {
-        "tokens": [
             "Cmdt",
             "Comandante"
         ],
@@ -207,22 +183,6 @@
         "tokens": [
             "Cj",
             "Conjunto",
-            "Conjuntos"
-        ],
-        "full": "Conjuntos",
-        "canonical": "Cj"
-    },
-    {
-        "tokens": [
-            "Cj",
-            "Conjunto"
-        ],
-        "full": "Conjunto",
-        "canonical": "Cj"
-    },
-    {
-        "tokens": [
-            "Cj",
             "Conjuntos"
         ],
         "full": "Conjuntos",
