@@ -1,72 +1,176 @@
 [
-    [
-        "([a-z]+)vägen",
-        "$1v"
-    ],
-    [
-        "([a-z]+)väg",
-        "$1v"
-    ],
-    [
-        "([a-z]+)gatan",
-        "$1g"
-    ],
-    [ 
-        "([a-z]+)gata",
-        "$1g"
-    ],
-    [
-        "([a-z]+)gränd",
-        "$1gr"
-    ],
-    [ 
-        "([a-z]+)gränden",
-        "$1g"
-    ],
-    [
-        "gamla"
-    ],
-    [
-        "södra",
-        "s"
-    ],
-    [
-        "södra"
-    ],
-    [
-        "norra",
-        "n"
-    ],
-    [
-        "östra",
-        "ö"
-    ],
-    [
-        "västra",
-        "v"
-    ],
-    [
-        "stig",
-        "st",
-        "stigen"
-    ],
-    [
-        "sankt"
-    ],
-    [
-        "sankta"
-    ],
-    [
-        "plats",
-        "pl",
-        "platsen"
-    ],
-    [
-        "lilla",
-        "l"
-    ],
-    [
-        "stora",
-        "st"
-    ]
+    {
+        "tokens": [
+            "$1v", 
+            "([a-z]+)vägen"
+        ], 
+        "full": "([a-z]+)vägen", 
+        "canonical": "$1v"
+    }, 
+    {
+        "tokens": [
+            "$1v", 
+            "([a-z]+)väg"
+        ], 
+        "full": "([a-z]+)väg", 
+        "canonical": "$1v"
+    }, 
+    {
+        "tokens": [
+            "$1g", 
+            "([a-z]+)gatan"
+        ], 
+        "full": "([a-z]+)gatan", 
+        "canonical": "$1g"
+    }, 
+    {
+        "tokens": [
+            "$1g", 
+            "([a-z]+)gata"
+        ], 
+        "full": "([a-z]+)gata", 
+        "canonical": "$1g"
+    }, 
+    {
+        "tokens": [
+            "$1gr", 
+            "([a-z]+)gränd"
+        ], 
+        "full": "([a-z]+)gränd", 
+        "canonical": "$1gr"
+    }, 
+    {
+        "tokens": [
+            "$1g", 
+            "([a-z]+)gränden"
+        ], 
+        "full": "([a-z]+)gränden", 
+        "canonical": "$1g"
+    }, 
+    {
+        "tokens": [
+            "gamla"
+        ], 
+        "full": "gamla", 
+        "canonical": "gamla"
+    }, 
+    {
+        "tokens": [
+            "s", 
+            "södra"
+        ], 
+        "full": "södra", 
+        "canonical": "s"
+    }, 
+    {
+        "tokens": [
+            "södra"
+        ], 
+        "full": "södra", 
+        "canonical": "södra"
+    }, 
+    {
+        "tokens": [
+            "n", 
+            "norra"
+        ], 
+        "full": "norra", 
+        "canonical": "n"
+    }, 
+    {
+        "tokens": [
+            "ö", 
+            "östra"
+        ], 
+        "full": "östra", 
+        "canonical": "ö"
+    }, 
+    {
+        "tokens": [
+            "v", 
+            "västra"
+        ], 
+        "full": "västra", 
+        "canonical": "v"
+    }, 
+    {
+        "tokens": [
+            "st", 
+            "stig", 
+            "stigen"
+        ], 
+        "full": "stigen", 
+        "canonical": "st"
+    }, 
+    {
+        "tokens": [
+            "st", 
+            "stig"
+        ], 
+        "full": "stig", 
+        "canonical": "st"
+    }, 
+    {
+        "tokens": [
+            "st", 
+            "stigen"
+        ], 
+        "full": "stigen", 
+        "canonical": "st"
+    }, 
+    {
+        "tokens": [
+            "sankt"
+        ], 
+        "full": "sankt", 
+        "canonical": "sankt"
+    }, 
+    {
+        "tokens": [
+            "sankta"
+        ], 
+        "full": "sankta", 
+        "canonical": "sankta"
+    }, 
+    {
+        "tokens": [
+            "pl", 
+            "plats", 
+            "platsen"
+        ], 
+        "full": "platsen", 
+        "canonical": "pl"
+    }, 
+    {
+        "tokens": [
+            "pl", 
+            "plats"
+        ], 
+        "full": "plats", 
+        "canonical": "pl"
+    }, 
+    {
+        "tokens": [
+            "pl", 
+            "platsen"
+        ], 
+        "full": "platsen", 
+        "canonical": "pl"
+    }, 
+    {
+        "tokens": [
+            "l", 
+            "lilla"
+        ], 
+        "full": "lilla", 
+        "canonical": "l"
+    }, 
+    {
+        "tokens": [
+            "st", 
+            "stora"
+        ], 
+        "full": "stora", 
+        "canonical": "st"
+    }
 ]

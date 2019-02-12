@@ -1,93 +1,309 @@
 [
-    [
-        "jalan",
-        "jln",
-        "jl"
-    ],
-    [
-        "gang",
-        "gg"
-    ],
-    [
-        "lorong",
-        "lrg",
-        "lor",
-        "lorang"
-    ],
-    [
-        "lengkong",
-        "lkg"
-    ],
-    [
-        "mount",
-        "mt"
-    ],
-    [
-        "upper",
-        "upp"
-    ],
-    [
-        "track",
-        "trk",
-        "tck"
-    ],
-    [
-        "crescent",
-        "cr",
-        "cres",
-        "cresent"
-    ],
-    [
-        "boulevard",
-        "bvd",
-        "blvd",
-        "bouleyard",
-        "boulvard"
-    ],
-    [
-        "avenue",
-        "ave",
-        "av",
-        "avnue"
-    ],
-    [
-        "link",
-        "lk"
-    ],
-    [
-        "lane",
-        "l"
-    ],
-    [
-        "walk",
-        "wk"
-    ],
-    [
-        "green",
-        "grn"
-    ],
-    [
-        "highway",
-        "hwy"
-    ],
-    [
-        "quay",
-        "qy"
-    ],
-    [
-        "parkway",
-        "pwy"
-    ],
-    [
-        "ctrl",
-        "central"
-    ],
-    [
-        "gr",
-        "grove"
-    ],
-    [
-        "tg",
-        "tanjong"
-    ]
+    {
+        "tokens": [
+            "jl", 
+            "jln", 
+            "jalan"
+        ], 
+        "full": "jalan", 
+        "canonical": "jl"
+    }, 
+    {
+        "tokens": [
+            "jl", 
+            "jalan"
+        ], 
+        "full": "jalan", 
+        "canonical": "jl"
+    }, 
+    {
+        "tokens": [
+            "jl", 
+            "jln"
+        ], 
+        "full": "jln", 
+        "canonical": "jl"
+    }, 
+    {
+        "tokens": [
+            "gg", 
+            "gang"
+        ], 
+        "full": "gang", 
+        "canonical": "gg"
+    }, 
+    {
+        "tokens": [
+            "lrg", 
+            "lor", 
+            "lorong", 
+            "lorang"
+        ], 
+        "full": "lorang", 
+        "canonical": "lrg"
+    }, 
+    {
+        "tokens": [
+            "lrg", 
+            "lorong"
+        ], 
+        "full": "lorong", 
+        "canonical": "lrg"
+    }, 
+    {
+        "tokens": [
+            "lrg", 
+            "lor"
+        ], 
+        "full": "lor", 
+        "canonical": "lrg"
+    }, 
+    {
+        "tokens": [
+            "lrg", 
+            "lorang"
+        ], 
+        "full": "lorang", 
+        "canonical": "lrg"
+    }, 
+    {
+        "tokens": [
+            "lkg", 
+            "lengkong"
+        ], 
+        "full": "lengkong", 
+        "canonical": "lkg"
+    }, 
+    {
+        "tokens": [
+            "mt", 
+            "mount"
+        ], 
+        "full": "mount", 
+        "canonical": "mt"
+    }, 
+    {
+        "tokens": [
+            "upp", 
+            "upper"
+        ], 
+        "full": "upper", 
+        "canonical": "upp"
+    }, 
+    {
+        "tokens": [
+            "trk", 
+            "tck", 
+            "track"
+        ], 
+        "full": "track", 
+        "canonical": "trk"
+    }, 
+    {
+        "tokens": [
+            "trk", 
+            "track"
+        ], 
+        "full": "track", 
+        "canonical": "trk"
+    }, 
+    {
+        "tokens": [
+            "trk", 
+            "tck"
+        ], 
+        "full": "tck", 
+        "canonical": "trk"
+    }, 
+    {
+        "tokens": [
+            "cr", 
+            "cres", 
+            "cresent", 
+            "crescent"
+        ], 
+        "full": "crescent", 
+        "canonical": "cr"
+    }, 
+    {
+        "tokens": [
+            "cr", 
+            "crescent"
+        ], 
+        "full": "crescent", 
+        "canonical": "cr"
+    }, 
+    {
+        "tokens": [
+            "cr", 
+            "cres"
+        ], 
+        "full": "cres", 
+        "canonical": "cr"
+    }, 
+    {
+        "tokens": [
+            "cr", 
+            "cresent"
+        ], 
+        "full": "cresent", 
+        "canonical": "cr"
+    }, 
+    {
+        "tokens": [
+            "bvd", 
+            "blvd", 
+            "boulvard", 
+            "boulevard", 
+            "bouleyard"
+        ], 
+        "full": "bouleyard", 
+        "canonical": "bvd"
+    }, 
+    {
+        "tokens": [
+            "bvd", 
+            "boulevard"
+        ], 
+        "full": "boulevard", 
+        "canonical": "bvd"
+    }, 
+    {
+        "tokens": [
+            "bvd", 
+            "blvd"
+        ], 
+        "full": "blvd", 
+        "canonical": "bvd"
+    }, 
+    {
+        "tokens": [
+            "bvd", 
+            "bouleyard"
+        ], 
+        "full": "bouleyard", 
+        "canonical": "bvd"
+    }, 
+    {
+        "tokens": [
+            "bvd", 
+            "boulvard"
+        ], 
+        "full": "boulvard", 
+        "canonical": "bvd"
+    }, 
+    {
+        "tokens": [
+            "av", 
+            "ave", 
+            "avnue", 
+            "avenue"
+        ], 
+        "full": "avenue", 
+        "canonical": "av"
+    }, 
+    {
+        "tokens": [
+            "av", 
+            "avenue"
+        ], 
+        "full": "avenue", 
+        "canonical": "av"
+    }, 
+    {
+        "tokens": [
+            "av", 
+            "ave"
+        ], 
+        "full": "ave", 
+        "canonical": "av"
+    }, 
+    {
+        "tokens": [
+            "av", 
+            "avnue"
+        ], 
+        "full": "avnue", 
+        "canonical": "av"
+    }, 
+    {
+        "tokens": [
+            "lk", 
+            "link"
+        ], 
+        "full": "link", 
+        "canonical": "lk"
+    }, 
+    {
+        "tokens": [
+            "l", 
+            "lane"
+        ], 
+        "full": "lane", 
+        "canonical": "l"
+    }, 
+    {
+        "tokens": [
+            "wk", 
+            "walk"
+        ], 
+        "full": "walk", 
+        "canonical": "wk"
+    }, 
+    {
+        "tokens": [
+            "grn", 
+            "green"
+        ], 
+        "full": "green", 
+        "canonical": "grn"
+    }, 
+    {
+        "tokens": [
+            "hwy", 
+            "highway"
+        ], 
+        "full": "highway", 
+        "canonical": "hwy"
+    }, 
+    {
+        "tokens": [
+            "qy", 
+            "quay"
+        ], 
+        "full": "quay", 
+        "canonical": "qy"
+    }, 
+    {
+        "tokens": [
+            "pwy", 
+            "parkway"
+        ], 
+        "full": "parkway", 
+        "canonical": "pwy"
+    }, 
+    {
+        "tokens": [
+            "ctrl", 
+            "central"
+        ], 
+        "full": "central", 
+        "canonical": "ctrl"
+    }, 
+    {
+        "tokens": [
+            "gr", 
+            "grove"
+        ], 
+        "full": "grove", 
+        "canonical": "gr"
+    }, 
+    {
+        "tokens": [
+            "tg", 
+            "tanjong"
+        ], 
+        "full": "tanjong", 
+        "canonical": "tg"
+    }
 ]

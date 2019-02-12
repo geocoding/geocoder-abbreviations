@@ -1,117 +1,393 @@
 [
-    [
-        "Al",
-        "Alue"
-    ],
-    [
-        "Auk",
-        "Aukio"
-    ],
-    [
-        "Gr",
-        "Gränd",
-        "Gränden"
-    ],
-    [
-        "Gamla",
-        "La"
-    ],
-    [
-        "G",
-        "Gt",
-        "Gate",
-        "Gaten",
-        "Gatan",
-        "Gata"
-    ],
-    [
-        "Kaari",
-        "Kri"
-    ],
-    [
-        "Katu",
-        "K"
-    ],
-    [
-        "Kuja",
-        "Kj"
-    ],
-    [
-        "Kylä",
-        "Kl"
-    ],
-    [
-        "P",
-        "Polku"
-    ],
-    [
-        "Pgr",
-        "Penger"
-    ],
-    [
-        "Pl",
-        "Plass",
-        "Plassen"
-    ],
-    [
-        "Pko",
-        "Puistikko"
-    ],
-    [
-        "Ps",
-        "Puisto"
-    ],
-    [
-        "R",
-        "Raitti"
-    ],
-    [
-        "Rn",
-        "Rinne"
-    ],
-    [
-        "Rt",
-        "Ranta"
-    ],
-    [
-        "S",
-        "Sa",
-        "Södra"
-    ],
-    [
-        "Sv",
-        "Sving",
-        "Svingen"
-    ],
-    [
-        "Tvl",
-        "Taival"
-    ],
-    [
-        "T",
-        "Tie"
-    ],
-    [
-        "Tr",
-        "Tori"
-    ],
-    [
-        "Väylä",
-        "Vlä"
-    ],
-    [
-        "V",
-        "Va",
-        "Väg",
-        "Vägen",
-        "Västra"
-    ],
-    [
-        "V",
-        "Vn",
-        "Vei",
-        "Veien",
-        "Veg",
-        "Vegen"
-    ]
+    {
+        "tokens": [
+            "Al", 
+            "Alue"
+        ], 
+        "full": "Alue", 
+        "canonical": "Al"
+    }, 
+    {
+        "tokens": [
+            "Auk", 
+            "Aukio"
+        ], 
+        "full": "Aukio", 
+        "canonical": "Auk"
+    }, 
+    {
+        "tokens": [
+            "Gr", 
+            "Gränd", 
+            "Gränden"
+        ], 
+        "full": "Gränden", 
+        "canonical": "Gr"
+    }, 
+    {
+        "tokens": [
+            "Gr", 
+            "Gränd"
+        ], 
+        "full": "Gränd", 
+        "canonical": "Gr"
+    }, 
+    {
+        "tokens": [
+            "Gr", 
+            "Gränden"
+        ], 
+        "full": "Gränden", 
+        "canonical": "Gr"
+    }, 
+    {
+        "tokens": [
+            "La", 
+            "Gamla"
+        ], 
+        "full": "Gamla", 
+        "canonical": "La"
+    }, 
+    {
+        "tokens": [
+            "G", 
+            "Gt", 
+            "Gate", 
+            "Gata", 
+            "Gaten", 
+            "Gatan"
+        ], 
+        "full": "Gatan", 
+        "canonical": "G"
+    }, 
+    {
+        "tokens": [
+            "G", 
+            "Gt"
+        ], 
+        "full": "Gt", 
+        "canonical": "G"
+    }, 
+    {
+        "tokens": [
+            "G", 
+            "Gate"
+        ], 
+        "full": "Gate", 
+        "canonical": "G"
+    }, 
+    {
+        "tokens": [
+            "G", 
+            "Gaten"
+        ], 
+        "full": "Gaten", 
+        "canonical": "G"
+    }, 
+    {
+        "tokens": [
+            "G", 
+            "Gatan"
+        ], 
+        "full": "Gatan", 
+        "canonical": "G"
+    }, 
+    {
+        "tokens": [
+            "G", 
+            "Gata"
+        ], 
+        "full": "Gata", 
+        "canonical": "G"
+    }, 
+    {
+        "tokens": [
+            "Kri", 
+            "Kaari"
+        ], 
+        "full": "Kaari", 
+        "canonical": "Kri"
+    }, 
+    {
+        "tokens": [
+            "K", 
+            "Katu"
+        ], 
+        "full": "Katu", 
+        "canonical": "K"
+    }, 
+    {
+        "tokens": [
+            "Kj", 
+            "Kuja"
+        ], 
+        "full": "Kuja", 
+        "canonical": "Kj"
+    }, 
+    {
+        "tokens": [
+            "Kl", 
+            "Kylä"
+        ], 
+        "full": "Kylä", 
+        "canonical": "Kl"
+    }, 
+    {
+        "tokens": [
+            "P", 
+            "Polku"
+        ], 
+        "full": "Polku", 
+        "canonical": "P"
+    }, 
+    {
+        "tokens": [
+            "Pgr", 
+            "Penger"
+        ], 
+        "full": "Penger", 
+        "canonical": "Pgr"
+    }, 
+    {
+        "tokens": [
+            "Pl", 
+            "Plass", 
+            "Plassen"
+        ], 
+        "full": "Plassen", 
+        "canonical": "Pl"
+    }, 
+    {
+        "tokens": [
+            "Pl", 
+            "Plass"
+        ], 
+        "full": "Plass", 
+        "canonical": "Pl"
+    }, 
+    {
+        "tokens": [
+            "Pl", 
+            "Plassen"
+        ], 
+        "full": "Plassen", 
+        "canonical": "Pl"
+    }, 
+    {
+        "tokens": [
+            "Pko", 
+            "Puistikko"
+        ], 
+        "full": "Puistikko", 
+        "canonical": "Pko"
+    }, 
+    {
+        "tokens": [
+            "Ps", 
+            "Puisto"
+        ], 
+        "full": "Puisto", 
+        "canonical": "Ps"
+    }, 
+    {
+        "tokens": [
+            "R", 
+            "Raitti"
+        ], 
+        "full": "Raitti", 
+        "canonical": "R"
+    }, 
+    {
+        "tokens": [
+            "Rn", 
+            "Rinne"
+        ], 
+        "full": "Rinne", 
+        "canonical": "Rn"
+    }, 
+    {
+        "tokens": [
+            "Rt", 
+            "Ranta"
+        ], 
+        "full": "Ranta", 
+        "canonical": "Rt"
+    }, 
+    {
+        "tokens": [
+            "S", 
+            "Sa", 
+            "Södra"
+        ], 
+        "full": "Södra", 
+        "canonical": "S"
+    }, 
+    {
+        "tokens": [
+            "S", 
+            "Sa"
+        ], 
+        "full": "Sa", 
+        "canonical": "S"
+    }, 
+    {
+        "tokens": [
+            "S", 
+            "Södra"
+        ], 
+        "full": "Södra", 
+        "canonical": "S"
+    }, 
+    {
+        "tokens": [
+            "Sv", 
+            "Sving", 
+            "Svingen"
+        ], 
+        "full": "Svingen", 
+        "canonical": "Sv"
+    }, 
+    {
+        "tokens": [
+            "Sv", 
+            "Sving"
+        ], 
+        "full": "Sving", 
+        "canonical": "Sv"
+    }, 
+    {
+        "tokens": [
+            "Sv", 
+            "Svingen"
+        ], 
+        "full": "Svingen", 
+        "canonical": "Sv"
+    }, 
+    {
+        "tokens": [
+            "Tvl", 
+            "Taival"
+        ], 
+        "full": "Taival", 
+        "canonical": "Tvl"
+    }, 
+    {
+        "tokens": [
+            "T", 
+            "Tie"
+        ], 
+        "full": "Tie", 
+        "canonical": "T"
+    }, 
+    {
+        "tokens": [
+            "Tr", 
+            "Tori"
+        ], 
+        "full": "Tori", 
+        "canonical": "Tr"
+    }, 
+    {
+        "tokens": [
+            "Vlä", 
+            "Väylä"
+        ], 
+        "full": "Väylä", 
+        "canonical": "Vlä"
+    }, 
+    {
+        "tokens": [
+            "V", 
+            "Va", 
+            "Väg", 
+            "Vägen", 
+            "Västra"
+        ], 
+        "full": "Västra", 
+        "canonical": "V"
+    }, 
+    {
+        "tokens": [
+            "V", 
+            "Va"
+        ], 
+        "full": "Va", 
+        "canonical": "V"
+    }, 
+    {
+        "tokens": [
+            "V", 
+            "Väg"
+        ], 
+        "full": "Väg", 
+        "canonical": "V"
+    }, 
+    {
+        "tokens": [
+            "V", 
+            "Vägen"
+        ], 
+        "full": "Vägen", 
+        "canonical": "V"
+    }, 
+    {
+        "tokens": [
+            "V", 
+            "Västra"
+        ], 
+        "full": "Västra", 
+        "canonical": "V"
+    }, 
+    {
+        "tokens": [
+            "V", 
+            "Vn", 
+            "Vei", 
+            "Veg", 
+            "Veien", 
+            "Vegen"
+        ], 
+        "full": "Vegen", 
+        "canonical": "V"
+    }, 
+    {
+        "tokens": [
+            "V", 
+            "Vn"
+        ], 
+        "full": "Vn", 
+        "canonical": "V"
+    }, 
+    {
+        "tokens": [
+            "V", 
+            "Vei"
+        ], 
+        "full": "Vei", 
+        "canonical": "V"
+    }, 
+    {
+        "tokens": [
+            "V", 
+            "Veien"
+        ], 
+        "full": "Veien", 
+        "canonical": "V"
+    }, 
+    {
+        "tokens": [
+            "V", 
+            "Veg"
+        ], 
+        "full": "Veg", 
+        "canonical": "V"
+    }, 
+    {
+        "tokens": [
+            "V", 
+            "Vegen"
+        ], 
+        "full": "Vegen", 
+        "canonical": "V"
+    }
 ]
