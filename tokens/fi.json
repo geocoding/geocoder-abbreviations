@@ -1,138 +1,138 @@
 [
     {
         "tokens": [
-            "al", 
+            "al",
             "alue"
-        ], 
-        "full": "alue", 
+        ],
+        "full": "alue",
         "canonical": "al"
-    }, 
+    },
     {
         "tokens": [
-            "auk", 
+            "auk",
             "aukio"
-        ], 
-        "full": "aukio", 
+        ],
+        "full": "aukio",
         "canonical": "auk"
-    }, 
+    },
     {
         "tokens": [
-            "kri", 
+            "kri",
             "kaari"
-        ], 
-        "full": "kaari", 
+        ],
+        "full": "kaari",
         "canonical": "kri"
-    }, 
+    },
     {
         "tokens": [
-            "k", 
+            "k",
             "katu"
-        ], 
-        "full": "katu", 
+        ],
+        "full": "katu",
         "canonical": "k"
-    }, 
+    },
     {
         "tokens": [
-            "kj", 
+            "kj",
             "kuja"
-        ], 
-        "full": "kuja", 
+        ],
+        "full": "kuja",
         "canonical": "kj"
-    }, 
+    },
     {
         "tokens": [
-            "kl", 
+            "kl",
             "kylä"
-        ], 
-        "full": "kylä", 
+        ],
+        "full": "kylä",
         "canonical": "kl"
-    }, 
+    },
     {
         "tokens": [
-            "pgr", 
+            "pgr",
             "penger"
-        ], 
-        "full": "penger", 
+        ],
+        "full": "penger",
         "canonical": "pgr"
-    }, 
+    },
     {
         "tokens": [
-            "p", 
+            "p",
             "polku"
-        ], 
-        "full": "polku", 
+        ],
+        "full": "polku",
         "canonical": "p"
-    }, 
+    },
     {
         "tokens": [
-            "pko", 
+            "pko",
             "puistikko"
-        ], 
-        "full": "puistikko", 
+        ],
+        "full": "puistikko",
         "canonical": "pko"
-    }, 
+    },
     {
         "tokens": [
-            "ps", 
+            "ps",
             "puisto"
-        ], 
-        "full": "puisto", 
+        ],
+        "full": "puisto",
         "canonical": "ps"
-    }, 
+    },
     {
         "tokens": [
-            "r", 
+            "r",
             "raitti"
-        ], 
-        "full": "raitti", 
+        ],
+        "full": "raitti",
         "canonical": "r"
-    }, 
+    },
     {
         "tokens": [
-            "rt", 
+            "rt",
             "ranta"
-        ], 
-        "full": "ranta", 
+        ],
+        "full": "ranta",
         "canonical": "rt"
-    }, 
+    },
     {
         "tokens": [
-            "rn", 
+            "rn",
             "rinne"
-        ], 
-        "full": "rinne", 
+        ],
+        "full": "rinne",
         "canonical": "rn"
-    }, 
+    },
     {
         "tokens": [
-            "tvl", 
+            "tvl",
             "taival"
-        ], 
-        "full": "taival", 
+        ],
+        "full": "taival",
         "canonical": "tvl"
-    }, 
+    },
     {
         "tokens": [
-            "t", 
+            "t",
             "tie"
-        ], 
-        "full": "tie", 
+        ],
+        "full": "tie",
         "canonical": "t"
-    }, 
+    },
     {
         "tokens": [
-            "tr", 
+            "tr",
             "tori"
-        ], 
-        "full": "tori", 
+        ],
+        "full": "tori",
         "canonical": "tr"
-    }, 
+    },
     {
         "tokens": [
-            "vlä", 
+            "vlä",
             "väylä"
-        ], 
-        "full": "väylä", 
+        ],
+        "full": "väylä",
         "canonical": "vlä"
     }
 ]

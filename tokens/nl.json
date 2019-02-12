@@ -1,896 +1,896 @@
 [
     {
         "tokens": [
-            "aalm", 
+            "aalm",
             "Aalmoezenier"
-        ], 
-        "full": "Aalmoezenier", 
+        ],
+        "full": "Aalmoezenier",
         "canonical": "aalm"
-    }, 
+    },
     {
         "tokens": [
-            "adm", 
+            "adm",
             "admiraal"
-        ], 
-        "full": "admiraal", 
+        ],
+        "full": "admiraal",
         "canonical": "adm"
-    }, 
+    },
     {
         "tokens": [
-            "bar", 
+            "bar",
             "baron"
-        ], 
-        "full": "baron", 
+        ],
+        "full": "baron",
         "canonical": "bar"
-    }, 
+    },
     {
         "tokens": [
-            "biss", 
+            "biss",
             "bisschop"
-        ], 
-        "full": "bisschop", 
+        ],
+        "full": "bisschop",
         "canonical": "biss"
-    }, 
+    },
     {
         "tokens": [
-            "boulev", 
+            "boulev",
             "boulevard"
-        ], 
-        "full": "boulevard", 
+        ],
+        "full": "boulevard",
         "canonical": "boulev"
-    }, 
+    },
     {
         "tokens": [
-            "Br", 
+            "Br",
             "Broeder"
-        ], 
-        "full": "Broeder", 
+        ],
+        "full": "Broeder",
         "canonical": "Br"
-    }, 
+    },
     {
         "tokens": [
-            "bsse", 
+            "bsse",
             "baronesse"
-        ], 
-        "full": "baronesse", 
+        ],
+        "full": "baronesse",
         "canonical": "bsse"
-    }, 
+    },
     {
         "tokens": [
-            "Burg", 
+            "Burg",
             "Burgemeester"
-        ], 
-        "full": "Burgemeester", 
+        ],
+        "full": "Burgemeester",
         "canonical": "Burg"
-    }, 
+    },
     {
         "tokens": [
-            "Cmdt", 
+            "Cmdt",
             "Commandant"
-        ], 
-        "full": "Commandant", 
+        ],
+        "full": "Commandant",
         "canonical": "Cmdt"
-    }, 
+    },
     {
         "tokens": [
-            "comm", 
+            "comm",
             "commissaris"
-        ], 
-        "full": "commissaris", 
+        ],
+        "full": "commissaris",
         "canonical": "comm"
-    }, 
+    },
     {
         "tokens": [
-            "dk", 
+            "dk",
             "dijk"
-        ], 
-        "full": "dijk", 
+        ],
+        "full": "dijk",
         "canonical": "dk"
-    }, 
+    },
     {
         "tokens": [
-            "dkn", 
+            "dkn",
             "deken"
-        ], 
-        "full": "deken", 
+        ],
+        "full": "deken",
         "canonical": "dkn"
-    }, 
+    },
     {
         "tokens": [
-            "Dr", 
-            "Doctor", 
+            "Dr",
+            "Doctor",
             "Dokter"
-        ], 
-        "full": "Dokter", 
+        ],
+        "full": "Dokter",
         "canonical": "Dr"
-    }, 
+    },
     {
         "tokens": [
-            "Dr", 
+            "Dr",
             "Doctor"
-        ], 
-        "full": "Doctor", 
+        ],
+        "full": "Doctor",
         "canonical": "Dr"
-    }, 
+    },
     {
         "tokens": [
-            "Dr", 
+            "Dr",
             "Dokter"
-        ], 
-        "full": "Dokter", 
+        ],
+        "full": "Dokter",
         "canonical": "Dr"
-    }, 
+    },
     {
         "tokens": [
-            "dre", 
+            "dre",
             "Douairière"
-        ], 
-        "full": "Douairière", 
+        ],
+        "full": "Douairière",
         "canonical": "dre"
-    }, 
+    },
     {
         "tokens": [
-            "ds", 
+            "ds",
             "Dominee"
-        ], 
-        "full": "Dominee", 
+        ],
+        "full": "Dominee",
         "canonical": "ds"
-    }, 
+    },
     {
         "tokens": [
-            "DWSTR", 
+            "DWSTR",
             "dwarsstraat"
-        ], 
-        "full": "dwarsstraat", 
+        ],
+        "full": "dwarsstraat",
         "canonical": "DWSTR"
-    }, 
+    },
     {
         "tokens": [
-            "Gebr", 
+            "Gebr",
             "Gebroeders"
-        ], 
-        "full": "Gebroeders", 
+        ],
+        "full": "Gebroeders",
         "canonical": "Gebr"
-    }, 
+    },
     {
         "tokens": [
-            "Gen", 
+            "Gen",
             "Generaal"
-        ], 
-        "full": "Generaal", 
+        ],
+        "full": "Generaal",
         "canonical": "Gen"
-    }, 
+    },
     {
         "tokens": [
-            "gr", 
-            "graaf", 
-            "Gracht", 
+            "gr",
+            "graaf",
+            "Gracht",
             "gravin"
-        ], 
-        "full": "gravin", 
+        ],
+        "full": "gravin",
         "canonical": "gr"
-    }, 
+    },
     {
         "tokens": [
-            "gr", 
+            "gr",
             "graaf"
-        ], 
-        "full": "graaf", 
+        ],
+        "full": "graaf",
         "canonical": "gr"
-    }, 
+    },
     {
         "tokens": [
-            "gr", 
+            "gr",
             "Gracht"
-        ], 
-        "full": "Gracht", 
+        ],
+        "full": "Gracht",
         "canonical": "gr"
-    }, 
+    },
     {
         "tokens": [
-            "gr", 
+            "gr",
             "gravin"
-        ], 
-        "full": "gravin", 
+        ],
+        "full": "gravin",
         "canonical": "gr"
-    }, 
+    },
     {
         "tokens": [
-            "h", 
+            "h",
             "heilige"
-        ], 
-        "full": "heilige", 
+        ],
+        "full": "heilige",
         "canonical": "h"
-    }, 
+    },
     {
         "tokens": [
-            "hg", 
-            "hege", 
-            "hoge", 
+            "hg",
+            "hege",
+            "hoge",
             "hoog"
-        ], 
-        "full": "hoog", 
+        ],
+        "full": "hoog",
         "canonical": "hg"
-    }, 
+    },
     {
         "tokens": [
-            "hg", 
+            "hg",
             "hege"
-        ], 
-        "full": "hege", 
+        ],
+        "full": "hege",
         "canonical": "hg"
-    }, 
+    },
     {
         "tokens": [
-            "hg", 
+            "hg",
             "hoge"
-        ], 
-        "full": "hoge", 
+        ],
+        "full": "hoge",
         "canonical": "hg"
-    }, 
+    },
     {
         "tokens": [
-            "hg", 
+            "hg",
             "hoog"
-        ], 
-        "full": "hoog", 
+        ],
+        "full": "hoog",
         "canonical": "hg"
-    }, 
+    },
     {
         "tokens": [
-            "htg", 
+            "htg",
             "hertog"
-        ], 
-        "full": "hertog", 
+        ],
+        "full": "hertog",
         "canonical": "htg"
-    }, 
+    },
     {
         "tokens": [
-            "Ir", 
+            "Ir",
             "Ingenieur"
-        ], 
-        "full": "Ingenieur", 
+        ],
+        "full": "Ingenieur",
         "canonical": "Ir"
-    }, 
+    },
     {
         "tokens": [
-            "Jhr", 
+            "Jhr",
             "Jonkheer"
-        ], 
-        "full": "Jonkheer", 
+        ],
+        "full": "Jonkheer",
         "canonical": "Jhr"
-    }, 
+    },
     {
         "tokens": [
-            "Kan", 
+            "Kan",
             "Kanunnik"
-        ], 
-        "full": "Kanunnik", 
+        ],
+        "full": "Kanunnik",
         "canonical": "Kan"
-    }, 
+    },
     {
         "tokens": [
-            "kan", 
+            "kan",
             "kanaal"
-        ], 
-        "full": "kanaal", 
+        ],
+        "full": "kanaal",
         "canonical": "kan"
-    }, 
+    },
     {
         "tokens": [
-            "kap", 
+            "kap",
             "kapelaan"
-        ], 
-        "full": "kapelaan", 
+        ],
+        "full": "kapelaan",
         "canonical": "kap"
-    }, 
+    },
     {
         "tokens": [
-            "kapt", 
+            "kapt",
             "kapitein"
-        ], 
-        "full": "kapitein", 
+        ],
+        "full": "kapitein",
         "canonical": "kapt"
-    }, 
+    },
     {
         "tokens": [
-            "Kard", 
+            "Kard",
             "Kardinaal"
-        ], 
-        "full": "Kardinaal", 
+        ],
+        "full": "Kardinaal",
         "canonical": "Kard"
-    }, 
+    },
     {
         "tokens": [
-            "kast", 
+            "kast",
             "kasteel"
-        ], 
-        "full": "kasteel", 
+        ],
+        "full": "kasteel",
         "canonical": "kast"
-    }, 
+    },
     {
         "tokens": [
-            "kd", 
+            "kd",
             "kade"
-        ], 
-        "full": "kade", 
+        ],
+        "full": "kade",
         "canonical": "kd"
-    }, 
+    },
     {
         "tokens": [
-            "kl", 
-            "klein", 
+            "kl",
+            "klein",
             "kleine"
-        ], 
-        "full": "kleine", 
+        ],
+        "full": "kleine",
         "canonical": "kl"
-    }, 
+    },
     {
         "tokens": [
-            "kl", 
+            "kl",
             "klein"
-        ], 
-        "full": "klein", 
+        ],
+        "full": "klein",
         "canonical": "kl"
-    }, 
+    },
     {
         "tokens": [
-            "kl", 
+            "kl",
             "kleine"
-        ], 
-        "full": "kleine", 
+        ],
+        "full": "kleine",
         "canonical": "kl"
-    }, 
+    },
     {
         "tokens": [
-            "Kol", 
+            "Kol",
             "Kolonel"
-        ], 
-        "full": "Kolonel", 
+        ],
+        "full": "Kolonel",
         "canonical": "Kol"
-    }, 
+    },
     {
         "tokens": [
-            "Kon", 
-            "Koning", 
+            "Kon",
+            "Koning",
             "Koningin"
-        ], 
-        "full": "Koningin", 
+        ],
+        "full": "Koningin",
         "canonical": "Kon"
-    }, 
+    },
     {
         "tokens": [
-            "Kon", 
+            "Kon",
             "Koning"
-        ], 
-        "full": "Koning", 
+        ],
+        "full": "Koning",
         "canonical": "Kon"
-    }, 
+    },
     {
         "tokens": [
-            "Kon", 
+            "Kon",
             "Koningin"
-        ], 
-        "full": "Koningin", 
+        ],
+        "full": "Koningin",
         "canonical": "Kon"
-    }, 
+    },
     {
         "tokens": [
-            "Kte", 
-            "Kort", 
+            "Kte",
+            "Kort",
             "Korte"
-        ], 
-        "full": "Korte", 
+        ],
+        "full": "Korte",
         "canonical": "Kte"
-    }, 
+    },
     {
         "tokens": [
-            "Kte", 
+            "Kte",
             "Kort"
-        ], 
-        "full": "Kort", 
+        ],
+        "full": "Kort",
         "canonical": "Kte"
-    }, 
+    },
     {
         "tokens": [
-            "Kte", 
+            "Kte",
             "Korte"
-        ], 
-        "full": "Korte", 
+        ],
+        "full": "Korte",
         "canonical": "Kte"
-    }, 
+    },
     {
         "tokens": [
-            "kzr", 
+            "kzr",
             "keizer"
-        ], 
-        "full": "keizer", 
+        ],
+        "full": "keizer",
         "canonical": "kzr"
-    }, 
+    },
     {
         "tokens": [
-            "L", 
+            "L",
             "Lange"
-        ], 
-        "full": "Lange", 
+        ],
+        "full": "Lange",
         "canonical": "L"
-    }, 
+    },
     {
         "tokens": [
-            "l", 
+            "l",
             "lang"
-        ], 
-        "full": "lang", 
+        ],
+        "full": "lang",
         "canonical": "l"
-    }, 
+    },
     {
         "tokens": [
-            "lg", 
-            "laag", 
-            "lage", 
+            "lg",
+            "laag",
+            "lage",
             "lege"
-        ], 
-        "full": "lege", 
+        ],
+        "full": "lege",
         "canonical": "lg"
-    }, 
+    },
     {
         "tokens": [
-            "lg", 
+            "lg",
             "laag"
-        ], 
-        "full": "laag", 
+        ],
+        "full": "laag",
         "canonical": "lg"
-    }, 
+    },
     {
         "tokens": [
-            "lg", 
+            "lg",
             "lage"
-        ], 
-        "full": "lage", 
+        ],
+        "full": "lage",
         "canonical": "lg"
-    }, 
+    },
     {
         "tokens": [
-            "lg", 
+            "lg",
             "lege"
-        ], 
-        "full": "lege", 
+        ],
+        "full": "lege",
         "canonical": "lg"
-    }, 
+    },
     {
         "tokens": [
-            "ln", 
+            "ln",
             "Laan"
-        ], 
-        "full": "Laan", 
+        ],
+        "full": "Laan",
         "canonical": "ln"
-    }, 
+    },
     {
         "tokens": [
-            "Luit", 
+            "Luit",
             "Luitenant"
-        ], 
-        "full": "Luitenant", 
+        ],
+        "full": "Luitenant",
         "canonical": "Luit"
-    }, 
+    },
     {
         "tokens": [
-            "maj", 
+            "maj",
             "majoor"
-        ], 
-        "full": "majoor", 
+        ],
+        "full": "majoor",
         "canonical": "maj"
-    }, 
+    },
     {
         "tokens": [
-            "Mej", 
+            "Mej",
             "Mejuffrouw"
-        ], 
-        "full": "Mejuffrouw", 
+        ],
+        "full": "Mejuffrouw",
         "canonical": "Mej"
-    }, 
+    },
     {
         "tokens": [
-            "Mevr", 
+            "Mevr",
             "Mevrouw"
-        ], 
-        "full": "Mevrouw", 
+        ],
+        "full": "Mevrouw",
         "canonical": "Mevr"
-    }, 
+    },
     {
         "tokens": [
-            "Mgr", 
+            "Mgr",
             "Monseigneur"
-        ], 
-        "full": "Monseigneur", 
+        ],
+        "full": "Monseigneur",
         "canonical": "Mgr"
-    }, 
+    },
     {
         "tokens": [
-            "Min", 
+            "Min",
             "Minister"
-        ], 
-        "full": "Minister", 
+        ],
+        "full": "Minister",
         "canonical": "Min"
-    }, 
+    },
     {
         "tokens": [
-            "mkt", 
+            "mkt",
             "Markt"
-        ], 
-        "full": "Markt", 
+        ],
+        "full": "Markt",
         "canonical": "mkt"
-    }, 
+    },
     {
         "tokens": [
-            "Mr", 
+            "Mr",
             "Meester"
-        ], 
-        "full": "Meester", 
+        ],
+        "full": "Meester",
         "canonical": "Mr"
-    }, 
+    },
     {
         "tokens": [
-            "mr", 
+            "mr",
             "meester"
-        ], 
-        "full": "meester", 
+        ],
+        "full": "meester",
         "canonical": "mr"
-    }, 
+    },
     {
         "tokens": [
-            "n", 
+            "n",
             "noord"
-        ], 
-        "full": "noord", 
+        ],
+        "full": "noord",
         "canonical": "n"
-    }, 
+    },
     {
         "tokens": [
-            "not", 
+            "not",
             "notaris"
-        ], 
-        "full": "notaris", 
+        ],
+        "full": "notaris",
         "canonical": "not"
-    }, 
+    },
     {
         "tokens": [
-            "nw", 
-            "nieuw", 
+            "nw",
+            "nieuw",
             "nieuwe"
-        ], 
-        "full": "nieuwe", 
+        ],
+        "full": "nieuwe",
         "canonical": "nw"
-    }, 
+    },
     {
         "tokens": [
-            "nw", 
+            "nw",
             "nieuw"
-        ], 
-        "full": "nieuw", 
+        ],
+        "full": "nieuw",
         "canonical": "nw"
-    }, 
+    },
     {
         "tokens": [
-            "nw", 
+            "nw",
             "nieuwe"
-        ], 
-        "full": "nieuwe", 
+        ],
+        "full": "nieuwe",
         "canonical": "nw"
-    }, 
+    },
     {
         "tokens": [
-            "NZ", 
+            "NZ",
             "Noordzijde"
-        ], 
-        "full": "Noordzijde", 
+        ],
+        "full": "Noordzijde",
         "canonical": "NZ"
-    }, 
+    },
     {
         "tokens": [
-            "o", 
+            "o",
             "oost"
-        ], 
-        "full": "oost", 
+        ],
+        "full": "oost",
         "canonical": "o"
-    }, 
+    },
     {
         "tokens": [
-            "olv", 
-            "Onze-Lieve-Vrouw", 
+            "olv",
+            "Onze-Lieve-Vrouw",
             "Onze-Lieve-Vrouwe"
-        ], 
-        "full": "Onze-Lieve-Vrouwe", 
+        ],
+        "full": "Onze-Lieve-Vrouwe",
         "canonical": "olv"
-    }, 
+    },
     {
         "tokens": [
-            "olv", 
+            "olv",
             "Onze-Lieve-Vrouw"
-        ], 
-        "full": "Onze-Lieve-Vrouw", 
+        ],
+        "full": "Onze-Lieve-Vrouw",
         "canonical": "olv"
-    }, 
+    },
     {
         "tokens": [
-            "olv", 
+            "olv",
             "Onze-Lieve-Vrouwe"
-        ], 
-        "full": "Onze-Lieve-Vrouwe", 
+        ],
+        "full": "Onze-Lieve-Vrouwe",
         "canonical": "olv"
-    }, 
+    },
     {
         "tokens": [
-            "OZ", 
+            "OZ",
             "Oostzijde"
-        ], 
-        "full": "Oostzijde", 
+        ],
+        "full": "Oostzijde",
         "canonical": "OZ"
-    }, 
+    },
     {
         "tokens": [
-            "Past", 
+            "Past",
             "Pastoor"
-        ], 
-        "full": "Pastoor", 
+        ],
+        "full": "Pastoor",
         "canonical": "Past"
-    }, 
+    },
     {
         "tokens": [
-            "pln", 
+            "pln",
             "Plein"
-        ], 
-        "full": "Plein", 
+        ],
+        "full": "Plein",
         "canonical": "pln"
-    }, 
+    },
     {
         "tokens": [
-            "plnts", 
+            "plnts",
             "plantsoen"
-        ], 
-        "full": "plantsoen", 
+        ],
+        "full": "plantsoen",
         "canonical": "plnts"
-    }, 
+    },
     {
         "tokens": [
-            "Pr", 
-            "Prins", 
+            "Pr",
+            "Prins",
             "Prinses"
-        ], 
-        "full": "Prinses", 
+        ],
+        "full": "Prinses",
         "canonical": "Pr"
-    }, 
+    },
     {
         "tokens": [
-            "Pr", 
+            "Pr",
             "Prins"
-        ], 
-        "full": "Prins", 
+        ],
+        "full": "Prins",
         "canonical": "Pr"
-    }, 
+    },
     {
         "tokens": [
-            "Pr", 
+            "Pr",
             "Prinses"
-        ], 
-        "full": "Prinses", 
+        ],
+        "full": "Prinses",
         "canonical": "Pr"
-    }, 
+    },
     {
         "tokens": [
-            "Pres", 
+            "Pres",
             "President"
-        ], 
-        "full": "President", 
+        ],
+        "full": "President",
         "canonical": "Pres"
-    }, 
+    },
     {
         "tokens": [
-            "Prof", 
+            "Prof",
             "Professor"
-        ], 
-        "full": "Professor", 
+        ],
+        "full": "Professor",
         "canonical": "Prof"
-    }, 
+    },
     {
         "tokens": [
-            "ptr", 
+            "ptr",
             "pater"
-        ], 
-        "full": "pater", 
+        ],
+        "full": "pater",
         "canonical": "ptr"
-    }, 
+    },
     {
         "tokens": [
-            "ptrs", 
+            "ptrs",
             "paters"
-        ], 
-        "full": "paters", 
+        ],
+        "full": "paters",
         "canonical": "ptrs"
-    }, 
+    },
     {
         "tokens": [
-            "rdr", 
+            "rdr",
             "ridder"
-        ], 
-        "full": "ridder", 
+        ],
+        "full": "ridder",
         "canonical": "rdr"
-    }, 
+    },
     {
         "tokens": [
-            "secr", 
+            "secr",
             "secretaris"
-        ], 
-        "full": "secretaris", 
+        ],
+        "full": "secretaris",
         "canonical": "secr"
-    }, 
+    },
     {
         "tokens": [
-            "sinj", 
+            "sinj",
             "sinjeur"
-        ], 
-        "full": "sinjeur", 
+        ],
+        "full": "sinjeur",
         "canonical": "sinj"
-    }, 
+    },
     {
         "tokens": [
-            "sngl", 
+            "sngl",
             "Singel"
-        ], 
-        "full": "Singel", 
+        ],
+        "full": "Singel",
         "canonical": "sngl"
-    }, 
+    },
     {
         "tokens": [
-            "st", 
+            "st",
             "Sint"
-        ], 
-        "full": "Sint", 
+        ],
+        "full": "Sint",
         "canonical": "st"
-    }, 
+    },
     {
         "tokens": [
-            "stg", 
+            "stg",
             "steeg"
-        ], 
-        "full": "steeg", 
+        ],
+        "full": "steeg",
         "canonical": "stg"
-    }, 
+    },
     {
         "tokens": [
-            "str", 
+            "str",
             "Straat"
-        ], 
-        "full": "Straat", 
+        ],
+        "full": "Straat",
         "canonical": "str"
-    }, 
+    },
     {
         "tokens": [
-            "strwg", 
+            "strwg",
             "straatweg"
-        ], 
-        "full": "straatweg", 
+        ],
+        "full": "straatweg",
         "canonical": "strwg"
-    }, 
+    },
     {
         "tokens": [
-            "stwg", 
+            "stwg",
             "Steenweg"
-        ], 
-        "full": "Steenweg", 
+        ],
+        "full": "Steenweg",
         "canonical": "stwg"
-    }, 
+    },
     {
         "tokens": [
-            "V", 
+            "V",
             "Van"
-        ], 
-        "full": "Van", 
+        ],
+        "full": "Van",
         "canonical": "V"
-    }, 
+    },
     {
         "tokens": [
-            "Verl", 
+            "Verl",
             "Verlengde"
-        ], 
-        "full": "Verlengde", 
+        ],
+        "full": "Verlengde",
         "canonical": "Verl"
-    }, 
+    },
     {
         "tokens": [
-            "verl", 
+            "verl",
             "verlenge"
-        ], 
-        "full": "verlenge", 
+        ],
+        "full": "verlenge",
         "canonical": "verl"
-    }, 
+    },
     {
         "tokens": [
-            "vlt", 
+            "vlt",
             "Vliet"
-        ], 
-        "full": "Vliet", 
+        ],
+        "full": "Vliet",
         "canonical": "vlt"
-    }, 
+    },
     {
         "tokens": [
-            "Vr", 
+            "Vr",
             "Vrouwe"
-        ], 
-        "full": "Vrouwe", 
+        ],
+        "full": "Vrouwe",
         "canonical": "Vr"
-    }, 
+    },
     {
         "tokens": [
-            "w", 
+            "w",
             "west"
-        ], 
-        "full": "west", 
+        ],
+        "full": "west",
         "canonical": "w"
-    }, 
+    },
     {
         "tokens": [
-            "weth", 
+            "weth",
             "wethouder"
-        ], 
-        "full": "wethouder", 
+        ],
+        "full": "wethouder",
         "canonical": "weth"
-    }, 
+    },
     {
         "tokens": [
-            "wg", 
-            "Weg", 
+            "wg",
+            "Weg",
             "weg"
-        ], 
-        "full": "weg", 
+        ],
+        "full": "weg",
         "canonical": "wg"
-    }, 
+    },
     {
         "tokens": [
-            "wg", 
+            "wg",
             "Weg"
-        ], 
-        "full": "Weg", 
+        ],
+        "full": "Weg",
         "canonical": "wg"
-    }, 
+    },
     {
         "tokens": [
-            "wg", 
+            "wg",
             "weg"
-        ], 
-        "full": "weg", 
+        ],
+        "full": "weg",
         "canonical": "wg"
-    }, 
+    },
     {
         "tokens": [
-            "WZ", 
+            "WZ",
             "Westzijde"
-        ], 
-        "full": "Westzijde", 
+        ],
+        "full": "Westzijde",
         "canonical": "WZ"
-    }, 
+    },
     {
         "tokens": [
-            "z", 
+            "z",
             "zuid"
-        ], 
-        "full": "zuid", 
+        ],
+        "full": "zuid",
         "canonical": "z"
-    }, 
+    },
     {
         "tokens": [
-            "Zr", 
+            "Zr",
             "Zuster"
-        ], 
-        "full": "Zuster", 
+        ],
+        "full": "Zuster",
         "canonical": "Zr"
-    }, 
+    },
     {
         "tokens": [
-            "ZZ", 
+            "ZZ",
             "Zuidzijde"
-        ], 
-        "full": "Zuidzijde", 
+        ],
+        "full": "Zuidzijde",
         "canonical": "ZZ"
     }
 ]

@@ -1,34 +1,34 @@
 [
     {
         "tokens": [
-            "str", 
+            "str",
             "strada"
-        ], 
-        "full": "strada", 
+        ],
+        "full": "strada",
         "canonical": "str"
-    }, 
+    },
     {
         "tokens": [
-            "intr", 
+            "intr",
             "intrarea"
-        ], 
-        "full": "intrarea", 
+        ],
+        "full": "intrarea",
         "canonical": "intr"
-    }, 
+    },
     {
         "tokens": [
-            "blvd", 
+            "blvd",
             "bulevardul"
-        ], 
-        "full": "bulevardul", 
+        ],
+        "full": "bulevardul",
         "canonical": "blvd"
-    }, 
+    },
     {
         "tokens": [
-            "sos", 
+            "sos",
             "soseaua"
-        ], 
-        "full": "soseaua", 
+        ],
+        "full": "soseaua",
         "canonical": "sos"
     }
 ]

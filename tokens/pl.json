@@ -1,26 +1,26 @@
 [
     {
         "tokens": [
-            "al", 
+            "al",
             "aleja"
-        ], 
-        "full": "aleja", 
+        ],
+        "full": "aleja",
         "canonical": "al"
-    }, 
+    },
     {
         "tokens": [
-            "pl", 
+            "pl",
             "plac"
-        ], 
-        "full": "plac", 
+        ],
+        "full": "plac",
         "canonical": "pl"
-    }, 
+    },
     {
         "tokens": [
-            "ul", 
+            "ul",
             "ulica"
-        ], 
-        "full": "ulica", 
+        ],
+        "full": "ulica",
         "canonical": "ul"
     }
 ]

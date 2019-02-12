@@ -1,222 +1,222 @@
 [
     {
         "tokens": [
-            "C.le", 
+            "C.le",
             "Calle"
-        ], 
-        "full": "Calle", 
+        ],
+        "full": "Calle",
         "canonical": "C.le"
-    }, 
+    },
     {
         "tokens": [
-            "C.po", 
+            "C.po",
             "Campo"
-        ], 
-        "full": "Campo", 
+        ],
+        "full": "Campo",
         "canonical": "C.po"
-    }, 
+    },
     {
         "tokens": [
-            "C.so", 
+            "C.so",
             "Corso"
-        ], 
-        "full": "Corso", 
+        ],
+        "full": "Corso",
         "canonical": "C.so"
-    }, 
+    },
     {
         "tokens": [
-            "C.te", 
+            "C.te",
             "Corte"
-        ], 
-        "full": "Corte", 
+        ],
+        "full": "Corte",
         "canonical": "C.te"
-    }, 
+    },
     {
         "tokens": [
-            "X", 
-            "Decima", 
+            "X",
+            "Decima",
             "Decimo"
-        ], 
-        "full": "Decimo", 
+        ],
+        "full": "Decimo",
         "canonical": "X"
-    }, 
+    },
     {
         "tokens": [
-            "X", 
+            "X",
             "Decima"
-        ], 
-        "full": "Decima", 
+        ],
+        "full": "Decima",
         "canonical": "X"
-    }, 
+    },
     {
         "tokens": [
-            "X", 
+            "X",
             "Decimo"
-        ], 
-        "full": "Decimo", 
+        ],
+        "full": "Decimo",
         "canonical": "X"
-    }, 
+    },
     {
         "tokens": [
-            "F.ta", 
+            "F.ta",
             "Fondamenta"
-        ], 
-        "full": "Fondamenta", 
+        ],
+        "full": "Fondamenta",
         "canonical": "F.ta"
-    }, 
+    },
     {
         "tokens": [
-            "L.go", 
+            "L.go",
             "Largo"
-        ], 
-        "full": "Largo", 
+        ],
+        "full": "Largo",
         "canonical": "L.go"
-    }, 
+    },
     {
         "tokens": [
-            "Loc.", 
+            "Loc.",
             "Localita"
-        ], 
-        "full": "Localita", 
+        ],
+        "full": "Localita",
         "canonical": "Loc."
-    }, 
+    },
     {
         "tokens": [
-            "P.za", 
-            "P.zza", 
+            "P.za",
+            "P.zza",
             "Piazza"
-        ], 
-        "full": "Piazza", 
+        ],
+        "full": "Piazza",
         "canonical": "P.za"
-    }, 
+    },
     {
         "tokens": [
-            "P.za", 
+            "P.za",
             "P.zza"
-        ], 
-        "full": "P.zza", 
+        ],
+        "full": "P.zza",
         "canonical": "P.za"
-    }, 
+    },
     {
         "tokens": [
-            "P.za", 
+            "P.za",
             "Piazza"
-        ], 
-        "full": "Piazza", 
+        ],
+        "full": "Piazza",
         "canonical": "P.za"
-    }, 
+    },
     {
         "tokens": [
-            "P.le", 
+            "P.le",
             "Piazzale"
-        ], 
-        "full": "Piazzale", 
+        ],
+        "full": "Piazzale",
         "canonical": "P.le"
-    }, 
+    },
     {
         "tokens": [
-            "P.ta", 
+            "P.ta",
             "Piazzetta"
-        ], 
-        "full": "Piazzetta", 
+        ],
+        "full": "Piazzetta",
         "canonical": "P.ta"
-    }, 
+    },
     {
         "tokens": [
-            "P.te", 
+            "P.te",
             "Ponte"
-        ], 
-        "full": "Ponte", 
+        ],
+        "full": "Ponte",
         "canonical": "P.te"
-    }, 
+    },
     {
         "tokens": [
-            "P.ta", 
+            "P.ta",
             "Porta"
-        ], 
-        "full": "Porta", 
+        ],
+        "full": "Porta",
         "canonical": "P.ta"
-    }, 
+    },
     {
         "tokens": [
-            "S.da", 
+            "S.da",
             "Salizada"
-        ], 
-        "full": "Salizada", 
+        ],
+        "full": "Salizada",
         "canonical": "S.da"
-    }, 
+    },
     {
         "tokens": [
-            "S.", 
-            "San", 
-            "Santa", 
+            "S.",
+            "San",
+            "Santa",
             "Santo"
-        ], 
-        "full": "Santo", 
+        ],
+        "full": "Santo",
         "canonical": "S."
-    }, 
+    },
     {
         "tokens": [
-            "S.", 
+            "S.",
             "San"
-        ], 
-        "full": "San", 
+        ],
+        "full": "San",
         "canonical": "S."
-    }, 
+    },
     {
         "tokens": [
-            "S.", 
+            "S.",
             "Santa"
-        ], 
-        "full": "Santa", 
+        ],
+        "full": "Santa",
         "canonical": "S."
-    }, 
+    },
     {
         "tokens": [
-            "S.", 
+            "S.",
             "Santo"
-        ], 
-        "full": "Santo", 
+        ],
+        "full": "Santo",
         "canonical": "S."
-    }, 
+    },
     {
         "tokens": [
-            "SS.", 
+            "SS.",
             "Santi"
-        ], 
-        "full": "Santi", 
+        ],
+        "full": "Santi",
         "canonical": "SS."
-    }, 
+    },
     {
         "tokens": [
-            "Staz.", 
+            "Staz.",
             "Stazione"
-        ], 
-        "full": "Stazione", 
+        ],
+        "full": "Stazione",
         "canonical": "Staz."
-    }, 
+    },
     {
         "tokens": [
-            "V.", 
+            "V.",
             "Via"
-        ], 
-        "full": "Via", 
+        ],
+        "full": "Via",
         "canonical": "V."
-    }, 
+    },
     {
         "tokens": [
-            "V.le", 
+            "V.le",
             "Viale"
-        ], 
-        "full": "Viale", 
+        ],
+        "full": "Viale",
         "canonical": "V.le"
-    }, 
+    },
     {
         "tokens": [
-            "V.lo", 
+            "V.lo",
             "Vicolo"
-        ], 
-        "full": "Vicolo", 
+        ],
+        "full": "Vicolo",
         "canonical": "V.lo"
     }
 ]

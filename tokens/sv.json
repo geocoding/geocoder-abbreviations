@@ -1,176 +1,176 @@
 [
     {
         "tokens": [
-            "$1v", 
+            "$1v",
             "([a-z]+)vägen"
-        ], 
-        "full": "([a-z]+)vägen", 
+        ],
+        "full": "([a-z]+)vägen",
         "canonical": "$1v"
-    }, 
+    },
     {
         "tokens": [
-            "$1v", 
+            "$1v",
             "([a-z]+)väg"
-        ], 
-        "full": "([a-z]+)väg", 
+        ],
+        "full": "([a-z]+)väg",
         "canonical": "$1v"
-    }, 
+    },
     {
         "tokens": [
-            "$1g", 
+            "$1g",
             "([a-z]+)gatan"
-        ], 
-        "full": "([a-z]+)gatan", 
+        ],
+        "full": "([a-z]+)gatan",
         "canonical": "$1g"
-    }, 
+    },
     {
         "tokens": [
-            "$1g", 
+            "$1g",
             "([a-z]+)gata"
-        ], 
-        "full": "([a-z]+)gata", 
+        ],
+        "full": "([a-z]+)gata",
         "canonical": "$1g"
-    }, 
+    },
     {
         "tokens": [
-            "$1gr", 
+            "$1gr",
             "([a-z]+)gränd"
-        ], 
-        "full": "([a-z]+)gränd", 
+        ],
+        "full": "([a-z]+)gränd",
         "canonical": "$1gr"
-    }, 
+    },
     {
         "tokens": [
-            "$1g", 
+            "$1g",
             "([a-z]+)gränden"
-        ], 
-        "full": "([a-z]+)gränden", 
+        ],
+        "full": "([a-z]+)gränden",
         "canonical": "$1g"
-    }, 
+    },
     {
         "tokens": [
             "gamla"
-        ], 
-        "full": "gamla", 
+        ],
+        "full": "gamla",
         "canonical": "gamla"
-    }, 
+    },
     {
         "tokens": [
-            "s", 
+            "s",
             "södra"
-        ], 
-        "full": "södra", 
+        ],
+        "full": "södra",
         "canonical": "s"
-    }, 
+    },
     {
         "tokens": [
             "södra"
-        ], 
-        "full": "södra", 
+        ],
+        "full": "södra",
         "canonical": "södra"
-    }, 
+    },
     {
         "tokens": [
-            "n", 
+            "n",
             "norra"
-        ], 
-        "full": "norra", 
+        ],
+        "full": "norra",
         "canonical": "n"
-    }, 
+    },
     {
         "tokens": [
-            "ö", 
+            "ö",
             "östra"
-        ], 
-        "full": "östra", 
+        ],
+        "full": "östra",
         "canonical": "ö"
-    }, 
+    },
     {
         "tokens": [
-            "v", 
+            "v",
             "västra"
-        ], 
-        "full": "västra", 
+        ],
+        "full": "västra",
         "canonical": "v"
-    }, 
+    },
     {
         "tokens": [
-            "st", 
-            "stig", 
+            "st",
+            "stig",
             "stigen"
-        ], 
-        "full": "stigen", 
+        ],
+        "full": "stigen",
         "canonical": "st"
-    }, 
+    },
     {
         "tokens": [
-            "st", 
+            "st",
             "stig"
-        ], 
-        "full": "stig", 
+        ],
+        "full": "stig",
         "canonical": "st"
-    }, 
+    },
     {
         "tokens": [
-            "st", 
+            "st",
             "stigen"
-        ], 
-        "full": "stigen", 
+        ],
+        "full": "stigen",
         "canonical": "st"
-    }, 
+    },
     {
         "tokens": [
             "sankt"
-        ], 
-        "full": "sankt", 
+        ],
+        "full": "sankt",
         "canonical": "sankt"
-    }, 
+    },
     {
         "tokens": [
             "sankta"
-        ], 
-        "full": "sankta", 
+        ],
+        "full": "sankta",
         "canonical": "sankta"
-    }, 
+    },
     {
         "tokens": [
-            "pl", 
-            "plats", 
+            "pl",
+            "plats",
             "platsen"
-        ], 
-        "full": "platsen", 
+        ],
+        "full": "platsen",
         "canonical": "pl"
-    }, 
+    },
     {
         "tokens": [
-            "pl", 
+            "pl",
             "plats"
-        ], 
-        "full": "plats", 
+        ],
+        "full": "plats",
         "canonical": "pl"
-    }, 
+    },
     {
         "tokens": [
-            "pl", 
+            "pl",
             "platsen"
-        ], 
-        "full": "platsen", 
+        ],
+        "full": "platsen",
         "canonical": "pl"
-    }, 
+    },
     {
         "tokens": [
-            "l", 
+            "l",
             "lilla"
-        ], 
-        "full": "lilla", 
+        ],
+        "full": "lilla",
         "canonical": "l"
-    }, 
+    },
     {
         "tokens": [
-            "st", 
+            "st",
             "stora"
-        ], 
-        "full": "stora", 
+        ],
+        "full": "stora",
         "canonical": "st"
     }
 ]

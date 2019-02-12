@@ -1,309 +1,309 @@
 [
     {
         "tokens": [
-            "jl", 
-            "jln", 
+            "jl",
+            "jln",
             "jalan"
-        ], 
-        "full": "jalan", 
+        ],
+        "full": "jalan",
         "canonical": "jl"
-    }, 
+    },
     {
         "tokens": [
-            "jl", 
+            "jl",
             "jalan"
-        ], 
-        "full": "jalan", 
+        ],
+        "full": "jalan",
         "canonical": "jl"
-    }, 
+    },
     {
         "tokens": [
-            "jl", 
+            "jl",
             "jln"
-        ], 
-        "full": "jln", 
+        ],
+        "full": "jln",
         "canonical": "jl"
-    }, 
+    },
     {
         "tokens": [
-            "gg", 
+            "gg",
             "gang"
-        ], 
-        "full": "gang", 
+        ],
+        "full": "gang",
         "canonical": "gg"
-    }, 
+    },
     {
         "tokens": [
-            "lrg", 
-            "lor", 
-            "lorong", 
+            "lrg",
+            "lor",
+            "lorong",
             "lorang"
-        ], 
-        "full": "lorang", 
+        ],
+        "full": "lorang",
         "canonical": "lrg"
-    }, 
+    },
     {
         "tokens": [
-            "lrg", 
+            "lrg",
             "lorong"
-        ], 
-        "full": "lorong", 
+        ],
+        "full": "lorong",
         "canonical": "lrg"
-    }, 
+    },
     {
         "tokens": [
-            "lrg", 
+            "lrg",
             "lor"
-        ], 
-        "full": "lor", 
+        ],
+        "full": "lor",
         "canonical": "lrg"
-    }, 
+    },
     {
         "tokens": [
-            "lrg", 
+            "lrg",
             "lorang"
-        ], 
-        "full": "lorang", 
+        ],
+        "full": "lorang",
         "canonical": "lrg"
-    }, 
+    },
     {
         "tokens": [
-            "lkg", 
+            "lkg",
             "lengkong"
-        ], 
-        "full": "lengkong", 
+        ],
+        "full": "lengkong",
         "canonical": "lkg"
-    }, 
+    },
     {
         "tokens": [
-            "mt", 
+            "mt",
             "mount"
-        ], 
-        "full": "mount", 
+        ],
+        "full": "mount",
         "canonical": "mt"
-    }, 
+    },
     {
         "tokens": [
-            "upp", 
+            "upp",
             "upper"
-        ], 
-        "full": "upper", 
+        ],
+        "full": "upper",
         "canonical": "upp"
-    }, 
+    },
     {
         "tokens": [
-            "trk", 
-            "tck", 
+            "trk",
+            "tck",
             "track"
-        ], 
-        "full": "track", 
+        ],
+        "full": "track",
         "canonical": "trk"
-    }, 
+    },
     {
         "tokens": [
-            "trk", 
+            "trk",
             "track"
-        ], 
-        "full": "track", 
+        ],
+        "full": "track",
         "canonical": "trk"
-    }, 
+    },
     {
         "tokens": [
-            "trk", 
+            "trk",
             "tck"
-        ], 
-        "full": "tck", 
+        ],
+        "full": "tck",
         "canonical": "trk"
-    }, 
+    },
     {
         "tokens": [
-            "cr", 
-            "cres", 
-            "cresent", 
+            "cr",
+            "cres",
+            "cresent",
             "crescent"
-        ], 
-        "full": "crescent", 
+        ],
+        "full": "crescent",
         "canonical": "cr"
-    }, 
+    },
     {
         "tokens": [
-            "cr", 
+            "cr",
             "crescent"
-        ], 
-        "full": "crescent", 
+        ],
+        "full": "crescent",
         "canonical": "cr"
-    }, 
+    },
     {
         "tokens": [
-            "cr", 
+            "cr",
             "cres"
-        ], 
-        "full": "cres", 
+        ],
+        "full": "cres",
         "canonical": "cr"
-    }, 
+    },
     {
         "tokens": [
-            "cr", 
+            "cr",
             "cresent"
-        ], 
-        "full": "cresent", 
+        ],
+        "full": "cresent",
         "canonical": "cr"
-    }, 
+    },
     {
         "tokens": [
-            "bvd", 
-            "blvd", 
-            "boulvard", 
-            "boulevard", 
+            "bvd",
+            "blvd",
+            "boulvard",
+            "boulevard",
             "bouleyard"
-        ], 
-        "full": "bouleyard", 
+        ],
+        "full": "bouleyard",
         "canonical": "bvd"
-    }, 
+    },
     {
         "tokens": [
-            "bvd", 
+            "bvd",
             "boulevard"
-        ], 
-        "full": "boulevard", 
+        ],
+        "full": "boulevard",
         "canonical": "bvd"
-    }, 
+    },
     {
         "tokens": [
-            "bvd", 
+            "bvd",
             "blvd"
-        ], 
-        "full": "blvd", 
+        ],
+        "full": "blvd",
         "canonical": "bvd"
-    }, 
+    },
     {
         "tokens": [
-            "bvd", 
+            "bvd",
             "bouleyard"
-        ], 
-        "full": "bouleyard", 
+        ],
+        "full": "bouleyard",
         "canonical": "bvd"
-    }, 
+    },
     {
         "tokens": [
-            "bvd", 
+            "bvd",
             "boulvard"
-        ], 
-        "full": "boulvard", 
+        ],
+        "full": "boulvard",
         "canonical": "bvd"
-    }, 
+    },
     {
         "tokens": [
-            "av", 
-            "ave", 
-            "avnue", 
+            "av",
+            "ave",
+            "avnue",
             "avenue"
-        ], 
-        "full": "avenue", 
+        ],
+        "full": "avenue",
         "canonical": "av"
-    }, 
+    },
     {
         "tokens": [
-            "av", 
+            "av",
             "avenue"
-        ], 
-        "full": "avenue", 
+        ],
+        "full": "avenue",
         "canonical": "av"
-    }, 
+    },
     {
         "tokens": [
-            "av", 
+            "av",
             "ave"
-        ], 
-        "full": "ave", 
+        ],
+        "full": "ave",
         "canonical": "av"
-    }, 
+    },
     {
         "tokens": [
-            "av", 
+            "av",
             "avnue"
-        ], 
-        "full": "avnue", 
+        ],
+        "full": "avnue",
         "canonical": "av"
-    }, 
+    },
     {
         "tokens": [
-            "lk", 
+            "lk",
             "link"
-        ], 
-        "full": "link", 
+        ],
+        "full": "link",
         "canonical": "lk"
-    }, 
+    },
     {
         "tokens": [
-            "l", 
+            "l",
             "lane"
-        ], 
-        "full": "lane", 
+        ],
+        "full": "lane",
         "canonical": "l"
-    }, 
+    },
     {
         "tokens": [
-            "wk", 
+            "wk",
             "walk"
-        ], 
-        "full": "walk", 
+        ],
+        "full": "walk",
         "canonical": "wk"
-    }, 
+    },
     {
         "tokens": [
-            "grn", 
+            "grn",
             "green"
-        ], 
-        "full": "green", 
+        ],
+        "full": "green",
         "canonical": "grn"
-    }, 
+    },
     {
         "tokens": [
-            "hwy", 
+            "hwy",
             "highway"
-        ], 
-        "full": "highway", 
+        ],
+        "full": "highway",
         "canonical": "hwy"
-    }, 
+    },
     {
         "tokens": [
-            "qy", 
+            "qy",
             "quay"
-        ], 
-        "full": "quay", 
+        ],
+        "full": "quay",
         "canonical": "qy"
-    }, 
+    },
     {
         "tokens": [
-            "pwy", 
+            "pwy",
             "parkway"
-        ], 
-        "full": "parkway", 
+        ],
+        "full": "parkway",
         "canonical": "pwy"
-    }, 
+    },
     {
         "tokens": [
-            "ctrl", 
+            "ctrl",
             "central"
-        ], 
-        "full": "central", 
+        ],
+        "full": "central",
         "canonical": "ctrl"
-    }, 
+    },
     {
         "tokens": [
-            "gr", 
+            "gr",
             "grove"
-        ], 
-        "full": "grove", 
+        ],
+        "full": "grove",
         "canonical": "gr"
-    }, 
+    },
     {
         "tokens": [
-            "tg", 
+            "tg",
             "tanjong"
-        ], 
-        "full": "tanjong", 
+        ],
+        "full": "tanjong",
         "canonical": "tg"
     }
 ]

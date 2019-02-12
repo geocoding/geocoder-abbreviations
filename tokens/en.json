@@ -1,3271 +1,3271 @@
 [
     {
         "tokens": [
-            "1", 
+            "1",
             "one"
-        ], 
-        "full": "one", 
+        ],
+        "full": "one",
         "canonical": "1"
-    }, 
+    },
     {
         "tokens": [
-            "2", 
+            "2",
             "two"
-        ], 
-        "full": "two", 
+        ],
+        "full": "two",
         "canonical": "2"
-    }, 
+    },
     {
         "tokens": [
-            "3", 
+            "3",
             "three"
-        ], 
-        "full": "three", 
+        ],
+        "full": "three",
         "canonical": "3"
-    }, 
+    },
     {
         "tokens": [
-            "4", 
+            "4",
             "four"
-        ], 
-        "full": "four", 
+        ],
+        "full": "four",
         "canonical": "4"
-    }, 
+    },
     {
         "tokens": [
-            "5", 
+            "5",
             "five"
-        ], 
-        "full": "five", 
+        ],
+        "full": "five",
         "canonical": "5"
-    }, 
+    },
     {
         "tokens": [
-            "6", 
+            "6",
             "six"
-        ], 
-        "full": "six", 
+        ],
+        "full": "six",
         "canonical": "6"
-    }, 
+    },
     {
         "tokens": [
-            "7", 
+            "7",
             "seven"
-        ], 
-        "full": "seven", 
+        ],
+        "full": "seven",
         "canonical": "7"
-    }, 
+    },
     {
         "tokens": [
-            "8", 
+            "8",
             "eight"
-        ], 
-        "full": "eight", 
+        ],
+        "full": "eight",
         "canonical": "8"
-    }, 
+    },
     {
         "tokens": [
-            "9", 
+            "9",
             "nine"
-        ], 
-        "full": "nine", 
+        ],
+        "full": "nine",
         "canonical": "9"
-    }, 
+    },
     {
         "tokens": [
-            "10", 
+            "10",
             "ten"
-        ], 
-        "full": "ten", 
+        ],
+        "full": "ten",
         "canonical": "10"
-    }, 
+    },
     {
         "tokens": [
-            "11", 
+            "11",
             "eleven"
-        ], 
-        "full": "eleven", 
+        ],
+        "full": "eleven",
         "canonical": "11"
-    }, 
+    },
     {
         "tokens": [
-            "12", 
+            "12",
             "twelve"
-        ], 
-        "full": "twelve", 
+        ],
+        "full": "twelve",
         "canonical": "12"
-    }, 
+    },
     {
         "tokens": [
-            "13", 
+            "13",
             "thirteen"
-        ], 
-        "full": "thirteen", 
+        ],
+        "full": "thirteen",
         "canonical": "13"
-    }, 
+    },
     {
         "tokens": [
-            "14", 
+            "14",
             "fourteen"
-        ], 
-        "full": "fourteen", 
+        ],
+        "full": "fourteen",
         "canonical": "14"
-    }, 
+    },
     {
         "tokens": [
-            "15", 
+            "15",
             "fifteen"
-        ], 
-        "full": "fifteen", 
+        ],
+        "full": "fifteen",
         "canonical": "15"
-    }, 
+    },
     {
         "tokens": [
-            "16", 
+            "16",
             "sixteen"
-        ], 
-        "full": "sixteen", 
+        ],
+        "full": "sixteen",
         "canonical": "16"
-    }, 
+    },
     {
         "tokens": [
-            "17", 
+            "17",
             "seventeen"
-        ], 
-        "full": "seventeen", 
+        ],
+        "full": "seventeen",
         "canonical": "17"
-    }, 
+    },
     {
         "tokens": [
-            "18", 
+            "18",
             "eighteen"
-        ], 
-        "full": "eighteen", 
+        ],
+        "full": "eighteen",
         "canonical": "18"
-    }, 
+    },
     {
         "tokens": [
-            "19", 
+            "19",
             "nineteen"
-        ], 
-        "full": "nineteen", 
+        ],
+        "full": "nineteen",
         "canonical": "19"
-    }, 
+    },
     {
         "tokens": [
-            "20", 
+            "20",
             "twenty"
-        ], 
-        "full": "twenty", 
+        ],
+        "full": "twenty",
         "canonical": "20"
-    }, 
+    },
     {
         "tokens": [
-            "10th", 
+            "10th",
             "Tenth"
-        ], 
-        "full": "Tenth", 
+        ],
+        "full": "Tenth",
         "canonical": "10th"
-    }, 
+    },
     {
         "tokens": [
-            "11th", 
+            "11th",
             "Eleventh"
-        ], 
-        "full": "Eleventh", 
+        ],
+        "full": "Eleventh",
         "canonical": "11th"
-    }, 
+    },
     {
         "tokens": [
-            "12th", 
+            "12th",
             "Twelfth"
-        ], 
-        "full": "Twelfth", 
+        ],
+        "full": "Twelfth",
         "canonical": "12th"
-    }, 
+    },
     {
         "tokens": [
-            "13th", 
+            "13th",
             "Thirteenth"
-        ], 
-        "full": "Thirteenth", 
+        ],
+        "full": "Thirteenth",
         "canonical": "13th"
-    }, 
+    },
     {
         "tokens": [
-            "14th", 
+            "14th",
             "Fourteenth"
-        ], 
-        "full": "Fourteenth", 
+        ],
+        "full": "Fourteenth",
         "canonical": "14th"
-    }, 
+    },
     {
         "tokens": [
-            "15th", 
+            "15th",
             "Fifteenth"
-        ], 
-        "full": "Fifteenth", 
+        ],
+        "full": "Fifteenth",
         "canonical": "15th"
-    }, 
+    },
     {
         "tokens": [
-            "16th", 
+            "16th",
             "Sixteenth"
-        ], 
-        "full": "Sixteenth", 
+        ],
+        "full": "Sixteenth",
         "canonical": "16th"
-    }, 
+    },
     {
         "tokens": [
-            "17th", 
+            "17th",
             "Seventeenth"
-        ], 
-        "full": "Seventeenth", 
+        ],
+        "full": "Seventeenth",
         "canonical": "17th"
-    }, 
+    },
     {
         "tokens": [
-            "18th", 
+            "18th",
             "Eighteenth"
-        ], 
-        "full": "Eighteenth", 
+        ],
+        "full": "Eighteenth",
         "canonical": "18th"
-    }, 
+    },
     {
         "tokens": [
-            "19th", 
+            "19th",
             "Nineteenth"
-        ], 
-        "full": "Nineteenth", 
+        ],
+        "full": "Nineteenth",
         "canonical": "19th"
-    }, 
+    },
     {
         "tokens": [
-            "1st", 
+            "1st",
             "First"
-        ], 
-        "full": "First", 
+        ],
+        "full": "First",
         "canonical": "1st"
-    }, 
+    },
     {
         "tokens": [
-            "20th", 
+            "20th",
             "Twentieth"
-        ], 
-        "full": "Twentieth", 
+        ],
+        "full": "Twentieth",
         "canonical": "20th"
-    }, 
+    },
     {
         "tokens": [
-            "2nd", 
+            "2nd",
             "Second"
-        ], 
-        "full": "Second", 
+        ],
+        "full": "Second",
         "canonical": "2nd"
-    }, 
+    },
     {
         "tokens": [
-            "3rd", 
+            "3rd",
             "Third"
-        ], 
-        "full": "Third", 
+        ],
+        "full": "Third",
         "canonical": "3rd"
-    }, 
+    },
     {
         "tokens": [
-            "4th", 
+            "4th",
             "Fourth"
-        ], 
-        "full": "Fourth", 
+        ],
+        "full": "Fourth",
         "canonical": "4th"
-    }, 
+    },
     {
         "tokens": [
-            "5th", 
+            "5th",
             "Fifth"
-        ], 
-        "full": "Fifth", 
+        ],
+        "full": "Fifth",
         "canonical": "5th"
-    }, 
+    },
     {
         "tokens": [
-            "6th", 
+            "6th",
             "Sixth"
-        ], 
-        "full": "Sixth", 
+        ],
+        "full": "Sixth",
         "canonical": "6th"
-    }, 
+    },
     {
         "tokens": [
-            "7th", 
+            "7th",
             "Seventh"
-        ], 
-        "full": "Seventh", 
+        ],
+        "full": "Seventh",
         "canonical": "7th"
-    }, 
+    },
     {
         "tokens": [
-            "8th", 
+            "8th",
             "Eighth"
-        ], 
-        "full": "Eighth", 
+        ],
+        "full": "Eighth",
         "canonical": "8th"
-    }, 
+    },
     {
         "tokens": [
-            "9th", 
+            "9th",
             "Ninth"
-        ], 
-        "full": "Ninth", 
+        ],
+        "full": "Ninth",
         "canonical": "9th"
-    }, 
+    },
     {
         "tokens": [
-            "Accs", 
+            "Accs",
             "Access"
-        ], 
-        "full": "Access", 
+        ],
+        "full": "Access",
         "canonical": "Accs"
-    }, 
+    },
     {
         "tokens": [
-            "Alwy", 
+            "Alwy",
             "Alleyway"
-        ], 
-        "full": "Alleyway", 
+        ],
+        "full": "Alleyway",
         "canonical": "Alwy"
-    }, 
+    },
     {
         "tokens": [
-            "Aly", 
-            "Ally", 
+            "Aly",
+            "Ally",
             "Alley"
-        ], 
-        "full": "Alley", 
+        ],
+        "full": "Alley",
         "canonical": "Aly"
-    }, 
+    },
     {
         "tokens": [
-            "Aly", 
+            "Aly",
             "Ally"
-        ], 
-        "full": "Ally", 
+        ],
+        "full": "Ally",
         "canonical": "Aly"
-    }, 
+    },
     {
         "tokens": [
-            "Aly", 
+            "Aly",
             "Alley"
-        ], 
-        "full": "Alley", 
+        ],
+        "full": "Alley",
         "canonical": "Aly"
-    }, 
+    },
     {
         "tokens": [
-            "Ambl", 
+            "Ambl",
             "Amble"
-        ], 
-        "full": "Amble", 
+        ],
+        "full": "Amble",
         "canonical": "Ambl"
-    }, 
+    },
     {
         "tokens": [
-            "App", 
+            "App",
             "Approach"
-        ], 
-        "full": "Approach", 
+        ],
+        "full": "Approach",
         "canonical": "App"
-    }, 
+    },
     {
         "tokens": [
-            "Apt", 
+            "Apt",
             "Apartment"
-        ], 
-        "full": "Apartment", 
+        ],
+        "full": "Apartment",
         "canonical": "Apt"
-    }, 
+    },
     {
         "tokens": [
-            "Apts", 
+            "Apts",
             "Apartments"
-        ], 
-        "full": "Apartments", 
+        ],
+        "full": "Apartments",
         "canonical": "Apts"
-    }, 
+    },
     {
         "tokens": [
-            "Arc", 
+            "Arc",
             "Arcade"
-        ], 
-        "full": "Arcade", 
+        ],
+        "full": "Arcade",
         "canonical": "Arc"
-    }, 
+    },
     {
         "tokens": [
-            "Artl", 
+            "Artl",
             "Arterial"
-        ], 
-        "full": "Arterial", 
+        ],
+        "full": "Arterial",
         "canonical": "Artl"
-    }, 
+    },
     {
         "tokens": [
-            "Arty", 
+            "Arty",
             "Artery"
-        ], 
-        "full": "Artery", 
+        ],
+        "full": "Artery",
         "canonical": "Arty"
-    }, 
+    },
     {
         "tokens": [
-            "Av", 
-            "Ave", 
+            "Av",
+            "Ave",
             "Avenue"
-        ], 
-        "full": "Avenue", 
+        ],
+        "full": "Avenue",
         "canonical": "Av"
-    }, 
+    },
     {
         "tokens": [
-            "Av", 
+            "Av",
             "Ave"
-        ], 
-        "full": "Ave", 
+        ],
+        "full": "Ave",
         "canonical": "Av"
-    }, 
+    },
     {
         "tokens": [
-            "Av", 
+            "Av",
             "Avenue"
-        ], 
-        "full": "Avenue", 
+        ],
+        "full": "Avenue",
         "canonical": "Av"
-    }, 
+    },
     {
         "tokens": [
-            "Ba", 
+            "Ba",
             "Banan"
-        ], 
-        "full": "Banan", 
+        ],
+        "full": "Banan",
         "canonical": "Ba"
-    }, 
+    },
     {
         "tokens": [
-            "Bch", 
+            "Bch",
             "Beach"
-        ], 
-        "full": "Beach", 
+        ],
+        "full": "Beach",
         "canonical": "Bch"
-    }, 
+    },
     {
         "tokens": [
-            "Bg", 
+            "Bg",
             "Burg"
-        ], 
-        "full": "Burg", 
+        ],
+        "full": "Burg",
         "canonical": "Bg"
-    }, 
+    },
     {
         "tokens": [
-            "Bgs", 
+            "Bgs",
             "Burgs"
-        ], 
-        "full": "Burgs", 
+        ],
+        "full": "Burgs",
         "canonical": "Bgs"
-    }, 
+    },
     {
         "tokens": [
-            "Blf", 
+            "Blf",
             "Bluff"
-        ], 
-        "full": "Bluff", 
+        ],
+        "full": "Bluff",
         "canonical": "Blf"
-    }, 
+    },
     {
         "tokens": [
-            "Blk", 
+            "Blk",
             "Block"
-        ], 
-        "full": "Block", 
+        ],
+        "full": "Block",
         "canonical": "Blk"
-    }, 
+    },
     {
         "tokens": [
-            "Br", 
-            "Brace", 
+            "Br",
+            "Brace",
             "Branch"
-        ], 
-        "full": "Branch", 
+        ],
+        "full": "Branch",
         "canonical": "Br"
-    }, 
+    },
     {
         "tokens": [
-            "Br", 
+            "Br",
             "Brace"
-        ], 
-        "full": "Brace", 
+        ],
+        "full": "Brace",
         "canonical": "Br"
-    }, 
+    },
     {
         "tokens": [
-            "Br", 
+            "Br",
             "Branch"
-        ], 
-        "full": "Branch", 
+        ],
+        "full": "Branch",
         "canonical": "Br"
-    }, 
+    },
     {
         "tokens": [
-            "Brg", 
+            "Brg",
             "Bridge"
-        ], 
-        "full": "Bridge", 
+        ],
+        "full": "Bridge",
         "canonical": "Brg"
-    }, 
+    },
     {
         "tokens": [
-            "Brk", 
-            "Break", 
+            "Brk",
+            "Break",
             "Brook"
-        ], 
-        "full": "Brook", 
+        ],
+        "full": "Brook",
         "canonical": "Brk"
-    }, 
+    },
     {
         "tokens": [
-            "Brk", 
+            "Brk",
             "Break"
-        ], 
-        "full": "Break", 
+        ],
+        "full": "Break",
         "canonical": "Brk"
-    }, 
+    },
     {
         "tokens": [
-            "Brk", 
+            "Brk",
             "Brook"
-        ], 
-        "full": "Brook", 
+        ],
+        "full": "Brook",
         "canonical": "Brk"
-    }, 
+    },
     {
         "tokens": [
-            "Brks", 
+            "Brks",
             "Brooks"
-        ], 
-        "full": "Brooks", 
+        ],
+        "full": "Brooks",
         "canonical": "Brks"
-    }, 
+    },
     {
         "tokens": [
-            "Btm", 
+            "Btm",
             "Bottom"
-        ], 
-        "full": "Bottom", 
+        ],
+        "full": "Bottom",
         "canonical": "Btm"
-    }, 
+    },
     {
         "tokens": [
-            "Blv", 
-            "Blvd", 
+            "Blv",
+            "Blvd",
             "Boulevard"
-        ], 
-        "full": "Boulevard", 
+        ],
+        "full": "Boulevard",
         "canonical": "Blv"
-    }, 
+    },
     {
         "tokens": [
-            "Blv", 
+            "Blv",
             "Blvd"
-        ], 
-        "full": "Blvd", 
+        ],
+        "full": "Blvd",
         "canonical": "Blv"
-    }, 
+    },
     {
         "tokens": [
-            "Blv", 
+            "Blv",
             "Boulevard"
-        ], 
-        "full": "Boulevard", 
+        ],
+        "full": "Boulevard",
         "canonical": "Blv"
-    }, 
+    },
     {
         "tokens": [
-            "Bwlk", 
+            "Bwlk",
             "Boardwalk"
-        ], 
-        "full": "Boardwalk", 
+        ],
+        "full": "Boardwalk",
         "canonical": "Bwlk"
-    }, 
+    },
     {
         "tokens": [
-            "Byp", 
-            "Bypa", 
+            "Byp",
+            "Bypa",
             "Bypass"
-        ], 
-        "full": "Bypass", 
+        ],
+        "full": "Bypass",
         "canonical": "Byp"
-    }, 
+    },
     {
         "tokens": [
-            "Byp", 
+            "Byp",
             "Bypa"
-        ], 
-        "full": "Bypa", 
+        ],
+        "full": "Bypa",
         "canonical": "Byp"
-    }, 
+    },
     {
         "tokens": [
-            "Byp", 
+            "Byp",
             "Bypass"
-        ], 
-        "full": "Bypass", 
+        ],
+        "full": "Bypass",
         "canonical": "Byp"
-    }, 
+    },
     {
         "tokens": [
-            "Byu", 
+            "Byu",
             "Bayou"
-        ], 
-        "full": "Bayou", 
+        ],
+        "full": "Bayou",
         "canonical": "Byu"
-    }, 
+    },
     {
         "tokens": [
-            "Bywy", 
+            "Bywy",
             "Byway"
-        ], 
-        "full": "Byway", 
+        ],
+        "full": "Byway",
         "canonical": "Bywy"
-    }, 
+    },
     {
         "tokens": [
-            "Bzr", 
+            "Bzr",
             "Bazaar"
-        ], 
-        "full": "Bazaar", 
+        ],
+        "full": "Bazaar",
         "canonical": "Bzr"
-    }, 
+    },
     {
         "tokens": [
-            "Cantt", 
+            "Cantt",
             "Cantonment"
-        ], 
-        "full": "Cantonment", 
+        ],
+        "full": "Cantonment",
         "canonical": "Cantt"
-    }, 
+    },
     {
         "tokens": [
-            "Cct", 
+            "Cct",
             "Circuit"
-        ], 
-        "full": "Circuit", 
+        ],
+        "full": "Circuit",
         "canonical": "Cct"
-    }, 
+    },
     {
         "tokens": [
-            "Ch", 
+            "Ch",
             "Chase"
-        ], 
-        "full": "Chase", 
+        ],
+        "full": "Chase",
         "canonical": "Ch"
-    }, 
+    },
     {
         "tokens": [
-            "Chk", 
+            "Chk",
             "Chowk"
-        ], 
-        "full": "Chowk", 
+        ],
+        "full": "Chowk",
         "canonical": "Chk"
-    }, 
+    },
     {
         "tokens": [
-            "Cir", 
+            "Cir",
             "Circle"
-        ], 
-        "full": "Circle", 
+        ],
+        "full": "Circle",
         "canonical": "Cir"
-    }, 
+    },
     {
         "tokens": [
-            "Cirs", 
+            "Cirs",
             "Circles"
-        ], 
-        "full": "Circles", 
+        ],
+        "full": "Circles",
         "canonical": "Cirs"
-    }, 
+    },
     {
         "tokens": [
-            "Cl", 
-            "Clo", 
-            "Close", 
+            "Cl",
+            "Clo",
+            "Close",
             "Clinic"
-        ], 
-        "full": "Clinic", 
+        ],
+        "full": "Clinic",
         "canonical": "Cl"
-    }, 
+    },
     {
         "tokens": [
-            "Cl", 
+            "Cl",
             "Clo"
-        ], 
-        "full": "Clo", 
+        ],
+        "full": "Clo",
         "canonical": "Cl"
-    }, 
+    },
     {
         "tokens": [
-            "Cl", 
+            "Cl",
             "Close"
-        ], 
-        "full": "Close", 
+        ],
+        "full": "Close",
         "canonical": "Cl"
-    }, 
+    },
     {
         "tokens": [
-            "Cl", 
+            "Cl",
             "Clinic"
-        ], 
-        "full": "Clinic", 
+        ],
+        "full": "Clinic",
         "canonical": "Cl"
-    }, 
+    },
     {
         "tokens": [
-            "Clb", 
+            "Clb",
             "Club"
-        ], 
-        "full": "Club", 
+        ],
+        "full": "Club",
         "canonical": "Clb"
-    }, 
+    },
     {
         "tokens": [
-            "Clf", 
+            "Clf",
             "Cliff"
-        ], 
-        "full": "Cliff", 
+        ],
+        "full": "Cliff",
         "canonical": "Clf"
-    }, 
+    },
     {
         "tokens": [
-            "Clfs", 
+            "Clfs",
             "Cliffs"
-        ], 
-        "full": "Cliffs", 
+        ],
+        "full": "Cliffs",
         "canonical": "Clfs"
-    }, 
+    },
     {
         "tokens": [
-            "Cll", 
+            "Cll",
             "Calle"
-        ], 
-        "full": "Calle", 
+        ],
+        "full": "Calle",
         "canonical": "Cll"
-    }, 
+    },
     {
         "tokens": [
-            "Cly", 
+            "Cly",
             "Colony"
-        ], 
-        "full": "Colony", 
+        ],
+        "full": "Colony",
         "canonical": "Cly"
-    }, 
+    },
     {
         "tokens": [
-            "Cmn", 
+            "Cmn",
             "Common"
-        ], 
-        "full": "Common", 
+        ],
+        "full": "Common",
         "canonical": "Cmn"
-    }, 
+    },
     {
         "tokens": [
-            "Cmns", 
+            "Cmns",
             "Commons"
-        ], 
-        "full": "Commons", 
+        ],
+        "full": "Commons",
         "canonical": "Cmns"
-    }, 
+    },
     {
         "tokens": [
-            "Cnl", 
+            "Cnl",
             "Canal"
-        ], 
-        "full": "Canal", 
+        ],
+        "full": "Canal",
         "canonical": "Cnl"
-    }, 
+    },
     {
         "tokens": [
-            "Cnr", 
-            "Cor", 
+            "Cnr",
+            "Cor",
             "Corner"
-        ], 
-        "full": "Corner", 
+        ],
+        "full": "Corner",
         "canonical": "Cnr"
-    }, 
+    },
     {
         "tokens": [
-            "Cnr", 
+            "Cnr",
             "Cor"
-        ], 
-        "full": "Cor", 
+        ],
+        "full": "Cor",
         "canonical": "Cnr"
-    }, 
+    },
     {
         "tokens": [
-            "Cnr", 
+            "Cnr",
             "Corner"
-        ], 
-        "full": "Corner", 
+        ],
+        "full": "Corner",
         "canonical": "Cnr"
-    }, 
+    },
     {
         "tokens": [
-            "Co", 
+            "Co",
             "County"
-        ], 
-        "full": "County", 
+        ],
+        "full": "County",
         "canonical": "Co"
-    }, 
+    },
     {
         "tokens": [
-            "Coll", 
+            "Coll",
             "College"
-        ], 
-        "full": "College", 
+        ],
+        "full": "College",
         "canonical": "Coll"
-    }, 
+    },
     {
         "tokens": [
-            "Con", 
+            "Con",
             "Concourse"
-        ], 
-        "full": "Concourse", 
+        ],
+        "full": "Concourse",
         "canonical": "Con"
-    }, 
+    },
     {
         "tokens": [
-            "Const", 
+            "Const",
             "Constituency"
-        ], 
-        "full": "Constituency", 
+        ],
+        "full": "Constituency",
         "canonical": "Const"
-    }, 
+    },
     {
         "tokens": [
-            "Corpn", 
+            "Corpn",
             "Corporation"
-        ], 
-        "full": "Corporation", 
+        ],
+        "full": "Corporation",
         "canonical": "Corpn"
-    }, 
+    },
     {
         "tokens": [
-            "Cp", 
+            "Cp",
             "Camp"
-        ], 
-        "full": "Camp", 
+        ],
+        "full": "Camp",
         "canonical": "Cp"
-    }, 
+    },
     {
         "tokens": [
-            "Cpe", 
+            "Cpe",
             "Cape"
-        ], 
-        "full": "Cape", 
+        ],
+        "full": "Cape",
         "canonical": "Cpe"
-    }, 
+    },
     {
         "tokens": [
-            "Cplx", 
+            "Cplx",
             "Complex"
-        ], 
-        "full": "Complex", 
+        ],
+        "full": "Complex",
         "canonical": "Cplx"
-    }, 
+    },
     {
         "tokens": [
-            "Cps", 
+            "Cps",
             "Copse"
-        ], 
-        "full": "Copse", 
+        ],
+        "full": "Copse",
         "canonical": "Cps"
-    }, 
+    },
     {
         "tokens": [
-            "Crcs", 
+            "Crcs",
             "Circus"
-        ], 
-        "full": "Circus", 
+        ],
+        "full": "Circus",
         "canonical": "Crcs"
-    }, 
+    },
     {
         "tokens": [
-            "Crk", 
+            "Crk",
             "Creek"
-        ], 
-        "full": "Creek", 
+        ],
+        "full": "Creek",
         "canonical": "Crk"
-    }, 
+    },
     {
         "tokens": [
-            "Crpk", 
+            "Crpk",
             "Carpark"
-        ], 
-        "full": "Carpark", 
+        ],
+        "full": "Carpark",
         "canonical": "Crpk"
-    }, 
+    },
     {
         "tokens": [
-            "Crse", 
+            "Crse",
             "Course"
-        ], 
-        "full": "Course", 
+        ],
+        "full": "Course",
         "canonical": "Crse"
-    }, 
+    },
     {
         "tokens": [
-            "Crst", 
+            "Crst",
             "Crest"
-        ], 
-        "full": "Crest", 
+        ],
+        "full": "Crest",
         "canonical": "Crst"
-    }, 
+    },
     {
         "tokens": [
-            "Csac", 
+            "Csac",
             "Cul-de-sac"
-        ], 
-        "full": "Cul-de-sac", 
+        ],
+        "full": "Cul-de-sac",
         "canonical": "Csac"
-    }, 
+    },
     {
         "tokens": [
-            "Cswy", 
+            "Cswy",
             "Causeway"
-        ], 
-        "full": "Causeway", 
+        ],
+        "full": "Causeway",
         "canonical": "Cswy"
-    }, 
+    },
     {
         "tokens": [
-            "Ct", 
+            "Ct",
             "Court"
-        ], 
-        "full": "Court", 
+        ],
+        "full": "Court",
         "canonical": "Ct"
-    }, 
+    },
     {
         "tokens": [
-            "Ctr", 
-            "Center", 
+            "Ctr",
+            "Center",
             "Centre"
-        ], 
-        "full": "Centre", 
+        ],
+        "full": "Centre",
         "canonical": "Ctr"
-    }, 
+    },
     {
         "tokens": [
-            "Ctr", 
+            "Ctr",
             "Center"
-        ], 
-        "full": "Center", 
+        ],
+        "full": "Center",
         "canonical": "Ctr"
-    }, 
+    },
     {
         "tokens": [
-            "Ctr", 
+            "Ctr",
             "Centre"
-        ], 
-        "full": "Centre", 
+        ],
+        "full": "Centre",
         "canonical": "Ctr"
-    }, 
+    },
     {
         "tokens": [
-            "Ctrs", 
+            "Ctrs",
             "Centers"
-        ], 
-        "full": "Centers", 
+        ],
+        "full": "Centers",
         "canonical": "Ctrs"
-    }, 
+    },
     {
         "tokens": [
-            "Cts", 
+            "Cts",
             "Courts"
-        ], 
-        "full": "Courts", 
+        ],
+        "full": "Courts",
         "canonical": "Cts"
-    }, 
+    },
     {
         "tokens": [
-            "Ctyd", 
+            "Ctyd",
             "Courtyard"
-        ], 
-        "full": "Courtyard", 
+        ],
+        "full": "Courtyard",
         "canonical": "Ctyd"
-    }, 
+    },
     {
         "tokens": [
-            "Curv", 
+            "Curv",
             "Curve"
-        ], 
-        "full": "Curve", 
+        ],
+        "full": "Curve",
         "canonical": "Curv"
-    }, 
+    },
     {
         "tokens": [
-            "Cutt", 
+            "Cutt",
             "Cutting"
-        ], 
-        "full": "Cutting", 
+        ],
+        "full": "Cutting",
         "canonical": "Cutt"
-    }, 
+    },
     {
         "tokens": [
-            "Cv", 
+            "Cv",
             "Cove"
-        ], 
-        "full": "Cove", 
+        ],
+        "full": "Cove",
         "canonical": "Cv"
-    }, 
+    },
     {
         "tokens": [
-            "Cyn", 
+            "Cyn",
             "Canyon"
-        ], 
-        "full": "Canyon", 
+        ],
+        "full": "Canyon",
         "canonical": "Cyn"
-    }, 
+    },
     {
         "tokens": [
-            "Dl", 
+            "Dl",
             "Dale"
-        ], 
-        "full": "Dale", 
+        ],
+        "full": "Dale",
         "canonical": "Dl"
-    }, 
+    },
     {
         "tokens": [
-            "Dm", 
+            "Dm",
             "Dam"
-        ], 
-        "full": "Dam", 
+        ],
+        "full": "Dam",
         "canonical": "Dm"
-    }, 
+    },
     {
         "tokens": [
-            "Dr", 
-            "Dv", 
-            "Drive", 
+            "Dr",
+            "Dv",
+            "Drive",
             "Divide"
-        ], 
-        "full": "Divide", 
+        ],
+        "full": "Divide",
         "canonical": "Dr"
-    }, 
+    },
     {
         "tokens": [
-            "Dr", 
+            "Dr",
             "Dv"
-        ], 
-        "full": "Dv", 
+        ],
+        "full": "Dv",
         "canonical": "Dr"
-    }, 
+    },
     {
         "tokens": [
-            "Dr", 
+            "Dr",
             "Drive"
-        ], 
-        "full": "Drive", 
+        ],
+        "full": "Drive",
         "canonical": "Dr"
-    }, 
+    },
     {
         "tokens": [
-            "Dr", 
+            "Dr",
             "Divide"
-        ], 
-        "full": "Divide", 
+        ],
+        "full": "Divide",
         "canonical": "Dr"
-    }, 
+    },
     {
         "tokens": [
-            "Drs", 
+            "Drs",
             "Drives"
-        ], 
-        "full": "Drives", 
+        ],
+        "full": "Drives",
         "canonical": "Drs"
-    }, 
+    },
     {
         "tokens": [
-            "Dt", 
+            "Dt",
             "District"
-        ], 
-        "full": "District", 
+        ],
+        "full": "District",
         "canonical": "Dt"
-    }, 
+    },
     {
         "tokens": [
-            "Dvwy", 
+            "Dvwy",
             "Driveway"
-        ], 
-        "full": "Driveway", 
+        ],
+        "full": "Driveway",
         "canonical": "Dvwy"
-    }, 
+    },
     {
         "tokens": [
-            "E", 
-            "Est", 
+            "E",
+            "Est",
             "East"
-        ], 
-        "full": "East", 
+        ],
+        "full": "East",
         "canonical": "E"
-    }, 
+    },
     {
         "tokens": [
-            "E", 
+            "E",
             "Est"
-        ], 
-        "full": "Est", 
+        ],
+        "full": "Est",
         "canonical": "E"
-    }, 
+    },
     {
         "tokens": [
-            "E", 
+            "E",
             "East"
-        ], 
-        "full": "East", 
+        ],
+        "full": "East",
         "canonical": "E"
-    }, 
+    },
     {
         "tokens": [
-            "Elb", 
+            "Elb",
             "Elbow"
-        ], 
-        "full": "Elbow", 
+        ],
+        "full": "Elbow",
         "canonical": "Elb"
-    }, 
+    },
     {
         "tokens": [
-            "Ent", 
+            "Ent",
             "Entrance"
-        ], 
-        "full": "Entrance", 
+        ],
+        "full": "Entrance",
         "canonical": "Ent"
-    }, 
+    },
     {
         "tokens": [
-            "Esp", 
+            "Esp",
             "Esplanade"
-        ], 
-        "full": "Esplanade", 
+        ],
+        "full": "Esplanade",
         "canonical": "Esp"
-    }, 
+    },
     {
         "tokens": [
-            "Est", 
+            "Est",
             "Estate"
-        ], 
-        "full": "Estate", 
+        ],
+        "full": "Estate",
         "canonical": "Est"
-    }, 
+    },
     {
         "tokens": [
-            "Ests", 
+            "Ests",
             "Estates"
-        ], 
-        "full": "Estates", 
+        ],
+        "full": "Estates",
         "canonical": "Ests"
-    }, 
+    },
     {
         "tokens": [
-            "Exp", 
-            "Expy", 
+            "Exp",
+            "Expy",
             "Expressway"
-        ], 
-        "full": "Expressway", 
+        ],
+        "full": "Expressway",
         "canonical": "Exp"
-    }, 
+    },
     {
         "tokens": [
-            "Exp", 
+            "Exp",
             "Expy"
-        ], 
-        "full": "Expy", 
+        ],
+        "full": "Expy",
         "canonical": "Exp"
-    }, 
+    },
     {
         "tokens": [
-            "Exp", 
+            "Exp",
             "Expressway"
-        ], 
-        "full": "Expressway", 
+        ],
+        "full": "Expressway",
         "canonical": "Exp"
-    }, 
+    },
     {
         "tokens": [
-            "Ext", 
+            "Ext",
             "Extension"
-        ], 
-        "full": "Extension", 
+        ],
+        "full": "Extension",
         "canonical": "Ext"
-    }, 
+    },
     {
         "tokens": [
-            "Exts", 
+            "Exts",
             "Extensions"
-        ], 
-        "full": "Extensions", 
+        ],
+        "full": "Extensions",
         "canonical": "Exts"
-    }, 
+    },
     {
         "tokens": [
-            "Fawy", 
+            "Fawy",
             "Fairway"
-        ], 
-        "full": "Fairway", 
+        ],
+        "full": "Fairway",
         "canonical": "Fawy"
-    }, 
+    },
     {
         "tokens": [
-            "Fld", 
+            "Fld",
             "Field"
-        ], 
-        "full": "Field", 
+        ],
+        "full": "Field",
         "canonical": "Fld"
-    }, 
+    },
     {
         "tokens": [
-            "Flds", 
+            "Flds",
             "Fields"
-        ], 
-        "full": "Fields", 
+        ],
+        "full": "Fields",
         "canonical": "Flds"
-    }, 
+    },
     {
         "tokens": [
-            "Fls", 
+            "Fls",
             "Falls"
-        ], 
-        "full": "Falls", 
+        ],
+        "full": "Falls",
         "canonical": "Fls"
-    }, 
+    },
     {
         "tokens": [
-            "Flt", 
+            "Flt",
             "Flat"
-        ], 
-        "full": "Flat", 
+        ],
+        "full": "Flat",
         "canonical": "Flt"
-    }, 
+    },
     {
         "tokens": [
-            "Ftrl", 
+            "Ftrl",
             "Firetrail"
-        ], 
-        "full": "Firetrail", 
+        ],
+        "full": "Firetrail",
         "canonical": "Ftrl"
-    }, 
+    },
     {
         "tokens": [
-            "Flts", 
+            "Flts",
             "Flats"
-        ], 
-        "full": "Flats", 
+        ],
+        "full": "Flats",
         "canonical": "Flts"
-    }, 
+    },
     {
         "tokens": [
-            "Fm", 
+            "Fm",
             "Farm"
-        ], 
-        "full": "Farm", 
+        ],
+        "full": "Farm",
         "canonical": "Fm"
-    }, 
+    },
     {
         "tokens": [
-            "Folw", 
+            "Folw",
             "Follow"
-        ], 
-        "full": "Follow", 
+        ],
+        "full": "Follow",
         "canonical": "Folw"
-    }, 
+    },
     {
         "tokens": [
-            "Form", 
+            "Form",
             "Formation"
-        ], 
-        "full": "Formation", 
+        ],
+        "full": "Formation",
         "canonical": "Form"
-    }, 
+    },
     {
         "tokens": [
-            "Frd", 
+            "Frd",
             "Ford"
-        ], 
-        "full": "Ford", 
+        ],
+        "full": "Ford",
         "canonical": "Frd"
-    }, 
+    },
     {
         "tokens": [
-            "Frg", 
+            "Frg",
             "Forge"
-        ], 
-        "full": "Forge", 
+        ],
+        "full": "Forge",
         "canonical": "Frg"
-    }, 
+    },
     {
         "tokens": [
-            "Frgs", 
+            "Frgs",
             "Forges"
-        ], 
-        "full": "Forges", 
+        ],
+        "full": "Forges",
         "canonical": "Frgs"
-    }, 
+    },
     {
         "tokens": [
-            "Frk", 
+            "Frk",
             "Fork"
-        ], 
-        "full": "Fork", 
+        ],
+        "full": "Fork",
         "canonical": "Frk"
-    }, 
+    },
     {
         "tokens": [
-            "Frst", 
+            "Frst",
             "Forest"
-        ], 
-        "full": "Forest", 
+        ],
+        "full": "Forest",
         "canonical": "Frst"
-    }, 
+    },
     {
         "tokens": [
-            "Frtg", 
+            "Frtg",
             "Frontage"
-        ], 
-        "full": "Frontage", 
+        ],
+        "full": "Frontage",
         "canonical": "Frtg"
-    }, 
+    },
     {
         "tokens": [
-            "Fry", 
+            "Fry",
             "Ferry"
-        ], 
-        "full": "Ferry", 
+        ],
+        "full": "Ferry",
         "canonical": "Fry"
-    }, 
+    },
     {
         "tokens": [
-            "Ft", 
-            "Feet", 
+            "Ft",
+            "Feet",
             "Fort"
-        ], 
-        "full": "Fort", 
+        ],
+        "full": "Fort",
         "canonical": "Ft"
-    }, 
+    },
     {
         "tokens": [
-            "Ft", 
+            "Ft",
             "Feet"
-        ], 
-        "full": "Feet", 
+        ],
+        "full": "Feet",
         "canonical": "Ft"
-    }, 
+    },
     {
         "tokens": [
-            "Ft", 
+            "Ft",
             "Fort"
-        ], 
-        "full": "Fort", 
+        ],
+        "full": "Fort",
         "canonical": "Ft"
-    }, 
+    },
     {
         "tokens": [
-            "Ftwy", 
+            "Ftwy",
             "Footway"
-        ], 
-        "full": "Footway", 
+        ],
+        "full": "Footway",
         "canonical": "Ftwy"
-    }, 
+    },
     {
         "tokens": [
-            "Fwy", 
+            "Fwy",
             "Freeway"
-        ], 
-        "full": "Freeway", 
+        ],
+        "full": "Freeway",
         "canonical": "Fwy"
-    }, 
+    },
     {
         "tokens": [
-            "Gdns", 
+            "Gdns",
             "Gardens"
-        ], 
-        "full": "Gardens", 
+        ],
+        "full": "Gardens",
         "canonical": "Gdns"
-    }, 
+    },
     {
         "tokens": [
-            "Gen", 
+            "Gen",
             "General"
-        ], 
-        "full": "General", 
+        ],
+        "full": "General",
         "canonical": "Gen"
-    }, 
+    },
     {
         "tokens": [
-            "Gl", 
+            "Gl",
             "Galli"
-        ], 
-        "full": "Galli", 
+        ],
+        "full": "Galli",
         "canonical": "Gl"
-    }, 
+    },
     {
         "tokens": [
-            "Glde", 
+            "Glde",
             "Glade"
-        ], 
-        "full": "Glade", 
+        ],
+        "full": "Glade",
         "canonical": "Glde"
-    }, 
+    },
     {
         "tokens": [
-            "Govt", 
+            "Govt",
             "Government"
-        ], 
-        "full": "Government", 
+        ],
+        "full": "Government",
         "canonical": "Govt"
-    }, 
+    },
     {
         "tokens": [
-            "Gr", 
-            "Gro", 
+            "Gr",
+            "Gro",
             "Grove"
-        ], 
-        "full": "Grove", 
+        ],
+        "full": "Grove",
         "canonical": "Gr"
-    }, 
+    },
     {
         "tokens": [
-            "Gr", 
+            "Gr",
             "Gro"
-        ], 
-        "full": "Gro", 
+        ],
+        "full": "Gro",
         "canonical": "Gr"
-    }, 
+    },
     {
         "tokens": [
-            "Gr", 
+            "Gr",
             "Grove"
-        ], 
-        "full": "Grove", 
+        ],
+        "full": "Grove",
         "canonical": "Gr"
-    }, 
+    },
     {
         "tokens": [
-            "Gra", 
+            "Gra",
             "Grange"
-        ], 
-        "full": "Grange", 
+        ],
+        "full": "Grange",
         "canonical": "Gra"
-    }, 
+    },
     {
         "tokens": [
-            "Grd", 
+            "Grd",
             "Grade"
-        ], 
-        "full": "Grade", 
+        ],
+        "full": "Grade",
         "canonical": "Grd"
-    }, 
+    },
     {
         "tokens": [
-            "Gn", 
-            "Grn", 
+            "Gn",
+            "Grn",
             "Green"
-        ], 
-        "full": "Green", 
+        ],
+        "full": "Green",
         "canonical": "Gn"
-    }, 
+    },
     {
         "tokens": [
-            "Gn", 
+            "Gn",
             "Grn"
-        ], 
-        "full": "Grn", 
+        ],
+        "full": "Grn",
         "canonical": "Gn"
-    }, 
+    },
     {
         "tokens": [
-            "Gn", 
+            "Gn",
             "Green"
-        ], 
-        "full": "Green", 
+        ],
+        "full": "Green",
         "canonical": "Gn"
-    }, 
+    },
     {
         "tokens": [
-            "Gte", 
+            "Gte",
             "Gate"
-        ], 
-        "full": "Gate", 
+        ],
+        "full": "Gate",
         "canonical": "Gte"
-    }, 
+    },
     {
         "tokens": [
-            "Hbr", 
+            "Hbr",
             "Harbor"
-        ], 
-        "full": "Harbor", 
+        ],
+        "full": "Harbor",
         "canonical": "Hbr"
-    }, 
+    },
     {
         "tokens": [
-            "Hbrs", 
+            "Hbrs",
             "Harbors"
-        ], 
-        "full": "Harbors", 
+        ],
+        "full": "Harbors",
         "canonical": "Hbrs"
-    }, 
+    },
     {
         "tokens": [
-            "Hird", 
+            "Hird",
             "Highroad"
-        ], 
-        "full": "Highroad", 
+        ],
+        "full": "Highroad",
         "canonical": "Hird"
-    }, 
+    },
     {
         "tokens": [
-            "Hl", 
+            "Hl",
             "Hill"
-        ], 
-        "full": "Hill", 
+        ],
+        "full": "Hill",
         "canonical": "Hl"
-    }, 
+    },
     {
         "tokens": [
-            "Hls", 
+            "Hls",
             "Hills"
-        ], 
-        "full": "Hills", 
+        ],
+        "full": "Hills",
         "canonical": "Hls"
-    }, 
+    },
     {
         "tokens": [
-            "Holw", 
+            "Holw",
             "Hollow"
-        ], 
-        "full": "Hollow", 
+        ],
+        "full": "Hollow",
         "canonical": "Holw"
-    }, 
+    },
     {
         "tokens": [
-            "Hosp", 
+            "Hosp",
             "Hospital"
-        ], 
-        "full": "Hospital", 
+        ],
+        "full": "Hospital",
         "canonical": "Hosp"
-    }, 
+    },
     {
         "tokens": [
-            "Ho", 
+            "Ho",
             "House"
-        ], 
-        "full": "House", 
+        ],
+        "full": "House",
         "canonical": "Ho"
-    }, 
+    },
     {
         "tokens": [
-            "Htl", 
+            "Htl",
             "Hotel"
-        ], 
-        "full": "Hotel", 
+        ],
+        "full": "Hotel",
         "canonical": "Htl"
-    }, 
+    },
     {
         "tokens": [
-            "Hts", 
+            "Hts",
             "Heights"
-        ], 
-        "full": "Heights", 
+        ],
+        "full": "Heights",
         "canonical": "Hts"
-    }, 
+    },
     {
         "tokens": [
-            "Hvn", 
+            "Hvn",
             "Haven"
-        ], 
-        "full": "Haven", 
+        ],
+        "full": "Haven",
         "canonical": "Hvn"
-    }, 
+    },
     {
         "tokens": [
-            "Hwy", 
+            "Hwy",
             "Highway"
-        ], 
-        "full": "Highway", 
+        ],
+        "full": "Highway",
         "canonical": "Hwy"
-    }, 
+    },
     {
         "tokens": [
-            "I", 
+            "I",
             "Interstate"
-        ], 
-        "full": "Interstate", 
+        ],
+        "full": "Interstate",
         "canonical": "I"
-    }, 
+    },
     {
         "tokens": [
-            "Ind", 
+            "Ind",
             "Industrial"
-        ], 
-        "full": "Industrial", 
+        ],
+        "full": "Industrial",
         "canonical": "Ind"
-    }, 
+    },
     {
         "tokens": [
-            "Intg", 
+            "Intg",
             "Interchange"
-        ], 
-        "full": "Interchange", 
+        ],
+        "full": "Interchange",
         "canonical": "Intg"
-    }, 
+    },
     {
         "tokens": [
-            "Is", 
+            "Is",
             "Island"
-        ], 
-        "full": "Island", 
+        ],
+        "full": "Island",
         "canonical": "Is"
-    }, 
+    },
     {
         "tokens": [
-            "Iss", 
+            "Iss",
             "Islands"
-        ], 
-        "full": "Islands", 
+        ],
+        "full": "Islands",
         "canonical": "Iss"
-    }, 
+    },
     {
         "tokens": [
-            "Jcts", 
+            "Jcts",
             "Junctions"
-        ], 
-        "full": "Junctions", 
+        ],
+        "full": "Junctions",
         "canonical": "Jcts"
-    }, 
+    },
     {
         "tokens": [
-            "Jn", 
-            "Jct", 
-            "Jnc", 
+            "Jn",
+            "Jct",
+            "Jnc",
             "Junction"
-        ], 
-        "full": "Junction", 
+        ],
+        "full": "Junction",
         "canonical": "Jn"
-    }, 
+    },
     {
         "tokens": [
-            "Jn", 
+            "Jn",
             "Jct"
-        ], 
-        "full": "Jct", 
+        ],
+        "full": "Jct",
         "canonical": "Jn"
-    }, 
+    },
     {
         "tokens": [
-            "Jn", 
+            "Jn",
             "Jnc"
-        ], 
-        "full": "Jnc", 
+        ],
+        "full": "Jnc",
         "canonical": "Jn"
-    }, 
+    },
     {
         "tokens": [
-            "Jn", 
+            "Jn",
             "Junction"
-        ], 
-        "full": "Junction", 
+        ],
+        "full": "Junction",
         "canonical": "Jn"
-    }, 
+    },
     {
         "tokens": [
-            "Jr", 
+            "Jr",
             "Junior"
-        ], 
-        "full": "Junior", 
+        ],
+        "full": "Junior",
         "canonical": "Jr"
-    }, 
+    },
     {
         "tokens": [
-            "Knl", 
+            "Knl",
             "Knoll"
-        ], 
-        "full": "Knoll", 
+        ],
+        "full": "Knoll",
         "canonical": "Knl"
-    }, 
+    },
     {
         "tokens": [
-            "Knls", 
+            "Knls",
             "Knolls"
-        ], 
-        "full": "Knolls", 
+        ],
+        "full": "Knolls",
         "canonical": "Knls"
-    }, 
+    },
     {
         "tokens": [
-            "Ky", 
+            "Ky",
             "Key"
-        ], 
-        "full": "Key", 
+        ],
+        "full": "Key",
         "canonical": "Ky"
-    }, 
+    },
     {
         "tokens": [
-            "Kys", 
+            "Kys",
             "Keys"
-        ], 
-        "full": "Keys", 
+        ],
+        "full": "Keys",
         "canonical": "Kys"
-    }, 
+    },
     {
         "tokens": [
-            "Lp", 
+            "Lp",
             "Loop"
-        ], 
-        "full": "Loop", 
+        ],
+        "full": "Loop",
         "canonical": "Lp"
-    }, 
+    },
     {
         "tokens": [
-            "Lck", 
+            "Lck",
             "Lock"
-        ], 
-        "full": "Lock", 
+        ],
+        "full": "Lock",
         "canonical": "Lck"
-    }, 
+    },
     {
         "tokens": [
-            "Lcks", 
+            "Lcks",
             "Locks"
-        ], 
-        "full": "Locks", 
+        ],
+        "full": "Locks",
         "canonical": "Lcks"
-    }, 
+    },
     {
         "tokens": [
-            "Ldg", 
+            "Ldg",
             "Lodge"
-        ], 
-        "full": "Lodge", 
+        ],
+        "full": "Lodge",
         "canonical": "Ldg"
-    }, 
+    },
     {
         "tokens": [
-            "Lf", 
+            "Lf",
             "Loaf"
-        ], 
-        "full": "Loaf", 
+        ],
+        "full": "Loaf",
         "canonical": "Lf"
-    }, 
+    },
     {
         "tokens": [
-            "Lgt", 
+            "Lgt",
             "Light"
-        ], 
-        "full": "Light", 
+        ],
+        "full": "Light",
         "canonical": "Lgt"
-    }, 
+    },
     {
         "tokens": [
-            "Lgts", 
+            "Lgts",
             "Lights"
-        ], 
-        "full": "Lights", 
+        ],
+        "full": "Lights",
         "canonical": "Lgts"
-    }, 
+    },
     {
         "tokens": [
-            "Lk", 
+            "Lk",
             "Lake"
-        ], 
-        "full": "Lake", 
+        ],
+        "full": "Lake",
         "canonical": "Lk"
-    }, 
+    },
     {
         "tokens": [
-            "Lks", 
+            "Lks",
             "Lakes"
-        ], 
-        "full": "Lakes", 
+        ],
+        "full": "Lakes",
         "canonical": "Lks"
-    }, 
+    },
     {
         "tokens": [
-            "Lkt", 
+            "Lkt",
             "Lookout"
-        ], 
-        "full": "Lookout", 
+        ],
+        "full": "Lookout",
         "canonical": "Lkt"
-    }, 
+    },
     {
         "tokens": [
-            "Ln", 
-            "La", 
+            "Ln",
+            "La",
             "Lane"
-        ], 
-        "full": "Lane", 
+        ],
+        "full": "Lane",
         "canonical": "Ln"
-    }, 
+    },
     {
         "tokens": [
-            "Ln", 
+            "Ln",
             "La"
-        ], 
-        "full": "La", 
+        ],
+        "full": "La",
         "canonical": "Ln"
-    }, 
+    },
     {
         "tokens": [
-            "Ln", 
+            "Ln",
             "Lane"
-        ], 
-        "full": "Lane", 
+        ],
+        "full": "Lane",
         "canonical": "Ln"
-    }, 
+    },
     {
         "tokens": [
-            "Lndg", 
+            "Lndg",
             "Landing"
-        ], 
-        "full": "Landing", 
+        ],
+        "full": "Landing",
         "canonical": "Lndg"
-    }, 
+    },
     {
         "tokens": [
-            "Lnwy", 
+            "Lnwy",
             "Laneway"
-        ], 
-        "full": "Laneway", 
+        ],
+        "full": "Laneway",
         "canonical": "Lnwy"
-    }, 
+    },
     {
         "tokens": [
-            "Lt", 
+            "Lt",
             "Lieutenant"
-        ], 
-        "full": "Lieutenant", 
+        ],
+        "full": "Lieutenant",
         "canonical": "Lt"
-    }, 
+    },
     {
         "tokens": [
-            "Lyt", 
+            "Lyt",
             "Layout"
-        ], 
-        "full": "Layout", 
+        ],
+        "full": "Layout",
         "canonical": "Lyt"
-    }, 
+    },
     {
         "tokens": [
-            "Maj", 
+            "Maj",
             "Major"
-        ], 
-        "full": "Major", 
+        ],
+        "full": "Major",
         "canonical": "Maj"
-    }, 
+    },
     {
         "tokens": [
-            "Mal", 
+            "Mal",
             "Mall"
-        ], 
-        "full": "Mall", 
+        ],
+        "full": "Mall",
         "canonical": "Mal"
-    }, 
+    },
     {
         "tokens": [
-            "Mcplty", 
+            "Mcplty",
             "Municipality"
-        ], 
-        "full": "Municipality", 
+        ],
+        "full": "Municipality",
         "canonical": "Mcplty"
-    }, 
+    },
     {
         "tokens": [
-            "Mdw", 
+            "Mdw",
             "Meadow"
-        ], 
-        "full": "Meadow", 
+        ],
+        "full": "Meadow",
         "canonical": "Mdw"
-    }, 
+    },
     {
         "tokens": [
-            "Mdws", 
+            "Mdws",
             "Meadows"
-        ], 
-        "full": "Meadows", 
+        ],
+        "full": "Meadows",
         "canonical": "Mdws"
-    }, 
+    },
     {
         "tokens": [
-            "Mws", 
+            "Mws",
             "Mews"
-        ], 
-        "full": "Mews", 
+        ],
+        "full": "Mews",
         "canonical": "Mws"
-    }, 
+    },
     {
         "tokens": [
-            "Mg", 
+            "Mg",
             "Marg"
-        ], 
-        "full": "Marg", 
+        ],
+        "full": "Marg",
         "canonical": "Mg"
-    }, 
+    },
     {
         "tokens": [
-            "Mhd", 
+            "Mhd",
             "Moorhead"
-        ], 
-        "full": "Moorhead", 
+        ],
+        "full": "Moorhead",
         "canonical": "Mhd"
-    }, 
+    },
     {
         "tokens": [
-            "Mkt", 
+            "Mkt",
             "Market"
-        ], 
-        "full": "Market", 
+        ],
+        "full": "Market",
         "canonical": "Mkt"
-    }, 
+    },
     {
         "tokens": [
-            "Ml", 
+            "Ml",
             "Mill"
-        ], 
-        "full": "Mill", 
+        ],
+        "full": "Mill",
         "canonical": "Ml"
-    }, 
+    },
     {
         "tokens": [
-            "Mndr", 
+            "Mndr",
             "Meander"
-        ], 
-        "full": "Meander", 
+        ],
+        "full": "Meander",
         "canonical": "Mndr"
-    }, 
+    },
     {
         "tokens": [
-            "Mnr", 
+            "Mnr",
             "Manor"
-        ], 
-        "full": "Manor", 
+        ],
+        "full": "Manor",
         "canonical": "Mnr"
-    }, 
+    },
     {
         "tokens": [
-            "Mnrs", 
+            "Mnrs",
             "Manors"
-        ], 
-        "full": "Manors", 
+        ],
+        "full": "Manors",
         "canonical": "Mnrs"
-    }, 
+    },
     {
         "tokens": [
-            "Mq", 
+            "Mq",
             "Mosque"
-        ], 
-        "full": "Mosque", 
+        ],
+        "full": "Mosque",
         "canonical": "Mq"
-    }, 
+    },
     {
         "tokens": [
-            "Msn", 
+            "Msn",
             "Mission"
-        ], 
-        "full": "Mission", 
+        ],
+        "full": "Mission",
         "canonical": "Msn"
-    }, 
+    },
     {
         "tokens": [
-            "Mt", 
+            "Mt",
             "Mount"
-        ], 
-        "full": "Mount", 
+        ],
+        "full": "Mount",
         "canonical": "Mt"
-    }, 
+    },
     {
         "tokens": [
-            "Mtn", 
+            "Mtn",
             "Mountain"
-        ], 
-        "full": "Mountain", 
+        ],
+        "full": "Mountain",
         "canonical": "Mtn"
-    }, 
+    },
     {
         "tokens": [
-            "Mtwy", 
+            "Mtwy",
             "Motorway"
-        ], 
-        "full": "Motorway", 
+        ],
+        "full": "Motorway",
         "canonical": "Mtwy"
-    }, 
+    },
     {
         "tokens": [
-            "N", 
-            "Nth", 
+            "N",
+            "Nth",
             "North"
-        ], 
-        "full": "North", 
+        ],
+        "full": "North",
         "canonical": "N"
-    }, 
+    },
     {
         "tokens": [
-            "N", 
+            "N",
             "Nth"
-        ], 
-        "full": "Nth", 
+        ],
+        "full": "Nth",
         "canonical": "N"
-    }, 
+    },
     {
         "tokens": [
-            "N", 
+            "N",
             "North"
-        ], 
-        "full": "North", 
+        ],
+        "full": "North",
         "canonical": "N"
-    }, 
+    },
     {
         "tokens": [
-            "Nck", 
+            "Nck",
             "Neck"
-        ], 
-        "full": "Neck", 
+        ],
+        "full": "Neck",
         "canonical": "Nck"
-    }, 
+    },
     {
         "tokens": [
-            "NE", 
+            "NE",
             "Northeast"
-        ], 
-        "full": "Northeast", 
+        ],
+        "full": "Northeast",
         "canonical": "NE"
-    }, 
+    },
     {
         "tokens": [
-            "Ngr", 
+            "Ngr",
             "Nagar"
-        ], 
-        "full": "Nagar", 
+        ],
+        "full": "Nagar",
         "canonical": "Ngr"
-    }, 
+    },
     {
         "tokens": [
-            "Nl", 
+            "Nl",
             "Nalla"
-        ], 
-        "full": "Nalla", 
+        ],
+        "full": "Nalla",
         "canonical": "Nl"
-    }, 
+    },
     {
         "tokens": [
-            "NW", 
+            "NW",
             "Northwest"
-        ], 
-        "full": "Northwest", 
+        ],
+        "full": "Northwest",
         "canonical": "NW"
-    }, 
+    },
     {
         "tokens": [
-            "Off", 
+            "Off",
             "Office"
-        ], 
-        "full": "Office", 
+        ],
+        "full": "Office",
         "canonical": "Off"
-    }, 
+    },
     {
         "tokens": [
-            "Orch", 
+            "Orch",
             "Orchard"
-        ], 
-        "full": "Orchard", 
+        ],
+        "full": "Orchard",
         "canonical": "Orch"
-    }, 
+    },
     {
         "tokens": [
-            "Otlk", 
+            "Otlk",
             "Outlook"
-        ], 
-        "full": "Outlook", 
+        ],
+        "full": "Outlook",
         "canonical": "Otlk"
-    }, 
+    },
     {
         "tokens": [
-            "Ovps", 
+            "Ovps",
             "Overpass"
-        ], 
-        "full": "Overpass", 
+        ],
+        "full": "Overpass",
         "canonical": "Ovps"
-    }, 
+    },
     {
         "tokens": [
-            "Pchyt", 
+            "Pchyt",
             "Panchayat"
-        ], 
-        "full": "Panchayat", 
+        ],
+        "full": "Panchayat",
         "canonical": "Pchyt"
-    }, 
+    },
     {
         "tokens": [
-            "Pde", 
+            "Pde",
             "Parade"
-        ], 
-        "full": "Parade", 
+        ],
+        "full": "Parade",
         "canonical": "Pde"
-    }, 
+    },
     {
         "tokens": [
-            "Pf", 
+            "Pf",
             "Platform"
-        ], 
-        "full": "Platform", 
+        ],
+        "full": "Platform",
         "canonical": "Pf"
-    }, 
+    },
     {
         "tokens": [
-            "Ph", 
+            "Ph",
             "Phase"
-        ], 
-        "full": "Phase", 
+        ],
+        "full": "Phase",
         "canonical": "Ph"
-    }, 
+    },
     {
         "tokens": [
-            "Piaz", 
+            "Piaz",
             "Piazza"
-        ], 
-        "full": "Piazza", 
+        ],
+        "full": "Piazza",
         "canonical": "Piaz"
-    }, 
+    },
     {
         "tokens": [
-            "Pk", 
+            "Pk",
             "Pike"
-        ], 
-        "full": "Pike", 
+        ],
+        "full": "Pike",
         "canonical": "Pk"
-    }, 
+    },
     {
         "tokens": [
-            "Pk", 
-            "Park", 
+            "Pk",
+            "Park",
             "Peak"
-        ], 
-        "full": "Peak", 
+        ],
+        "full": "Peak",
         "canonical": "Pk"
-    }, 
+    },
     {
         "tokens": [
-            "Pk", 
+            "Pk",
             "Park"
-        ], 
-        "full": "Park", 
+        ],
+        "full": "Park",
         "canonical": "Pk"
-    }, 
+    },
     {
         "tokens": [
-            "Pk", 
+            "Pk",
             "Peak"
-        ], 
-        "full": "Peak", 
+        ],
+        "full": "Peak",
         "canonical": "Pk"
-    }, 
+    },
     {
         "tokens": [
-            "Pkt", 
+            "Pkt",
             "Pocket"
-        ], 
-        "full": "Pocket", 
+        ],
+        "full": "Pocket",
         "canonical": "Pkt"
-    }, 
+    },
     {
         "tokens": [
-            "Pl", 
+            "Pl",
             "Place"
-        ], 
-        "full": "Place", 
+        ],
+        "full": "Place",
         "canonical": "Pl"
-    }, 
+    },
     {
         "tokens": [
-            "Pln", 
+            "Pln",
             "Plain"
-        ], 
-        "full": "Plain", 
+        ],
+        "full": "Plain",
         "canonical": "Pln"
-    }, 
+    },
     {
         "tokens": [
-            "Plns", 
+            "Plns",
             "Plains"
-        ], 
-        "full": "Plains", 
+        ],
+        "full": "Plains",
         "canonical": "Plns"
-    }, 
+    },
     {
         "tokens": [
-            "Plz", 
-            "Plza", 
+            "Plz",
+            "Plza",
             "Plaza"
-        ], 
-        "full": "Plaza", 
+        ],
+        "full": "Plaza",
         "canonical": "Plz"
-    }, 
+    },
     {
         "tokens": [
-            "Plz", 
+            "Plz",
             "Plza"
-        ], 
-        "full": "Plza", 
+        ],
+        "full": "Plza",
         "canonical": "Plz"
-    }, 
+    },
     {
         "tokens": [
-            "Plz", 
+            "Plz",
             "Plaza"
-        ], 
-        "full": "Plaza", 
+        ],
+        "full": "Plaza",
         "canonical": "Plz"
-    }, 
+    },
     {
         "tokens": [
-            "Pr", 
+            "Pr",
             "Prairie"
-        ], 
-        "full": "Prairie", 
+        ],
+        "full": "Prairie",
         "canonical": "Pr"
-    }, 
+    },
     {
         "tokens": [
-            "Prom", 
+            "Prom",
             "Promenade"
-        ], 
-        "full": "Promenade", 
+        ],
+        "full": "Promenade",
         "canonical": "Prom"
-    }, 
+    },
     {
         "tokens": [
-            "Prt", 
+            "Prt",
             "Port"
-        ], 
-        "full": "Port", 
+        ],
+        "full": "Port",
         "canonical": "Prt"
-    }, 
+    },
     {
         "tokens": [
-            "Prts", 
+            "Prts",
             "Ports"
-        ], 
-        "full": "Ports", 
+        ],
+        "full": "Ports",
         "canonical": "Prts"
-    }, 
+    },
     {
         "tokens": [
-            "Psge", 
+            "Psge",
             "Passage"
-        ], 
-        "full": "Passage", 
+        ],
+        "full": "Passage",
         "canonical": "Psge"
-    }, 
+    },
     {
         "tokens": [
-            "Pt", 
-            "Pnt", 
+            "Pt",
+            "Pnt",
             "Point"
-        ], 
-        "full": "Point", 
+        ],
+        "full": "Point",
         "canonical": "Pt"
-    }, 
+    },
     {
         "tokens": [
-            "Pt", 
+            "Pt",
             "Pnt"
-        ], 
-        "full": "Pnt", 
+        ],
+        "full": "Pnt",
         "canonical": "Pt"
-    }, 
+    },
     {
         "tokens": [
-            "Pt", 
+            "Pt",
             "Point"
-        ], 
-        "full": "Point", 
+        ],
+        "full": "Point",
         "canonical": "Pt"
-    }, 
+    },
     {
         "tokens": [
-            "Pts", 
+            "Pts",
             "Points"
-        ], 
-        "full": "Points", 
+        ],
+        "full": "Points",
         "canonical": "Pts"
-    }, 
+    },
     {
         "tokens": [
-            "Pvt", 
+            "Pvt",
             "Private"
-        ], 
-        "full": "Private", 
+        ],
+        "full": "Private",
         "canonical": "Pvt"
-    }, 
+    },
     {
         "tokens": [
-            "Pway", 
+            "Pway",
             "Pathway"
-        ], 
-        "full": "Pathway", 
+        ],
+        "full": "Pathway",
         "canonical": "Pway"
-    }, 
+    },
     {
         "tokens": [
-            "Py", 
-            "Pw", 
-            "Pky", 
-            "Pwy", 
-            "Pkwy", 
-            "Prkwy", 
+            "Py",
+            "Pw",
+            "Pky",
+            "Pwy",
+            "Pkwy",
+            "Prkwy",
             "Parkway"
-        ], 
-        "full": "Parkway", 
+        ],
+        "full": "Parkway",
         "canonical": "Py"
-    }, 
+    },
     {
         "tokens": [
-            "Py", 
+            "Py",
             "Pky"
-        ], 
-        "full": "Pky", 
+        ],
+        "full": "Pky",
         "canonical": "Py"
-    }, 
+    },
     {
         "tokens": [
-            "Py", 
+            "Py",
             "Pw"
-        ], 
-        "full": "Pw", 
+        ],
+        "full": "Pw",
         "canonical": "Py"
-    }, 
+    },
     {
         "tokens": [
-            "Py", 
+            "Py",
             "Pwy"
-        ], 
-        "full": "Pwy", 
+        ],
+        "full": "Pwy",
         "canonical": "Py"
-    }, 
+    },
     {
         "tokens": [
-            "Py", 
+            "Py",
             "Pkwy"
-        ], 
-        "full": "Pkwy", 
+        ],
+        "full": "Pkwy",
         "canonical": "Py"
-    }, 
+    },
     {
         "tokens": [
-            "Py", 
+            "Py",
             "Prkwy"
-        ], 
-        "full": "Prkwy", 
+        ],
+        "full": "Prkwy",
         "canonical": "Py"
-    }, 
+    },
     {
         "tokens": [
-            "Py", 
+            "Py",
             "Parkway"
-        ], 
-        "full": "Parkway", 
+        ],
+        "full": "Parkway",
         "canonical": "Py"
-    }, 
+    },
     {
         "tokens": [
-            "Qdrt", 
+            "Qdrt",
             "Quadrant"
-        ], 
-        "full": "Quadrant", 
+        ],
+        "full": "Quadrant",
         "canonical": "Qdrt"
-    }, 
+    },
     {
         "tokens": [
-            "Qtrs", 
+            "Qtrs",
             "Quarters"
-        ], 
-        "full": "Quarters", 
+        ],
+        "full": "Quarters",
         "canonical": "Qtrs"
-    }, 
+    },
     {
         "tokens": [
-            "Qy", 
+            "Qy",
             "Quay"
-        ], 
-        "full": "Quay", 
+        ],
+        "full": "Quay",
         "canonical": "Qy"
-    }, 
+    },
     {
         "tokens": [
-            "Qys", 
+            "Qys",
             "Quays"
-        ], 
-        "full": "Quays", 
+        ],
+        "full": "Quays",
         "canonical": "Qys"
-    }, 
+    },
     {
         "tokens": [
-            "R", 
-            "Riv", 
+            "R",
+            "Riv",
             "River"
-        ], 
-        "full": "River", 
+        ],
+        "full": "River",
         "canonical": "R"
-    }, 
+    },
     {
         "tokens": [
-            "R", 
+            "R",
             "Riv"
-        ], 
-        "full": "Riv", 
+        ],
+        "full": "Riv",
         "canonical": "R"
-    }, 
+    },
     {
         "tokens": [
-            "R", 
+            "R",
             "River"
-        ], 
-        "full": "River", 
+        ],
+        "full": "River",
         "canonical": "R"
-    }, 
+    },
     {
         "tokens": [
-            "Radl", 
+            "Radl",
             "Radial"
-        ], 
-        "full": "Radial", 
+        ],
+        "full": "Radial",
         "canonical": "Radl"
-    }, 
+    },
     {
         "tokens": [
-            "Rd", 
+            "Rd",
             "Road"
-        ], 
-        "full": "Road", 
+        ],
+        "full": "Road",
         "canonical": "Rd"
-    }, 
+    },
     {
         "tokens": [
-            "Rdg", 
-            "Rdge", 
+            "Rdg",
+            "Rdge",
             "Ridge"
-        ], 
-        "full": "Ridge", 
+        ],
+        "full": "Ridge",
         "canonical": "Rdg"
-    }, 
+    },
     {
         "tokens": [
-            "Rdg", 
+            "Rdg",
             "Rdge"
-        ], 
-        "full": "Rdge", 
+        ],
+        "full": "Rdge",
         "canonical": "Rdg"
-    }, 
+    },
     {
         "tokens": [
-            "Rdg", 
+            "Rdg",
             "Ridge"
-        ], 
-        "full": "Ridge", 
+        ],
+        "full": "Ridge",
         "canonical": "Rdg"
-    }, 
+    },
     {
         "tokens": [
-            "Rdgs", 
+            "Rdgs",
             "Ridges"
-        ], 
-        "full": "Ridges", 
+        ],
+        "full": "Ridges",
         "canonical": "Rdgs"
-    }, 
+    },
     {
         "tokens": [
-            "Rds", 
+            "Rds",
             "Roads"
-        ], 
-        "full": "Roads", 
+        ],
+        "full": "Roads",
         "canonical": "Rds"
-    }, 
+    },
     {
         "tokens": [
-            "Rly", 
+            "Rly",
             "Railway"
-        ], 
-        "full": "Railway", 
+        ],
+        "full": "Railway",
         "canonical": "Rly"
-    }, 
+    },
     {
         "tokens": [
-            "Rmbl", 
+            "Rmbl",
             "Ramble"
-        ], 
-        "full": "Ramble", 
+        ],
+        "full": "Ramble",
         "canonical": "Rmbl"
-    }, 
+    },
     {
         "tokens": [
-            "Rnch", 
+            "Rnch",
             "Ranch"
-        ], 
-        "full": "Ranch", 
+        ],
+        "full": "Ranch",
         "canonical": "Rnch"
-    }, 
+    },
     {
         "tokens": [
-            "Rw", 
+            "Rw",
             "Row"
-        ], 
-        "full": "Row", 
+        ],
+        "full": "Row",
         "canonical": "Rw"
-    }, 
+    },
     {
         "tokens": [
-            "Rpd", 
+            "Rpd",
             "Rapid"
-        ], 
-        "full": "Rapid", 
+        ],
+        "full": "Rapid",
         "canonical": "Rpd"
-    }, 
+    },
     {
         "tokens": [
-            "Rpds", 
+            "Rpds",
             "Rapids"
-        ], 
-        "full": "Rapids", 
+        ],
+        "full": "Rapids",
         "canonical": "Rpds"
-    }, 
+    },
     {
         "tokens": [
-            "Rse", 
+            "Rse",
             "Rise"
-        ], 
-        "full": "Rise", 
+        ],
+        "full": "Rise",
         "canonical": "Rse"
-    }, 
+    },
     {
         "tokens": [
-            "Rst", 
+            "Rst",
             "Rest"
-        ], 
-        "full": "Rest", 
+        ],
+        "full": "Rest",
         "canonical": "Rst"
-    }, 
+    },
     {
         "tokens": [
-            "Rt", 
-            "Rte", 
+            "Rt",
+            "Rte",
             "Route"
-        ], 
-        "full": "Route", 
+        ],
+        "full": "Route",
         "canonical": "Rt"
-    }, 
+    },
     {
         "tokens": [
-            "Rt", 
+            "Rt",
             "Rte"
-        ], 
-        "full": "Rte", 
+        ],
+        "full": "Rte",
         "canonical": "Rt"
-    }, 
+    },
     {
         "tokens": [
-            "Rt", 
+            "Rt",
             "Route"
-        ], 
-        "full": "Route", 
+        ],
+        "full": "Route",
         "canonical": "Rt"
-    }, 
+    },
     {
         "tokens": [
-            "Rtt", 
+            "Rtt",
             "Retreat"
-        ], 
-        "full": "Retreat", 
+        ],
+        "full": "Retreat",
         "canonical": "Rtt"
-    }, 
+    },
     {
         "tokens": [
-            "Rty", 
+            "Rty",
             "Rotary"
-        ], 
-        "full": "Rotary", 
+        ],
+        "full": "Rotary",
         "canonical": "Rty"
-    }, 
+    },
     {
         "tokens": [
-            "Rw", 
+            "Rw",
             "Row"
-        ], 
-        "full": "Row", 
+        ],
+        "full": "Row",
         "canonical": "Rw"
-    }, 
+    },
     {
         "tokens": [
-            "S", 
-            "Sth", 
+            "S",
+            "Sth",
             "South"
-        ], 
-        "full": "South", 
+        ],
+        "full": "South",
         "canonical": "S"
-    }, 
+    },
     {
         "tokens": [
-            "S", 
+            "S",
             "Sth"
-        ], 
-        "full": "Sth", 
+        ],
+        "full": "Sth",
         "canonical": "S"
-    }, 
+    },
     {
         "tokens": [
-            "S", 
+            "S",
             "South"
-        ], 
-        "full": "South", 
+        ],
+        "full": "South",
         "canonical": "S"
-    }, 
+    },
     {
         "tokens": [
-            "Sbwy", 
+            "Sbwy",
             "Subway"
-        ], 
-        "full": "Subway", 
+        ],
+        "full": "Subway",
         "canonical": "Sbwy"
-    }, 
+    },
     {
         "tokens": [
-            "SE", 
+            "SE",
             "Southeast"
-        ], 
-        "full": "Southeast", 
+        ],
+        "full": "Southeast",
         "canonical": "SE"
-    }, 
+    },
     {
         "tokens": [
-            "Sgt", 
+            "Sgt",
             "Sergeant"
-        ], 
-        "full": "Sergeant", 
+        ],
+        "full": "Sergeant",
         "canonical": "Sgt"
-    }, 
+    },
     {
         "tokens": [
-            "Shl", 
+            "Shl",
             "Shoal"
-        ], 
-        "full": "Shoal", 
+        ],
+        "full": "Shoal",
         "canonical": "Shl"
-    }, 
+    },
     {
         "tokens": [
-            "Shls", 
+            "Shls",
             "Shoals"
-        ], 
-        "full": "Shoals", 
+        ],
+        "full": "Shoals",
         "canonical": "Shls"
-    }, 
+    },
     {
         "tokens": [
-            "Shr", 
+            "Shr",
             "Shore"
-        ], 
-        "full": "Shore", 
+        ],
+        "full": "Shore",
         "canonical": "Shr"
-    }, 
+    },
     {
         "tokens": [
-            "Shrs", 
+            "Shrs",
             "Shores"
-        ], 
-        "full": "Shores", 
+        ],
+        "full": "Shores",
         "canonical": "Shrs"
-    }, 
+    },
     {
         "tokens": [
-            "Shun", 
+            "Shun",
             "Shunt"
-        ], 
-        "full": "Shunt", 
+        ],
+        "full": "Shunt",
         "canonical": "Shun"
-    }, 
+    },
     {
         "tokens": [
-            "Skwy", 
+            "Skwy",
             "Skyway"
-        ], 
-        "full": "Skyway", 
+        ],
+        "full": "Skyway",
         "canonical": "Skwy"
-    }, 
+    },
     {
         "tokens": [
-            "Smt", 
+            "Smt",
             "Summit"
-        ], 
-        "full": "Summit", 
+        ],
+        "full": "Summit",
         "canonical": "Smt"
-    }, 
+    },
     {
         "tokens": [
-            "Spg", 
+            "Spg",
             "Spring"
-        ], 
-        "full": "Spring", 
+        ],
+        "full": "Spring",
         "canonical": "Spg"
-    }, 
+    },
     {
         "tokens": [
-            "Spgs", 
+            "Spgs",
             "Springs"
-        ], 
-        "full": "Springs", 
+        ],
+        "full": "Springs",
         "canonical": "Spgs"
-    }, 
+    },
     {
         "tokens": [
-            "Sq", 
+            "Sq",
             "Square"
-        ], 
-        "full": "Square", 
+        ],
+        "full": "Square",
         "canonical": "Sq"
-    }, 
+    },
     {
         "tokens": [
-            "Sqs", 
+            "Sqs",
             "Squares"
-        ], 
-        "full": "Squares", 
+        ],
+        "full": "Squares",
         "canonical": "Sqs"
-    }, 
+    },
     {
         "tokens": [
-            "Sr", 
+            "Sr",
             "Senior"
-        ], 
-        "full": "Senior", 
+        ],
+        "full": "Senior",
         "canonical": "Sr"
-    }, 
+    },
     {
         "tokens": [
-            "St", 
-            "Saint", 
+            "St",
+            "Saint",
             "Street"
-        ], 
-        "full": "Street", 
+        ],
+        "full": "Street",
         "canonical": "St"
-    }, 
+    },
     {
         "tokens": [
-            "St", 
+            "St",
             "Saint"
-        ], 
-        "full": "Saint", 
+        ],
+        "full": "Saint",
         "canonical": "St"
-    }, 
+    },
     {
         "tokens": [
-            "St", 
+            "St",
             "Street"
-        ], 
-        "full": "Street", 
+        ],
+        "full": "Street",
         "canonical": "St"
-    }, 
+    },
     {
         "tokens": [
-            "Stn", 
+            "Stn",
             "Station"
-        ], 
-        "full": "Station", 
+        ],
+        "full": "Station",
         "canonical": "Stn"
-    }, 
+    },
     {
         "tokens": [
-            "Std", 
+            "Std",
             "Stadium"
-        ], 
-        "full": "Stadium", 
+        ],
+        "full": "Stadium",
         "canonical": "Std"
-    }, 
+    },
     {
         "tokens": [
-            "Stps", 
+            "Stps",
             "Steps"
-        ], 
-        "full": "Steps", 
+        ],
+        "full": "Steps",
         "canonical": "Stps"
-    }, 
+    },
     {
         "tokens": [
-            "Stg", 
+            "Stg",
             "Stage"
-        ], 
-        "full": "Stage", 
+        ],
+        "full": "Stage",
         "canonical": "Stg"
-    }, 
+    },
     {
         "tokens": [
-            "Strm", 
+            "Strm",
             "Stream"
-        ], 
-        "full": "Stream", 
+        ],
+        "full": "Stream",
         "canonical": "Strm"
-    }, 
+    },
     {
         "tokens": [
-            "Sts", 
+            "Sts",
             "Streets"
-        ], 
-        "full": "Streets", 
+        ],
+        "full": "Streets",
         "canonical": "Sts"
-    }, 
+    },
     {
         "tokens": [
-            "Svwy", 
+            "Svwy",
             "Serviceway"
-        ], 
-        "full": "Serviceway", 
+        ],
+        "full": "Serviceway",
         "canonical": "Svwy"
-    }, 
+    },
     {
         "tokens": [
-            "SW", 
+            "SW",
             "Southwest"
-        ], 
-        "full": "Southwest", 
+        ],
+        "full": "Southwest",
         "canonical": "SW"
-    }, 
+    },
     {
         "tokens": [
-            "Tce", 
-            "Ter", 
+            "Tce",
+            "Ter",
             "Terrace"
-        ], 
-        "full": "Terrace", 
+        ],
+        "full": "Terrace",
         "canonical": "Tce"
-    }, 
+    },
     {
         "tokens": [
-            "Tce", 
+            "Tce",
             "Ter"
-        ], 
-        "full": "Ter", 
+        ],
+        "full": "Ter",
         "canonical": "Tce"
-    }, 
+    },
     {
         "tokens": [
-            "Tce", 
+            "Tce",
             "Terrace"
-        ], 
-        "full": "Terrace", 
+        ],
+        "full": "Terrace",
         "canonical": "Tce"
-    }, 
+    },
     {
         "tokens": [
-            "Tfwy", 
+            "Tfwy",
             "Trafficway"
-        ], 
-        "full": "Trafficway", 
+        ],
+        "full": "Trafficway",
         "canonical": "Tfwy"
-    }, 
+    },
     {
         "tokens": [
-            "Thfr", 
+            "Thfr",
             "Thoroughfare"
-        ], 
-        "full": "Thoroughfare", 
+        ],
+        "full": "Thoroughfare",
         "canonical": "Thfr"
-    }, 
+    },
     {
         "tokens": [
-            "Thwy", 
+            "Thwy",
             "Thruway"
-        ], 
-        "full": "Thruway", 
+        ],
+        "full": "Thruway",
         "canonical": "Thwy"
-    }, 
+    },
     {
         "tokens": [
-            "Tlwy", 
+            "Tlwy",
             "Tollway"
-        ], 
-        "full": "Tollway", 
+        ],
+        "full": "Tollway",
         "canonical": "Tlwy"
-    }, 
+    },
     {
         "tokens": [
-            "Tpke", 
+            "Tpke",
             "Turnpike"
-        ], 
-        "full": "Turnpike", 
+        ],
+        "full": "Turnpike",
         "canonical": "Tpke"
-    }, 
+    },
     {
         "tokens": [
-            "Tpl", 
+            "Tpl",
             "Temple"
-        ], 
-        "full": "Temple", 
+        ],
+        "full": "Temple",
         "canonical": "Tpl"
-    }, 
+    },
     {
         "tokens": [
-            "Trce", 
+            "Trce",
             "Trace"
-        ], 
-        "full": "Trace", 
+        ],
+        "full": "Trace",
         "canonical": "Trce"
-    }, 
+    },
     {
         "tokens": [
-            "Trk", 
+            "Trk",
             "Track"
-        ], 
-        "full": "Track", 
+        ],
+        "full": "Track",
         "canonical": "Trk"
-    }, 
+    },
     {
         "tokens": [
-            "Tr", 
-            "Trl", 
+            "Tr",
+            "Trl",
             "Trail"
-        ], 
-        "full": "Trail", 
+        ],
+        "full": "Trail",
         "canonical": "Tr"
-    }, 
+    },
     {
         "tokens": [
-            "Tr", 
+            "Tr",
             "Trl"
-        ], 
-        "full": "Trl", 
+        ],
+        "full": "Trl",
         "canonical": "Tr"
-    }, 
+    },
     {
         "tokens": [
-            "Tr", 
+            "Tr",
             "Trail"
-        ], 
-        "full": "Trail", 
+        ],
+        "full": "Trail",
         "canonical": "Tr"
-    }, 
+    },
     {
         "tokens": [
-            "Tunl", 
+            "Tunl",
             "Tunnel"
-        ], 
-        "full": "Tunnel", 
+        ],
+        "full": "Tunnel",
         "canonical": "Tunl"
-    }, 
+    },
     {
         "tokens": [
-            "Twn", 
+            "Twn",
             "Town"
-        ], 
-        "full": "Town", 
+        ],
+        "full": "Town",
         "canonical": "Twn"
-    }, 
+    },
     {
         "tokens": [
-            "Un", 
+            "Un",
             "Union"
-        ], 
-        "full": "Union", 
+        ],
+        "full": "Union",
         "canonical": "Un"
-    }, 
+    },
     {
         "tokens": [
-            "Univ", 
+            "Univ",
             "University"
-        ], 
-        "full": "University", 
+        ],
+        "full": "University",
         "canonical": "Univ"
-    }, 
+    },
     {
         "tokens": [
-            "Unp", 
-            "Upas", 
+            "Unp",
+            "Upas",
             "Underpass"
-        ], 
-        "full": "Underpass", 
+        ],
+        "full": "Underpass",
         "canonical": "Unp"
-    }, 
+    },
     {
         "tokens": [
-            "Unp", 
+            "Unp",
             "Upas"
-        ], 
-        "full": "Upas", 
+        ],
+        "full": "Upas",
         "canonical": "Unp"
-    }, 
+    },
     {
         "tokens": [
-            "Unp", 
+            "Unp",
             "Underpass"
-        ], 
-        "full": "Underpass", 
+        ],
+        "full": "Underpass",
         "canonical": "Unp"
-    }, 
+    },
     {
         "tokens": [
-            "Uns", 
+            "Uns",
             "Unions"
-        ], 
-        "full": "Unions", 
+        ],
+        "full": "Unions",
         "canonical": "Uns"
-    }, 
+    },
     {
         "tokens": [
-            "Via", 
-            "Viad", 
+            "Via",
+            "Viad",
             "Viaduct"
-        ], 
-        "full": "Viaduct", 
+        ],
+        "full": "Viaduct",
         "canonical": "Via"
-    }, 
+    },
     {
         "tokens": [
-            "Via", 
+            "Via",
             "Viad"
-        ], 
-        "full": "Viad", 
+        ],
+        "full": "Viad",
         "canonical": "Via"
-    }, 
+    },
     {
         "tokens": [
-            "Via", 
+            "Via",
             "Viaduct"
-        ], 
-        "full": "Viaduct", 
+        ],
+        "full": "Viaduct",
         "canonical": "Via"
-    }, 
+    },
     {
         "tokens": [
-            "Vis", 
-            "Vsta", 
+            "Vis",
+            "Vsta",
             "Vista"
-        ], 
-        "full": "Vista", 
+        ],
+        "full": "Vista",
         "canonical": "Vis"
-    }, 
+    },
     {
         "tokens": [
-            "Vis", 
+            "Vis",
             "Vsta"
-        ], 
-        "full": "Vsta", 
+        ],
+        "full": "Vsta",
         "canonical": "Vis"
-    }, 
+    },
     {
         "tokens": [
-            "Vis", 
+            "Vis",
             "Vista"
-        ], 
-        "full": "Vista", 
+        ],
+        "full": "Vista",
         "canonical": "Vis"
-    }, 
+    },
     {
         "tokens": [
-            "Vl", 
+            "Vl",
             "Ville"
-        ], 
-        "full": "Ville", 
+        ],
+        "full": "Ville",
         "canonical": "Vl"
-    }, 
+    },
     {
         "tokens": [
-            "Vlg", 
-            "Vill", 
+            "Vlg",
+            "Vill",
             "Village"
-        ], 
-        "full": "Village", 
+        ],
+        "full": "Village",
         "canonical": "Vlg"
-    }, 
+    },
     {
         "tokens": [
-            "Vlg", 
+            "Vlg",
             "Vill"
-        ], 
-        "full": "Vill", 
+        ],
+        "full": "Vill",
         "canonical": "Vlg"
-    }, 
+    },
     {
         "tokens": [
-            "Vlg", 
+            "Vlg",
             "Village"
-        ], 
-        "full": "Village", 
+        ],
+        "full": "Village",
         "canonical": "Vlg"
-    }, 
+    },
     {
         "tokens": [
-            "Vlgs", 
+            "Vlgs",
             "Villages"
-        ], 
-        "full": "Villages", 
+        ],
+        "full": "Villages",
         "canonical": "Vlgs"
-    }, 
+    },
     {
         "tokens": [
-            "Vly", 
+            "Vly",
             "Valley"
-        ], 
-        "full": "Valley", 
+        ],
+        "full": "Valley",
         "canonical": "Vly"
-    }, 
+    },
     {
         "tokens": [
-            "Vlys", 
+            "Vlys",
             "Valleys"
-        ], 
-        "full": "Valleys", 
+        ],
+        "full": "Valleys",
         "canonical": "Vlys"
-    }, 
+    },
     {
         "tokens": [
-            "Vw", 
+            "Vw",
             "View"
-        ], 
-        "full": "View", 
+        ],
+        "full": "View",
         "canonical": "Vw"
-    }, 
+    },
     {
         "tokens": [
-            "Vws", 
+            "Vws",
             "Views"
-        ], 
-        "full": "Views", 
+        ],
+        "full": "Views",
         "canonical": "Vws"
-    }, 
+    },
     {
         "tokens": [
-            "W", 
-            "Wst", 
+            "W",
+            "Wst",
             "West"
-        ], 
-        "full": "West", 
+        ],
+        "full": "West",
         "canonical": "W"
-    }, 
+    },
     {
         "tokens": [
-            "W", 
+            "W",
             "Wst"
-        ], 
-        "full": "Wst", 
+        ],
+        "full": "Wst",
         "canonical": "W"
-    }, 
+    },
     {
         "tokens": [
-            "W", 
+            "W",
             "West"
-        ], 
-        "full": "West", 
+        ],
+        "full": "West",
         "canonical": "W"
-    }, 
+    },
     {
         "tokens": [
-            "Wd", 
+            "Wd",
             "Wood"
-        ], 
-        "full": "Wood", 
+        ],
+        "full": "Wood",
         "canonical": "Wd"
-    }, 
+    },
     {
         "tokens": [
-            "Whrf", 
+            "Whrf",
             "Wharf"
-        ], 
-        "full": "Wharf", 
+        ],
+        "full": "Wharf",
         "canonical": "Whrf"
-    }, 
+    },
     {
         "tokens": [
-            "Wkwy", 
+            "Wkwy",
             "Walkway"
-        ], 
-        "full": "Walkway", 
+        ],
+        "full": "Walkway",
         "canonical": "Wkwy"
-    }, 
+    },
     {
         "tokens": [
-            "Wlk", 
+            "Wlk",
             "Walk"
-        ], 
-        "full": "Walk", 
+        ],
+        "full": "Walk",
         "canonical": "Wlk"
-    }, 
+    },
     {
         "tokens": [
-            "Wy", 
+            "Wy",
             "Way"
-        ], 
-        "full": "Way", 
+        ],
+        "full": "Way",
         "canonical": "Wy"
-    }, 
+    },
     {
         "tokens": [
-            "X", 
-            "Cr", 
-            "Cres", 
-            "Crss", 
-            "Cross", 
+            "X",
+            "Cr",
+            "Cres",
+            "Crss",
+            "Cross",
             "Crescent"
-        ], 
-        "full": "Crescent", 
+        ],
+        "full": "Crescent",
         "canonical": "X"
-    }, 
+    },
     {
         "tokens": [
-            "X", 
+            "X",
             "Cr"
-        ], 
-        "full": "Cr", 
+        ],
+        "full": "Cr",
         "canonical": "X"
-    }, 
+    },
     {
         "tokens": [
-            "X", 
+            "X",
             "Cres"
-        ], 
-        "full": "Cres", 
+        ],
+        "full": "Cres",
         "canonical": "X"
-    }, 
+    },
     {
         "tokens": [
-            "X", 
+            "X",
             "Crss"
-        ], 
-        "full": "Crss", 
+        ],
+        "full": "Crss",
         "canonical": "X"
-    }, 
+    },
     {
         "tokens": [
-            "X", 
+            "X",
             "Cross"
-        ], 
-        "full": "Cross", 
+        ],
+        "full": "Cross",
         "canonical": "X"
-    }, 
+    },
     {
         "tokens": [
-            "X", 
+            "X",
             "Crescent"
-        ], 
-        "full": "Crescent", 
+        ],
+        "full": "Crescent",
         "canonical": "X"
-    }, 
+    },
     {
         "tokens": [
-            "Xing", 
+            "Xing",
             "Crossing"
-        ], 
-        "full": "Crossing", 
+        ],
+        "full": "Crossing",
         "canonical": "Xing"
     }
 ]

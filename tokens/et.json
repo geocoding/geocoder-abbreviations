@@ -1,516 +1,516 @@
 [
     {
         "tokens": [
-            "A", 
-            "asfalt", 
+            "A",
+            "asfalt",
             "betoon"
-        ], 
-        "full": "betoon", 
+        ],
+        "full": "betoon",
         "canonical": "A"
-    }, 
+    },
     {
         "tokens": [
-            "A", 
+            "A",
             "asfalt"
-        ], 
-        "full": "asfalt", 
+        ],
+        "full": "asfalt",
         "canonical": "A"
-    }, 
+    },
     {
         "tokens": [
-            "A", 
+            "A",
             "betoon"
-        ], 
-        "full": "betoon", 
+        ],
+        "full": "betoon",
         "canonical": "A"
-    }, 
+    },
     {
         "tokens": [
-            "a-k", 
+            "a-k",
             "alevik"
-        ], 
-        "full": "alevik", 
+        ],
+        "full": "alevik",
         "canonical": "a-k"
-    }, 
+    },
     {
         "tokens": [
-            "all", 
+            "all",
             "allikas"
-        ], 
-        "full": "allikas", 
+        ],
+        "full": "allikas",
         "canonical": "all"
-    }, 
+    },
     {
         "tokens": [
-            "as", 
+            "as",
             "asundus"
-        ], 
-        "full": "asundus", 
+        ],
+        "full": "asundus",
         "canonical": "as"
-    }, 
+    },
     {
         "tokens": [
-            "bass", 
+            "bass",
             "bassein"
-        ], 
-        "full": "bassein", 
+        ],
+        "full": "bassein",
         "canonical": "bass"
-    }, 
+    },
     {
         "tokens": [
-            "gar", 
+            "gar",
             "garaaž"
-        ], 
-        "full": "garaaž", 
+        ],
+        "full": "garaaž",
         "canonical": "gar"
-    }, 
+    },
     {
         "tokens": [
-            "hgl", 
+            "hgl",
             "haigla"
-        ], 
-        "full": "haigla", 
+        ],
+        "full": "haigla",
         "canonical": "hgl"
-    }, 
+    },
     {
         "tokens": [
-            "hot", 
+            "hot",
             "hotell"
-        ], 
-        "full": "hotell", 
+        ],
+        "full": "hotell",
         "canonical": "hot"
-    }, 
+    },
     {
         "tokens": [
-            "j", 
+            "j",
             "jõgi"
-        ], 
-        "full": "jõgi", 
+        ],
+        "full": "jõgi",
         "canonical": "j"
-    }, 
+    },
     {
         "tokens": [
-            "jhv", 
+            "jhv",
             "jahuveski"
-        ], 
-        "full": "jahuveski", 
+        ],
+        "full": "jahuveski",
         "canonical": "jhv"
-    }, 
+    },
     {
         "tokens": [
-            "jm", 
+            "jm",
             "jaam"
-        ], 
-        "full": "jaam", 
+        ],
+        "full": "jaam",
         "canonical": "jm"
-    }, 
+    },
     {
         "tokens": [
-            "jsk", 
+            "jsk",
             "jaoskond"
-        ], 
-        "full": "jaoskond", 
+        ],
+        "full": "jaoskond",
         "canonical": "jsk"
-    }, 
+    },
     {
         "tokens": [
-            "jv", 
+            "jv",
             "järv"
-        ], 
-        "full": "järv", 
+        ],
+        "full": "järv",
         "canonical": "jv"
-    }, 
+    },
     {
         "tokens": [
-            "K", 
+            "K",
             "kruuskate"
-        ], 
-        "full": "kruuskate", 
+        ],
+        "full": "kruuskate",
         "canonical": "K"
-    }, 
+    },
     {
         "tokens": [
-            "kan", 
+            "kan",
             "kanal"
-        ], 
-        "full": "kanal", 
+        ],
+        "full": "kanal",
         "canonical": "kan"
-    }, 
+    },
     {
         "tokens": [
-            "klm", 
+            "klm",
             "kalmistu"
-        ], 
-        "full": "kalmistu", 
+        ],
+        "full": "kalmistu",
         "canonical": "klm"
-    }, 
+    },
     {
         "tokens": [
-            "kpl", 
+            "kpl",
             "kauplus"
-        ], 
-        "full": "kauplus", 
+        ],
+        "full": "kauplus",
         "canonical": "kpl"
-    }, 
+    },
     {
         "tokens": [
-            "kr", 
+            "kr",
             "kraav"
-        ], 
-        "full": "kraav", 
+        ],
+        "full": "kraav",
         "canonical": "kr"
-    }, 
+    },
     {
         "tokens": [
-            "krk", 
+            "krk",
             "kirik"
-        ], 
-        "full": "kirik", 
+        ],
+        "full": "kirik",
         "canonical": "krk"
-    }, 
+    },
     {
         "tokens": [
-            "krd", 
+            "krd",
             "kordon"
-        ], 
-        "full": "kordon", 
+        ],
+        "full": "kordon",
         "canonical": "krd"
-    }, 
+    },
     {
         "tokens": [
-            "l", 
+            "l",
             "laht"
-        ], 
-        "full": "laht", 
+        ],
+        "full": "laht",
         "canonical": "l"
-    }, 
+    },
     {
         "tokens": [
-            "LK", 
-            "lka", 
+            "LK",
+            "lka",
             "looduskaitseala"
-        ], 
-        "full": "looduskaitseala", 
+        ],
+        "full": "looduskaitseala",
         "canonical": "LK"
-    }, 
+    },
     {
         "tokens": [
-            "LK", 
+            "LK",
             "lka"
-        ], 
-        "full": "lka", 
+        ],
+        "full": "lka",
         "canonical": "LK"
-    }, 
+    },
     {
         "tokens": [
-            "LK", 
+            "LK",
             "looduskaitseala"
-        ], 
-        "full": "looduskaitseala", 
+        ],
+        "full": "looduskaitseala",
         "canonical": "LK"
-    }, 
+    },
     {
         "tokens": [
-            "M", 
+            "M",
             "munakivisillutis"
-        ], 
-        "full": "munakivisillutis", 
+        ],
+        "full": "munakivisillutis",
         "canonical": "M"
-    }, 
+    },
     {
         "tokens": [
-            "m", 
+            "m",
             "mägi"
-        ], 
-        "full": "mägi", 
+        ],
+        "full": "mägi",
         "canonical": "m"
-    }, 
+    },
     {
         "tokens": [
-            "mk", 
+            "mk",
             "metskond"
-        ], 
-        "full": "metskond", 
+        ],
+        "full": "metskond",
         "canonical": "mk"
-    }, 
+    },
     {
         "tokens": [
-            "mnt", 
+            "mnt",
             "maantee"
-        ], 
-        "full": "maantee", 
+        ],
+        "full": "maantee",
         "canonical": "mnt"
-    }, 
+    },
     {
         "tokens": [
-            "ms", 
+            "ms",
             "mõis"
-        ], 
-        "full": "mõis", 
+        ],
+        "full": "mõis",
         "canonical": "ms"
-    }, 
+    },
     {
         "tokens": [
-            "mtsn", 
+            "mtsn",
             "metsnik"
-        ], 
-        "full": "metsnik", 
+        ],
+        "full": "metsnik",
         "canonical": "mtsn"
-    }, 
+    },
     {
         "tokens": [
-            "mv", 
-            "mtsv", 
+            "mv",
+            "mtsv",
             "metsavaht"
-        ], 
-        "full": "metsavaht", 
+        ],
+        "full": "metsavaht",
         "canonical": "mv"
-    }, 
+    },
     {
         "tokens": [
-            "mv", 
+            "mv",
             "mtsv"
-        ], 
-        "full": "mtsv", 
+        ],
+        "full": "mtsv",
         "canonical": "mv"
-    }, 
+    },
     {
         "tokens": [
-            "mv", 
+            "mv",
             "metsavaht"
-        ], 
-        "full": "metsavaht", 
+        ],
+        "full": "metsavaht",
         "canonical": "mv"
-    }, 
+    },
     {
         "tokens": [
-            "n", 
+            "n",
             "neem"
-        ], 
-        "full": "neem", 
+        ],
+        "full": "neem",
         "canonical": "n"
-    }, 
+    },
     {
         "tokens": [
-            "nav", 
+            "nav",
             "navigatsioonimärk"
-        ], 
-        "full": "navigatsioonimärk", 
+        ],
+        "full": "navigatsioonimärk",
         "canonical": "nav"
-    }, 
+    },
     {
         "tokens": [
-            "o", 
+            "o",
             "oja"
-        ], 
-        "full": "oja", 
+        ],
+        "full": "oja",
         "canonical": "o"
-    }, 
+    },
     {
         "tokens": [
-            "p", 
+            "p",
             "põld"
-        ], 
-        "full": "põld", 
+        ],
+        "full": "põld",
         "canonical": "p"
-    }, 
+    },
     {
         "tokens": [
-            "pkr", 
+            "pkr",
             "peakraav"
-        ], 
-        "full": "peakraav", 
+        ],
+        "full": "peakraav",
         "canonical": "pkr"
-    }, 
+    },
     {
         "tokens": [
-            "prv", 
+            "prv",
             "piirivalve"
-        ], 
-        "full": "piirivalve", 
+        ],
+        "full": "piirivalve",
         "canonical": "prv"
-    }, 
+    },
     {
         "tokens": [
-            "prügi", 
+            "prügi",
             "prügimägi"
-        ], 
-        "full": "prügimägi", 
+        ],
+        "full": "prügimägi",
         "canonical": "prügi"
-    }, 
+    },
     {
         "tokens": [
-            "ps", 
+            "ps",
             "poolsaar"
-        ], 
-        "full": "poolsaar", 
+        ],
+        "full": "poolsaar",
         "canonical": "ps"
-    }, 
+    },
     {
         "tokens": [
-            "pst", 
+            "pst",
             "puiestee"
-        ], 
-        "full": "puiestee", 
+        ],
+        "full": "puiestee",
         "canonical": "pst"
-    }, 
+    },
     {
         "tokens": [
-            "põlevk", 
+            "põlevk",
             "põlevkivikarjäär"
-        ], 
-        "full": "põlevkivikarjäär", 
+        ],
+        "full": "põlevkivikarjäär",
         "canonical": "põlevk"
-    }, 
+    },
     {
         "tokens": [
-            "rhvm", 
-            "klubi", 
+            "rhvm",
+            "klubi",
             "rahvamaja"
-        ], 
-        "full": "rahvamaja", 
+        ],
+        "full": "rahvamaja",
         "canonical": "rhvm"
-    }, 
+    },
     {
         "tokens": [
-            "rhvm", 
+            "rhvm",
             "rahvamaja"
-        ], 
-        "full": "rahvamaja", 
+        ],
+        "full": "rahvamaja",
         "canonical": "rhvm"
-    }, 
+    },
     {
         "tokens": [
-            "rhvm", 
+            "rhvm",
             "klubi"
-        ], 
-        "full": "klubi", 
+        ],
+        "full": "klubi",
         "canonical": "rhvm"
-    }, 
+    },
     {
         "tokens": [
-            "s", 
+            "s",
             "saar"
-        ], 
-        "full": "saar", 
+        ],
+        "full": "saar",
         "canonical": "s"
-    }, 
+    },
     {
         "tokens": [
-            "sd", 
+            "sd",
             "sadam"
-        ], 
-        "full": "sadam", 
+        ],
+        "full": "sadam",
         "canonical": "sd"
-    }, 
+    },
     {
         "tokens": [
-            "SEJ", 
+            "SEJ",
             "soojuselektrijaam"
-        ], 
-        "full": "soojuselektrijaam", 
+        ],
+        "full": "soojuselektrijaam",
         "canonical": "SEJ"
-    }, 
+    },
     {
         "tokens": [
-            "sjsk", 
+            "sjsk",
             "sidejaoskond"
-        ], 
-        "full": "sidejaoskond", 
+        ],
+        "full": "sidejaoskond",
         "canonical": "sjsk"
-    }, 
+    },
     {
         "tokens": [
-            "std", 
+            "std",
             "staadion"
-        ], 
-        "full": "staadion", 
+        ],
+        "full": "staadion",
         "canonical": "std"
-    }, 
+    },
     {
         "tokens": [
-            "t", 
+            "t",
             "talu"
-        ], 
-        "full": "talu", 
+        ],
+        "full": "talu",
         "canonical": "t"
-    }, 
+    },
     {
         "tokens": [
-            "th", 
+            "th",
             "tehas"
-        ], 
-        "full": "tehas", 
+        ],
+        "full": "tehas",
         "canonical": "th"
-    }, 
+    },
     {
         "tokens": [
-            "tk", 
+            "tk",
             "tiik"
-        ], 
-        "full": "tiik", 
+        ],
+        "full": "tiik",
         "canonical": "tk"
-    }, 
+    },
     {
         "tokens": [
-            "tlt", 
+            "tlt",
             "tuletorn"
-        ], 
-        "full": "tuletorn", 
+        ],
+        "full": "tuletorn",
         "canonical": "tlt"
-    }, 
+    },
     {
         "tokens": [
-            "tn", 
+            "tn",
             "tänav"
-        ], 
-        "full": "tänav", 
+        ],
+        "full": "tänav",
         "canonical": "tn"
-    }, 
+    },
     {
         "tokens": [
-            "vh", 
+            "vh",
             "veehoidla"
-        ], 
-        "full": "veehoidla", 
+        ],
+        "full": "veehoidla",
         "canonical": "vh"
-    }, 
+    },
     {
         "tokens": [
-            "vk", 
+            "vk",
             "väljak"
-        ], 
-        "full": "väljak", 
+        ],
+        "full": "väljak",
         "canonical": "vk"
-    }, 
+    },
     {
         "tokens": [
-            "vlm", 
+            "vlm",
             "vallamaja"
-        ], 
-        "full": "vallamaja", 
+        ],
+        "full": "vallamaja",
         "canonical": "vlm"
-    }, 
+    },
     {
         "tokens": [
-            "vtn", 
+            "vtn",
             "veetorn"
-        ], 
-        "full": "veetorn", 
+        ],
+        "full": "veetorn",
         "canonical": "vtn"
-    }, 
+    },
     {
         "tokens": [
             "tee"
-        ], 
-        "full": "tee", 
+        ],
+        "full": "tee",
         "canonical": "tee"
-    }, 
+    },
     {
         "tokens": [
             "põik"
-        ], 
-        "full": "põik", 
+        ],
+        "full": "põik",
         "canonical": "põik"
     }
 ]
