@@ -38,7 +38,7 @@
         ],
         "full": "boulevard",
         "canonical": "boulev",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "note": "translates to 'boulevard'",
         "type": "way"
     },
@@ -130,7 +130,7 @@
         ],
         "full": "dwarsstraat",
         "canonical": "DWSTR",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "note": "translates to 'cross street'",
         "type": "way"
     },
@@ -165,7 +165,7 @@
         ],
         "full": "Gracht",
         "canonical": "gr",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "note": "translates to 'canal'",
         "type": "way"
     },
@@ -400,7 +400,7 @@
         ],
         "full": "Laan",
         "canonical": "ln",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "note": "translates to 'lane'",
         "type": "way"
     },
@@ -669,7 +669,7 @@
         ],
         "full": "steeg",
         "canonical": "stg",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "note": "translates to 'alley'",
         "type": "way"
     },
@@ -680,7 +680,7 @@
         ],
         "full": "Straat",
         "canonical": "str",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "note": "translates to 'street'",
         "type": "way"
     },
@@ -691,7 +691,7 @@
         ],
         "full": "straatweg",
         "canonical": "strwg",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "note": "translates to 'street-road'",
         "type": "way"
     },
@@ -702,7 +702,7 @@
         ],
         "full": "Steenweg",
         "canonical": "stwg",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "note": "translates to 'alley-road'",
         "type": "way"
     },

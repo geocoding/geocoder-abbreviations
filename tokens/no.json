@@ -47,7 +47,7 @@
         ],
         "full": "Gate",
         "canonical": "G",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "note": "translates to 'street'",
         "type": "way"
     },
@@ -59,7 +59,7 @@
         ],
         "full": "Gaten",
         "canonical": "G",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "note": "translates to 'street'",
         "type": "way"
     },
@@ -71,7 +71,7 @@
         ],
         "full": "Gatan",
         "canonical": "G",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "note": "translates to 'street'",
         "type": "way"
     },
@@ -83,7 +83,7 @@
         ],
         "full": "Gata",
         "canonical": "G",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "note": "translates to 'street'",
         "type": "way"
     },
@@ -102,7 +102,7 @@
         ],
         "full": "Katu",
         "canonical": "K",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "note": "translates to 'street'",
         "type": "way"
     },
@@ -129,7 +129,7 @@
         ],
         "full": "Polku",
         "canonical": "P",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "note": "translates to 'path'",
         "type": "way"
     },
@@ -288,7 +288,7 @@
         ],
         "full": "Vei",
         "canonical": "V",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "note": "translates to 'way'",
         "type": "way"
     },
@@ -300,7 +300,7 @@
         ],
         "full": "Veien",
         "canonical": "V",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "note": "translates to 'way'",
         "type": "way"
     },
@@ -311,7 +311,7 @@
         ],
         "full": "Veg",
         "canonical": "V",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "note": "translates to 'road'",
         "type": "way"
     },
@@ -323,7 +323,7 @@
         ],
         "full": "Vegen",
         "canonical": "V",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "note": "translates to 'road'",
         "type": "way"
     }

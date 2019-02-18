@@ -366,7 +366,7 @@
         ],
         "full": "Access",
         "canonical": "Accs",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "type": "way"
     },
     {
@@ -376,7 +376,7 @@
         ],
         "full": "Alleyway",
         "canonical": "Alwy",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "type": "way"
     },
     {
@@ -387,7 +387,7 @@
         ],
         "full": "Alley",
         "canonical": "Aly",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "type": "way"
     },
     {
@@ -397,7 +397,7 @@
         ],
         "full": "Amble",
         "canonical": "Ambl",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "type": "way"
     },
     {
@@ -407,7 +407,7 @@
         ],
         "full": "Approach",
         "canonical": "App",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "type": "way"
     },
     {
@@ -441,7 +441,7 @@
         ],
         "full": "Arterial",
         "canonical": "Artl",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "type": "way"
     },
     {
@@ -451,7 +451,7 @@
         ],
         "full": "Artery",
         "canonical": "Arty",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "type": "way"
     },
     {
@@ -462,7 +462,7 @@
         ],
         "full": "Avenue",
         "canonical": "Av",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "type": "way"
     },
     {
@@ -528,7 +528,7 @@
         ],
         "full": "Branch",
         "canonical": "Br",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "type": "way"
     },
     {
@@ -538,7 +538,7 @@
         ],
         "full": "Bridge",
         "canonical": "Brg",
-        "only_layers": ["address"]
+        "onlyLayers": ["address"]
     },
     {
         "tokens": [
@@ -580,7 +580,7 @@
         ],
         "full": "Boulevard",
         "canonical": "Blv",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "type": "way"
     },
     {
@@ -590,7 +590,7 @@
         ],
         "full": "Boardwalk",
         "canonical": "Bwlk",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "type": "way"
     },
     {
@@ -601,7 +601,7 @@
         ],
         "full": "Bypass",
         "canonical": "Byp",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "type": "way"
     },
     {
@@ -619,7 +619,7 @@
         ],
         "full": "Byway",
         "canonical": "Bywy",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "type": "way"
     },
     {
@@ -645,7 +645,7 @@
         ],
         "full": "Circuit",
         "canonical": "Cct",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "type": "way"
     },
     {
@@ -655,7 +655,7 @@
         ],
         "full": "Chase",
         "canonical": "Ch",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "type": "way"
     },
     {
@@ -673,7 +673,7 @@
         ],
         "full": "Circle",
         "canonical": "Cir",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "type": "way"
     },
     {
@@ -683,7 +683,7 @@
         ],
         "full": "Circles",
         "canonical": "Cirs",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "type": "way"
     },
     {
@@ -702,7 +702,7 @@
         ],
         "full": "Close",
         "canonical": "Cl",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "type": "way"
     },
     {
@@ -736,7 +736,7 @@
         ],
         "full": "Calle",
         "canonical": "Cll",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "type": "way"
     },
     {
@@ -804,7 +804,7 @@
         ],
         "full": "Concourse",
         "canonical": "Con",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "type": "way"
     },
     {
@@ -894,7 +894,7 @@
         ],
         "full": "Crest",
         "canonical": "Crst",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "type": "way"
     },
     {
@@ -904,7 +904,7 @@
         ],
         "full": "Cul-de-sac",
         "canonical": "Csac",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "type": "way",
         "spanBoundaries": 2
     },
@@ -915,7 +915,7 @@
         ],
         "full": "Causeway",
         "canonical": "Cswy",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "type": "way"
     },
     {
@@ -925,7 +925,7 @@
         ],
         "full": "Court",
         "canonical": "Ct",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "type": "way"
     },
     {
@@ -952,7 +952,7 @@
         ],
         "full": "Courts",
         "canonical": "Cts",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "type": "way"
     },
     {
@@ -970,7 +970,7 @@
         ],
         "full": "Curve",
         "canonical": "Curv",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "type": "way"
     },
     {
@@ -1021,7 +1021,7 @@
         ],
         "full": "Drive",
         "canonical": "Dr",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "type": "way"
     },
     {
@@ -1039,7 +1039,7 @@
         ],
         "full": "Drives",
         "canonical": "Drs",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "type": "way"
     },
     {
@@ -1057,7 +1057,7 @@
         ],
         "full": "Driveway",
         "canonical": "Dvwy",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "type": "way"
     },
     {
@@ -1085,7 +1085,7 @@
         ],
         "full": "Entrance",
         "canonical": "Ent",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "type": "way"
     },
     {
@@ -1120,7 +1120,7 @@
         ],
         "full": "Expressway",
         "canonical": "Exp",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "type": "way"
     },
     {
@@ -1250,7 +1250,7 @@
         ],
         "full": "Fork",
         "canonical": "Frk",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "type": "way"
     },
     {
@@ -1300,7 +1300,7 @@
         ],
         "full": "Footway",
         "canonical": "Ftwy",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "type": "way"
     },
     {
@@ -1310,7 +1310,7 @@
         ],
         "full": "Freeway",
         "canonical": "Fwy",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "type": "way"
     },
     {
@@ -1418,7 +1418,7 @@
         ],
         "full": "Highroad",
         "canonical": "Hird",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "type": "way"
     },
     {
@@ -1492,7 +1492,7 @@
         ],
         "full": "Highway",
         "canonical": "Hwy",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "type": "way"
     },
     {
@@ -1681,7 +1681,7 @@
         ],
         "full": "Lane",
         "canonical": "Ln",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "type": "way"
     },
     {
@@ -1699,7 +1699,7 @@
         ],
         "full": "Laneway",
         "canonical": "Lnwy",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "type": "way"
     },
     {
@@ -1805,7 +1805,7 @@
         ],
         "full": "Meander",
         "canonical": "Mndr",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "type": "way"
     },
     {
@@ -1863,7 +1863,7 @@
         ],
         "full": "Motorway",
         "canonical": "Mtwy",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "type": "way"
     },
     {
@@ -1949,7 +1949,7 @@
         ],
         "full": "Overpass",
         "canonical": "Ovps",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "type": "way"
     },
     {
@@ -1999,7 +1999,7 @@
         ],
         "full": "Pike",
         "canonical": "Pk",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "type": "way"
     },
     {
@@ -2131,7 +2131,7 @@
         ],
         "full": "Pathway",
         "canonical": "Pway",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "type": "way"
     },
     {
@@ -2146,7 +2146,7 @@
         ],
         "full": "Parkway",
         "canonical": "Pkwy",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "type": "way"
     },
     {
@@ -2205,7 +2205,7 @@
         ],
         "full": "Road",
         "canonical": "Rd",
-        "only_layers": ["address"]
+        "onlyLayers": ["address"]
     },
     {
         "tokens": [
@@ -2232,7 +2232,7 @@
         ],
         "full": "Roads",
         "canonical": "Rds",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "type": "way"
     },
     {
@@ -2307,7 +2307,7 @@
         ],
         "full": "Route",
         "canonical": "Rt",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "type": "way"
     },
     {
@@ -2325,7 +2325,7 @@
         ],
         "full": "Rotary",
         "canonical": "Rty",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "type": "way"
     },
     {
@@ -2482,7 +2482,7 @@
         ],
         "full": "Street",
         "canonical": "St",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "type": "way"
     },
     {
@@ -2566,7 +2566,7 @@
         ],
         "full": "Trafficway",
         "canonical": "Tfwy",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "type": "way"
     },
     {
@@ -2576,7 +2576,7 @@
         ],
         "full": "Thoroughfare",
         "canonical": "Thfr",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "type": "way"
     },
     {
@@ -2586,7 +2586,7 @@
         ],
         "full": "Thruway",
         "canonical": "Thwy",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "type": "way"
     },
     {
@@ -2596,7 +2596,7 @@
         ],
         "full": "Tollway",
         "canonical": "Tlwy",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "type": "way"
     },
     {
@@ -2606,7 +2606,7 @@
         ],
         "full": "Turnpike",
         "canonical": "Tpke",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "type": "way"
     },
     {
@@ -2649,7 +2649,7 @@
         ],
         "full": "Tunnel",
         "canonical": "Tunl",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "type": "way"
     },
     {
@@ -2685,7 +2685,7 @@
         ],
         "full": "Underpass",
         "canonical": "Upas",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "type": "way"
     },
     {
@@ -2704,7 +2704,7 @@
         ],
         "full": "Viaduct",
         "canonical": "Via",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "type": "way"
     },
     {
@@ -2806,7 +2806,7 @@
         ],
         "full": "Walkway",
         "canonical": "Wkwy",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "type": "way"
     },
     {
@@ -2824,7 +2824,7 @@
         ],
         "full": "Way",
         "canonical": "Wy",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "type": "way"
     },
     {
@@ -2838,7 +2838,7 @@
         ],
         "full": "Crescent",
         "canonical": "X",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "type": "way"
     },
     {
@@ -2848,7 +2848,7 @@
         ],
         "full": "Crossing",
         "canonical": "Xing",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "type": "way"
     }
 ]

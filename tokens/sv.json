@@ -6,7 +6,7 @@
         ],
         "full": "([a-z]+)vägen",
         "canonical": "$1v",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "note": "translates to 'way'",
         "type": "way"
     },
@@ -17,7 +17,7 @@
         ],
         "full": "([a-z]+)väg",
         "canonical": "$1v",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "note": "translates to 'way'",
         "type": "way"
     },
@@ -28,7 +28,7 @@
         ],
         "full": "([a-z]+)gatan",
         "canonical": "$1g",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "note": "translates to 'street'",
         "type": "way"
     },
@@ -39,7 +39,7 @@
         ],
         "full": "([a-z]+)gata",
         "canonical": "$1g",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "note": "translates to 'street'",
         "type": "way"
     },
@@ -50,7 +50,7 @@
         ],
         "full": "([a-z]+)gränd",
         "canonical": "$1gr",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "note": "translates to 'alley'",
         "type": "way"
     },
@@ -61,7 +61,7 @@
         ],
         "full": "([a-z]+)gränden",
         "canonical": "$1g",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "note": "translates to 'alley'",
         "type": "way"
     },
@@ -115,7 +115,7 @@
         ],
         "full": "stig",
         "canonical": "st",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "note": "translates to 'path'",
         "type": "way"
     },
@@ -126,7 +126,7 @@
         ],
         "full": "stigen",
         "canonical": "st",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "note": "translates to 'path'",
         "type": "way"
     },

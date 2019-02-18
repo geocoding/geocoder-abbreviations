@@ -196,7 +196,7 @@
         ],
         "full": "Autoroute",
         "canonical": "A",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "note": "translates to 'highway'",
         "type": "way"
     },
@@ -223,7 +223,7 @@
         ],
         "full": "Allée",
         "canonical": "All",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "note": "translates to 'alley'",
         "type": "way"
     },
@@ -250,7 +250,7 @@
         ],
         "full": "Avenue",
         "canonical": "Av",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "note": "translates to 'avenue'",
         "type": "way"
     },
@@ -271,7 +271,7 @@
         ],
         "full": "Boulevard",
         "canonical": "Bd",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "note": "translates to 'boulevard'",
         "type": "way"
     },
@@ -282,7 +282,7 @@
         ],
         "full": "Chemin",
         "canonical": "Ch",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "note": "translates to 'path'",
         "type": "way"
     },
@@ -293,7 +293,7 @@
         ],
         "full": "Chaussée",
         "canonical": "Ch",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "note": "translates to 'roadway'",
         "type": "way"
     },
@@ -304,7 +304,7 @@
         ],
         "full": "Cours",
         "canonical": "Crs",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "note": "translates to 'course'",
         "type": "way"
     },
@@ -568,7 +568,7 @@
         ],
         "full": "Rue",
         "canonical": "R",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "note": "translates to 'road'",
         "type": "way"
     },
@@ -587,7 +587,7 @@
         ],
         "full": "Ruelle",
         "canonical": "Rlle",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "note": "translates to 'alley'",
         "type": "way"
     },
@@ -598,7 +598,7 @@
         ],
         "full": "Rond-Point",
         "canonical": "Rpt",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "note": "translates to 'roundabout'",
         "type": "way"
     },
@@ -610,7 +610,7 @@
         "full": "Route",
         "canonical": "Rte",
         "note": "translates to 'alley'",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "type": "way"
     },
     {

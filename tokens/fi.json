@@ -30,7 +30,7 @@
         ],
         "full": "katu",
         "canonical": "k",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "note": "translates to 'street'",
         "type": "way"
     },
@@ -41,7 +41,7 @@
         ],
         "full": "kuja",
         "canonical": "kj",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "note": "translates to 'alley'",
         "type": "way"
     },
@@ -68,7 +68,7 @@
         ],
         "full": "polku",
         "canonical": "p",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "note": "translates to 'path'",
         "type": "way"
     },
@@ -127,7 +127,7 @@
         ],
         "full": "tie",
         "canonical": "t",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "note": "translates to 'road'",
         "type": "way"
     },
@@ -146,7 +146,7 @@
         ],
         "full": "väylä",
         "canonical": "vlä",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "note": "translates to 'way'",
         "type": "way"
     }

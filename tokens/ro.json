@@ -7,7 +7,7 @@
         "full": "strada",
         "canonical": "str",
         "note": "translates to 'street'",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "type": "way"
     },
     {
@@ -26,7 +26,7 @@
         "full": "bulevardul",
         "canonical": "blvd",
         "note": "translates to 'boulevard'",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "type": "way"
     },
     {
@@ -37,7 +37,7 @@
         "full": "soseaua",
         "canonical": "sos",
         "note": "translates to 'highway'",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "type": "way"
     }
 ]

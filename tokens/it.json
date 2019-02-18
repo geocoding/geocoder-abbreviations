@@ -6,7 +6,7 @@
         ],
         "full": "Calle",
         "canonical": "C.le",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "note": "translates to 'street'",
         "type": "way"
     },
@@ -33,7 +33,7 @@
         ],
         "full": "Corte",
         "canonical": "C.te",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "note": "translates to 'court'",
         "type": "way"
     },
@@ -175,7 +175,7 @@
         ],
         "full": "Via",
         "canonical": "V.",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "note": "translates to 'street'",
         "type": "way"
     },
@@ -186,7 +186,7 @@
         ],
         "full": "Viale",
         "canonical": "V.le",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "note": "translates to 'avenue'",
         "type": "way"
     },
@@ -197,7 +197,7 @@
         ],
         "full": "Vicolo",
         "canonical": "V.lo",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "note": "translates to 'alley'",
         "type": "way"
     }

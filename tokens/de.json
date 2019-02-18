@@ -47,7 +47,7 @@
         ],
         "full": "Brücke",
         "canonical": "Br",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "note": "translates to 'bridge'"
     },
     {
@@ -57,7 +57,7 @@
         ],
         "full": "Chaussee",
         "canonical": "Ch",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "note": "translates to 'highway'",
         "type": "way"
     },
@@ -100,7 +100,7 @@
         ],
         "full": "Gasse",
         "canonical": "G",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "note": "translates to 'alley'",
         "type": "way"
     },
@@ -184,7 +184,7 @@
         ],
         "full": "Kreis",
         "canonical": "Kr",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "note": "translates to 'circle'",
         "type": "way"
     },
@@ -264,7 +264,7 @@
         ],
         "full": "Strasse",
         "canonical": "Str",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "note": "translates to 'street'",
         "type": "way"
     },
@@ -307,7 +307,7 @@
         ],
         "full": "Weg",
         "canonical": "Wg",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "note": "translates to 'path'",
         "type": "way"
     },

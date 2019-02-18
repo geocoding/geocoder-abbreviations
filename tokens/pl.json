@@ -6,7 +6,7 @@
         ],
         "full": "aleja",
         "canonical": "al",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "note": "translates to 'avenue'",
         "type": "way"
     },
@@ -25,7 +25,7 @@
         ],
         "full": "ulica",
         "canonical": "ul",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "note": "translates to 'street'",
         "type": "way"
     }

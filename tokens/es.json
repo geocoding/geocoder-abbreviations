@@ -94,7 +94,7 @@
         ],
         "full": "Autopista",
         "canonical": "Auto",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "note": "translates to 'freeway'",
         "type": "way"
     },
@@ -105,7 +105,7 @@
         ],
         "full": "Autovía",
         "canonical": "Autov",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "note": "translates to 'dual carriageway'",
         "type": "way"
     },
@@ -120,7 +120,7 @@
         ],
         "full": "Avenida",
         "canonical": "Av",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "note": "translates to 'avenue'; 'avenida' is Castillian whereas 'avinguda' is Catalan'",
         "type": "way"
     },
@@ -205,7 +205,7 @@
         ],
         "full": "Bulevar",
         "canonical": "Bulev",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "note": "translates to 'boulevard'",
         "type": "way"
     },
@@ -280,7 +280,7 @@
         ],
         "full": "Callejuela",
         "canonical": "Cjla",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "note": "translates to 'lane'",
         "type": "way"
     },
@@ -294,7 +294,7 @@
         ],
         "full": "Callejón",
         "canonical": "Cj",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "note": "translates to 'alley'",
         "type": "way"
     },
@@ -315,7 +315,7 @@
         ],
         "full": "Calle",
         "canonical": "Cl",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "note": "translates to 'street' ('carrer' is Catalan)",
         "type": "way"
     },
@@ -326,7 +326,7 @@
         ],
         "full": "Calleja",
         "canonical": "Cllja",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "note": "translates to 'lane'",
         "type": "way"
     },
@@ -348,7 +348,7 @@
         ],
         "full": "Camino",
         "canonical": "Cm",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "note": "translates to 'path'",
         "type": "way"
     },
@@ -431,7 +431,7 @@
         ],
         "full": "Carril",
         "canonical": "Crril",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "note": "translates to 'lane'",
         "type": "way"
     },
@@ -483,7 +483,7 @@
         ],
         "full": "Carretera",
         "canonical": "Cr",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "note": "translates to 'highway'",
         "type": "way"
     },
@@ -494,7 +494,7 @@
         ],
         "full": "Carreterín",
         "canonical": "Ctrin",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "note": "translates to 'road'",
         "type": "way"
     },
@@ -521,7 +521,7 @@
         ],
         "full": "Calzada",
         "canonical": "Czada",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "note": "translates to 'road'",
         "type": "way"
     },
@@ -855,7 +855,7 @@
         ],
         "full": "Paseo",
         "canonical": "Po",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "note": "translates to 'walk'",
         "type": "way"
     },
@@ -922,7 +922,7 @@
         ],
         "full": "Pasaje",
         "canonical": "Psaje",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "note": "translates to 'passage'",
         "type": "way"
     },
@@ -1037,7 +1037,7 @@
         ],
         "full": "Rotonda",
         "canonical": "Rtda",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "note": "translates to 'roundabout'",
         "type": "way"
     },

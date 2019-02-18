@@ -7,7 +7,7 @@
         ],
         "full": "jalan",
         "canonical": "jl",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "note": "translates to 'street'",
         "type": "way"
     },
@@ -18,7 +18,7 @@
         ],
         "full": "gang",
         "canonical": "gg",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "note": "translates to 'alley'",
         "type": "way"
     },
@@ -85,7 +85,7 @@
         ],
         "full": "boulevard",
         "canonical": "bvd",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "note": "translates to 'boulevard'",
         "type": "way"
     },
@@ -98,7 +98,7 @@
         ],
         "full": "avenue",
         "canonical": "av",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "note": "translates to 'avenue'",
         "type": "way"
     },
@@ -117,7 +117,7 @@
         ],
         "full": "lane",
         "canonical": "l",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "note": "translates to 'lane'",
         "type": "way"
     },
@@ -144,7 +144,7 @@
         ],
         "full": "highway",
         "canonical": "hwy",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "note": "translates to 'highway'",
         "type": "way"
     },
@@ -163,7 +163,7 @@
         ],
         "full": "parkway",
         "canonical": "pwy",
-        "only_layers": ["address"],
+        "onlyLayers": ["address"],
         "note": "translates to 'parkway'",
         "type": "way"
     },
