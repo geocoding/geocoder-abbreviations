@@ -8,7 +8,8 @@
         "full": "jalan",
         "canonical": "jl",
         "only_layers": ["address"],
-        "note": "translates to 'street'"
+        "note": "translates to 'street'",
+        "type": "way"
     },
     {
         "tokens": [
@@ -18,7 +19,8 @@
         "full": "gang",
         "canonical": "gg",
         "only_layers": ["address"],
-        "note": "translates to 'alley'"
+        "note": "translates to 'alley'",
+        "type": "way"
     },
     {
         "tokens": [
@@ -84,7 +86,8 @@
         "full": "boulevard",
         "canonical": "bvd",
         "only_layers": ["address"],
-        "note": "translates to 'boulevard'"
+        "note": "translates to 'boulevard'",
+        "type": "way"
     },
     {
         "tokens": [
@@ -96,7 +99,8 @@
         "full": "avenue",
         "canonical": "av",
         "only_layers": ["address"],
-        "note": "translates to 'avenue'"
+        "note": "translates to 'avenue'",
+        "type": "way"
     },
     {
         "tokens": [
@@ -114,7 +118,8 @@
         "full": "lane",
         "canonical": "l",
         "only_layers": ["address"],
-        "note": "translates to 'lane'"
+        "note": "translates to 'lane'",
+        "type": "way"
     },
     {
         "tokens": [
@@ -140,7 +145,8 @@
         "full": "highway",
         "canonical": "hwy",
         "only_layers": ["address"],
-        "note": "translates to 'highway'"
+        "note": "translates to 'highway'",
+        "type": "way"
     },
     {
         "tokens": [
@@ -158,7 +164,8 @@
         "full": "parkway",
         "canonical": "pwy",
         "only_layers": ["address"],
-        "note": "translates to 'parkway'"
+        "note": "translates to 'parkway'",
+        "type": "way"
     },
     {
         "tokens": [

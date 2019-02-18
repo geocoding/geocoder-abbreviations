@@ -5,7 +5,10 @@
             "aleja"
         ],
         "full": "aleja",
-        "canonical": "al"
+        "canonical": "al",
+        "only_layers": ["address"],
+        "note": "translates to 'avenue'",
+        "type": "way"
     },
     {
         "tokens": [
@@ -21,6 +24,9 @@
             "ulica"
         ],
         "full": "ulica",
-        "canonical": "ul"
+        "canonical": "ul",
+        "only_layers": ["address"],
+        "note": "translates to 'street'",
+        "type": "way"
     }
 ]

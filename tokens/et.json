@@ -209,7 +209,8 @@
         "full": "maantee",
         "canonical": "mnt",
         "only_layers": ["address"],
-        "note": "translates to 'road'"
+        "note": "translates to 'road'",
+        "type": "way"
     },
     {
         "tokens": [
@@ -308,7 +309,8 @@
         "full": "puiestee",
         "canonical": "pst",
         "only_layers": ["address"],
-        "note": "translates to 'avenue'"
+        "note": "translates to 'avenue'",
+        "type": "way"
     },
     {
         "tokens": [
@@ -407,7 +409,8 @@
         "full": "tänav",
         "canonical": "tn",
         "only_layers": ["address"],
-        "note": "translates to 'street'"
+        "note": "translates to 'street'",
+        "type": "way"
     },
     {
         "tokens": [

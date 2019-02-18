@@ -48,7 +48,8 @@
         "full": "Gate",
         "canonical": "G",
         "only_layers": ["address"],
-        "note": "translates to 'street'"
+        "note": "translates to 'street'",
+        "type": "way"
     },
     {
         "tokens": [
@@ -59,7 +60,8 @@
         "full": "Gaten",
         "canonical": "G",
         "only_layers": ["address"],
-        "note": "translates to 'street'"
+        "note": "translates to 'street'",
+        "type": "way"
     },
     {
         "tokens": [
@@ -70,7 +72,8 @@
         "full": "Gatan",
         "canonical": "G",
         "only_layers": ["address"],
-        "note": "translates to 'street'"
+        "note": "translates to 'street'",
+        "type": "way"
     },
     {
         "tokens": [
@@ -81,7 +84,8 @@
         "full": "Gata",
         "canonical": "G",
         "only_layers": ["address"],
-        "note": "translates to 'street'"
+        "note": "translates to 'street'",
+        "type": "way"
     },
     {
         "tokens": [
@@ -99,7 +103,8 @@
         "full": "Katu",
         "canonical": "K",
         "only_layers": ["address"],
-        "note": "translates to 'street'"
+        "note": "translates to 'street'",
+        "type": "way"
     },
     {
         "tokens": [
@@ -125,7 +130,8 @@
         "full": "Polku",
         "canonical": "P",
         "only_layers": ["address"],
-        "note": "translates to 'path'"
+        "note": "translates to 'path'",
+        "type": "way"
     },
     {
         "tokens": [
@@ -283,7 +289,8 @@
         "full": "Vei",
         "canonical": "V",
         "only_layers": ["address"],
-        "note": "translates to 'way'"
+        "note": "translates to 'way'",
+        "type": "way"
     },
     {
         "tokens": [
@@ -294,7 +301,8 @@
         "full": "Veien",
         "canonical": "V",
         "only_layers": ["address"],
-        "note": "translates to 'way'"
+        "note": "translates to 'way'",
+        "type": "way"
     },
     {
         "tokens": [
@@ -304,7 +312,8 @@
         "full": "Veg",
         "canonical": "V",
         "only_layers": ["address"],
-        "note": "translates to 'road'"
+        "note": "translates to 'road'",
+        "type": "way"
     },
     {
         "tokens": [
@@ -315,6 +324,7 @@
         "full": "Vegen",
         "canonical": "V",
         "only_layers": ["address"],
-        "note": "translates to 'road'"
+        "note": "translates to 'road'",
+        "type": "way"
     }
 ]

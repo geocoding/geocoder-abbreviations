@@ -58,7 +58,8 @@
         "full": "Chaussee",
         "canonical": "Ch",
         "only_layers": ["address"],
-        "note": "translates to 'highway'"
+        "note": "translates to 'highway'",
+        "type": "way"
     },
     {
         "tokens": [
@@ -100,7 +101,8 @@
         "full": "Gasse",
         "canonical": "G",
         "only_layers": ["address"],
-        "note": "translates to 'alley'"
+        "note": "translates to 'alley'",
+        "type": "way"
     },
     {
         "tokens": [
@@ -183,7 +185,8 @@
         "full": "Kreis",
         "canonical": "Kr",
         "only_layers": ["address"],
-        "note": "translates to 'circle'"
+        "note": "translates to 'circle'",
+        "type": "way"
     },
     {
         "tokens": [
@@ -234,7 +237,8 @@
             "Platz"
         ],
         "full": "Platz",
-        "canonical": "Pl"
+        "canonical": "Pl",
+        "type": "way"
     },
     {
         "tokens": [
@@ -261,7 +265,8 @@
         "full": "Strasse",
         "canonical": "Str",
         "only_layers": ["address"],
-        "note": "translates to 'street'"
+        "note": "translates to 'street'",
+        "type": "way"
     },
     {
         "tokens": [
@@ -303,7 +308,8 @@
         "full": "Weg",
         "canonical": "Wg",
         "only_layers": ["address"],
-        "note": "translates to 'path'"
+        "note": "translates to 'path'",
+        "type": "way"
     },
     {
         "tokens": [

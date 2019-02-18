@@ -5,7 +5,10 @@
             "strada"
         ],
         "full": "strada",
-        "canonical": "str"
+        "canonical": "str",
+        "note": "translates to 'street'",
+        "only_layers": ["address"],
+        "type": "way"
     },
     {
         "tokens": [
@@ -21,7 +24,10 @@
             "bulevardul"
         ],
         "full": "bulevardul",
-        "canonical": "blvd"
+        "canonical": "blvd",
+        "note": "translates to 'boulevard'",
+        "only_layers": ["address"],
+        "type": "way"
     },
     {
         "tokens": [
@@ -29,6 +35,9 @@
             "soseaua"
         ],
         "full": "soseaua",
-        "canonical": "sos"
+        "canonical": "sos",
+        "note": "translates to 'highway'",
+        "only_layers": ["address"],
+        "type": "way"
     }
 ]

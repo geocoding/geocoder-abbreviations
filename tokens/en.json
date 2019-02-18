@@ -5,7 +5,8 @@
             "one"
         ],
         "full": "one",
-        "canonical": "1"
+        "canonical": "1",
+        "type": "number"
     },
     {
         "tokens": [
@@ -13,7 +14,8 @@
             "two"
         ],
         "full": "two",
-        "canonical": "2"
+        "canonical": "2",
+        "type": "number"
     },
     {
         "tokens": [
@@ -21,7 +23,8 @@
             "three"
         ],
         "full": "three",
-        "canonical": "3"
+        "canonical": "3",
+        "type": "number"
     },
     {
         "tokens": [
@@ -29,7 +32,8 @@
             "four"
         ],
         "full": "four",
-        "canonical": "4"
+        "canonical": "4",
+        "type": "number"
     },
     {
         "tokens": [
@@ -37,7 +41,8 @@
             "five"
         ],
         "full": "five",
-        "canonical": "5"
+        "canonical": "5",
+        "type": "number"
     },
     {
         "tokens": [
@@ -45,7 +50,8 @@
             "six"
         ],
         "full": "six",
-        "canonical": "6"
+        "canonical": "6",
+        "type": "number"
     },
     {
         "tokens": [
@@ -53,7 +59,8 @@
             "seven"
         ],
         "full": "seven",
-        "canonical": "7"
+        "canonical": "7",
+        "type": "number"
     },
     {
         "tokens": [
@@ -61,7 +68,8 @@
             "eight"
         ],
         "full": "eight",
-        "canonical": "8"
+        "canonical": "8",
+        "type": "number"
     },
     {
         "tokens": [
@@ -69,7 +77,8 @@
             "nine"
         ],
         "full": "nine",
-        "canonical": "9"
+        "canonical": "9",
+        "type": "number"
     },
     {
         "tokens": [
@@ -77,7 +86,8 @@
             "ten"
         ],
         "full": "ten",
-        "canonical": "10"
+        "canonical": "10",
+        "type": "number"
     },
     {
         "tokens": [
@@ -85,7 +95,8 @@
             "eleven"
         ],
         "full": "eleven",
-        "canonical": "11"
+        "canonical": "11",
+        "type": "number"
     },
     {
         "tokens": [
@@ -93,7 +104,8 @@
             "twelve"
         ],
         "full": "twelve",
-        "canonical": "12"
+        "canonical": "12",
+        "type": "number"
     },
     {
         "tokens": [
@@ -101,7 +113,8 @@
             "thirteen"
         ],
         "full": "thirteen",
-        "canonical": "13"
+        "canonical": "13",
+        "type": "number"
     },
     {
         "tokens": [
@@ -109,7 +122,8 @@
             "fourteen"
         ],
         "full": "fourteen",
-        "canonical": "14"
+        "canonical": "14",
+        "type": "number"
     },
     {
         "tokens": [
@@ -117,7 +131,8 @@
             "fifteen"
         ],
         "full": "fifteen",
-        "canonical": "15"
+        "canonical": "15",
+        "type": "number"
     },
     {
         "tokens": [
@@ -125,7 +140,8 @@
             "sixteen"
         ],
         "full": "sixteen",
-        "canonical": "16"
+        "canonical": "16",
+        "type": "number"
     },
     {
         "tokens": [
@@ -133,7 +149,8 @@
             "seventeen"
         ],
         "full": "seventeen",
-        "canonical": "17"
+        "canonical": "17",
+        "type": "number"
     },
     {
         "tokens": [
@@ -141,7 +158,8 @@
             "eighteen"
         ],
         "full": "eighteen",
-        "canonical": "18"
+        "canonical": "18",
+        "type": "number"
     },
     {
         "tokens": [
@@ -149,7 +167,8 @@
             "nineteen"
         ],
         "full": "nineteen",
-        "canonical": "19"
+        "canonical": "19",
+        "type": "number"
     },
     {
         "tokens": [
@@ -157,7 +176,8 @@
             "twenty"
         ],
         "full": "twenty",
-        "canonical": "20"
+        "canonical": "20",
+        "type": "number"
     },
     {
         "tokens": [
@@ -165,7 +185,8 @@
             "Tenth"
         ],
         "full": "Tenth",
-        "canonical": "10th"
+        "canonical": "10th",
+        "type": "ordinal"
     },
     {
         "tokens": [
@@ -173,7 +194,8 @@
             "Eleventh"
         ],
         "full": "Eleventh",
-        "canonical": "11th"
+        "canonical": "11th",
+        "type": "ordinal"
     },
     {
         "tokens": [
@@ -181,7 +203,8 @@
             "Twelfth"
         ],
         "full": "Twelfth",
-        "canonical": "12th"
+        "canonical": "12th",
+        "type": "ordinal"
     },
     {
         "tokens": [
@@ -189,7 +212,8 @@
             "Thirteenth"
         ],
         "full": "Thirteenth",
-        "canonical": "13th"
+        "canonical": "13th",
+        "type": "ordinal"
     },
     {
         "tokens": [
@@ -197,7 +221,8 @@
             "Fourteenth"
         ],
         "full": "Fourteenth",
-        "canonical": "14th"
+        "canonical": "14th",
+        "type": "ordinal"
     },
     {
         "tokens": [
@@ -205,7 +230,8 @@
             "Fifteenth"
         ],
         "full": "Fifteenth",
-        "canonical": "15th"
+        "canonical": "15th",
+        "type": "ordinal"
     },
     {
         "tokens": [
@@ -213,7 +239,8 @@
             "Sixteenth"
         ],
         "full": "Sixteenth",
-        "canonical": "16th"
+        "canonical": "16th",
+        "type": "ordinal"
     },
     {
         "tokens": [
@@ -221,7 +248,8 @@
             "Seventeenth"
         ],
         "full": "Seventeenth",
-        "canonical": "17th"
+        "canonical": "17th",
+        "type": "ordinal"
     },
     {
         "tokens": [
@@ -229,7 +257,8 @@
             "Eighteenth"
         ],
         "full": "Eighteenth",
-        "canonical": "18th"
+        "canonical": "18th",
+        "type": "ordinal"
     },
     {
         "tokens": [
@@ -237,7 +266,8 @@
             "Nineteenth"
         ],
         "full": "Nineteenth",
-        "canonical": "19th"
+        "canonical": "19th",
+        "type": "ordinal"
     },
     {
         "tokens": [
@@ -245,7 +275,8 @@
             "First"
         ],
         "full": "First",
-        "canonical": "1st"
+        "canonical": "1st",
+        "type": "ordinal"
     },
     {
         "tokens": [
@@ -253,7 +284,8 @@
             "Twentieth"
         ],
         "full": "Twentieth",
-        "canonical": "20th"
+        "canonical": "20th",
+        "type": "ordinal"
     },
     {
         "tokens": [
@@ -261,7 +293,8 @@
             "Second"
         ],
         "full": "Second",
-        "canonical": "2nd"
+        "canonical": "2nd",
+        "type": "ordinal"
     },
     {
         "tokens": [
@@ -269,7 +302,8 @@
             "Third"
         ],
         "full": "Third",
-        "canonical": "3rd"
+        "canonical": "3rd",
+        "type": "ordinal"
     },
     {
         "tokens": [
@@ -277,7 +311,8 @@
             "Fourth"
         ],
         "full": "Fourth",
-        "canonical": "4th"
+        "canonical": "4th",
+        "type": "ordinal"
     },
     {
         "tokens": [
@@ -285,7 +320,8 @@
             "Fifth"
         ],
         "full": "Fifth",
-        "canonical": "5th"
+        "canonical": "5th",
+        "type": "ordinal"
     },
     {
         "tokens": [
@@ -293,7 +329,8 @@
             "Sixth"
         ],
         "full": "Sixth",
-        "canonical": "6th"
+        "canonical": "6th",
+        "type": "ordinal"
     },
     {
         "tokens": [
@@ -301,7 +338,8 @@
             "Seventh"
         ],
         "full": "Seventh",
-        "canonical": "7th"
+        "canonical": "7th",
+        "type": "ordinal"
     },
     {
         "tokens": [
@@ -309,7 +347,8 @@
             "Eighth"
         ],
         "full": "Eighth",
-        "canonical": "8th"
+        "canonical": "8th",
+        "type": "ordinal"
     },
     {
         "tokens": [
@@ -317,7 +356,8 @@
             "Ninth"
         ],
         "full": "Ninth",
-        "canonical": "9th"
+        "canonical": "9th",
+        "type": "ordinal"
     },
     {
         "tokens": [
@@ -326,7 +366,8 @@
         ],
         "full": "Access",
         "canonical": "Accs",
-        "only_layers": ["address"]
+        "only_layers": ["address"],
+        "type": "way"
     },
     {
         "tokens": [
@@ -335,7 +376,8 @@
         ],
         "full": "Alleyway",
         "canonical": "Alwy",
-        "only_layers": ["address"]
+        "only_layers": ["address"],
+        "type": "way"
     },
     {
         "tokens": [
@@ -345,7 +387,8 @@
         ],
         "full": "Alley",
         "canonical": "Aly",
-        "only_layers": ["address"]
+        "only_layers": ["address"],
+        "type": "way"
     },
     {
         "tokens": [
@@ -354,7 +397,8 @@
         ],
         "full": "Amble",
         "canonical": "Ambl",
-        "only_layers": ["address"]
+        "only_layers": ["address"],
+        "type": "way"
     },
     {
         "tokens": [
@@ -363,7 +407,8 @@
         ],
         "full": "Approach",
         "canonical": "App",
-        "only_layers": ["address"]
+        "only_layers": ["address"],
+        "type": "way"
     },
     {
         "tokens": [
@@ -396,7 +441,8 @@
         ],
         "full": "Arterial",
         "canonical": "Artl",
-        "only_layers": ["address"]
+        "only_layers": ["address"],
+        "type": "way"
     },
     {
         "tokens": [
@@ -405,7 +451,8 @@
         ],
         "full": "Artery",
         "canonical": "Arty",
-        "only_layers": ["address"]
+        "only_layers": ["address"],
+        "type": "way"
     },
     {
         "tokens": [
@@ -415,7 +462,8 @@
         ],
         "full": "Avenue",
         "canonical": "Av",
-        "only_layers": ["address"]
+        "only_layers": ["address"],
+        "type": "way"
     },
     {
         "tokens": [
@@ -480,7 +528,8 @@
         ],
         "full": "Branch",
         "canonical": "Br",
-        "only_layers": ["address"]
+        "only_layers": ["address"],
+        "type": "way"
     },
     {
         "tokens": [
@@ -531,7 +580,8 @@
         ],
         "full": "Boulevard",
         "canonical": "Blv",
-        "only_layers": ["address"]
+        "only_layers": ["address"],
+        "type": "way"
     },
     {
         "tokens": [
@@ -540,7 +590,8 @@
         ],
         "full": "Boardwalk",
         "canonical": "Bwlk",
-        "only_layers": ["address"]
+        "only_layers": ["address"],
+        "type": "way"
     },
     {
         "tokens": [
@@ -550,7 +601,8 @@
         ],
         "full": "Bypass",
         "canonical": "Byp",
-        "only_layers": ["address"]
+        "only_layers": ["address"],
+        "type": "way"
     },
     {
         "tokens": [
@@ -567,7 +619,8 @@
         ],
         "full": "Byway",
         "canonical": "Bywy",
-        "only_layers": ["address"]
+        "only_layers": ["address"],
+        "type": "way"
     },
     {
         "tokens": [
@@ -592,7 +645,8 @@
         ],
         "full": "Circuit",
         "canonical": "Cct",
-        "only_layers": ["address"]
+        "only_layers": ["address"],
+        "type": "way"
     },
     {
         "tokens": [
@@ -601,7 +655,8 @@
         ],
         "full": "Chase",
         "canonical": "Ch",
-        "only_layers": ["address"]
+        "only_layers": ["address"],
+        "type": "way"
     },
     {
         "tokens": [
@@ -618,7 +673,8 @@
         ],
         "full": "Circle",
         "canonical": "Cir",
-        "only_layers": ["address"]
+        "only_layers": ["address"],
+        "type": "way"
     },
     {
         "tokens": [
@@ -627,7 +683,8 @@
         ],
         "full": "Circles",
         "canonical": "Cirs",
-        "only_layers": ["address"]
+        "only_layers": ["address"],
+        "type": "way"
     },
     {
         "tokens": [
@@ -645,7 +702,8 @@
         ],
         "full": "Close",
         "canonical": "Cl",
-        "only_layers": ["address"]
+        "only_layers": ["address"],
+        "type": "way"
     },
     {
         "tokens": [
@@ -678,7 +736,8 @@
         ],
         "full": "Calle",
         "canonical": "Cll",
-        "only_layers": ["address"]
+        "only_layers": ["address"],
+        "type": "way"
     },
     {
         "tokens": [
@@ -735,7 +794,8 @@
             "College"
         ],
         "full": "College",
-        "canonical": "Coll"
+        "canonical": "Coll",
+        "prefer_full": true
     },
     {
         "tokens": [
@@ -744,7 +804,8 @@
         ],
         "full": "Concourse",
         "canonical": "Con",
-        "only_layers": ["address"]
+        "only_layers": ["address"],
+        "type": "way"
     },
     {
         "tokens": [
@@ -833,7 +894,8 @@
         ],
         "full": "Crest",
         "canonical": "Crst",
-        "only_layers": ["address"]
+        "only_layers": ["address"],
+        "type": "way"
     },
     {
         "tokens": [
@@ -842,7 +904,9 @@
         ],
         "full": "Cul-de-sac",
         "canonical": "Csac",
-        "only_layers": ["address"]
+        "only_layers": ["address"],
+        "type": "way",
+        "spanBoundaries": 2
     },
     {
         "tokens": [
@@ -851,7 +915,8 @@
         ],
         "full": "Causeway",
         "canonical": "Cswy",
-        "only_layers": ["address"]
+        "only_layers": ["address"],
+        "type": "way"
     },
     {
         "tokens": [
@@ -860,7 +925,8 @@
         ],
         "full": "Court",
         "canonical": "Ct",
-        "only_layers": ["address"]
+        "only_layers": ["address"],
+        "type": "way"
     },
     {
         "tokens": [
@@ -886,7 +952,8 @@
         ],
         "full": "Courts",
         "canonical": "Cts",
-        "only_layers": ["address"]
+        "only_layers": ["address"],
+        "type": "way"
     },
     {
         "tokens": [
@@ -903,7 +970,8 @@
         ],
         "full": "Curve",
         "canonical": "Curv",
-        "only_layers": ["address"]
+        "only_layers": ["address"],
+        "type": "way"
     },
     {
         "tokens": [
@@ -953,7 +1021,8 @@
         ],
         "full": "Drive",
         "canonical": "Dr",
-        "only_layers": ["address"]
+        "only_layers": ["address"],
+        "type": "way"
     },
     {
         "tokens": [
@@ -970,7 +1039,8 @@
         ],
         "full": "Drives",
         "canonical": "Drs",
-        "only_layers": ["address"]
+        "only_layers": ["address"],
+        "type": "way"
     },
     {
         "tokens": [
@@ -987,7 +1057,8 @@
         ],
         "full": "Driveway",
         "canonical": "Dvwy",
-        "only_layers": ["address"]
+        "only_layers": ["address"],
+        "type": "way"
     },
     {
         "tokens": [
@@ -996,7 +1067,8 @@
             "East"
         ],
         "full": "East",
-        "canonical": "E"
+        "canonical": "E",
+        "type": "cardinal"
     },
     {
         "tokens": [
@@ -1013,7 +1085,8 @@
         ],
         "full": "Entrance",
         "canonical": "Ent",
-        "only_layers": ["address"]
+        "only_layers": ["address"],
+        "type": "way"
     },
     {
         "tokens": [
@@ -1047,7 +1120,8 @@
         ],
         "full": "Expressway",
         "canonical": "Exp",
-        "only_layers": ["address"]
+        "only_layers": ["address"],
+        "type": "way"
     },
     {
         "tokens": [
@@ -1176,7 +1250,8 @@
         ],
         "full": "Fork",
         "canonical": "Frk",
-        "only_layers": ["address"]
+        "only_layers": ["address"],
+        "type": "way"
     },
     {
         "tokens": [
@@ -1225,7 +1300,8 @@
         ],
         "full": "Footway",
         "canonical": "Ftwy",
-        "only_layers": ["address"]
+        "only_layers": ["address"],
+        "type": "way"
     },
     {
         "tokens": [
@@ -1234,7 +1310,8 @@
         ],
         "full": "Freeway",
         "canonical": "Fwy",
-        "only_layers": ["address"]
+        "only_layers": ["address"],
+        "type": "way"
     },
     {
         "tokens": [
@@ -1341,7 +1418,8 @@
         ],
         "full": "Highroad",
         "canonical": "Hird",
-        "only_layers": ["address"]
+        "only_layers": ["address"],
+        "type": "way"
     },
     {
         "tokens": [
@@ -1414,7 +1492,8 @@
         ],
         "full": "Highway",
         "canonical": "Hwy",
-        "only_layers": ["address"]
+        "only_layers": ["address"],
+        "type": "way"
     },
     {
         "tokens": [
@@ -1602,7 +1681,8 @@
         ],
         "full": "Lane",
         "canonical": "Ln",
-        "only_layers": ["address"]
+        "only_layers": ["address"],
+        "type": "way"
     },
     {
         "tokens": [
@@ -1619,7 +1699,8 @@
         ],
         "full": "Laneway",
         "canonical": "Lnwy",
-        "only_layers": ["address"]
+        "only_layers": ["address"],
+        "type": "way"
     },
     {
         "tokens": [
@@ -1724,7 +1805,8 @@
         ],
         "full": "Meander",
         "canonical": "Mndr",
-        "only_layers": ["address"]
+        "only_layers": ["address"],
+        "type": "way"
     },
     {
         "tokens": [
@@ -1781,7 +1863,8 @@
         ],
         "full": "Motorway",
         "canonical": "Mtwy",
-        "only_layers": ["address"]
+        "only_layers": ["address"],
+        "type": "way"
     },
     {
         "tokens": [
@@ -1790,7 +1873,8 @@
             "North"
         ],
         "full": "North",
-        "canonical": "N"
+        "canonical": "N",
+        "type": "cardinal"
     },
     {
         "tokens": [
@@ -1806,7 +1890,8 @@
             "Northeast"
         ],
         "full": "Northeast",
-        "canonical": "NE"
+        "canonical": "NE",
+        "type": "cardinal"
     },
     {
         "tokens": [
@@ -1830,7 +1915,8 @@
             "Northwest"
         ],
         "full": "Northwest",
-        "canonical": "NW"
+        "canonical": "NW",
+        "type": "cardinal"
     },
     {
         "tokens": [
@@ -1863,7 +1949,8 @@
         ],
         "full": "Overpass",
         "canonical": "Ovps",
-        "only_layers": ["address"]
+        "only_layers": ["address"],
+        "type": "way"
     },
     {
         "tokens": [
@@ -1911,7 +1998,9 @@
             "Pike"
         ],
         "full": "Pike",
-        "canonical": "Pk"
+        "canonical": "Pk",
+        "only_layers": ["address"],
+        "type": "way"
     },
     {
         "tokens": [
@@ -2042,7 +2131,8 @@
         ],
         "full": "Pathway",
         "canonical": "Pway",
-        "only_layers": ["address"]
+        "only_layers": ["address"],
+        "type": "way"
     },
     {
         "tokens": [
@@ -2056,7 +2146,8 @@
         ],
         "full": "Parkway",
         "canonical": "Pkwy",
-        "only_layers": ["address"]
+        "only_layers": ["address"],
+        "type": "way"
     },
     {
         "tokens": [
@@ -2123,7 +2214,8 @@
             "Ridge"
         ],
         "full": "Ridge",
-        "canonical": "Rdg"
+        "canonical": "Rdg",
+        "prefer_full": true
     },
     {
         "tokens": [
@@ -2140,7 +2232,8 @@
         ],
         "full": "Roads",
         "canonical": "Rds",
-        "only_layers": ["address"]
+        "only_layers": ["address"],
+        "type": "way"
     },
     {
         "tokens": [
@@ -2214,7 +2307,8 @@
         ],
         "full": "Route",
         "canonical": "Rt",
-        "only_layers": ["address"]
+        "only_layers": ["address"],
+        "type": "way"
     },
     {
         "tokens": [
@@ -2231,7 +2325,8 @@
         ],
         "full": "Rotary",
         "canonical": "Rty",
-        "only_layers": ["address"]
+        "only_layers": ["address"],
+        "type": "way"
     },
     {
         "tokens": [
@@ -2248,7 +2343,8 @@
             "South"
         ],
         "full": "South",
-        "canonical": "S"
+        "canonical": "S",
+        "type": "cardinal"
     },
     {
         "tokens": [
@@ -2264,7 +2360,8 @@
             "Southeast"
         ],
         "full": "Southeast",
-        "canonical": "SE"
+        "canonical": "SE",
+        "type": "cardinal"
     },
     {
         "tokens": [
@@ -2385,7 +2482,8 @@
         ],
         "full": "Street",
         "canonical": "St",
-        "only_layers": ["address"]
+        "only_layers": ["address"],
+        "type": "way"
     },
     {
         "tokens": [
@@ -2449,7 +2547,8 @@
             "Southwest"
         ],
         "full": "Southwest",
-        "canonical": "SW"
+        "canonical": "SW",
+        "type": "cardinal"
     },
     {
         "tokens": [
@@ -2467,7 +2566,8 @@
         ],
         "full": "Trafficway",
         "canonical": "Tfwy",
-        "only_layers": ["address"]
+        "only_layers": ["address"],
+        "type": "way"
     },
     {
         "tokens": [
@@ -2476,7 +2576,8 @@
         ],
         "full": "Thoroughfare",
         "canonical": "Thfr",
-        "only_layers": ["address"]
+        "only_layers": ["address"],
+        "type": "way"
     },
     {
         "tokens": [
@@ -2485,7 +2586,8 @@
         ],
         "full": "Thruway",
         "canonical": "Thwy",
-        "only_layers": ["address"]
+        "only_layers": ["address"],
+        "type": "way"
     },
     {
         "tokens": [
@@ -2494,7 +2596,8 @@
         ],
         "full": "Tollway",
         "canonical": "Tlwy",
-        "only_layers": ["address"]
+        "only_layers": ["address"],
+        "type": "way"
     },
     {
         "tokens": [
@@ -2503,7 +2606,8 @@
         ],
         "full": "Turnpike",
         "canonical": "Tpke",
-        "only_layers": ["address"]
+        "only_layers": ["address"],
+        "type": "way"
     },
     {
         "tokens": [
@@ -2545,7 +2649,8 @@
         ],
         "full": "Tunnel",
         "canonical": "Tunl",
-        "only_layers": ["address"]
+        "only_layers": ["address"],
+        "type": "way"
     },
     {
         "tokens": [
@@ -2569,7 +2674,8 @@
             "University"
         ],
         "full": "University",
-        "canonical": "Univ"
+        "canonical": "Univ",
+        "prefer_full": true
     },
     {
         "tokens": [
@@ -2579,7 +2685,8 @@
         ],
         "full": "Underpass",
         "canonical": "Upas",
-        "only_layers": ["address"]
+        "only_layers": ["address"],
+        "type": "way"
     },
     {
         "tokens": [
@@ -2597,7 +2704,8 @@
         ],
         "full": "Viaduct",
         "canonical": "Via",
-        "only_layers": ["address"]
+        "only_layers": ["address"],
+        "type": "way"
     },
     {
         "tokens": [
@@ -2672,7 +2780,8 @@
             "West"
         ],
         "full": "West",
-        "canonical": "W"
+        "canonical": "W",
+        "type": "cardinal"
     },
     {
         "tokens": [
@@ -2697,7 +2806,8 @@
         ],
         "full": "Walkway",
         "canonical": "Wkwy",
-        "only_layers": ["address"]
+        "only_layers": ["address"],
+        "type": "way"
     },
     {
         "tokens": [
@@ -2714,7 +2824,8 @@
         ],
         "full": "Way",
         "canonical": "Wy",
-        "only_layers": ["address"]
+        "only_layers": ["address"],
+        "type": "way"
     },
     {
         "tokens": [
@@ -2727,7 +2838,8 @@
         ],
         "full": "Crescent",
         "canonical": "X",
-        "only_layers": ["address"]
+        "only_layers": ["address"],
+        "type": "way"
     },
     {
         "tokens": [
@@ -2736,6 +2848,7 @@
         ],
         "full": "Crossing",
         "canonical": "Xing",
-        "only_layers": ["address"]
+        "only_layers": ["address"],
+        "type": "way"
     }
 ]

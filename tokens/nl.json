@@ -39,7 +39,8 @@
         "full": "boulevard",
         "canonical": "boulev",
         "only_layers": ["address"],
-        "note": "translates to 'boulevard'"
+        "note": "translates to 'boulevard'",
+        "type": "way"
     },
     {
         "tokens": [
@@ -130,7 +131,8 @@
         "full": "dwarsstraat",
         "canonical": "DWSTR",
         "only_layers": ["address"],
-        "note": "translates to 'cross street'"
+        "note": "translates to 'cross street'",
+        "type": "way"
     },
     {
         "tokens": [
@@ -164,7 +166,8 @@
         "full": "Gracht",
         "canonical": "gr",
         "only_layers": ["address"],
-        "note": "translates to 'canal'"
+        "note": "translates to 'canal'",
+        "type": "way"
     },
     {
         "tokens": [
@@ -398,7 +401,8 @@
         "full": "Laan",
         "canonical": "ln",
         "only_layers": ["address"],
-        "note": "translates to 'lane'"
+        "note": "translates to 'lane'",
+        "type": "way"
     },
     {
         "tokens": [
@@ -478,7 +482,8 @@
             "noord"
         ],
         "full": "noord",
-        "canonical": "n"
+        "canonical": "n",
+        "type": "cardinal"
     },
     {
         "tokens": [
@@ -518,7 +523,8 @@
             "oost"
         ],
         "full": "oost",
-        "canonical": "o"
+        "canonical": "o",
+        "type": "cardinal"
     },
     {
         "tokens": [
@@ -664,7 +670,8 @@
         "full": "steeg",
         "canonical": "stg",
         "only_layers": ["address"],
-        "note": "translates to 'alley'"
+        "note": "translates to 'alley'",
+        "type": "way"
     },
     {
         "tokens": [
@@ -674,7 +681,8 @@
         "full": "Straat",
         "canonical": "str",
         "only_layers": ["address"],
-        "note": "translates to 'street'"
+        "note": "translates to 'street'",
+        "type": "way"
     },
     {
         "tokens": [
@@ -684,7 +692,8 @@
         "full": "straatweg",
         "canonical": "strwg",
         "only_layers": ["address"],
-        "note": "translates to 'street-road'"
+        "note": "translates to 'street-road'",
+        "type": "way"
     },
     {
         "tokens": [
@@ -694,7 +703,8 @@
         "full": "Steenweg",
         "canonical": "stwg",
         "only_layers": ["address"],
-        "note": "translates to 'alley-road'"
+        "note": "translates to 'alley-road'",
+        "type": "way"
     },
     {
         "tokens": [
@@ -742,7 +752,8 @@
             "west"
         ],
         "full": "west",
-        "canonical": "w"
+        "canonical": "w",
+        "type": "cardinal"
     },
     {
         "tokens": [
@@ -774,7 +785,8 @@
             "zuid"
         ],
         "full": "zuid",
-        "canonical": "z"
+        "canonical": "z",
+        "type": "cardinal"
     },
     {
         "tokens": [

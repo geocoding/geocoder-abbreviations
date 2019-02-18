@@ -5,7 +5,8 @@
             "Dixième"
         ],
         "full": "Dixième",
-        "canonical": "10e"
+        "canonical": "10e",
+        "type": "ordinal"
     },
     {
         "tokens": [
@@ -13,7 +14,8 @@
             "Onzième"
         ],
         "full": "Onzième",
-        "canonical": "11e"
+        "canonical": "11e",
+        "type": "ordinal"
     },
     {
         "tokens": [
@@ -21,7 +23,8 @@
             "Douzième"
         ],
         "full": "Douzième",
-        "canonical": "12e"
+        "canonical": "12e",
+        "type": "ordinal"
     },
     {
         "tokens": [
@@ -29,7 +32,8 @@
             "Treizième"
         ],
         "full": "Treizième",
-        "canonical": "13e"
+        "canonical": "13e",
+        "type": "ordinal"
     },
     {
         "tokens": [
@@ -37,7 +41,8 @@
             "Quatorzième"
         ],
         "full": "Quatorzième",
-        "canonical": "14e"
+        "canonical": "14e",
+        "type": "ordinal"
     },
     {
         "tokens": [
@@ -45,7 +50,8 @@
             "Quinzième"
         ],
         "full": "Quinzième",
-        "canonical": "15e"
+        "canonical": "15e",
+        "type": "ordinal"
     },
     {
         "tokens": [
@@ -53,7 +59,8 @@
             "Seizième"
         ],
         "full": "Seizième",
-        "canonical": "16e"
+        "canonical": "16e",
+        "type": "ordinal"
     },
     {
         "tokens": [
@@ -61,7 +68,8 @@
             "Dix-septième"
         ],
         "full": "Dix-septième",
-        "canonical": "17e"
+        "canonical": "17e",
+        "type": "ordinal"
     },
     {
         "tokens": [
@@ -69,7 +77,8 @@
             "Dix-huitième"
         ],
         "full": "Dix-huitième",
-        "canonical": "18e"
+        "canonical": "18e",
+        "type": "ordinal"
     },
     {
         "tokens": [
@@ -77,7 +86,8 @@
             "Dix-neuvième"
         ],
         "full": "Dix-neuvième",
-        "canonical": "19e"
+        "canonical": "19e",
+        "type": "ordinal"
     },
     {
         "tokens": [
@@ -85,7 +95,8 @@
             "Premier"
         ],
         "full": "Premier",
-        "canonical": "1er"
+        "canonical": "1er",
+        "type": "ordinal"
     },
     {
         "tokens": [
@@ -93,7 +104,8 @@
             "Première"
         ],
         "full": "Première",
-        "canonical": "1ere"
+        "canonical": "1ere",
+        "type": "ordinal"
     },
     {
         "tokens": [
@@ -101,7 +113,8 @@
             "Vingtième"
         ],
         "full": "Vingtième",
-        "canonical": "20e"
+        "canonical": "20e",
+        "type": "ordinal"
     },
     {
         "tokens": [
@@ -109,7 +122,8 @@
             "Deuxième"
         ],
         "full": "Deuxième",
-        "canonical": "2e"
+        "canonical": "2e",
+        "type": "ordinal"
     },
     {
         "tokens": [
@@ -117,7 +131,8 @@
             "Troisième"
         ],
         "full": "Troisième",
-        "canonical": "3e"
+        "canonical": "3e",
+        "type": "ordinal"
     },
     {
         "tokens": [
@@ -125,7 +140,8 @@
             "Quatrième"
         ],
         "full": "Quatrième",
-        "canonical": "4e"
+        "canonical": "4e",
+        "type": "ordinal"
     },
     {
         "tokens": [
@@ -133,7 +149,8 @@
             "Cinquième"
         ],
         "full": "Cinquième",
-        "canonical": "5e"
+        "canonical": "5e",
+        "type": "ordinal"
     },
     {
         "tokens": [
@@ -141,7 +158,8 @@
             "Sixième"
         ],
         "full": "Sixième",
-        "canonical": "6e"
+        "canonical": "6e",
+        "type": "ordinal"
     },
     {
         "tokens": [
@@ -149,7 +167,8 @@
             "Septième"
         ],
         "full": "Septième",
-        "canonical": "7e"
+        "canonical": "7e",
+        "type": "ordinal"
     },
     {
         "tokens": [
@@ -157,7 +176,8 @@
             "Huitième"
         ],
         "full": "Huitième",
-        "canonical": "8e"
+        "canonical": "8e",
+        "type": "ordinal"
     },
     {
         "tokens": [
@@ -165,7 +185,8 @@
             "Neuvième"
         ],
         "full": "Neuvième",
-        "canonical": "9e"
+        "canonical": "9e",
+        "type": "ordinal"
     },
     {
         "tokens": [
@@ -176,7 +197,8 @@
         "full": "Autoroute",
         "canonical": "A",
         "only_layers": ["address"],
-        "note": "translates to 'highway'"
+        "note": "translates to 'highway'",
+        "type": "way"
     },
     {
         "tokens": [
@@ -202,7 +224,8 @@
         "full": "Allée",
         "canonical": "All",
         "only_layers": ["address"],
-        "note": "translates to 'alley'"
+        "note": "translates to 'alley'",
+        "type": "way"
     },
     {
         "tokens": [
@@ -228,7 +251,8 @@
         "full": "Avenue",
         "canonical": "Av",
         "only_layers": ["address"],
-        "note": "translates to 'avenue'"
+        "note": "translates to 'avenue'",
+        "type": "way"
     },
     {
         "tokens": [
@@ -248,7 +272,8 @@
         "full": "Boulevard",
         "canonical": "Bd",
         "only_layers": ["address"],
-        "note": "translates to 'boulevard'"
+        "note": "translates to 'boulevard'",
+        "type": "way"
     },
     {
         "tokens": [
@@ -258,7 +283,8 @@
         "full": "Chemin",
         "canonical": "Ch",
         "only_layers": ["address"],
-        "note": "translates to 'path'"
+        "note": "translates to 'path'",
+        "type": "way"
     },
     {
         "tokens": [
@@ -268,7 +294,8 @@
         "full": "Chaussée",
         "canonical": "Ch",
         "only_layers": ["address"],
-        "note": "translates to 'roadway'"
+        "note": "translates to 'roadway'",
+        "type": "way"
     },
     {
         "tokens": [
@@ -278,7 +305,8 @@
         "full": "Cours",
         "canonical": "Crs",
         "only_layers": ["address"],
-        "note": "translates to 'course'"
+        "note": "translates to 'course'",
+        "type": "way"
     },
     {
         "tokens": [
@@ -310,7 +338,8 @@
             "Est"
         ],
         "full": "Est",
-        "canonical": "E"
+        "canonical": "E",
+        "type": "cardinal"
     },
     {
         "tokens": [
@@ -454,7 +483,8 @@
             "Nord"
         ],
         "full": "Nord",
-        "canonical": "N"
+        "canonical": "N",
+        "type": "cardinal"
     },
     {
         "tokens": [
@@ -462,7 +492,8 @@
             "Nord-Est"
         ],
         "full": "Nord-Est",
-        "canonical": "NE"
+        "canonical": "NE",
+        "type": "cardinal"
     },
     {
         "tokens": [
@@ -470,7 +501,8 @@
             "Nord-Ouest"
         ],
         "full": "Nord-Ouest",
-        "canonical": "NO"
+        "canonical": "NO",
+        "type": "cardinal"
     },
     {
         "tokens": [
@@ -478,7 +510,8 @@
             "Ouest"
         ],
         "full": "Ouest",
-        "canonical": "O"
+        "canonical": "O",
+        "type": "cardinal"
     },
     {
         "tokens": [
@@ -536,7 +569,8 @@
         "full": "Rue",
         "canonical": "R",
         "only_layers": ["address"],
-        "note": "translates to 'road'"
+        "note": "translates to 'road'",
+        "type": "way"
     },
     {
         "tokens": [
@@ -554,7 +588,8 @@
         "full": "Ruelle",
         "canonical": "Rlle",
         "only_layers": ["address"],
-        "note": "translates to 'alley'"
+        "note": "translates to 'alley'",
+        "type": "way"
     },
     {
         "tokens": [
@@ -562,7 +597,10 @@
             "Rond-Point"
         ],
         "full": "Rond-Point",
-        "canonical": "Rpt"
+        "canonical": "Rpt",
+        "only_layers": ["address"],
+        "note": "translates to 'roundabout'",
+        "type": "way"
     },
     {
         "tokens": [
@@ -570,7 +608,10 @@
             "Route"
         ],
         "full": "Route",
-        "canonical": "Rte"
+        "canonical": "Rte",
+        "note": "translates to 'alley'",
+        "only_layers": ["address"],
+        "type": "way"
     },
     {
         "tokens": [
@@ -578,7 +619,8 @@
             "Sud"
         ],
         "full": "Sud",
-        "canonical": "S"
+        "canonical": "S",
+        "type": "cardinal"
     },
     {
         "tokens": [
@@ -586,7 +628,8 @@
             "Sud-Est"
         ],
         "full": "Sud-Est",
-        "canonical": "SE"
+        "canonical": "SE",
+        "type": "cardinal"
     },
     {
         "tokens": [
@@ -594,7 +637,8 @@
             "Sud-Ouest"
         ],
         "full": "Sud-Ouest",
-        "canonical": "SO"
+        "canonical": "SO",
+        "type": "cardinal"
     },
     {
         "tokens": [

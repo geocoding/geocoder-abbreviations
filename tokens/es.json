@@ -95,7 +95,8 @@
         "full": "Autopista",
         "canonical": "Auto",
         "only_layers": ["address"],
-        "note": "translates to 'freeway'"
+        "note": "translates to 'freeway'",
+        "type": "way"
     },
     {
         "tokens": [
@@ -105,7 +106,8 @@
         "full": "Autovía",
         "canonical": "Autov",
         "only_layers": ["address"],
-        "note": "translates to 'dual carriageway'"
+        "note": "translates to 'dual carriageway'",
+        "type": "way"
     },
     {
         "tokens": [
@@ -119,7 +121,8 @@
         "full": "Avenida",
         "canonical": "Av",
         "only_layers": ["address"],
-        "note": "translates to 'avenue'; 'avenida' is Castillian whereas 'avinguda' is Catalan'"
+        "note": "translates to 'avenue'; 'avenida' is Castillian whereas 'avinguda' is Catalan'",
+        "type": "way"
     },
     {
         "tokens": [
@@ -203,7 +206,8 @@
         "full": "Bulevar",
         "canonical": "Bulev",
         "only_layers": ["address"],
-        "note": "translates to 'boulevard'"
+        "note": "translates to 'boulevard'",
+        "type": "way"
     },
     {
         "tokens": [
@@ -277,7 +281,8 @@
         "full": "Callejuela",
         "canonical": "Cjla",
         "only_layers": ["address"],
-        "note": "translates to 'lane'"
+        "note": "translates to 'lane'",
+        "type": "way"
     },
     {
         "tokens": [
@@ -290,7 +295,8 @@
         "full": "Callejón",
         "canonical": "Cj",
         "only_layers": ["address"],
-        "note": "translates to 'alley'"
+        "note": "translates to 'alley'",
+        "type": "way"
     },
     {
         "tokens": [
@@ -310,7 +316,8 @@
         "full": "Calle",
         "canonical": "Cl",
         "only_layers": ["address"],
-        "note": "translates to 'street' ('carrer' is Catalan)"
+        "note": "translates to 'street' ('carrer' is Catalan)",
+        "type": "way"
     },
     {
         "tokens": [
@@ -320,7 +327,8 @@
         "full": "Calleja",
         "canonical": "Cllja",
         "only_layers": ["address"],
-        "note": "translates to 'lane'"
+        "note": "translates to 'lane'",
+        "type": "way"
     },
     {
         "tokens": [
@@ -341,7 +349,8 @@
         "full": "Camino",
         "canonical": "Cm",
         "only_layers": ["address"],
-        "note": "translates to 'path'"
+        "note": "translates to 'path'",
+        "type": "way"
     },
     {
         "tokens": [
@@ -423,7 +432,8 @@
         "full": "Carril",
         "canonical": "Crril",
         "only_layers": ["address"],
-        "note": "translates to 'lane'"
+        "note": "translates to 'lane'",
+        "type": "way"
     },
     {
         "tokens": [
@@ -474,7 +484,8 @@
         "full": "Carretera",
         "canonical": "Cr",
         "only_layers": ["address"],
-        "note": "translates to 'highway'"
+        "note": "translates to 'highway'",
+        "type": "way"
     },
     {
         "tokens": [
@@ -482,7 +493,10 @@
             "Carreterín"
         ],
         "full": "Carreterín",
-        "canonical": "Ctrin"
+        "canonical": "Ctrin",
+        "only_layers": ["address"],
+        "note": "translates to 'road'",
+        "type": "way"
     },
     {
         "tokens": [
@@ -508,7 +522,8 @@
         "full": "Calzada",
         "canonical": "Czada",
         "only_layers": ["address"],
-        "note": "translates to 'road'"
+        "note": "translates to 'road'",
+        "type": "way"
     },
     {
         "tokens": [
@@ -841,7 +856,8 @@
         "full": "Paseo",
         "canonical": "Po",
         "only_layers": ["address"],
-        "note": "translates to 'walk'"
+        "note": "translates to 'walk'",
+        "type": "way"
     },
     {
         "tokens": [
@@ -907,7 +923,8 @@
         "full": "Pasaje",
         "canonical": "Psaje",
         "only_layers": ["address"],
-        "note": "translates to 'passage'"
+        "note": "translates to 'passage'",
+        "type": "way"
     },
     {
         "tokens": [
@@ -1021,7 +1038,8 @@
         "full": "Rotonda",
         "canonical": "Rtda",
         "only_layers": ["address"],
-        "note": "translates to 'roundabout'"
+        "note": "translates to 'roundabout'",
+        "type": "way"
     },
     {
         "tokens": [

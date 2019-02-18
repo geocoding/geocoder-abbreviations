@@ -7,7 +7,8 @@
         "full": "Alameda",
         "canonical": "Al",
         "only_layers": ["address"],
-        "note": "translates to 'avenue'"
+        "note": "translates to 'avenue'",
+        "type": "way"
     },
     {
         "tokens": [
@@ -49,7 +50,8 @@
         "full": "Avenida",
         "canonical": "Av",
         "only_layers": ["address"],
-        "note": "translates to 'avenue'"
+        "note": "translates to 'avenue'",
+        "type": "way"
     },
     {
         "tokens": [
@@ -76,7 +78,8 @@
         "full": "Beco",
         "canonical": "Bc",
         "only_layers": ["address"],
-        "note": "translates to 'alley'"
+        "note": "translates to 'alley'",
+        "type": "way"
     },
     {
         "tokens": [
@@ -118,7 +121,8 @@
         "full": "Caminho",
         "canonical": "Cam",
         "only_layers": ["address"],
-        "note": "translates to 'way'"
+        "note": "translates to 'way'",
+        "type": "way"
     },
     {
         "tokens": [
@@ -318,7 +322,8 @@
         "full": "Estrada",
         "canonical": "Estr",
         "only_layers": ["address"],
-        "note": "translates to 'road'"
+        "note": "translates to 'road'",
+        "type": "way"
     },
     {
         "tokens": [
@@ -637,7 +642,8 @@
         "full": "Rua",
         "canonical": "R",
         "only_layers": ["address"],
-        "note": "translates to 'street'"
+        "note": "translates to 'street'",
+        "type": "way"
     },
     {
         "tokens": [
@@ -647,7 +653,8 @@
         "full": "Rotunda",
         "canonical": "Rot",
         "only_layers": ["address"],
-        "note": "translates to 'roundabout'"
+        "note": "translates to 'roundabout'",
+        "type": "way"
     },
     {
         "tokens": [
