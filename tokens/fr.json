@@ -695,5 +695,52 @@
         ],
         "full": "Veuve",
         "canonical": "Vve"
+    },
+    {
+        "tokens": [
+            "BP",
+            "Boîte Postale"
+        ],
+        "full": "Boîte Postale",
+        "canonical": "BP",
+        "spanBoundaries": 1,
+        "onlyLayers": ["address"],
+        "type": "box"
+    },
+    {
+        "tokens": [
+            "Ccal",
+            "Centre Commercial"
+        ],
+        "full": "Centre Commercial",
+        "canonical": "Ccal",
+        "spanBoundaries": 1
+    },
+    {
+        "tokens": [
+            "E",
+            "Route Européenne"
+        ],
+        "full": "Route Européenne",
+        "canonical": "E",
+        "spanBoundaries": 1
+    },
+    {
+        "tokens": [
+            "RN",
+            "Route Nationale"
+        ],
+        "full": "Route Nationale",
+        "canonical": "RN",
+        "spanBoundaries": 1
+    },
+    {
+        "tokens": [
+            "Za",
+            "Zone d'activité"
+        ],
+        "full": "Zone d'activité",
+        "canonical": "Za",
+        "spanBoundaries": 1
     }
 ]

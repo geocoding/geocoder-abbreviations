@@ -200,5 +200,41 @@
         "onlyLayers": ["address"],
         "note": "translates to 'alley'",
         "type": "way"
-    }
+    },
+    {
+        "tokens": [
+            "SC",
+            "Strada Comunale"
+        ],
+        "full": "Strada Comunale",
+        "canonical": "SC",
+        "spanBoundaries": 1
+    },
+    {
+        "tokens": [
+            "SP",
+            "Strada Provinciale"
+        ],
+        "full": "Strada Provinciale",
+        "canonical": "SP",
+        "spanBoundaries": 1
+    },
+    {
+        "tokens": [
+            "SR",
+            "Strada Regionale"
+        ],
+        "full": "Strada Regionale",
+        "canonical": "SR",
+        "spanBoundaries": 1
+    },
+    {
+        "tokens": [
+            "SS",
+            "Strada Statale"
+        ],
+        "full": "Strada Statale",
+        "canonical": "SS",
+        "spanBoundaries": 1
+    },
 ]

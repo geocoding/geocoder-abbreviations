@@ -2850,5 +2850,115 @@
         "canonical": "Xing",
         "onlyLayers": ["address"],
         "type": "way"
+    },
+    {
+        "tokens": [
+            "",
+            "Suite [0-9]+"
+        ],
+        "full": "Suite [0-9]+",
+        "canonical": "",
+        "spanBoundaries": 1,
+        "onlyLayers": ["address"],
+        "type": "unit",
+        "regex": true
+    },
+    {
+        "tokens": [
+            "",
+            "Suite [0-9]+-[0-9]+"
+        ],
+        "full": "Suite [0-9]+-[0-9]+",
+        "canonical": "",
+        "spanBoundaries": 2,
+        "onlyLayers": ["address"],
+        "type": "unit",
+        "regex": true
+    },
+    {
+        "tokens": [
+            "",
+            "Suite [0-9]+[a-z]"
+        ],
+        "full": "Suite [0-9]+[a-z]",
+        "canonical": "",
+        "spanBoundaries": 1,
+        "onlyLayers": ["address"],
+        "type": "unit",
+        "regex": true
+    },
+    {
+        "tokens": [
+            "",
+            "Suite [a-z]"
+        ],
+        "full": "Suite [a-z]",
+        "canonical": "",
+        "spanBoundaries": 1,
+        "onlyLayers": ["address"],
+        "type": "unit",
+        "regex": true
+    },
+    {
+        "tokens": [
+            "",
+            "STE [0-9]+"
+        ],
+        "full": "STE [0-9]+",
+        "canonical": "",
+        "spanBoundaries": 1,
+        "onlyLayers": ["address"],
+        "type": "unit",
+        "regex": true
+    },
+    {
+        "tokens": [
+            "",
+            "STE [a-z]"
+        ],
+        "full": "STE [a-z]",
+        "canonical": "",
+        "spanBoundaries": 1,
+        "onlyLayers": ["address"],
+        "type": "unit",
+        "regex": true
+    },
+    {
+        "tokens": [
+            "Po",
+            "Post Office"
+        ],
+        "full": "Post Office",
+        "canonical": "Po",
+        "spanBoundaries": 1
+    },
+    {
+        "tokens": [
+            "Rs",
+            "Railway Station"
+        ],
+        "full": "Railway Station",
+        "canonical": "Rs",
+        "spanBoundaries": 1
+    },
+    {
+        "tokens": [
+            "Vpo",
+            "Village Post Office"
+        ],
+        "full": "Village Post Office",
+        "canonical": "Vpo",
+        "spanBoundaries": 2
+    },
+    {
+        "tokens": [
+            "NT",
+            "N.T.",
+            "New Territories"
+        ],
+        "full": "New Territories",
+        "canonical": "NT",
+        "onlyCountries": ["hk"],
+        "spanBoundaries": 1
     }
 ]

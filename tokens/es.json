@@ -1202,5 +1202,75 @@
         ],
         "full": "Viviendas",
         "canonical": "Vvdas"
+    },
+    {
+        "tokens": [
+            "CH",
+            "Camino hondo"
+        ],
+        "full": "Camino hondo",
+        "canonical": "CH",
+        "spanBoundaries": 1
+    },
+    {
+        "tokens": [
+            "CN",
+            "Camino nuevo"
+        ],
+        "full": "Camino nuevo",
+        "canonical": "CN",
+        "spanBoundaries": 1
+    },
+    {
+        "tokens": [
+            "CV",
+            "Camino viejo"
+        ],
+        "full": "Camino viejo",
+        "canonical": "CV",
+        "spanBoundaries": 1
+    },
+    {
+        "tokens": [
+            "GV",
+            "Gran Vía"
+        ],
+        "full": "Gran Vía",
+        "canonical": "GV",
+        "spanBoundaries": 1
+    },
+    {
+        "tokens": [
+            "PI",
+        ],
+        "full": "Pgind",
+        "canonical": "PI",
+    },
+    {
+        "tokens": [
+            "PI",
+            "Polígono industrial"
+        ],
+        "full": "Polígono industrial",
+        "canonical": "PI",
+        "spanBoundaries": 1
+    },
+    {
+        "tokens": [
+            "pk",
+            "Punto kilométrico"
+        ],
+        "full": "Punto kilométrico",
+        "canonical": "pk",
+        "spanBoundaries": 1
+    },
+    {
+        "tokens": [
+            "Psmar",
+            "Paseo marítimo"
+        ],
+        "full": "Paseo marítimo",
+        "canonical": "Psmar",
+        "spanBoundaries": 1
     }
 ]

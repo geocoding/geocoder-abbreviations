@@ -5,39 +5,7 @@ module.exports = () => {
     //Postpend Standard word boundaries + $
     let stdBoundaries = {
         "P\\.?\\ ?O\\.? Box [0-9]+": " ",
-        "(.+)(strasse|str|straße)": " $1 str ",
-        "Suite [0-9]+": " ",
-        "Suite [0-9]+-[0-9]+": " ",
-        "Suite [0-9]+[a-z]": " ",
-        "Suite [a-z]": " ",
-        "STE [0-9]+": " ",
-        "STE [a-z]": " ",
-        "Post Office": " Po ",
-        "Railway Station": " Rs ",
-        "Village Post Office": " Vpo ",
-        "Camino hondo": " CH ",
-        "Camino nuevo": " CN ",
-        "Camino viejo": " CV ",
-        "Gran Vía": " GV ",
-        "Pgind": " PI ",
-        "Polígono industrial": " PI ",
-        "Punto kilométrico": " pk ",
-        "Paseo marítimo": " Psmar ",
-        "Boîte Postale": " BP ",
-        "Centre Commercial": " Ccal ",
-        "Route Européenne": " E ",
-        "Route Nationale": " RN ",
-        "Zone d'activité": " Za ",
-        "N.T.": " NT ",
-        "New Territories": " NT ",
-        "Strada Comunale": " SC ",
-        "Strada Provinciale": " SP ",
-        "Strada Regionale": " SR ",
-        "Strada Statale": " SS ",
-        "Van De": " vd ",
-        "Van Den": " vd ",
-        "Van Der": " vd ",
-        "Câmara Municipal": " CM "
+        "(.+)(strasse|str|straße)": " $1 str "
     };
 
     const BOUNDARIES = "[\\s\\u2000-\\u206F\\u2E00-\\u2E7F\\\\'!\"#$%&()*+,\\-.\\/:;<=>?@\\[\\]^_`{|}~]"

@@ -803,5 +803,16 @@
         ],
         "full": "Zuidzijde",
         "canonical": "ZZ"
+    },
+    {
+        "tokens": [
+            "vd",
+            "Van De",
+            "Van Den",
+            "Van Der"
+        ],
+        "full": "Van De",
+        "canonical": "vd",
+        "spanBoundaries": 1
     }
 ]
