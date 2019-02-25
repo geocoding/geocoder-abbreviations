@@ -55,7 +55,7 @@ function config(lang, singletons, advanced) {
 }
 
 function prepare(data, singletons, advanced) {
-    if (singletons) data = removeSingletons(data);
+    if (!singletons) data = removeSingletons(data);
     if (!advanced) data = simplify(data);
     return data;
 }
@@ -71,6 +71,7 @@ function simplify(data) {
 
     let tokens = new Set();
     let props = new Map();
+    let positions = new Map();
     for (let group of data) {
         const groupProps = {};
         for (const toKeep of ['skipBoundaries', 'skipDiacriticStripping', 'regex']) {
@@ -81,6 +82,7 @@ function simplify(data) {
         for (let token of group.tokens) {
             tokens.add(token);
             if (keepCount > 0) props.set(token, groupProps);
+            positions.set(token, positions.size);
         }
     }
     tokens = Array.from(tokens).sort();
@@ -122,6 +124,7 @@ function simplify(data) {
         }
     });
 
+    out.sort((a, b) => (positions.get(a[0]) || 0) - (positions.get(b[0]) || 0))
     return out;
 }
 
@@ -129,8 +132,7 @@ function removeSingletons(tokens) {
     if (!(tokens instanceof Array)) return tokens;
 
     return tokens.filter((token) => {
-        return
-            (token instanceof Array && token.length > 1) ||
+        return (token instanceof Array && token.length > 1) ||
             (token.tokens instanceof Array && token.tokens.length > 1);
     });
 }
