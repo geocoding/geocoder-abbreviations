@@ -264,7 +264,6 @@
         ],
         "full": "Strasse",
         "canonical": "Str",
-        "onlyLayers": ["address"],
         "note": "translates to 'street'",
         "type": "way"
     },

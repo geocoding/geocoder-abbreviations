@@ -462,7 +462,6 @@
         ],
         "full": "Avenue",
         "canonical": "Av",
-        "onlyLayers": ["address"],
         "type": "way"
     },
     {
@@ -579,8 +578,7 @@
             "Boulevard"
         ],
         "full": "Boulevard",
-        "canonical": "Blv",
-        "onlyLayers": ["address"],
+        "canonical": "Blvd",
         "type": "way"
     },
     {
@@ -795,7 +793,7 @@
         ],
         "full": "College",
         "canonical": "Coll",
-        "prefer_full": true
+        "preferFull": true
     },
     {
         "tokens": [
@@ -925,7 +923,6 @@
         ],
         "full": "Court",
         "canonical": "Ct",
-        "onlyLayers": ["address"],
         "type": "way"
     },
     {
@@ -1021,7 +1018,6 @@
         ],
         "full": "Drive",
         "canonical": "Dr",
-        "onlyLayers": ["address"],
         "type": "way"
     },
     {
@@ -1492,7 +1488,6 @@
         ],
         "full": "Highway",
         "canonical": "Hwy",
-        "onlyLayers": ["address"],
         "type": "way"
     },
     {
@@ -1681,7 +1676,6 @@
         ],
         "full": "Lane",
         "canonical": "Ln",
-        "onlyLayers": ["address"],
         "type": "way"
     },
     {
@@ -2146,7 +2140,6 @@
         ],
         "full": "Parkway",
         "canonical": "Pkwy",
-        "onlyLayers": ["address"],
         "type": "way"
     },
     {
@@ -2205,7 +2198,6 @@
         ],
         "full": "Road",
         "canonical": "Rd",
-        "onlyLayers": ["address"]
     },
     {
         "tokens": [
@@ -2215,7 +2207,7 @@
         ],
         "full": "Ridge",
         "canonical": "Rdg",
-        "prefer_full": true
+        "preferFull": true
     },
     {
         "tokens": [
@@ -2307,7 +2299,6 @@
         ],
         "full": "Route",
         "canonical": "Rt",
-        "onlyLayers": ["address"],
         "type": "way"
     },
     {
@@ -2482,7 +2473,6 @@
         ],
         "full": "Street",
         "canonical": "St",
-        "onlyLayers": ["address"],
         "type": "way"
     },
     {
@@ -2675,7 +2665,7 @@
         ],
         "full": "University",
         "canonical": "Univ",
-        "prefer_full": true
+        "preferFull": true
     },
     {
         "tokens": [
