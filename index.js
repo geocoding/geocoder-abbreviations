@@ -70,13 +70,17 @@ function simplify(data) {
     if (!data.length || !data[0].tokens) return data;
 
     let tokens = new Set();
+    let props = new Map();
     for (let group of data) {
-        // groups with skipDiacriticStripping or skipBoundaries enabled don't make sense without
-        // those config values, so skip if we're stripping config
-        if (group.skipDiacriticStripping || group.skipBoundaries) continue;
+        const groupProps = {};
+        for (const toKeep of ['skipBoundaries', 'skipDiacriticStripping', 'regex']) {
+            if (group[toKeep]) groupProps[toKeep] = group[toKeep];
+        }
+        const keepCount = Object.keys(groupProps).length;
 
         for (let token of group.tokens) {
             tokens.add(token);
+            if (keepCount > 0) props.set(token, groupProps);
         }
     }
     tokens = Array.from(tokens).sort();
@@ -102,7 +106,21 @@ function simplify(data) {
     for (let i = 0; i < tokens.length; i++) {
         out[invGroups.get(uf.roots[i])].push(tokens[i]);
     }
-    out.forEach((arr) => { arr.sort((a, b) => a.length - b.length) });
+    out.forEach((arr) => {
+        arr.sort((a, b) => a.length - b.length);
+        // the output format we expect for the ones with special characteristics
+        // is for the first thing to be a plain string and subsequent ones to
+        // have properties, so skip the first one
+        for (let i = 1; i < arr.length; i++) {
+            let tokenProps = props.get(arr[i]);
+            if (tokenProps) {
+                // clone
+                tokenProps = Object.assign({}, tokenProps);
+                tokenProps.text = arr[i];
+                arr[i] = tokenProps;
+            }
+        }
+    });
 
     return out;
 }
