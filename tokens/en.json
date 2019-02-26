@@ -2844,6 +2844,30 @@
     {
         "tokens": [
             "",
+            "P\\.?O\\.? Box [0-9]+"
+        ],
+        "full": "P\\.?O\\.? Box [0-9]+",
+        "canonical": "",
+        "spanBoundaries": 1,
+        "onlyLayers": ["address"],
+        "type": "box",
+        "regex": true
+    },
+    {
+        "tokens": [
+            "",
+            "P\\.? O\\.? Box [0-9]+"
+        ],
+        "full": "P\\.? O\\.? Box [0-9]+",
+        "canonical": "",
+        "spanBoundaries": 2,
+        "onlyLayers": ["address"],
+        "type": "box",
+        "regex": true
+    },
+    {
+        "tokens": [
+            "",
             "Suite [0-9]+"
         ],
         "full": "Suite [0-9]+",

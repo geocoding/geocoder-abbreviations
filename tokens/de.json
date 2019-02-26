@@ -347,5 +347,16 @@
         "full": "ue",
         "skipDiacriticStripping": true,
         "canonical": "ü"
+    },
+    {
+        "tokens": [
+            "$1 str",
+            "([^ ]+)(strasse|str|straße)"
+        ],
+        "full": "([^ ]+)(strasse|str|straße)",
+        "canonical": "$1 str",
+        "regex": true,
+        "skipDiacriticStripping": true,
+        "spanBoundaries": 0
     }
 ]
