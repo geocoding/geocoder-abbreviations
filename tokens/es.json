@@ -1241,7 +1241,8 @@
     },
     {
         "tokens": [
-            "PI"
+            "PI",
+            "Pgind"
         ],
         "full": "Pgind",
         "canonical": "PI"
