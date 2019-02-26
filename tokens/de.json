@@ -326,7 +326,7 @@
         "skipBoundaries": true,
         "full": "ae",
         "skipDiacriticStripping": true,
-        "canonical": "ü"
+        "canonical": "ä"
     },
     {
         "tokens": [
@@ -336,7 +336,7 @@
         "skipBoundaries": true,
         "full": "oe",
         "skipDiacriticStripping": true,
-        "canonical": "ü"
+        "canonical": "ö"
     },
     {
         "tokens": [
