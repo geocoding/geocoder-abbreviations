@@ -6,7 +6,8 @@
         ],
         "full": "[１1]丁目",
         "canonical": "一丁目",
-        "regex": true
+        "regex": true,
+        "spanBoundaries": 2
     },
     {
         "tokens": [
@@ -15,7 +16,8 @@
         ],
         "full": "[２2]丁目",
         "canonical": "二丁目",
-        "regex": true
+        "regex": true,
+        "spanBoundaries": 2
     },
     {
         "tokens": [
@@ -24,7 +26,8 @@
         ],
         "full": "[３3]丁目",
         "canonical": "三丁目",
-        "regex": true
+        "regex": true,
+        "spanBoundaries": 2
     },
     {
         "tokens": [
@@ -33,7 +36,8 @@
         ],
         "full": "[４4]丁目",
         "canonical": "四丁目",
-        "regex": true
+        "regex": true,
+        "spanBoundaries": 2
     },
     {
         "tokens": [
@@ -42,7 +46,8 @@
         ],
         "full": "[５5]丁目",
         "canonical": "五丁目",
-        "regex": true
+        "regex": true,
+        "spanBoundaries": 2
     },
     {
         "tokens": [
@@ -51,7 +56,8 @@
         ],
         "full": "[６6]丁目",
         "canonical": "六丁目",
-        "regex": true
+        "regex": true,
+        "spanBoundaries": 2
     },
     {
         "tokens": [
@@ -60,7 +66,8 @@
         ],
         "full": "[７7]丁目",
         "canonical": "七丁目",
-        "regex": true
+        "regex": true,
+        "spanBoundaries": 2
     },
     {
         "tokens": [
@@ -69,7 +76,8 @@
         ],
         "full": "[８8]丁目",
         "canonical": "八丁目",
-        "regex": true
+        "regex": true,
+        "spanBoundaries": 2
     },
     {
         "tokens": [
@@ -78,7 +86,8 @@
         ],
         "full": "[９9]丁目",
         "canonical": "九丁目",
-        "regex": true
+        "regex": true,
+        "spanBoundaries": 2
     },
     {
         "tokens": [
@@ -87,6 +96,7 @@
         ],
         "full": "(１０|10)丁目",
         "canonical": "十丁目",
-        "regex": true
+        "regex": true,
+        "spanBoundaries": 2
     }
 ]
