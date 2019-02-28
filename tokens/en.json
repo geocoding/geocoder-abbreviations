@@ -2967,12 +2967,20 @@
     {
         "tokens": [
             "NT",
-            "N.T.",
             "New Territories"
         ],
         "full": "New Territories",
         "canonical": "NT",
         "onlyCountries": ["hk"],
         "spanBoundaries": 1
+    },
+    {
+        "tokens": [
+            "NT",
+            "N.T."
+        ],
+        "full": "N.T.",
+        "canonical": "NT",
+        "onlyCountries": ["hk"]
     }
 ]
