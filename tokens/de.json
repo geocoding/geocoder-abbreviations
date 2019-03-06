@@ -324,9 +324,9 @@
             "ae"
         ],
         "skipBoundaries": true,
-        "full": "ae",
+        "full": "ä",
         "skipDiacriticStripping": true,
-        "canonical": "ä"
+        "canonical": "ae"
     },
     {
         "tokens": [
@@ -334,9 +334,9 @@
             "oe"
         ],
         "skipBoundaries": true,
-        "full": "oe",
+        "full": "ö",
         "skipDiacriticStripping": true,
-        "canonical": "ö"
+        "canonical": "oe"
     },
     {
         "tokens": [
@@ -344,9 +344,9 @@
             "ue"
         ],
         "skipBoundaries": true,
-        "full": "ue",
+        "full": "ü",
         "skipDiacriticStripping": true,
-        "canonical": "ü"
+        "canonical": "ue"
     },
     {
         "tokens": [
