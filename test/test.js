@@ -61,7 +61,7 @@ tape((t) => {
 
                 note: { type: 'string', required: false },
                 onlyCountries: { type: 'array', required: false },
-                onlyLayers: { type: 'array', required: false },
+                onlyLayers: { type: 'array', required: false, allowed: [ 'address' ] },
                 preferFull: { type: 'boolean', required: false },
                 regex: { type: 'boolean', required: false },
                 skipBoundaries: { type: 'boolean', required: false },
@@ -82,8 +82,13 @@ tape((t) => {
                     const typeMatch = attributes.type === 'array' ? Array.isArray(group[key]) : actualType === attributes.type;
                     if (!typeMatch) t.fail(`${lang} group ${JSON.stringify(group)} property ${key} should be type ${attributes.type}; found ${actualType}`);
 
-                    if (attributes.allowed && attributes.allowed.indexOf(group[key]) === -1) {
-                        t.fail(`${lang} group ${JSON.stringify(group)} property ${key} should be one of ${JSON.stringify(attributes.allowed)}; found ${group[key]}`);
+                    if (attributes.allowed) {
+                        const toCheck = attributes.type === 'array' ? group[key] : [group[key]];
+                        for (const item of toCheck) {
+                            if (attributes.allowed.indexOf(item) === -1) {
+                                t.fail(`${lang} group ${JSON.stringify(group)} property ${key} should be one of ${JSON.stringify(attributes.allowed)}; found ${item}`);
+                            }
+                        }
                     }
                 }
                 for (const key of Object.keys(group)) {
