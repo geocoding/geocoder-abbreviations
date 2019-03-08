@@ -65,10 +65,14 @@ tape((t) => {
     if (process.env.UPDATE) {
         fs.writeFileSync(__dirname + '/fixtures/et-no-singletons.json', JSON.stringify(config('et')));
         fs.writeFileSync(__dirname + '/fixtures/et-singletons.json', JSON.stringify(config('et', true)));
+        fs.writeFileSync(__dirname + '/fixtures/de-simple.json', JSON.stringify(config('de', false)));
+        fs.writeFileSync(__dirname + '/fixtures/de-advanced.json', JSON.stringify(config('de', false, true)));
         t.fail('updated fixtures');
     } else {
         t.deepEquals(config('et'), require(__dirname + '/fixtures/et-no-singletons.json', 'singletons off'));
         t.deepEquals(config('et', true), require(__dirname + '/fixtures/et-singletons.json', 'singletons on'));
+        t.deepEquals(config('de', false), require(__dirname + '/fixtures/de-simple.json', 'de simple (tests combining)'));
+        t.deepEquals(config('de', false, true), require(__dirname + '/fixtures/de-advanced.json', 'de advanced'));
     }
     t.end();
 }, 'singletons');
