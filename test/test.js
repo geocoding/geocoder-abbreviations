@@ -39,7 +39,63 @@ tape((t) => {
         });
         t.end();
     });
-}, 'each lang can be accessed');
+}, 'each simple-form lang can be accessed');
+
+tape((t) => {
+    fs.readdir(__dirname + '/../tokens/', (err, files) => {
+        t.error(err);
+
+        files.forEach((file) => {
+            if (!file.match(/\.json/) || file.match(/global/)) return;
+
+            let lang = path.basename(file, '.json');
+            let tokens = config(lang, true, true);
+
+            if (!Array.isArray(tokens)) t.fail(`${lang} tokens must be an array`);
+            if (!tokens.length > 0) t.fail(`${lang} tokens must have at least 1 token`);
+
+            const props = {
+                tokens: { type: 'array', required: true },
+                full: { type: 'string', required: true },
+                canonical: { type: 'string', required: true },
+
+                note: { type: 'string', required: false },
+                onlyCountries: { type: 'array', required: false },
+                onlyLayers: { type: 'array', required: false },
+                preferFull: { type: 'boolean', required: false },
+                regex: { type: 'boolean', required: false },
+                skipBoundaries: { type: 'boolean', required: false },
+                skipDiacriticStripping: { type: 'boolean', required: false },
+                spanBoundaries: { type: 'number', required: false },
+                type: { type: 'string', required: false, allowed: [ 'box', 'cardinal', 'number', 'ordinal', 'unit', 'way' ] }
+            }
+
+            for (const group of tokens) {
+                for (const key of Object.keys(props)) {
+                    const attributes = props[key];
+                    const actualType = typeof group[key];
+                    if (actualType === 'undefined') {
+                        if (attributes.required) t.fail(`${lang} group ${JSON.stringify(group)} is missing property ${key}`);
+                        continue;
+                    }
+
+                    const typeMatch = attributes.type === 'array' ? Array.isArray(group[key]) : actualType === attributes.type;
+                    if (!typeMatch) t.fail(`${lang} group ${JSON.stringify(group)} property ${key} should be type ${attributes.type}; found ${actualType}`);
+
+                    if (attributes.allowed && attributes.allowed.indexOf(group[key]) === -1) {
+                        t.fail(`${lang} group ${JSON.stringify(group)} property ${key} should be one of ${JSON.stringify(attributes.allowed)}; found ${group[key]}`);
+                    }
+                }
+                for (const key of Object.keys(group)) {
+                    if (typeof props[key] !== 'object') {
+                        t.fail(`${lang} group ${JSON.stringify(group)} has unexpected property ${key}`);
+                    }
+                }
+            }
+        });
+        t.end();
+    });
+}, 'each complex-form lang can be accessed');
 
 tape((t) => {
     let tokens = config();
