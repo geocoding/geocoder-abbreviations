@@ -10,6 +10,10 @@
 
 # Version History
 
+## v3.0.0
+
+- Change format of geocoder-abbrevations contents, and add mechanisms for querying data in new format; see current README.md for details
+
 ## v2.4.0
 
 - :tada: Add Russian tokens
