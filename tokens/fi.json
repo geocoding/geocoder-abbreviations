@@ -1,70 +1,153 @@
 [
-    [
-        "alue",
-        "al"
-    ],
-    [
-        "aukio",
-        "auk"
-    ],
-    [
-        "kaari",
-        "kri"
-    ],
-    [
-        "katu",
-        "k"
-    ],
-    [
-        "kuja",
-        "kj"
-    ],
-    [
-        "kylä",
-        "kl"
-    ],
-    [
-        "penger",
-        "pgr"
-    ],
-    [
-        "polku",
-        "p"
-    ],
-    [
-        "puistikko",
-        "pko"
-    ],
-    [
-        "puisto",
-        "ps"
-    ],
-    [
-        "raitti",
-        "r"
-    ],
-    [
-        "ranta",
-        "rt"
-    ],
-    [
-        "rinne",
-        "rn"
-    ],
-    [
-        "taival",
-        "tvl"
-    ],
-    [
-        "tie",
-        "t"
-    ],
-    [
-        "tori",
-        "tr"
-    ],
-    [
-        "väylä",
-        "vlä"
-    ]
+    {
+        "tokens": [
+            "al",
+            "alue"
+        ],
+        "full": "alue",
+        "canonical": "al"
+    },
+    {
+        "tokens": [
+            "auk",
+            "aukio"
+        ],
+        "full": "aukio",
+        "canonical": "auk"
+    },
+    {
+        "tokens": [
+            "kri",
+            "kaari"
+        ],
+        "full": "kaari",
+        "canonical": "kri"
+    },
+    {
+        "tokens": [
+            "k",
+            "katu"
+        ],
+        "full": "katu",
+        "canonical": "k",
+        "onlyLayers": ["address"],
+        "note": "translates to 'street'",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "kj",
+            "kuja"
+        ],
+        "full": "kuja",
+        "canonical": "kj",
+        "onlyLayers": ["address"],
+        "note": "translates to 'alley'",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "kl",
+            "kylä"
+        ],
+        "full": "kylä",
+        "canonical": "kl"
+    },
+    {
+        "tokens": [
+            "pgr",
+            "penger"
+        ],
+        "full": "penger",
+        "canonical": "pgr"
+    },
+    {
+        "tokens": [
+            "p",
+            "polku"
+        ],
+        "full": "polku",
+        "canonical": "p",
+        "onlyLayers": ["address"],
+        "note": "translates to 'path'",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "pko",
+            "puistikko"
+        ],
+        "full": "puistikko",
+        "canonical": "pko"
+    },
+    {
+        "tokens": [
+            "ps",
+            "puisto"
+        ],
+        "full": "puisto",
+        "canonical": "ps"
+    },
+    {
+        "tokens": [
+            "r",
+            "raitti"
+        ],
+        "full": "raitti",
+        "canonical": "r"
+    },
+    {
+        "tokens": [
+            "rt",
+            "ranta"
+        ],
+        "full": "ranta",
+        "canonical": "rt"
+    },
+    {
+        "tokens": [
+            "rn",
+            "rinne"
+        ],
+        "full": "rinne",
+        "canonical": "rn"
+    },
+    {
+        "tokens": [
+            "tvl",
+            "taival"
+        ],
+        "full": "taival",
+        "canonical": "tvl"
+    },
+    {
+        "tokens": [
+            "t",
+            "tie"
+        ],
+        "full": "tie",
+        "canonical": "t",
+        "onlyLayers": ["address"],
+        "note": "translates to 'road'",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "tr",
+            "tori"
+        ],
+        "full": "tori",
+        "canonical": "tr"
+    },
+    {
+        "tokens": [
+            "vlä",
+            "väylä"
+        ],
+        "full": "väylä",
+        "canonical": "vlä",
+        "onlyLayers": ["address"],
+        "note": "translates to 'way'",
+        "type": "way"
+    }
 ]

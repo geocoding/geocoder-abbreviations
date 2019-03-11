@@ -1,0 +1,102 @@
+[
+    {
+        "tokens": [
+            "一丁目",
+            "[１1]丁目"
+        ],
+        "full": "[１1]丁目",
+        "canonical": "一丁目",
+        "regex": true,
+        "spanBoundaries": 2
+    },
+    {
+        "tokens": [
+            "二丁目",
+            "[２2]丁目"
+        ],
+        "full": "[２2]丁目",
+        "canonical": "二丁目",
+        "regex": true,
+        "spanBoundaries": 2
+    },
+    {
+        "tokens": [
+            "三丁目",
+            "[３3]丁目"
+        ],
+        "full": "[３3]丁目",
+        "canonical": "三丁目",
+        "regex": true,
+        "spanBoundaries": 2
+    },
+    {
+        "tokens": [
+            "四丁目",
+            "[４4]丁目"
+        ],
+        "full": "[４4]丁目",
+        "canonical": "四丁目",
+        "regex": true,
+        "spanBoundaries": 2
+    },
+    {
+        "tokens": [
+            "五丁目",
+            "[５5]丁目"
+        ],
+        "full": "[５5]丁目",
+        "canonical": "五丁目",
+        "regex": true,
+        "spanBoundaries": 2
+    },
+    {
+        "tokens": [
+            "六丁目",
+            "[６6]丁目"
+        ],
+        "full": "[６6]丁目",
+        "canonical": "六丁目",
+        "regex": true,
+        "spanBoundaries": 2
+    },
+    {
+        "tokens": [
+            "七丁目",
+            "[７7]丁目"
+        ],
+        "full": "[７7]丁目",
+        "canonical": "七丁目",
+        "regex": true,
+        "spanBoundaries": 2
+    },
+    {
+        "tokens": [
+            "八丁目",
+            "[８8]丁目"
+        ],
+        "full": "[８8]丁目",
+        "canonical": "八丁目",
+        "regex": true,
+        "spanBoundaries": 2
+    },
+    {
+        "tokens": [
+            "九丁目",
+            "[９9]丁目"
+        ],
+        "full": "[９9]丁目",
+        "canonical": "九丁目",
+        "regex": true,
+        "spanBoundaries": 2
+    },
+    {
+        "tokens": [
+            "十丁目",
+            "(１０|10)丁目"
+        ],
+        "full": "(１０|10)丁目",
+        "canonical": "十丁目",
+        "regex": true,
+        "spanBoundaries": 2
+    }
+]

@@ -1,14 +1,32 @@
 [
-    [
-        "al",
-        "aleja"
-    ],
-    [
-        "pl",
-        "plac"
-    ],
-    [
-        "ul",
-        "ulica"
-    ]
+    {
+        "tokens": [
+            "al",
+            "aleja"
+        ],
+        "full": "aleja",
+        "canonical": "al",
+        "onlyLayers": ["address"],
+        "note": "translates to 'avenue'",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "pl",
+            "plac"
+        ],
+        "full": "plac",
+        "canonical": "pl"
+    },
+    {
+        "tokens": [
+            "ul",
+            "ulica"
+        ],
+        "full": "ulica",
+        "canonical": "ul",
+        "onlyLayers": ["address"],
+        "note": "translates to 'street'",
+        "type": "way"
+    }
 ]

@@ -1,93 +1,194 @@
 [
-    [
-        "jalan",
-        "jln",
-        "jl"
-    ],
-    [
-        "gang",
-        "gg"
-    ],
-    [
-        "lorong",
-        "lrg",
-        "lor",
-        "lorang"
-    ],
-    [
-        "lengkong",
-        "lkg"
-    ],
-    [
-        "mount",
-        "mt"
-    ],
-    [
-        "upper",
-        "upp"
-    ],
-    [
-        "track",
-        "trk",
-        "tck"
-    ],
-    [
-        "crescent",
-        "cr",
-        "cres",
-        "cresent"
-    ],
-    [
-        "boulevard",
-        "bvd",
-        "blvd",
-        "bouleyard",
-        "boulvard"
-    ],
-    [
-        "avenue",
-        "ave",
-        "av",
-        "avnue"
-    ],
-    [
-        "link",
-        "lk"
-    ],
-    [
-        "lane",
-        "l"
-    ],
-    [
-        "walk",
-        "wk"
-    ],
-    [
-        "green",
-        "grn"
-    ],
-    [
-        "highway",
-        "hwy"
-    ],
-    [
-        "quay",
-        "qy"
-    ],
-    [
-        "parkway",
-        "pwy"
-    ],
-    [
-        "ctrl",
-        "central"
-    ],
-    [
-        "gr",
-        "grove"
-    ],
-    [
-        "tg",
-        "tanjong"
-    ]
+    {
+        "tokens": [
+            "jl",
+            "jln",
+            "jalan"
+        ],
+        "full": "jalan",
+        "canonical": "jl",
+        "onlyLayers": ["address"],
+        "note": "translates to 'street'",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "gg",
+            "gang"
+        ],
+        "full": "gang",
+        "canonical": "gg",
+        "onlyLayers": ["address"],
+        "note": "translates to 'alley'",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "lrg",
+            "lor",
+            "lorong",
+            "lorang"
+        ],
+        "full": "lorang",
+        "canonical": "lrg"
+    },
+    {
+        "tokens": [
+            "lkg",
+            "lengkong"
+        ],
+        "full": "lengkong",
+        "canonical": "lkg"
+    },
+    {
+        "tokens": [
+            "mt",
+            "mount"
+        ],
+        "full": "mount",
+        "canonical": "mt"
+    },
+    {
+        "tokens": [
+            "upp",
+            "upper"
+        ],
+        "full": "upper",
+        "canonical": "upp"
+    },
+    {
+        "tokens": [
+            "trk",
+            "tck",
+            "track"
+        ],
+        "full": "track",
+        "canonical": "trk"
+    },
+    {
+        "tokens": [
+            "cr",
+            "cres",
+            "cresent",
+            "crescent"
+        ],
+        "full": "crescent",
+        "canonical": "cr"
+    },
+    {
+        "tokens": [
+            "bvd",
+            "blvd",
+            "boulvard",
+            "boulevard",
+            "bouleyard"
+        ],
+        "full": "boulevard",
+        "canonical": "bvd",
+        "onlyLayers": ["address"],
+        "note": "translates to 'boulevard'",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "av",
+            "ave",
+            "avnue",
+            "avenue"
+        ],
+        "full": "avenue",
+        "canonical": "av",
+        "onlyLayers": ["address"],
+        "note": "translates to 'avenue'",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "lk",
+            "link"
+        ],
+        "full": "link",
+        "canonical": "lk"
+    },
+    {
+        "tokens": [
+            "l",
+            "lane"
+        ],
+        "full": "lane",
+        "canonical": "l",
+        "onlyLayers": ["address"],
+        "note": "translates to 'lane'",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "wk",
+            "walk"
+        ],
+        "full": "walk",
+        "canonical": "wk"
+    },
+    {
+        "tokens": [
+            "grn",
+            "green"
+        ],
+        "full": "green",
+        "canonical": "grn"
+    },
+    {
+        "tokens": [
+            "hwy",
+            "highway"
+        ],
+        "full": "highway",
+        "canonical": "hwy",
+        "onlyLayers": ["address"],
+        "note": "translates to 'highway'",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "qy",
+            "quay"
+        ],
+        "full": "quay",
+        "canonical": "qy"
+    },
+    {
+        "tokens": [
+            "pwy",
+            "parkway"
+        ],
+        "full": "parkway",
+        "canonical": "pwy",
+        "onlyLayers": ["address"],
+        "note": "translates to 'parkway'",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "ctrl",
+            "central"
+        ],
+        "full": "central",
+        "canonical": "ctrl"
+    },
+    {
+        "tokens": [
+            "gr",
+            "grove"
+        ],
+        "full": "grove",
+        "canonical": "gr"
+    },
+    {
+        "tokens": [
+            "tg",
+            "tanjong"
+        ],
+        "full": "tanjong",
+        "canonical": "tg"
+    }
 ]

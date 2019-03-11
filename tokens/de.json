@@ -1,138 +1,362 @@
 [
-    [
-        "a",
-        "am",
-        "an"
-    ],
-    [
-        "Bf",
-        "Bhf",
-        "Bahnhof"
-    ],
-    [
-        "bg",
-        "berg",
-        "burg"
-    ],
-    [
-        "Br",
-        "Brücke"
-    ],
-    [
-        "Ch",
-        "Chaussee"
-    ],
-    [
-        "D",
-        "Damm"
-    ],
-    [
-        "d",
-        "der"
-    ],
-    [
-        "df",
-        "dorf"
-    ],
-    [
-        "Dr",
-        "Doktor"
-    ],
-    [
-        "G",
-        "Gasse"
-    ],
-    [
-        "Gr",
-        "Große",
-        "Großer",
-        "Großes"
-    ],
-    [
-        "Hbf",
-        "Hauptbahnhof"
-    ],
-    [
-        "Hl",
-        "Heiligen"
-    ],
-    [
-        "i",
-        "im"
-    ],
-    [
-        "Kl",
-        "Kleine",
-        "Kleiner",
-        "Kleines"
-    ],
-    [
-        "Kr",
-        "Krs",
-        "Kreis"
-    ],
-    [
-        "Lk",
-        "Lkr",
-        "Lkrs",
-        "Landkrs",
-        "Landkreis"
-    ],
-    [
-        "o",
-        "ob"
-    ],
-    [
-        "Ob",
-        "Obere",
-        "Oberer",
-        "Oberes"
-    ],
-    [
-        "Pl",
-        "Platz"
-    ],
-    [
-        "Rh",
-        "Rhein"
-    ],
-    [
-        "St",
-        "Sankt"
-    ],
-    [
-        "Str",
-        "Strasse",
-        "Straße"
-    ],
-    [
-        "U",
-        "Untere",
-        "Unterer",
-        "Unteres"
-    ],
-    [
-        "v",
-        "von"
-    ],
-    [
-        "Wg",
-        "Weg"
-    ],
-    [
-        "z",
-        "zum"
-    ],
-    [
-        "ä",
-        {"skipBoundaries": true, "skipDiacriticStripping": true, "text": "ae"}
-    ],
-    [
-        "ö",
-        {"skipBoundaries": true, "skipDiacriticStripping": true, "text": "oe"}
-    ],
-    [
-        "ü",
-        {"skipBoundaries": true, "skipDiacriticStripping": true, "text": "ue"}
-    ]
+    {
+        "tokens": [
+            "a",
+            "am"
+        ],
+        "full": "am",
+        "canonical": "a"
+    },
+    {
+        "tokens": [
+            "a",
+            "an"
+        ],
+        "full": "an",
+        "canonical": "a"
+    },
+    {
+        "tokens": [
+            "Bf",
+            "Bhf",
+            "Bahnhof"
+        ],
+        "full": "Bahnhof",
+        "canonical": "Bf"
+    },
+    {
+        "tokens": [
+            "bg",
+            "berg"
+        ],
+        "full": "berg",
+        "canonical": "bg"
+    },
+    {
+        "tokens": [
+            "bg",
+            "burg"
+        ],
+        "full": "burg",
+        "canonical": "bg"
+    },
+    {
+        "tokens": [
+            "Br",
+            "Brücke"
+        ],
+        "full": "Brücke",
+        "canonical": "Br",
+        "onlyLayers": ["address"],
+        "note": "translates to 'bridge'"
+    },
+    {
+        "tokens": [
+            "Ch",
+            "Chaussee"
+        ],
+        "full": "Chaussee",
+        "canonical": "Ch",
+        "onlyLayers": ["address"],
+        "note": "translates to 'highway'",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "D",
+            "Damm"
+        ],
+        "full": "Damm",
+        "canonical": "D"
+    },
+    {
+        "tokens": [
+            "d",
+            "der"
+        ],
+        "full": "der",
+        "canonical": "d"
+    },
+    {
+        "tokens": [
+            "df",
+            "dorf"
+        ],
+        "full": "dorf",
+        "canonical": "df"
+    },
+    {
+        "tokens": [
+            "Dr",
+            "Doktor"
+        ],
+        "full": "Doktor",
+        "canonical": "Dr"
+    },
+    {
+        "tokens": [
+            "G",
+            "Gasse"
+        ],
+        "full": "Gasse",
+        "canonical": "G",
+        "onlyLayers": ["address"],
+        "note": "translates to 'alley'",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "Gr",
+            "Große"
+        ],
+        "full": "Große",
+        "canonical": "Gr"
+    },
+    {
+        "tokens": [
+            "Gr",
+            "Großer"
+        ],
+        "full": "Großer",
+        "canonical": "Gr"
+    },
+    {
+        "tokens": [
+            "Gr",
+            "Großes"
+        ],
+        "full": "Großes",
+        "canonical": "Gr"
+    },
+    {
+        "tokens": [
+            "Hbf",
+            "Hauptbahnhof"
+        ],
+        "full": "Hauptbahnhof",
+        "canonical": "Hbf"
+    },
+    {
+        "tokens": [
+            "Hl",
+            "Heiligen"
+        ],
+        "full": "Heiligen",
+        "canonical": "Hl"
+    },
+    {
+        "tokens": [
+            "i",
+            "im"
+        ],
+        "full": "im",
+        "canonical": "i"
+    },
+    {
+        "tokens": [
+            "Kl",
+            "Kleine"
+        ],
+        "full": "Kleine",
+        "canonical": "Kl"
+    },
+    {
+        "tokens": [
+            "Kl",
+            "Kleiner"
+        ],
+        "full": "Kleiner",
+        "canonical": "Kl"
+    },
+    {
+        "tokens": [
+            "Kl",
+            "Kleines"
+        ],
+        "full": "Kleines",
+        "canonical": "Kl"
+    },
+    {
+        "tokens": [
+            "Kr",
+            "Krs",
+            "Kreis"
+        ],
+        "full": "Kreis",
+        "canonical": "Kr",
+        "onlyLayers": ["address"],
+        "note": "translates to 'circle'",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "Lk",
+            "Lkr",
+            "Lkrs",
+            "Landkrs",
+            "Landkreis"
+        ],
+        "full": "Landkreis",
+        "canonical": "Lk"
+    },
+    {
+        "tokens": [
+            "o",
+            "ob"
+        ],
+        "full": "ob",
+        "canonical": "o"
+    },
+    {
+        "tokens": [
+            "Ob",
+            "Obere"
+        ],
+        "full": "Obere",
+        "canonical": "Ob"
+    },
+    {
+        "tokens": [
+            "Ob",
+            "Oberer"
+        ],
+        "full": "Oberer",
+        "canonical": "Ob"
+    },
+    {
+        "tokens": [
+            "Ob",
+            "Oberes"
+        ],
+        "full": "Oberes",
+        "canonical": "Ob"
+    },
+    {
+        "tokens": [
+            "Pl",
+            "Platz"
+        ],
+        "full": "Platz",
+        "canonical": "Pl",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "Rh",
+            "Rhein"
+        ],
+        "full": "Rhein",
+        "canonical": "Rh"
+    },
+    {
+        "tokens": [
+            "St",
+            "Sankt"
+        ],
+        "full": "Sankt",
+        "canonical": "St"
+    },
+    {
+        "tokens": [
+            "Str",
+            "Straße",
+            "Strasse"
+        ],
+        "full": "Strasse",
+        "canonical": "Str",
+        "note": "translates to 'street'",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "U",
+            "Untere"
+        ],
+        "full": "Untere",
+        "canonical": "U"
+    },
+    {
+        "tokens": [
+            "U",
+            "Unterer"
+        ],
+        "full": "Unterer",
+        "canonical": "U"
+    },
+    {
+        "tokens": [
+            "U",
+            "Unteres"
+        ],
+        "full": "Unteres",
+        "canonical": "U"
+    },
+    {
+        "tokens": [
+            "v",
+            "von"
+        ],
+        "full": "von",
+        "canonical": "v"
+    },
+    {
+        "tokens": [
+            "Wg",
+            "Weg"
+        ],
+        "full": "Weg",
+        "canonical": "Wg",
+        "onlyLayers": ["address"],
+        "note": "translates to 'path'",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "z",
+            "zum"
+        ],
+        "full": "zum",
+        "canonical": "z"
+    },
+    {
+        "tokens": [
+            "ä",
+            "ae"
+        ],
+        "skipBoundaries": true,
+        "full": "ä",
+        "skipDiacriticStripping": true,
+        "canonical": "ae"
+    },
+    {
+        "tokens": [
+            "ö",
+            "oe"
+        ],
+        "skipBoundaries": true,
+        "full": "ö",
+        "skipDiacriticStripping": true,
+        "canonical": "oe"
+    },
+    {
+        "tokens": [
+            "ü",
+            "ue"
+        ],
+        "skipBoundaries": true,
+        "full": "ü",
+        "skipDiacriticStripping": true,
+        "canonical": "ue"
+    },
+    {
+        "tokens": [
+            "$1 str",
+            "([^ ]+)(strasse|str|straße)"
+        ],
+        "full": "([^ ]+)(strasse|str|straße)",
+        "canonical": "$1 str",
+        "regex": true,
+        "skipDiacriticStripping": true,
+        "spanBoundaries": 0
+    }
 ]

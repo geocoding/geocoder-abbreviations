@@ -1,318 +1,746 @@
 [
-    [
-        "10e",
-        "Dixième"
-    ],
-    [
-        "11e",
-        "Onzième"
-    ],
-    [
-        "12e",
-        "Douzième"
-    ],
-    [
-        "13e",
-        "Treizième"
-    ],
-    [
-        "14e",
-        "Quatorzième"
-    ],
-    [
-        "15e",
-        "Quinzième"
-    ],
-    [
-        "16e",
-        "Seizième"
-    ],
-    [
-        "17e",
-        "Dix-septième"
-    ],
-    [
-        "18e",
-        "Dix-huitième"
-    ],
-    [
-        "19e",
-        "Dix-neuvième"
-    ],
-    [
-        "1er",
-        "Premier"
-    ],
-    [
-        "1ere",
-        "Première"
-    ],
-    [
-        "20e",
-        "Vingtième"
-    ],
-    [
-        "2e",
-        "Deuxième"
-    ],
-    [
-        "3e",
-        "Troisième"
-    ],
-    [
-        "4e",
-        "Quatrième"
-    ],
-    [
-        "5e",
-        "Cinquième"
-    ],
-    [
-        "6e",
-        "Sixième"
-    ],
-    [
-        "7e",
-        "Septième"
-    ],
-    [
-        "8e",
-        "Huitième"
-    ],
-    [
-        "9e",
-        "Neuvième"
-    ],
-    [
-        "A",
-        "Aut",
-        "Autoroute"
-    ],
-    [
-        "Abb",
-        "Abbaye"
-    ],
-    [
-        "Agl",
-        "Agglomération"
-    ],
-    [
-        "All",
-        "Allée"
-    ],
-    [
-        "App",
-        "Appartement"
-    ],
-    [
-        "Arr",
-        "Arrondissement"
-    ],
-    [
-        "Av",
-        "Avenue"
-    ],
-    [
-        "Bat",
-        "Batîment"
-    ],
-    [
-        "Bd",
-        "Boul",
-        "Blvd",
-        "Boulevard"
-    ],
-    [
-        "Ch",
-        "Chemin",
-        "Chaussée"
-    ],
-    [
-        "Crs",
-        "Cours"
-    ],
-    [
-        "Crx",
-        "Croix"
-    ],
-    [
-        "Ctre",
-        "Centre"
-    ],
-    [
-        "Dr",
-        "Docteur"
-    ],
-    [
-        "E",
-        "Est"
-    ],
-    [
-        "Esc",
-        "Escalier"
-    ],
-    [
-        "Espl",
-        "Esplanade"
-    ],
-    [
-        "Etg",
-        "Etage"
-    ],
-    [
-        "Fbg",
-        "Faubourg"
-    ],
-    [
-        "Fl",
-        "Fleuve"
-    ],
-    [
-        "Hop",
-        "Hôpital"
-    ],
-    [
-        "Ht",
-        "Haut"
-    ],
-    [
-        "Hte",
-        "Haute"
-    ],
-    [
-        "Imm",
-        "Immeuble"
-    ],
-    [
-        "Ld",
-        "Lieu-dit"
-    ],
-    [
-        "Lot",
-        "Lotissement"
-    ],
-    [
-        "M",
-        "Monsieur"
-    ],
-    [
-        "Mal",
-        "Maréchal"
-    ],
-    [
-        "Me",
-        "Maître"
-    ],
-    [
-        "Mlle",
-        "Mademoiselle"
-    ],
-    [
-        "Mme",
-        "Madame"
-    ],
-    [
-        "Mte",
-        "Montée"
-    ],
-    [
-        "N",
-        "Nord"
-    ],
-    [
-        "NE",
-        "Nord-Est"
-    ],
-    [
-        "NO",
-        "Nord-Ouest"
-    ],
-    [
-        "O",
-        "Ouest"
-    ],
-    [
-        "Pas",
-        "Passage"
-    ],
-    [
-        "Pl",
-        "Place"
-    ],
-    [
-        "Pnt",
-        "Pointe"
-    ],
-    [
-        "Prom",
-        "Promenade"
-    ],
-    [
-        "Pt",
-        "Petit"
-    ],
-    [
-        "Pte",
-        "Porte"
-    ],
-    [
-        "R",
-        "Rue"
-    ],
-    [
-        "Res",
-        "Résidence"
-    ],
-    [
-        "Rlle",
-        "Ruelle"
-    ],
-    [
-        "Rpt",
-        "Rond-Point"
-    ],
-    [
-        "Rte",
-        "Route"
-    ],
-    [
-        "S",
-        "Sud"
-    ],
-    [
-        "SE",
-        "Sud-Est"
-    ],
-    [
-        "SO",
-        "Sud-Ouest"
-    ],
-    [
-        "Sq",
-        "Square"
-    ],
-    [
-        "St",
-        "Saint"
-    ],
-    [
-        "Ste",
-        "Sainte"
-    ],
-    [
-        "Stes",
-        "Saintes"
-    ],
-    [
-        "Univ",
-        "Université"
-    ],
-    [
-        "Vlge",
-        "Village"
-    ],
-    [
-        "Vve",
-        "Veuve"
-    ]
+    {
+        "tokens": [
+            "10e",
+            "Dixième"
+        ],
+        "full": "Dixième",
+        "canonical": "10e",
+        "type": "ordinal"
+    },
+    {
+        "tokens": [
+            "11e",
+            "Onzième"
+        ],
+        "full": "Onzième",
+        "canonical": "11e",
+        "type": "ordinal"
+    },
+    {
+        "tokens": [
+            "12e",
+            "Douzième"
+        ],
+        "full": "Douzième",
+        "canonical": "12e",
+        "type": "ordinal"
+    },
+    {
+        "tokens": [
+            "13e",
+            "Treizième"
+        ],
+        "full": "Treizième",
+        "canonical": "13e",
+        "type": "ordinal"
+    },
+    {
+        "tokens": [
+            "14e",
+            "Quatorzième"
+        ],
+        "full": "Quatorzième",
+        "canonical": "14e",
+        "type": "ordinal"
+    },
+    {
+        "tokens": [
+            "15e",
+            "Quinzième"
+        ],
+        "full": "Quinzième",
+        "canonical": "15e",
+        "type": "ordinal"
+    },
+    {
+        "tokens": [
+            "16e",
+            "Seizième"
+        ],
+        "full": "Seizième",
+        "canonical": "16e",
+        "type": "ordinal"
+    },
+    {
+        "tokens": [
+            "17e",
+            "Dix-septième"
+        ],
+        "full": "Dix-septième",
+        "canonical": "17e",
+        "type": "ordinal"
+    },
+    {
+        "tokens": [
+            "18e",
+            "Dix-huitième"
+        ],
+        "full": "Dix-huitième",
+        "canonical": "18e",
+        "type": "ordinal"
+    },
+    {
+        "tokens": [
+            "19e",
+            "Dix-neuvième"
+        ],
+        "full": "Dix-neuvième",
+        "canonical": "19e",
+        "type": "ordinal"
+    },
+    {
+        "tokens": [
+            "1er",
+            "Premier"
+        ],
+        "full": "Premier",
+        "canonical": "1er",
+        "type": "ordinal"
+    },
+    {
+        "tokens": [
+            "1ere",
+            "Première"
+        ],
+        "full": "Première",
+        "canonical": "1ere",
+        "type": "ordinal"
+    },
+    {
+        "tokens": [
+            "20e",
+            "Vingtième"
+        ],
+        "full": "Vingtième",
+        "canonical": "20e",
+        "type": "ordinal"
+    },
+    {
+        "tokens": [
+            "2e",
+            "Deuxième"
+        ],
+        "full": "Deuxième",
+        "canonical": "2e",
+        "type": "ordinal"
+    },
+    {
+        "tokens": [
+            "3e",
+            "Troisième"
+        ],
+        "full": "Troisième",
+        "canonical": "3e",
+        "type": "ordinal"
+    },
+    {
+        "tokens": [
+            "4e",
+            "Quatrième"
+        ],
+        "full": "Quatrième",
+        "canonical": "4e",
+        "type": "ordinal"
+    },
+    {
+        "tokens": [
+            "5e",
+            "Cinquième"
+        ],
+        "full": "Cinquième",
+        "canonical": "5e",
+        "type": "ordinal"
+    },
+    {
+        "tokens": [
+            "6e",
+            "Sixième"
+        ],
+        "full": "Sixième",
+        "canonical": "6e",
+        "type": "ordinal"
+    },
+    {
+        "tokens": [
+            "7e",
+            "Septième"
+        ],
+        "full": "Septième",
+        "canonical": "7e",
+        "type": "ordinal"
+    },
+    {
+        "tokens": [
+            "8e",
+            "Huitième"
+        ],
+        "full": "Huitième",
+        "canonical": "8e",
+        "type": "ordinal"
+    },
+    {
+        "tokens": [
+            "9e",
+            "Neuvième"
+        ],
+        "full": "Neuvième",
+        "canonical": "9e",
+        "type": "ordinal"
+    },
+    {
+        "tokens": [
+            "A",
+            "Aut",
+            "Autoroute"
+        ],
+        "full": "Autoroute",
+        "canonical": "A",
+        "onlyLayers": ["address"],
+        "note": "translates to 'highway'",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "Abb",
+            "Abbaye"
+        ],
+        "full": "Abbaye",
+        "canonical": "Abb"
+    },
+    {
+        "tokens": [
+            "Agl",
+            "Agglomération"
+        ],
+        "full": "Agglomération",
+        "canonical": "Agl"
+    },
+    {
+        "tokens": [
+            "All",
+            "Allée"
+        ],
+        "full": "Allée",
+        "canonical": "All",
+        "onlyLayers": ["address"],
+        "note": "translates to 'alley'",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "App",
+            "Appartement"
+        ],
+        "full": "Appartement",
+        "canonical": "App"
+    },
+    {
+        "tokens": [
+            "Arr",
+            "Arrondissement"
+        ],
+        "full": "Arrondissement",
+        "canonical": "Arr"
+    },
+    {
+        "tokens": [
+            "Av",
+            "Avenue"
+        ],
+        "full": "Avenue",
+        "canonical": "Av",
+        "onlyLayers": ["address"],
+        "note": "translates to 'avenue'",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "Bat",
+            "Batîment"
+        ],
+        "full": "Batîment",
+        "canonical": "Bat"
+    },
+    {
+        "tokens": [
+            "Bd",
+            "Boul",
+            "Blvd",
+            "Boulevard"
+        ],
+        "full": "Boulevard",
+        "canonical": "Bd",
+        "onlyLayers": ["address"],
+        "note": "translates to 'boulevard'",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "Ch",
+            "Chemin"
+        ],
+        "full": "Chemin",
+        "canonical": "Ch",
+        "onlyLayers": ["address"],
+        "note": "translates to 'path'",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "Ch",
+            "Chaussée"
+        ],
+        "full": "Chaussée",
+        "canonical": "Ch",
+        "onlyLayers": ["address"],
+        "note": "translates to 'roadway'",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "Crs",
+            "Cours"
+        ],
+        "full": "Cours",
+        "canonical": "Crs",
+        "onlyLayers": ["address"],
+        "note": "translates to 'course'",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "Crx",
+            "Croix"
+        ],
+        "full": "Croix",
+        "canonical": "Crx"
+    },
+    {
+        "tokens": [
+            "Ctre",
+            "Centre"
+        ],
+        "full": "Centre",
+        "canonical": "Ctre"
+    },
+    {
+        "tokens": [
+            "Dr",
+            "Docteur"
+        ],
+        "full": "Docteur",
+        "canonical": "Dr"
+    },
+    {
+        "tokens": [
+            "E",
+            "Est"
+        ],
+        "full": "Est",
+        "canonical": "E",
+        "type": "cardinal"
+    },
+    {
+        "tokens": [
+            "Esc",
+            "Escalier"
+        ],
+        "full": "Escalier",
+        "canonical": "Esc"
+    },
+    {
+        "tokens": [
+            "Espl",
+            "Esplanade"
+        ],
+        "full": "Esplanade",
+        "canonical": "Espl"
+    },
+    {
+        "tokens": [
+            "Etg",
+            "Etage"
+        ],
+        "full": "Etage",
+        "canonical": "Etg"
+    },
+    {
+        "tokens": [
+            "Fbg",
+            "Faubourg"
+        ],
+        "full": "Faubourg",
+        "canonical": "Fbg"
+    },
+    {
+        "tokens": [
+            "Fl",
+            "Fleuve"
+        ],
+        "full": "Fleuve",
+        "canonical": "Fl"
+    },
+    {
+        "tokens": [
+            "Hop",
+            "Hôpital"
+        ],
+        "full": "Hôpital",
+        "canonical": "Hop"
+    },
+    {
+        "tokens": [
+            "Ht",
+            "Haut"
+        ],
+        "full": "Haut",
+        "canonical": "Ht"
+    },
+    {
+        "tokens": [
+            "Hte",
+            "Haute"
+        ],
+        "full": "Haute",
+        "canonical": "Hte"
+    },
+    {
+        "tokens": [
+            "Imm",
+            "Immeuble"
+        ],
+        "full": "Immeuble",
+        "canonical": "Imm"
+    },
+    {
+        "tokens": [
+            "Ld",
+            "Lieu-dit"
+        ],
+        "full": "Lieu-dit",
+        "canonical": "Ld"
+    },
+    {
+        "tokens": [
+            "Lot",
+            "Lotissement"
+        ],
+        "full": "Lotissement",
+        "canonical": "Lot"
+    },
+    {
+        "tokens": [
+            "M",
+            "Monsieur"
+        ],
+        "full": "Monsieur",
+        "canonical": "M"
+    },
+    {
+        "tokens": [
+            "Mal",
+            "Maréchal"
+        ],
+        "full": "Maréchal",
+        "canonical": "Mal"
+    },
+    {
+        "tokens": [
+            "Me",
+            "Maître"
+        ],
+        "full": "Maître",
+        "canonical": "Me"
+    },
+    {
+        "tokens": [
+            "Mlle",
+            "Mademoiselle"
+        ],
+        "full": "Mademoiselle",
+        "canonical": "Mlle"
+    },
+    {
+        "tokens": [
+            "Mme",
+            "Madame"
+        ],
+        "full": "Madame",
+        "canonical": "Mme"
+    },
+    {
+        "tokens": [
+            "Mte",
+            "Montée"
+        ],
+        "full": "Montée",
+        "canonical": "Mte"
+    },
+    {
+        "tokens": [
+            "N",
+            "Nord"
+        ],
+        "full": "Nord",
+        "canonical": "N",
+        "type": "cardinal"
+    },
+    {
+        "tokens": [
+            "NE",
+            "Nord-Est"
+        ],
+        "full": "Nord-Est",
+        "canonical": "NE",
+        "type": "cardinal"
+    },
+    {
+        "tokens": [
+            "NO",
+            "Nord-Ouest"
+        ],
+        "full": "Nord-Ouest",
+        "canonical": "NO",
+        "type": "cardinal"
+    },
+    {
+        "tokens": [
+            "O",
+            "Ouest"
+        ],
+        "full": "Ouest",
+        "canonical": "O",
+        "type": "cardinal"
+    },
+    {
+        "tokens": [
+            "Pas",
+            "Passage"
+        ],
+        "full": "Passage",
+        "canonical": "Pas"
+    },
+    {
+        "tokens": [
+            "Pl",
+            "Place"
+        ],
+        "full": "Place",
+        "canonical": "Pl"
+    },
+    {
+        "tokens": [
+            "Pnt",
+            "Pointe"
+        ],
+        "full": "Pointe",
+        "canonical": "Pnt"
+    },
+    {
+        "tokens": [
+            "Prom",
+            "Promenade"
+        ],
+        "full": "Promenade",
+        "canonical": "Prom"
+    },
+    {
+        "tokens": [
+            "Pt",
+            "Petit"
+        ],
+        "full": "Petit",
+        "canonical": "Pt"
+    },
+    {
+        "tokens": [
+            "Pte",
+            "Porte"
+        ],
+        "full": "Porte",
+        "canonical": "Pte"
+    },
+    {
+        "tokens": [
+            "R",
+            "Rue"
+        ],
+        "full": "Rue",
+        "canonical": "R",
+        "onlyLayers": ["address"],
+        "note": "translates to 'road'",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "Res",
+            "Résidence"
+        ],
+        "full": "Résidence",
+        "canonical": "Res"
+    },
+    {
+        "tokens": [
+            "Rlle",
+            "Ruelle"
+        ],
+        "full": "Ruelle",
+        "canonical": "Rlle",
+        "onlyLayers": ["address"],
+        "note": "translates to 'alley'",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "Rpt",
+            "Rond-Point"
+        ],
+        "full": "Rond-Point",
+        "canonical": "Rpt",
+        "onlyLayers": ["address"],
+        "note": "translates to 'roundabout'",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "Rte",
+            "Route"
+        ],
+        "full": "Route",
+        "canonical": "Rte",
+        "note": "translates to 'alley'",
+        "onlyLayers": ["address"],
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "S",
+            "Sud"
+        ],
+        "full": "Sud",
+        "canonical": "S",
+        "type": "cardinal"
+    },
+    {
+        "tokens": [
+            "SE",
+            "Sud-Est"
+        ],
+        "full": "Sud-Est",
+        "canonical": "SE",
+        "type": "cardinal"
+    },
+    {
+        "tokens": [
+            "SO",
+            "Sud-Ouest"
+        ],
+        "full": "Sud-Ouest",
+        "canonical": "SO",
+        "type": "cardinal"
+    },
+    {
+        "tokens": [
+            "Sq",
+            "Square"
+        ],
+        "full": "Square",
+        "canonical": "Sq"
+    },
+    {
+        "tokens": [
+            "St",
+            "Saint"
+        ],
+        "full": "Saint",
+        "canonical": "St"
+    },
+    {
+        "tokens": [
+            "Ste",
+            "Sainte"
+        ],
+        "full": "Sainte",
+        "canonical": "Ste"
+    },
+    {
+        "tokens": [
+            "Stes",
+            "Saintes"
+        ],
+        "full": "Saintes",
+        "canonical": "Stes"
+    },
+    {
+        "tokens": [
+            "Univ",
+            "Université"
+        ],
+        "full": "Université",
+        "canonical": "Univ"
+    },
+    {
+        "tokens": [
+            "Vlge",
+            "Village"
+        ],
+        "full": "Village",
+        "canonical": "Vlge"
+    },
+    {
+        "tokens": [
+            "Vve",
+            "Veuve"
+        ],
+        "full": "Veuve",
+        "canonical": "Vve"
+    },
+    {
+        "tokens": [
+            "BP",
+            "Boîte Postale"
+        ],
+        "full": "Boîte Postale",
+        "canonical": "BP",
+        "spanBoundaries": 1,
+        "onlyLayers": ["address"],
+        "type": "box"
+    },
+    {
+        "tokens": [
+            "Ccal",
+            "Centre Commercial"
+        ],
+        "full": "Centre Commercial",
+        "canonical": "Ccal",
+        "spanBoundaries": 1
+    },
+    {
+        "tokens": [
+            "E",
+            "Route Européenne"
+        ],
+        "full": "Route Européenne",
+        "canonical": "E",
+        "spanBoundaries": 1
+    },
+    {
+        "tokens": [
+            "RN",
+            "Route Nationale"
+        ],
+        "full": "Route Nationale",
+        "canonical": "RN",
+        "spanBoundaries": 1
+    },
+    {
+        "tokens": [
+            "Za",
+            "Zone d'activité"
+        ],
+        "full": "Zone d'activité",
+        "canonical": "Za",
+        "spanBoundaries": 1
+    }
 ]

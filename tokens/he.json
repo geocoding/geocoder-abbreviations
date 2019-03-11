@@ -1,6 +1,13 @@
 [
-    [
-        "רח׳",
-        "רחוב"
-    ]
+    {
+        "tokens": [
+            "רח׳",
+            "רחוב"
+        ],
+        "full": "רחוב",
+        "canonical": "רח׳",
+        "onlyLayers": ["address"],
+        "note": "translates to 'street'",
+        "type": "way"
+    }
 ]

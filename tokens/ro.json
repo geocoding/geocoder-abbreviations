@@ -1,18 +1,43 @@
 [
-    [
-        "str",
-        "strada"
-    ],
-    [
-        "intr",
-        "intrarea"
-    ],
-    [
-        "blvd",
-        "bulevardul"
-    ],
-    [
-        "sos",
-        "soseaua"
-    ]
+    {
+        "tokens": [
+            "str",
+            "strada"
+        ],
+        "full": "strada",
+        "canonical": "str",
+        "note": "translates to 'street'",
+        "onlyLayers": ["address"],
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "intr",
+            "intrarea"
+        ],
+        "full": "intrarea",
+        "canonical": "intr"
+    },
+    {
+        "tokens": [
+            "blvd",
+            "bulevardul"
+        ],
+        "full": "bulevardul",
+        "canonical": "blvd",
+        "note": "translates to 'boulevard'",
+        "onlyLayers": ["address"],
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "sos",
+            "soseaua"
+        ],
+        "full": "soseaua",
+        "canonical": "sos",
+        "note": "translates to 'highway'",
+        "onlyLayers": ["address"],
+        "type": "way"
+    }
 ]
