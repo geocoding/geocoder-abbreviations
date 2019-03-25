@@ -2868,69 +2868,9 @@
     {
         "tokens": [
             "",
-            "Suite [0-9]+"
+            "(?:suite|ste) #?(?:[A-Z]|\\d+|[A-Z]\\d+|\\d+[A-Z]|\\d+-\\d+[A-Z]?)"
         ],
-        "full": "Suite [0-9]+",
-        "canonical": "",
-        "spanBoundaries": 1,
-        "onlyLayers": ["address"],
-        "type": "unit",
-        "regex": true
-    },
-    {
-        "tokens": [
-            "",
-            "Suite [0-9]+-[0-9]+"
-        ],
-        "full": "Suite [0-9]+-[0-9]+",
-        "canonical": "",
-        "spanBoundaries": 1,
-        "onlyLayers": ["address"],
-        "type": "unit",
-        "regex": true
-    },
-    {
-        "tokens": [
-            "",
-            "Suite [0-9]+[a-z]"
-        ],
-        "full": "Suite [0-9]+[a-z]",
-        "canonical": "",
-        "spanBoundaries": 1,
-        "onlyLayers": ["address"],
-        "type": "unit",
-        "regex": true
-    },
-    {
-        "tokens": [
-            "",
-            "Suite [a-z]"
-        ],
-        "full": "Suite [a-z]",
-        "canonical": "",
-        "spanBoundaries": 1,
-        "onlyLayers": ["address"],
-        "type": "unit",
-        "regex": true
-    },
-    {
-        "tokens": [
-            "",
-            "STE [0-9]+"
-        ],
-        "full": "STE [0-9]+",
-        "canonical": "",
-        "spanBoundaries": 1,
-        "onlyLayers": ["address"],
-        "type": "unit",
-        "regex": true
-    },
-    {
-        "tokens": [
-            "",
-            "STE [a-z]"
-        ],
-        "full": "STE [a-z]",
+        "full": "(?:suite|ste) #?(?:[A-Z]|\\d+|[A-Z]\\d+|\\d+[A-Z]|\\d+-\\d+[A-Z]?)",
         "canonical": "",
         "spanBoundaries": 1,
         "onlyLayers": ["address"],
@@ -2982,5 +2922,57 @@
         "full": "N.T.",
         "canonical": "NT",
         "onlyCountries": ["hk"]
+    },
+    {
+        "tokens": [
+            "",
+            "(?:apartment|apt|bldg|building|rm|room|unit) #?(?:[A-Z]|\\d+|[A-Z]\\d+|\\d+[A-Z]|\\d+-\\d+[A-Z]?)"
+        ],
+        "canonical": "",
+        "full": "(?:apartment|apt|bldg|building|rm|room|unit) #?(?:[A-Z]|\\d+|[A-Z]\\d+|\\d+[A-Z]|\\d+-\\d+[A-Z]?)",
+        "regex": true,
+        "spanBoundaries": 1,
+        "onlyLayers": ["address"],
+        "onlyCountries": ["us"],
+        "type": "unit"
+    },
+    {
+        "tokens": [
+            "",
+            "(?:floor|fl) #?\\d{1,3}"
+        ],
+        "canonical": "",
+        "full": "(?:floor|fl) #?\\d{1,3}",
+        "regex": true,
+        "spanBoundaries": 1,
+        "onlyLayers": ["address"],
+        "onlyCountries": ["us"],
+        "type": "unit"
+    },
+    {
+        "tokens": [
+            "",
+            "\\d{1,3}(?:st|nd|rd|th) (?:floor|fl)"
+        ],
+        "canonical": "",
+        "full": "\\d{1,3}(?:st|nd|rd|th) (?:floor|fl)",
+        "regex": true,
+        "spanBoundaries": 1,
+        "onlyLayers": ["address"],
+        "onlyCountries": ["us"],
+        "type": "unit"
+    },
+    {
+        "tokens": [
+            "$1",
+            "((?!apartment|apt|bldg|building|rm|room|unit|fl|floor|ste|suite)[a-z]{2,}) # ?(?:[A-Z]|\\d+|[A-Z]\\d+|\\d+[A-Z]|\\d+-\\d+[A-Z]?)"
+        ],
+        "canonical": "$1",
+        "full": "((?!apartment|apt|bldg|building|rm|room|unit|fl|floor|ste|suite)[a-z]{2,}) # ?(?:[A-Z]|\\d+|[A-Z]\\d+|\\d+[A-Z]|\\d+-\\d+[A-Z]?)",
+        "regex": true,
+        "spanBoundaries": 1,
+        "onlyLayers": ["address"],
+        "onlyCountries": ["us"],
+        "type": "unit"
     }
 ]
