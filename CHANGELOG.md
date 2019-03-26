@@ -10,6 +10,10 @@
 
 # Version History
 
+## v3.1.0
+
+- Add several new replacements focused on and scoped to US addresses, designed to strip unit numbers from address strings.
+
 ## v3.0.0
 
 - Change format of geocoder-abbrevations contents, and add mechanisms for querying data in new format; see current README.md for details
