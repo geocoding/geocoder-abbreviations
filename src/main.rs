@@ -1,8 +1,9 @@
 use serde::Deserialize;
 use serde_json;
+use std::collections::HashMap;
 
-#[derive(Debug)]
-enum CC {
+#[derive(Debug, PartialEq, Eq, Hash, Clone)]
+pub enum CC {
     De,
     En,
     Es,
@@ -26,27 +27,42 @@ pub struct Token {
     token_type:  Option<String>,
 }
 
-fn main() -> Result<(), Error> {
-    let tokens = match_tokens(CC::De).unwrap();
-    let parsed_tokens : Vec<Token> = serde_json::from_str(&tokens);
-    println!("{:#?}", parsed_tokens[0]);
-    Ok(())
+fn main() {
+    let v = vec!["de", "en", "es", "fi"];
+    let vector_CCs = cc_to_CC(v).unwrap();
+    let hashmap_tokens = construct_tokens(vector_CCs);
 }
 
-fn match_tokens(cc: CC) -> Result<String, Error> {
-    match cc {
-        CC::De => {
-            Ok(include_str!("../tokens/de.json").to_string())
+fn cc_to_CC(v: Vec<&str>) -> Result<Vec<CC>, Error> {
+    let mut v_CC = Vec::new();
+    for i in &v {
+        match *i {
+            "de" => v_CC.push(CC::De),
+            "en" => v_CC.push(CC::En),
+            "es" => v_CC.push(CC::Es),
+            "fi" => v_CC.push(CC::Fi),
+            _ => return Err(Error::CountryCodeNotSupported)
         }
-        CC::En => {
-            Ok(include_str!("../tokens/en.json").to_string())
-        },
-        CC::Es => {
-            Ok(include_str!("../tokens/es.json").to_string())
-        },
-        CC::Fi => {
-            Ok(include_str!("../tokens/fi.json").to_string())
-        },
-        _ => Err(Error::CountryCodeNotSupported)
+    }
+    Ok(v_CC)
+}
+
+fn construct_tokens(v: Vec<CC>) -> HashMap<CC, Vec<Token>> {
+    let mut token_map = HashMap::new();
+    for i in &v {
+        let tokens = import_tokens(i);
+        let parsed_tokens : Vec<Token> = serde_json::from_str(&tokens)
+            .expect("unable to parse JSON");
+        token_map.insert(i.clone(), parsed_tokens);
+    }
+    token_map
+}
+
+fn import_tokens(cc: &CC) -> String {
+    match cc {
+        CC::De => include_str!("../tokens/de.json").to_string(),
+        CC::En => include_str!("../tokens/en.json").to_string(),
+        CC::Es => include_str!("../tokens/es.json").to_string(),
+        CC::Fi => include_str!("../tokens/fi.json").to_string()
     }
 }
