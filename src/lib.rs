@@ -2,12 +2,39 @@ use serde::Deserialize;
 use serde_json;
 use std::collections::HashMap;
 
-#[derive(Debug, PartialEq, Eq, Hash, Clone)]
-pub enum CC {
-    De,
-    En,
-    Es,
-    Fi
+macro_rules! iterable_enum {
+    ($name:ident { $($variant:ident),* })   => (
+        #[derive(Debug, PartialEq, Eq, Hash, Clone)]
+        pub enum $name { $($variant),* }
+
+        impl $name {
+            fn iter() -> Iter {
+                Iter(None)
+            }
+        }
+
+        struct Iter(Option<$name>);
+
+        impl Iterator for Iter {
+            type Item = $name;
+
+            fn next(&mut self) -> Option<Self::Item> {
+                match self.0 {
+                    None                    => $( { self.0 = Some($name::$variant); Some($name::$variant) },
+                    Some($name::$variant)   => )* None,
+                }
+            }
+        }
+    );
+}
+
+iterable_enum!{
+    CC {
+        De,
+        En,
+        Es,
+        Fi
+    }
 }
 
 #[derive(Debug, PartialEq)]
@@ -28,7 +55,11 @@ pub struct Token {
 }
 
 pub fn tokens(v: Vec<&str>) -> HashMap<CC, Vec<Token>> {
-    let ccs = to_cc(v).unwrap();
+    let ccs = if v.is_empty() {
+        every_cc()
+    } else {
+        to_cc(v).unwrap()
+    };
     get_tokens(ccs)
 }
 
@@ -44,6 +75,14 @@ fn to_cc(v: Vec<&str>) -> Result<Vec<CC>, Error> {
         }
     }
     Ok(ccs)
+}
+
+fn every_cc() -> Vec<CC> {
+    let mut ccs = Vec::new();
+    for cc in CC::iter() {
+        ccs.push(cc);
+    }
+    ccs
 }
 
 pub fn get_tokens(v: Vec<CC>) -> HashMap<CC, Vec<Token>> {
@@ -63,5 +102,56 @@ fn import(cc: &CC) -> &str {
         CC::En => include_str!("../tokens/en.json"),
         CC::Es => include_str!("../tokens/es.json"),
         CC::Fi => include_str!("../tokens/fi.json")
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_to_cc() {
+        assert_eq!(to_cc(vec!["de"]).unwrap(), vec![CC::De]);
+        assert_eq!(to_cc(vec!["de", "en"]).unwrap(), vec![CC::De, CC::En]);
+    }
+
+    #[test]
+    #[should_panic(expected = "CountryCodeNotSupported")]
+    fn fail_to_cc() {
+        to_cc(vec!["zz"]).unwrap();
+    }
+
+    #[test]
+    fn test_every_cc() {
+        let ccs = every_cc();
+        assert_eq!(ccs.len(), 4);
+    }
+
+    #[test]
+    fn test_get_tokens() {
+        let tokens = get_tokens(vec![CC::De, CC::En]);
+        assert_eq!(tokens.len(), 2);
+        assert!(tokens.contains_key(&CC::De));
+        assert!(tokens.contains_key(&CC::En));
+    }
+
+    #[test]
+    fn test_tokens() {
+        let tokens = tokens(vec!["de", "en"]);
+        assert_eq!(tokens.len(), 2);
+        assert!(tokens.contains_key(&CC::De));
+        assert!(tokens.contains_key(&CC::En));
+    }
+
+    #[test]
+    fn test_tokens_empty() {
+        let tokens = tokens(Vec::new());
+        assert_eq!(tokens.len(), 4);
+    }
+
+    #[test]
+    #[should_panic(expected = "CountryCodeNotSupported")]
+    fn fail_tokens() {
+        tokens(vec!["zz"]);
     }
 }
