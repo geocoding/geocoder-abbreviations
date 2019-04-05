@@ -1,6 +1,12 @@
+extern crate serde;
+extern crate regex;
+extern crate serde_regex;
+
 use serde::Deserialize;
 use serde_json;
 use std::collections::HashMap;
+use regex::Regex;
+
 
 macro_rules! iterable_enum {
     ($name:ident { $($variant:ident),* })   => (
@@ -58,13 +64,17 @@ pub enum Error {
 #[derive(Deserialize, Debug)]
 pub struct Token {
     tokens: Vec<String>,
-    full: String,
+    #[serde(with = "serde_regex")]
+    full: Regex,
     canonical: String,
+    #[serde(rename = "spanBoundaries")]
+    span_boundaries: Option<u8>,
     #[serde(rename = "onlyLayers")]
     only_layers: Option<Vec<String>>,
     note: Option<String>,
     #[serde(rename = "type")]
-    token_type:  Option<String>,
+    token_type: Option<String>,
+    regex: Option<bool>
 }
 
 pub fn tokens(v: Vec<String>) -> HashMap<LC, Vec<Token>> {
