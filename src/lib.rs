@@ -1,3 +1,5 @@
+#[macro_use]
+extern crate lazy_static;
 extern crate serde;
 extern crate regex;
 extern crate serde_regex;
@@ -7,53 +9,26 @@ use serde_json;
 use std::collections::HashMap;
 use regex::Regex;
 
-
-macro_rules! iterable_enum {
-    ($name:ident { $($variant:ident),* })   => (
-        #[derive(Debug, PartialEq, Eq, Hash, Clone)]
-        pub enum $name { $($variant),* }
-
-        impl $name {
-            fn iter() -> Iter {
-                Iter(None)
-            }
-        }
-
-        struct Iter(Option<$name>);
-
-        impl Iterator for Iter {
-            type Item = $name;
-
-            fn next(&mut self) -> Option<Self::Item> {
-                match self.0 {
-                    None                    => $( { self.0 = Some($name::$variant); Some($name::$variant) },
-                    Some($name::$variant)   => )* None,
-                }
-            }
-        }
-    );
-}
-
-iterable_enum!{
-    LC {
-        De,
-        En,
-        Es,
-        Et,
-        Fi,
-        Fr,
-        He,
-        Id,
-        It,
-        Ja,
-        Nl,
-        No,
-        Pl,
-        Pt,
-        Ro,
-        Ru,
-        Sv
-    }
+lazy_static! {
+    static ref LANGUAGE_CODES: Vec<String> = vec![
+        String::from("de"),
+        String::from("en"),
+        String::from("es"),
+        String::from("et"),
+        String::from("fi"),
+        String::from("fr"),
+        String::from("he"),
+        String::from("id"),
+        String::from("it"),
+        String::from("ja"),
+        String::from("nl"),
+        String::from("no"),
+        String::from("pl"),
+        String::from("pt"),
+        String::from("ro"),
+        String::from("ru"),
+        String::from("sv")
+    ];
 }
 
 #[derive(Debug, PartialEq)]
@@ -77,51 +52,19 @@ pub struct Token {
     regex: Option<bool>
 }
 
-pub fn tokens(v: Vec<String>) -> HashMap<LC, Vec<Token>> {
-    let lcs = if v.is_empty() {
-        all_lcs()
-    } else {
-        to_lc(v).unwrap()
-    };
-    get_tokens(lcs)
-}
-
-fn all_lcs() -> Vec<LC> {
-    let mut lcs = Vec::new();
-    for lc in LC::iter() {
-        lcs.push(lc);
+pub fn tokens(v: Vec<String>) -> Result<HashMap<String, Vec<Token>>, Error> {
+    if v.is_empty() {
+        return Ok(get_tokens(LANGUAGE_CODES.to_vec()))
     }
-    lcs
-}
-
-fn to_lc(v: Vec<String>) -> Result<Vec<LC>, Error> {
-    let mut lcs = Vec::new();
     for lc in &v {
-        match lc.as_ref() {
-            "de" => lcs.push(LC::De),
-            "en" => lcs.push(LC::En),
-            "es" => lcs.push(LC::Es),
-            "et" => lcs.push(LC::Et),
-            "fi" => lcs.push(LC::Fi),
-            "fr" => lcs.push(LC::Fr),
-            "he" => lcs.push(LC::He),
-            "id" => lcs.push(LC::Id),
-            "it" => lcs.push(LC::It),
-            "ja" => lcs.push(LC::Ja),
-            "nl" => lcs.push(LC::Nl),
-            "no" => lcs.push(LC::No),
-            "pl" => lcs.push(LC::Pl),
-            "pt" => lcs.push(LC::Pt),
-            "ro" => lcs.push(LC::Ro),
-            "ru" => lcs.push(LC::Ru),
-            "sv" => lcs.push(LC::Sv),
-            _ => return Err(Error::LanguageCodeNotSupported)
+        if !LANGUAGE_CODES.contains(lc) {
+            return Err(Error::LanguageCodeNotSupported)
         }
     }
-    Ok(lcs)
+    Ok(get_tokens(v))
 }
 
-fn get_tokens(v: Vec<LC>) -> HashMap<LC, Vec<Token>> {
+fn get_tokens(v: Vec<String>) -> HashMap<String, Vec<Token>> {
     let mut map = HashMap::new();
     for lc in &v {
         let tokens_str = import(lc);
@@ -132,25 +75,26 @@ fn get_tokens(v: Vec<LC>) -> HashMap<LC, Vec<Token>> {
     map
 }
 
-fn import(lc: &LC) -> &str {
+fn import(lc: &str) -> &str {
     match lc {
-        LC::De => include_str!("../tokens/de.json"),
-        LC::En => include_str!("../tokens/en.json"),
-        LC::Es => include_str!("../tokens/es.json"),
-        LC::Et => include_str!("../tokens/et.json"),
-        LC::Fi => include_str!("../tokens/fi.json"),
-        LC::Fr => include_str!("../tokens/fr.json"),
-        LC::He => include_str!("../tokens/he.json"),
-        LC::Id => include_str!("../tokens/id.json"),
-        LC::It => include_str!("../tokens/it.json"),
-        LC::Ja => include_str!("../tokens/ja.json"),
-        LC::Nl => include_str!("../tokens/nl.json"),
-        LC::No => include_str!("../tokens/no.json"),
-        LC::Pl => include_str!("../tokens/pl.json"),
-        LC::Pt => include_str!("../tokens/pt.json"),
-        LC::Ro => include_str!("../tokens/ro.json"),
-        LC::Ru => include_str!("../tokens/ru.json"),
-        LC::Sv => include_str!("../tokens/sv.json")
+        "de" => include_str!("../tokens/de.json"),
+        "en" => include_str!("../tokens/en.json"),
+        "es" => include_str!("../tokens/es.json"),
+        "et" => include_str!("../tokens/et.json"),
+        "fi" => include_str!("../tokens/fi.json"),
+        "fr" => include_str!("../tokens/fr.json"),
+        "he" => include_str!("../tokens/he.json"),
+        "id" => include_str!("../tokens/id.json"),
+        "it" => include_str!("../tokens/it.json"),
+        "ja" => include_str!("../tokens/ja.json"),
+        "nl" => include_str!("../tokens/nl.json"),
+        "no" => include_str!("../tokens/no.json"),
+        "pl" => include_str!("../tokens/pl.json"),
+        "pt" => include_str!("../tokens/pt.json"),
+        "ro" => include_str!("../tokens/ro.json"),
+        "ru" => include_str!("../tokens/ru.json"),
+        "sv" => include_str!("../tokens/sv.json"),
+        _ => panic!("token file import not set up for supported language code")
     }
 }
 
@@ -161,47 +105,35 @@ mod tests {
 
     #[test]
     fn test_tokens() {
-        let lc_tokens = tokens(vec![String::from("de"), String::from("en")]);
+        let lc_tokens = tokens(vec![String::from("de"), String::from("en")]).unwrap();
         assert_eq!(lc_tokens.len(), 2);
-        assert!(lc_tokens.contains_key(&LC::De));
-        assert!(lc_tokens.contains_key(&LC::En));
+        assert!(lc_tokens.contains_key("de"));
+        assert!(lc_tokens.contains_key("en"));
 
-        let empty_lc = tokens(Vec::new());
-        let every_lc = get_tokens(all_lcs());
+        let empty_lc = tokens(Vec::new()).unwrap();
+        let every_lc = get_tokens(LANGUAGE_CODES.to_vec());
         assert_eq!(empty_lc.len(), every_lc.len());
     }
 
     #[test]
     #[should_panic(expected = "LanguageCodeNotSupported")]
     fn fail_tokens() {
-        tokens(vec![String::from("zz")]);
+        tokens(vec![String::from("zz")]).unwrap();
     }
 
     #[test]
     fn test_all_lcs() {
-        let lcs = all_lcs();
-        let file_system_lcs = to_lc(read_files()).unwrap();
-        assert_eq!(lcs.len(), file_system_lcs.len());
-    }
-
-    #[test]
-    fn test_to_lc() {
-        assert_eq!(to_lc(vec![String::from("de")]).unwrap(), vec![LC::De]);
-        assert_eq!(to_lc(vec![String::from("de"), String::from("en")]).unwrap(), vec![LC::De, LC::En]);
-    }
-
-    #[test]
-    #[should_panic(expected = "LanguageCodeNotSupported")]
-    fn fail_to_lc() {
-        to_lc(vec![String::from("zz")]).unwrap();
+        let file_system_lcs = read_files();
+        assert_eq!(LANGUAGE_CODES.len(), file_system_lcs.len());
+        // TODO test values as well as length
     }
 
     #[test]
     fn test_get_tokens() {
-        let lc_tokens = get_tokens(vec![LC::De, LC::En]);
+        let lc_tokens = get_tokens(vec![String::from("de"), String::from("en")]);
         assert_eq!(lc_tokens.len(), 2);
-        assert!(lc_tokens.contains_key(&LC::De));
-        assert!(lc_tokens.contains_key(&LC::En));
+        assert!(lc_tokens.contains_key("de"));
+        assert!(lc_tokens.contains_key("en"));
     }
 
     #[test]
@@ -214,7 +146,7 @@ mod tests {
             String::from("unit"),
             String::from("way")
         ];
-        let token_map = tokens(Vec::new());
+        let token_map = tokens(Vec::new()).unwrap();
 
         for lc in token_map.values() {
             for tk in lc {
@@ -239,12 +171,9 @@ mod tests {
         let mut lcs = Vec::new();
         for entry in fs::read_dir("./tokens").unwrap() {
             let file_name = entry.unwrap().file_name().into_string().unwrap();
-            let split = file_name.split(".");
-            let file_components: Vec<String> = split.map(|file_name| {
-                String::from(file_name)
-            }).collect();
-            if file_components[1] == String::from("json") {
-                lcs.push(file_components[0].clone());
+            let file_components: Vec<&str> = file_name.split(".").collect();
+            if file_components[1] == "json" {
+                lcs.push(file_components[0].to_owned());
             }
         }
         lcs
