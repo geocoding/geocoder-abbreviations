@@ -1,10 +1,4 @@
-#[macro_use]
-extern crate lazy_static;
-extern crate serde;
-extern crate regex;
-extern crate fancy_regex;
-extern crate alphanumeric_sort;
-
+use lazy_static::lazy_static;
 use serde::Deserialize;
 use serde_json;
 use std::collections::HashMap;
@@ -34,7 +28,8 @@ lazy_static! {
 
 #[derive(Debug, PartialEq)]
 pub enum Error {
-    LanguageCodeNotSupported
+    LanguageCodeNotSupported(String),
+    TokenFileImportNotSupported(String)
 }
 
 #[derive(Deserialize, Debug, Clone)]
@@ -60,24 +55,24 @@ struct InToken {
     token_type: Option<String>,
 }
 
-pub struct OutToken {
+pub struct Token {
     tokens: Vec<String>,
     full: BasicToken,
     canonical: String,
     note: Option<String>,
     only_countries: Option<Vec<String>>,
     only_layers: Option<Vec<String>>,
-    prefer_full: Option<bool>,
-    regex: Option<bool>,
-    skip_boundaries: Option<bool>,
-    skip_diacritic_stripping: Option<bool>,
+    prefer_full: bool,
+    regex: bool,
+    skip_boundaries: bool,
+    skip_diacritic_stripping: bool,
     span_boundaries: Option<u8>,
     token_type: Option<String>,
 }
 
-impl OutToken {
-    fn new(input: InToken) -> OutToken {
-        OutToken {
+impl Token {
+    fn new(input: InToken) -> Token {
+        Token {
             tokens: input.tokens,
             full: match input.regex {
                 Some(true) => BasicToken::Regex(Regex::new(&input.full).unwrap()),
@@ -87,10 +82,22 @@ impl OutToken {
             note: input.note,
             only_countries: input.only_countries,
             only_layers: input.only_layers,
-            prefer_full: input.prefer_full,
-            regex: input.regex,
-            skip_boundaries: input.skip_boundaries,
-            skip_diacritic_stripping: input.skip_diacritic_stripping,
+            prefer_full: match input.prefer_full {
+                Some(true) => true,
+                _ => false
+            },
+            regex: match input.regex {
+                Some(true) => true,
+                _ => false
+            },
+            skip_boundaries: match input.skip_boundaries {
+                Some(true) => true,
+                _ => false
+            },
+            skip_diacritic_stripping: match input.skip_diacritic_stripping {
+                Some(true) => true,
+                _ => false
+            },
             span_boundaries: input.span_boundaries,
             token_type: input.token_type,
         }
@@ -103,52 +110,52 @@ pub enum BasicToken {
 }
 
 
-pub fn config(v: Vec<String>) -> Result<HashMap<String, Vec<OutToken>>, Error> {
+pub fn config(v: Vec<String>) -> Result<HashMap<String, Vec<Token>>, Error> {
     if v.is_empty() {
-        return Ok(prepare(LANGUAGE_CODES.to_vec()))
+        return Ok(prepare(LANGUAGE_CODES.to_vec())?)
     }
     for lc in &v {
         if !LANGUAGE_CODES.contains(lc) {
-            return Err(Error::LanguageCodeNotSupported)
+            return Err(Error::LanguageCodeNotSupported(lc.to_string()))
         }
     }
-    Ok(prepare(v))
+    Ok(prepare(v)?)
 }
 
-fn prepare(v: Vec<String>) -> HashMap<String, Vec<OutToken>> {
+fn prepare(v: Vec<String>) -> Result<HashMap<String, Vec<Token>>, Error> {
     let mut map = HashMap::new();
     for lc in &v {
-        let parsed : Vec<InToken> = serde_json::from_str(import(lc))
+        let parsed : Vec<InToken> = serde_json::from_str(import(lc)?)
             .expect("unable to parse token JSON");
         let mut tokens = Vec::new();
         for tk in &parsed {
-            tokens.push(OutToken::new(tk.clone()));
+            tokens.push(Token::new(tk.clone()));
         }
         map.insert(lc.clone(), tokens);
     }
-    map
+    Ok(map)
 }
 
-fn import(lc: &str) -> &str {
+fn import(lc: &str) -> Result<&str, Error> {
     match lc {
-        "de" => include_str!("../tokens/de.json"),
-        "en" => include_str!("../tokens/en.json"),
-        "es" => include_str!("../tokens/es.json"),
-        "et" => include_str!("../tokens/et.json"),
-        "fi" => include_str!("../tokens/fi.json"),
-        "fr" => include_str!("../tokens/fr.json"),
-        "he" => include_str!("../tokens/he.json"),
-        "id" => include_str!("../tokens/id.json"),
-        "it" => include_str!("../tokens/it.json"),
-        "ja" => include_str!("../tokens/ja.json"),
-        "nl" => include_str!("../tokens/nl.json"),
-        "no" => include_str!("../tokens/no.json"),
-        "pl" => include_str!("../tokens/pl.json"),
-        "pt" => include_str!("../tokens/pt.json"),
-        "ro" => include_str!("../tokens/ro.json"),
-        "ru" => include_str!("../tokens/ru.json"),
-        "sv" => include_str!("../tokens/sv.json"),
-        _ => panic!("token file import not set up for supported language code")
+        "de" => Ok(include_str!("../tokens/de.json")),
+        "en" => Ok(include_str!("../tokens/en.json")),
+        "es" => Ok(include_str!("../tokens/es.json")),
+        "et" => Ok(include_str!("../tokens/et.json")),
+        "fi" => Ok(include_str!("../tokens/fi.json")),
+        "fr" => Ok(include_str!("../tokens/fr.json")),
+        "he" => Ok(include_str!("../tokens/he.json")),
+        "id" => Ok(include_str!("../tokens/id.json")),
+        "it" => Ok(include_str!("../tokens/it.json")),
+        "ja" => Ok(include_str!("../tokens/ja.json")),
+        "nl" => Ok(include_str!("../tokens/nl.json")),
+        "no" => Ok(include_str!("../tokens/no.json")),
+        "pl" => Ok(include_str!("../tokens/pl.json")),
+        "pt" => Ok(include_str!("../tokens/pt.json")),
+        "ro" => Ok(include_str!("../tokens/ro.json")),
+        "ru" => Ok(include_str!("../tokens/ru.json")),
+        "sv" => Ok(include_str!("../tokens/sv.json")),
+        _ => Err(Error::TokenFileImportNotSupported(lc.to_string()))
     }
 }
 
@@ -165,7 +172,7 @@ mod tests {
         assert!(lcs.contains_key("en"));
 
         let empty_lc = config(Vec::new()).unwrap();
-        let every_lc = prepare(LANGUAGE_CODES.to_vec());
+        let every_lc = prepare(LANGUAGE_CODES.to_vec()).unwrap();
         assert_eq!(empty_lc.len(), every_lc.len());
         for lc in LANGUAGE_CODES.to_vec() {
             assert!(empty_lc.contains_key(&lc));
@@ -173,7 +180,7 @@ mod tests {
     }
 
     #[test]
-    #[should_panic(expected = "LanguageCodeNotSupported")]
+    #[should_panic(expected = "LanguageCodeNotSupported(\"zz\")")]
     fn fail_config() {
         config(vec![String::from("zz")]).unwrap();
     }
@@ -187,10 +194,16 @@ mod tests {
 
     #[test]
     fn test_prepare() {
-        let lcs = prepare(vec![String::from("de"), String::from("en")]);
+        let lcs = prepare(vec![String::from("de"), String::from("en")]).unwrap();
         assert_eq!(lcs.len(), 2);
         assert!(lcs.contains_key("de"));
         assert!(lcs.contains_key("en"));
+    }
+
+    #[test]
+    #[should_panic(expected = "TokenFileImportNotSupported(\"zz\")")]
+    fn fail_import() {
+        import("zz").unwrap();
     }
 
     #[test]

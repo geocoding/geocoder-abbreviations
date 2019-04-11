@@ -8,6 +8,5 @@ edition = "2018"
 alphanumeric-sort = "1.0.6"
 fancy-regex = "0.1.0"
 lazy_static = "1.3.0"
-regex = "1.1"
 serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
