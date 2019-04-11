@@ -2,12 +2,13 @@
 extern crate lazy_static;
 extern crate serde;
 extern crate regex;
-extern crate serde_regex;
+extern crate fancy_regex;
+extern crate alphanumeric_sort;
 
 use serde::Deserialize;
 use serde_json;
 use std::collections::HashMap;
-use regex::Regex;
+use fancy_regex::Regex;
 
 lazy_static! {
     static ref LANGUAGE_CODES: Vec<String> = vec![
@@ -36,41 +37,94 @@ pub enum Error {
     LanguageCodeNotSupported
 }
 
-#[derive(Deserialize, Debug)]
-pub struct Token {
+#[derive(Deserialize, Debug, Clone)]
+struct InToken {
     tokens: Vec<String>,
-    #[serde(with = "serde_regex")]
-    full: Regex,
+    full: String,
     canonical: String,
-    #[serde(rename = "spanBoundaries")]
-    span_boundaries: Option<u8>,
+    note: Option<String>,
+    #[serde(rename = "onlyCountries")]
+    only_countries: Option<Vec<String>>,
     #[serde(rename = "onlyLayers")]
     only_layers: Option<Vec<String>>,
-    note: Option<String>,
+    #[serde(rename = "preferFull")]
+    prefer_full: Option<bool>,
+    regex: Option<bool>,
+    #[serde(rename = "skipBoundaries")]
+    skip_boundaries: Option<bool>,
+    #[serde(rename = "skipDiacriticStripping")]
+    skip_diacritic_stripping: Option<bool>,
+    #[serde(rename = "spanBoundaries")]
+    span_boundaries: Option<u8>,
     #[serde(rename = "type")]
     token_type: Option<String>,
-    regex: Option<bool>
 }
 
-pub fn tokens(v: Vec<String>) -> Result<HashMap<String, Vec<Token>>, Error> {
+pub struct OutToken {
+    tokens: Vec<String>,
+    full: BasicToken,
+    canonical: String,
+    note: Option<String>,
+    only_countries: Option<Vec<String>>,
+    only_layers: Option<Vec<String>>,
+    prefer_full: Option<bool>,
+    regex: Option<bool>,
+    skip_boundaries: Option<bool>,
+    skip_diacritic_stripping: Option<bool>,
+    span_boundaries: Option<u8>,
+    token_type: Option<String>,
+}
+
+impl OutToken {
+    fn new(input: InToken) -> OutToken {
+        OutToken {
+            tokens: input.tokens,
+            full: match input.regex {
+                Some(true) => BasicToken::Regex(Regex::new(&input.full).unwrap()),
+                _ => BasicToken::String(input.full),
+            },
+            canonical: input.canonical,
+            note: input.note,
+            only_countries: input.only_countries,
+            only_layers: input.only_layers,
+            prefer_full: input.prefer_full,
+            regex: input.regex,
+            skip_boundaries: input.skip_boundaries,
+            skip_diacritic_stripping: input.skip_diacritic_stripping,
+            span_boundaries: input.span_boundaries,
+            token_type: input.token_type,
+        }
+    }
+}
+
+pub enum BasicToken {
+   String(String),
+   Regex(Regex)
+}
+
+
+pub fn config(v: Vec<String>) -> Result<HashMap<String, Vec<OutToken>>, Error> {
     if v.is_empty() {
-        return Ok(get_tokens(LANGUAGE_CODES.to_vec()))
+        return Ok(prepare(LANGUAGE_CODES.to_vec()))
     }
     for lc in &v {
         if !LANGUAGE_CODES.contains(lc) {
             return Err(Error::LanguageCodeNotSupported)
         }
     }
-    Ok(get_tokens(v))
+    Ok(prepare(v))
 }
 
-fn get_tokens(v: Vec<String>) -> HashMap<String, Vec<Token>> {
+fn prepare(v: Vec<String>) -> HashMap<String, Vec<OutToken>> {
     let mut map = HashMap::new();
     for lc in &v {
-        let tokens_str = import(lc);
-        let parsed_tokens : Vec<Token> = serde_json::from_str(tokens_str)
-            .expect("unable to parse JSON");
-        map.insert(lc.clone(), parsed_tokens);
+        let parsed : Vec<InToken> = serde_json::from_str(import(lc))
+            .expect("unable to parse token JSON");
+        let mut tokens = Vec::new();
+        for tk in &parsed {
+            tokens.push(OutToken::new(tk.clone()));
+        }
+        map.insert(lc.clone(), tokens);
     }
     map
 }
@@ -104,36 +158,39 @@ mod tests {
     use std::fs;
 
     #[test]
-    fn test_tokens() {
-        let lc_tokens = tokens(vec![String::from("de"), String::from("en")]).unwrap();
-        assert_eq!(lc_tokens.len(), 2);
-        assert!(lc_tokens.contains_key("de"));
-        assert!(lc_tokens.contains_key("en"));
+    fn test_config() {
+        let lcs = config(vec![String::from("de"), String::from("en")]).unwrap();
+        assert_eq!(lcs.len(), 2);
+        assert!(lcs.contains_key("de"));
+        assert!(lcs.contains_key("en"));
 
-        let empty_lc = tokens(Vec::new()).unwrap();
-        let every_lc = get_tokens(LANGUAGE_CODES.to_vec());
+        let empty_lc = config(Vec::new()).unwrap();
+        let every_lc = prepare(LANGUAGE_CODES.to_vec());
         assert_eq!(empty_lc.len(), every_lc.len());
+        for lc in LANGUAGE_CODES.to_vec() {
+            assert!(empty_lc.contains_key(&lc));
+        }
     }
 
     #[test]
     #[should_panic(expected = "LanguageCodeNotSupported")]
-    fn fail_tokens() {
-        tokens(vec![String::from("zz")]).unwrap();
+    fn fail_config() {
+        config(vec![String::from("zz")]).unwrap();
     }
 
     #[test]
     fn test_all_lcs() {
-        let file_system_lcs = read_files();
-        assert_eq!(LANGUAGE_CODES.len(), file_system_lcs.len());
-        // TODO test values as well as length
+        let mut fs_lcs = read_files();
+        alphanumeric_sort::sort_str_slice(&mut fs_lcs);
+        assert_eq!(LANGUAGE_CODES.to_vec(), fs_lcs);
     }
 
     #[test]
-    fn test_get_tokens() {
-        let lc_tokens = get_tokens(vec![String::from("de"), String::from("en")]);
-        assert_eq!(lc_tokens.len(), 2);
-        assert!(lc_tokens.contains_key("de"));
-        assert!(lc_tokens.contains_key("en"));
+    fn test_prepare() {
+        let lcs = prepare(vec![String::from("de"), String::from("en")]);
+        assert_eq!(lcs.len(), 2);
+        assert!(lcs.contains_key("de"));
+        assert!(lcs.contains_key("en"));
     }
 
     #[test]
@@ -146,9 +203,9 @@ mod tests {
             String::from("unit"),
             String::from("way")
         ];
-        let token_map = tokens(Vec::new()).unwrap();
+        let map = config(Vec::new()).unwrap();
 
-        for lc in token_map.values() {
+        for lc in map.values() {
             for tk in lc {
                 assert!(tk.tokens.len() > 0);
                 match &tk.only_layers {
