@@ -1,0 +1,28 @@
+{
+  "name": "@mapbox/geocoder-abbreviations",
+  "version": "3.1.0",
+  "description": "Language/Country Specific Street Abbreviations",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mapbox/geocoder-abbreviations.git"
+  },
+  "keywords": [
+    "geocoding",
+    "addresses",
+    "openaddresses"
+  ],
+  "author": "Nicholas Ingalls <nick@mapbox.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mapbox/geocoder-abbreviations/issues"
+  },
+  "homepage": "https://github.com/mapbox/geocoder-abbreviations#readme",
+  "dependencies": {
+    "tape": "^4.6.3",
+    "union-find": "^1.0.2"
+  }
+}
