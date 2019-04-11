@@ -76,28 +76,16 @@ impl Token {
             tokens: input.tokens,
             full: match input.regex {
                 Some(true) => BasicToken::Regex(Regex::new(&input.full).unwrap()),
-                _ => BasicToken::String(input.full),
+                Some(false) | None => BasicToken::String(input.full),
             },
             canonical: input.canonical,
             note: input.note,
             only_countries: input.only_countries,
             only_layers: input.only_layers,
-            prefer_full: match input.prefer_full {
-                Some(true) => true,
-                _ => false
-            },
-            regex: match input.regex {
-                Some(true) => true,
-                _ => false
-            },
-            skip_boundaries: match input.skip_boundaries {
-                Some(true) => true,
-                _ => false
-            },
-            skip_diacritic_stripping: match input.skip_diacritic_stripping {
-                Some(true) => true,
-                _ => false
-            },
+            prefer_full: input.prefer_full.unwrap_or(false),
+            regex: input.regex.unwrap_or(false),
+            skip_boundaries: input.skip_boundaries.unwrap_or(false),
+            skip_diacritic_stripping: input.skip_diacritic_stripping.unwrap_or(false),
             span_boundaries: input.span_boundaries,
             token_type: input.token_type,
         }
