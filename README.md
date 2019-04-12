@@ -61,6 +61,10 @@ how to employ the token list in question. They are:
 
 ## Usage
 
+geocoder-abbreviations is available as a Node.js package and as a Rust crate.
+
+### Node.js package
+
 index.js exposes a single function with an optional `lang` arg or if null
 returns a map of all the tokens separated by language. It takes an optional
 second boolean argument for whether or not to include groups with a single
@@ -70,3 +74,12 @@ version of just tokens with no metadata that's backwards-compatible with earlier
 releases of this library.
 
 See the index.js JSDoc for more details
+
+### Rust crate
+
+geocoder-abbreviations isn't currently published on crates.io. To add it to your
+project, add the following to your `Cargo.toml` `[dependencies]`:
+
+```
+geocoder-abbreviations = { git = "https://github.com/mapbox/geocoder-abbreviations", rev = "master" }
+```
