@@ -56,18 +56,18 @@ struct InToken {
 }
 
 pub struct Token {
-    tokens: Vec<String>,
-    full: BasicToken,
-    canonical: String,
-    note: Option<String>,
-    only_countries: Option<Vec<String>>,
-    only_layers: Option<Vec<String>>,
-    prefer_full: bool,
-    regex: bool,
-    skip_boundaries: bool,
-    skip_diacritic_stripping: bool,
-    span_boundaries: Option<u8>,
-    token_type: Option<String>,
+    pub tokens: Vec<String>,
+    pub full: BasicToken,
+    pub canonical: String,
+    pub note: Option<String>,
+    pub only_countries: Option<Vec<String>>,
+    pub only_layers: Option<Vec<String>>,
+    pub prefer_full: bool,
+    pub regex: bool,
+    pub skip_boundaries: bool,
+    pub skip_diacritic_stripping: bool,
+    pub span_boundaries: Option<u8>,
+    pub token_type: Option<String>,
 }
 
 impl Token {
