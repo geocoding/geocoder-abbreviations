@@ -29,7 +29,9 @@ lazy_static! {
 #[derive(Debug, PartialEq)]
 pub enum Error {
     LanguageCodeNotSupported(String),
-    TokenFileImportNotSupported(String)
+    TokenFileImportNotSupported(String),
+    TokenTypeNotSupported(String),
+    FancyRegexError
 }
 
 #[derive(Deserialize, Debug, Clone)]
@@ -55,6 +57,36 @@ struct InToken {
     token_type: Option<String>,
 }
 
+#[derive(Debug, PartialEq)]
+pub enum Type {
+    Box,
+    Cardinal,
+    Number,
+    Ordinal,
+    Unit,
+    Way
+}
+
+impl From<fancy_regex::Error> for Error {
+    fn from(_error: fancy_regex::Error) -> Self {
+        Error::FancyRegexError
+    }
+}
+
+impl Type {
+    fn from_str(s: &str) -> Result<Type, Error> {
+        match s {
+            "box" => Ok(Type::Box),
+            "cardinal" => Ok(Type::Cardinal),
+            "number" => Ok(Type::Number),
+            "ordinal" => Ok(Type::Ordinal),
+            "unit" => Ok(Type::Unit),
+            "way" => Ok(Type::Way),
+            _ => Err(Error::TokenTypeNotSupported(s.to_string()))
+        }
+    }
+}
+
 pub struct Token {
     pub tokens: Vec<String>,
     pub full: BasicToken,
@@ -67,15 +99,15 @@ pub struct Token {
     pub skip_boundaries: bool,
     pub skip_diacritic_stripping: bool,
     pub span_boundaries: Option<u8>,
-    pub token_type: Option<String>,
+    pub token_type: Option<Type>,
 }
 
 impl Token {
-    fn new(input: InToken) -> Token {
-        Token {
+    fn new(input: InToken) -> Result<Self, Error> {
+        Ok(Token {
             tokens: input.tokens,
             full: match input.regex {
-                Some(true) => BasicToken::Regex(Regex::new(&input.full).unwrap()),
+                Some(true) => BasicToken::Regex(Regex::new(&input.full)?),
                 Some(false) | None => BasicToken::String(input.full),
             },
             canonical: input.canonical,
@@ -87,8 +119,14 @@ impl Token {
             skip_boundaries: input.skip_boundaries.unwrap_or(false),
             skip_diacritic_stripping: input.skip_diacritic_stripping.unwrap_or(false),
             span_boundaries: input.span_boundaries,
-            token_type: input.token_type,
-        }
+            token_type: match input.token_type {
+                None => None,
+                Some(t) => match Type::from_str(&t) {
+                    Ok(t) => Some(t),
+                    Err(e) => return Err(e)
+                }
+            }
+        })
     }
 }
 
@@ -117,7 +155,7 @@ fn prepare(v: Vec<String>) -> Result<HashMap<String, Vec<Token>>, Error> {
             .expect("unable to parse token JSON");
         let mut tokens = Vec::new();
         for tk in &parsed {
-            tokens.push(Token::new(tk.clone()));
+            tokens.push(Token::new(tk.clone())?);
         }
         map.insert(lc.clone(), tokens);
     }
@@ -196,14 +234,6 @@ mod tests {
 
     #[test]
     fn test_token_values() {
-        let token_types = vec![
-            String::from("box"),
-            String::from("cardinal"),
-            String::from("number"),
-            String::from("ordinal"),
-            String::from("unit"),
-            String::from("way")
-        ];
         let map = config(Vec::new()).unwrap();
 
         for lc in map.values() {
@@ -216,11 +246,6 @@ mod tests {
                     },
                     _ => (),
                 }
-                match &tk.token_type {
-                    Some(t) => assert!(token_types.contains(t)),
-                    _ => (),
-                }
-
             }
         }
     }
