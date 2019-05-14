@@ -34,6 +34,12 @@ pub enum Error {
     FancyRegexError
 }
 
+impl From<fancy_regex::Error> for Error {
+    fn from(_error: fancy_regex::Error) -> Self {
+        Error::FancyRegexError
+    }
+}
+
 #[derive(Deserialize, Debug, Clone)]
 struct InToken {
     tokens: Vec<String>,
@@ -57,39 +63,9 @@ struct InToken {
     token_type: Option<String>,
 }
 
-#[derive(Debug, PartialEq)]
-pub enum Type {
-    Box,
-    Cardinal,
-    Number,
-    Ordinal,
-    Unit,
-    Way
-}
-
-impl From<fancy_regex::Error> for Error {
-    fn from(_error: fancy_regex::Error) -> Self {
-        Error::FancyRegexError
-    }
-}
-
-impl Type {
-    fn from_str(s: &str) -> Result<Type, Error> {
-        match s {
-            "box" => Ok(Type::Box),
-            "cardinal" => Ok(Type::Cardinal),
-            "number" => Ok(Type::Number),
-            "ordinal" => Ok(Type::Ordinal),
-            "unit" => Ok(Type::Unit),
-            "way" => Ok(Type::Way),
-            _ => Err(Error::TokenTypeNotSupported(s.to_string()))
-        }
-    }
-}
-
 pub struct Token {
     pub tokens: Vec<String>,
-    pub full: BasicToken,
+    pub full: Replacer,
     pub canonical: String,
     pub note: Option<String>,
     pub only_countries: Option<Vec<String>>,
@@ -99,7 +75,7 @@ pub struct Token {
     pub skip_boundaries: bool,
     pub skip_diacritic_stripping: bool,
     pub span_boundaries: Option<u8>,
-    pub token_type: Option<Type>,
+    pub token_type: Option<TokenType>,
 }
 
 impl Token {
@@ -107,8 +83,8 @@ impl Token {
         Ok(Token {
             tokens: input.tokens,
             full: match input.regex {
-                Some(true) => BasicToken::Regex(Regex::new(&input.full)?),
-                Some(false) | None => BasicToken::String(input.full),
+                Some(true) => Replacer::Regex(Regex::new(&input.full)?),
+                Some(false) | None => Replacer::String(input.full),
             },
             canonical: input.canonical,
             note: input.note,
@@ -121,7 +97,7 @@ impl Token {
             span_boundaries: input.span_boundaries,
             token_type: match input.token_type {
                 None => None,
-                Some(t) => match Type::from_str(&t) {
+                Some(t) => match TokenType::from_str(&t) {
                     Ok(t) => Some(t),
                     Err(e) => return Err(e)
                 }
@@ -130,11 +106,34 @@ impl Token {
     }
 }
 
-pub enum BasicToken {
+pub enum Replacer {
    String(String),
    Regex(Regex)
 }
 
+#[derive(Debug, PartialEq)]
+pub enum TokenType {
+    PostalBox,
+    Cardinal,
+    Number,
+    Ordinal,
+    Unit,
+    Way
+}
+
+impl TokenType {
+    fn from_str(s: &str) -> Result<TokenType, Error> {
+        match s {
+            "box" => Ok(TokenType::PostalBox),
+            "cardinal" => Ok(TokenType::Cardinal),
+            "number" => Ok(TokenType::Number),
+            "ordinal" => Ok(TokenType::Ordinal),
+            "unit" => Ok(TokenType::Unit),
+            "way" => Ok(TokenType::Way),
+            _ => Err(Error::TokenTypeNotSupported(s.to_string()))
+        }
+    }
+}
 
 pub fn config(v: Vec<String>) -> Result<HashMap<String, Vec<Token>>, Error> {
     if v.is_empty() {
