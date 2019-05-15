@@ -29,7 +29,15 @@ lazy_static! {
 #[derive(Debug, PartialEq)]
 pub enum Error {
     LanguageCodeNotSupported(String),
-    TokenFileImportNotSupported(String)
+    TokenFileImportNotSupported(String),
+    TokenTypeNotSupported(String),
+    FancyRegexError
+}
+
+impl From<fancy_regex::Error> for Error {
+    fn from(_error: fancy_regex::Error) -> Self {
+        Error::FancyRegexError
+    }
 }
 
 #[derive(Deserialize, Debug, Clone)]
@@ -56,27 +64,27 @@ struct InToken {
 }
 
 pub struct Token {
-    tokens: Vec<String>,
-    full: BasicToken,
-    canonical: String,
-    note: Option<String>,
-    only_countries: Option<Vec<String>>,
-    only_layers: Option<Vec<String>>,
-    prefer_full: bool,
-    regex: bool,
-    skip_boundaries: bool,
-    skip_diacritic_stripping: bool,
-    span_boundaries: Option<u8>,
-    token_type: Option<String>,
+    pub tokens: Vec<String>,
+    pub full: Replacer,
+    pub canonical: String,
+    pub note: Option<String>,
+    pub only_countries: Option<Vec<String>>,
+    pub only_layers: Option<Vec<String>>,
+    pub prefer_full: bool,
+    pub regex: bool,
+    pub skip_boundaries: bool,
+    pub skip_diacritic_stripping: bool,
+    pub span_boundaries: Option<u8>,
+    pub token_type: Option<TokenType>,
 }
 
 impl Token {
-    fn new(input: InToken) -> Token {
-        Token {
+    fn new(input: InToken) -> Result<Self, Error> {
+        Ok(Token {
             tokens: input.tokens,
             full: match input.regex {
-                Some(true) => BasicToken::Regex(Regex::new(&input.full).unwrap()),
-                Some(false) | None => BasicToken::String(input.full),
+                Some(true) => Replacer::Regex(Regex::new(&input.full)?),
+                Some(false) | None => Replacer::String(input.full),
             },
             canonical: input.canonical,
             note: input.note,
@@ -87,16 +95,45 @@ impl Token {
             skip_boundaries: input.skip_boundaries.unwrap_or(false),
             skip_diacritic_stripping: input.skip_diacritic_stripping.unwrap_or(false),
             span_boundaries: input.span_boundaries,
-            token_type: input.token_type,
-        }
+            token_type: match input.token_type {
+                None => None,
+                Some(t) => match TokenType::from_str(&t) {
+                    Ok(t) => Some(t),
+                    Err(e) => return Err(e)
+                }
+            }
+        })
     }
 }
 
-pub enum BasicToken {
+pub enum Replacer {
    String(String),
    Regex(Regex)
 }
 
+#[derive(Debug, PartialEq)]
+pub enum TokenType {
+    PostalBox,
+    Cardinal,
+    Number,
+    Ordinal,
+    Unit,
+    Way
+}
+
+impl TokenType {
+    fn from_str(s: &str) -> Result<TokenType, Error> {
+        match s {
+            "box" => Ok(TokenType::PostalBox),
+            "cardinal" => Ok(TokenType::Cardinal),
+            "number" => Ok(TokenType::Number),
+            "ordinal" => Ok(TokenType::Ordinal),
+            "unit" => Ok(TokenType::Unit),
+            "way" => Ok(TokenType::Way),
+            _ => Err(Error::TokenTypeNotSupported(s.to_string()))
+        }
+    }
+}
 
 pub fn config(v: Vec<String>) -> Result<HashMap<String, Vec<Token>>, Error> {
     if v.is_empty() {
@@ -117,7 +154,7 @@ fn prepare(v: Vec<String>) -> Result<HashMap<String, Vec<Token>>, Error> {
             .expect("unable to parse token JSON");
         let mut tokens = Vec::new();
         for tk in &parsed {
-            tokens.push(Token::new(tk.clone()));
+            tokens.push(Token::new(tk.clone())?);
         }
         map.insert(lc.clone(), tokens);
     }
@@ -196,14 +233,6 @@ mod tests {
 
     #[test]
     fn test_token_values() {
-        let token_types = vec![
-            String::from("box"),
-            String::from("cardinal"),
-            String::from("number"),
-            String::from("ordinal"),
-            String::from("unit"),
-            String::from("way")
-        ];
         let map = config(Vec::new()).unwrap();
 
         for lc in map.values() {
@@ -216,11 +245,6 @@ mod tests {
                     },
                     _ => (),
                 }
-                match &tk.token_type {
-                    Some(t) => assert!(token_types.contains(t)),
-                    _ => (),
-                }
-
             }
         }
     }
