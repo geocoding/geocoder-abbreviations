@@ -10,6 +10,10 @@
 
 # Version History
 
+## v4.1.0
+
+- :rocket: Make fields in `Token` struct public, add `TokenType` enum
+
 ## v4.0.0
 
 - :tada: Add support for importing abbreviations as Rust structs
