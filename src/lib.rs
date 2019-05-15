@@ -111,7 +111,7 @@ pub enum Replacer {
    Regex(Regex)
 }
 
-#[derive(Debug, PartialEq)]
+#[derive(Debug, PartialEq, Serialize, Deserialize)]
 pub enum TokenType {
     PostalBox,
     Cardinal,
