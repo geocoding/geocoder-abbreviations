@@ -10,6 +10,10 @@
 
 # Version History
 
+## v4.0.0
+
+- :tada: Add support for importing abbreviations as Rust structs
+
 ## v3.1.0
 
 - Add several new replacements focused on and scoped to US addresses, designed to strip unit numbers from address strings.
@@ -25,4 +29,3 @@
 ## v2.3.2
 
 - Add CHANGELOG.md
-
