@@ -10,10 +10,13 @@
 
 # Version History
 
+## v4.1.2
+
+- :rocket: Add `type: way` property to `road` token in English
+
 ## v4.1.1
 
 - :rocket: Add `Clone`, `Serialize`, and `Deserialize` traits to `TokenType` enum
-
 
 ## v4.1.0
 
