@@ -2197,7 +2197,8 @@
             "Road"
         ],
         "full": "Road",
-        "canonical": "Rd"
+        "canonical": "Rd",
+        "type": "way"
     },
     {
         "tokens": [
