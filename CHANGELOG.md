@@ -10,6 +10,11 @@
 
 # Version History
 
+## v4.1.1
+
+- :rocket: Add `Clone`, `Serialize`, and `Deserialize` traits to `TokenType` enum
+
+
 ## v4.1.0
 
 - :rocket: Make fields in `Token` struct public, add `TokenType` enum
