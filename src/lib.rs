@@ -1,5 +1,5 @@
 use lazy_static::lazy_static;
-use serde::Deserialize;
+use serde::{Deserialize, Serialize};
 use serde_json;
 use std::collections::HashMap;
 use fancy_regex::Regex;
@@ -111,7 +111,7 @@ pub enum Replacer {
    Regex(Regex)
 }
 
-#[derive(Debug, PartialEq)]
+#[derive(Debug, PartialEq, Clone, Serialize, Deserialize)]
 pub enum TokenType {
     PostalBox,
     Cardinal,
