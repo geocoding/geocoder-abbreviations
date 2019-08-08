@@ -2026,7 +2026,8 @@
             "Place"
         ],
         "full": "Place",
-        "canonical": "Pl"
+        "canonical": "Pl",
+        "type": "way"
     },
     {
         "tokens": [
