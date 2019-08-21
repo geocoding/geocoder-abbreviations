@@ -10,6 +10,10 @@
 
 # Version History
 
+## v4.1.3
+
+- :rocket: Add `type: way` property to `place` token in English
+
 ## v4.1.2
 
 - :rocket: Add `type: way` property to `road` token in English
