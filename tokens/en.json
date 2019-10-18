@@ -1193,11 +1193,11 @@
     },
     {
         "tokens": [
-            "Fm",
-            "Farm"
+            "FM",
+            "Farm-To-Market"
         ],
-        "full": "Farm",
-        "canonical": "Fm"
+        "full": "Farm-To-Market",
+        "canonical": "FM"
     },
     {
         "tokens": [
@@ -2247,11 +2247,11 @@
     },
     {
         "tokens": [
-            "Rnch",
-            "Ranch"
+            "RM",
+            "Ranch-To-Market"
         ],
-        "full": "Ranch",
-        "canonical": "Rnch"
+        "full": "Ranch-To-Market",
+        "canonical": "RM"
     },
     {
         "tokens": [
