@@ -10,6 +10,10 @@
 
 # Version History
 
+## v4.1.4
+
+- :rocket: Add `Farm-To-Market` & `Ranch-To-Market`
+
 ## v4.1.3
 
 - :rocket: Add `type: way` property to `place` token in English
