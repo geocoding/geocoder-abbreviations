@@ -64,6 +64,7 @@ tape((t) => {
                 onlyLayers: { type: 'array', required: false, allowed: [ 'address' ] },
                 preferFull: { type: 'boolean', required: false },
                 regex: { type: 'boolean', required: false },
+                reduceRelevance: { type: 'boolean', required: false },
                 skipBoundaries: { type: 'boolean', required: false },
                 skipDiacriticStripping: { type: 'boolean', required: false },
                 spanBoundaries: { type: 'number', required: false },
