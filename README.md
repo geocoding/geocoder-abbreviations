@@ -40,6 +40,8 @@ how to employ the token list in question. They are:
     be assumed not to have been escaped for use in regular expression** (e.g.,
     periods are just periods), and consumers who want to use them in regular
     expressions should perform their own escaping before doing so.
+* **reduceRelevance (boolean):** an indication that the replacement will be indexed
+    with a reduced relevance.
 * **skipBoundaries (boolean):** an indication that the replacement shouldn't
     have to match at a word boundary. Absence should be interpreted as `false`.
 * **skipDiacriticStripping (boolean):** an indication that the replacement
