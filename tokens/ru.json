@@ -4,7 +4,8 @@
             "аллея"
        ],
         "full": "аллея",
-        "canonical": "аллея"
+        "canonical": "аллея",
+        "type": "way"
     },
     {
         "tokens": [
@@ -15,7 +16,8 @@
             "бульвар"
         ],
         "full": "бульвар",
-        "canonical": "бр"
+        "canonical": "бр",
+        "type": "way"
     },
     {
         "tokens": [
@@ -23,7 +25,8 @@
             "дорога"
         ],
         "full": "дорога",
-        "canonical": "дор"
+        "canonical": "дор",
+        "type": "way"
     },
     {
         "tokens": [
@@ -105,7 +108,8 @@
             "набережная"
         ],
         "full": "набережная",
-        "canonical": "наб"
+        "canonical": "наб",
+        "type": "way"
     },
     {
         "tokens": [
@@ -151,7 +155,8 @@
             "проспект"
         ],
         "full": "проспект",
-        "canonical": "прт"
+        "canonical": "прт",
+        "type": "way"
     },
     {
         "tokens": [
@@ -175,7 +180,8 @@
             "улица"
         ],
         "full": "улица",
-        "canonical": "ул"
+        "canonical": "ул",
+        "type": "way"
     },
     {
         "tokens": [
@@ -183,6 +189,7 @@
             "шоссе"
         ],
         "full": "шоссе",
-        "canonical": "ш"
+        "canonical": "ш",
+        "type": "way"
     }
 ]
