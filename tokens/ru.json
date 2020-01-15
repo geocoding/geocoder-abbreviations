@@ -119,7 +119,8 @@
             "переулок"
         ],
         "full": "переулок",
-        "canonical": "п"
+        "canonical": "п",
+        "type": "way"
     },
     {
         "tokens": [
