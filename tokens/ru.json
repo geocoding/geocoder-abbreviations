@@ -1,10 +1,207 @@
 [
     {
         "tokens": [
+            "1",
+            "один"
+        ],
+        "full": "один",
+        "canonical": "1",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "2",
+            "два"
+        ],
+        "full": "два",
+        "canonical": "2",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "3",
+            "три"
+        ],
+        "full": "три",
+        "canonical": "3",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "4",
+            "четыре"
+        ],
+        "full": "четыре",
+        "canonical": "4",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "5",
+            "пять"
+        ],
+        "full": "пять",
+        "canonical": "5",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "6",
+            "шесть"
+        ],
+        "full": "шесть",
+        "canonical": "6",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "7",
+            "семь"
+        ],
+        "full": "семь",
+        "canonical": "7",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "8",
+            "восемь"
+        ],
+        "full": "восемь",
+        "canonical": "8",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "9",
+            "девять"
+        ],
+        "full": "девять",
+        "canonical": "9",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "10",
+            "десять"
+        ],
+        "full": "десять",
+        "canonical": "10",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "11",
+            "одиннадцать"
+        ],
+        "full": "одиннадцать",
+        "canonical": "11",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "12",
+            "двенадцать"
+        ],
+        "full": "двенадцать",
+        "canonical": "12",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "13",
+            "тринадцать"
+        ],
+        "full": "тринадцать",
+        "canonical": "13",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "14",
+            "четырнадцать"
+        ],
+        "full": "четырнадцать",
+        "canonical": "14",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "15",
+            "пятнадцать"
+        ],
+        "full": "пятнадцать",
+        "canonical": "15",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "16",
+            "шестнадцать"
+        ],
+        "full": "шестнадцать",
+        "canonical": "16",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "17",
+            "семнадцать"
+        ],
+        "full": "семнадцать",
+        "canonical": "17",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "18",
+            "восемьнадцать"
+        ],
+        "full": "восемьнадцать",
+        "canonical": "18",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "19",
+            "девятнадцать"
+        ],
+        "full": "девятнадцать",
+        "canonical": "19",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "20",
+            "двадцать"
+        ],
+        "full": "двадцать",
+        "canonical": "20",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "й"
+       ],
+        "full": "й",
+        "canonical": "й",
+        "type": "ordinal"
+    },
+    {
+        "tokens": [
+            "я"
+       ],
+        "full": "я",
+        "canonical": "я",
+        "type": "ordinal"
+    },
+    {
+        "tokens": [
             "аллея"
        ],
         "full": "аллея",
-        "canonical": "аллея"
+        "canonical": "аллея",
+        "type": "way"
     },
     {
         "tokens": [
@@ -15,7 +212,8 @@
             "бульвар"
         ],
         "full": "бульвар",
-        "canonical": "бр"
+        "canonical": "бр",
+        "type": "way"
     },
     {
         "tokens": [
@@ -23,7 +221,8 @@
             "дорога"
         ],
         "full": "дорога",
-        "canonical": "дор"
+        "canonical": "дор",
+        "type": "way"
     },
     {
         "tokens": [
@@ -105,7 +304,8 @@
             "набережная"
         ],
         "full": "набережная",
-        "canonical": "наб"
+        "canonical": "наб",
+        "type": "way"
     },
     {
         "tokens": [
@@ -115,7 +315,8 @@
             "переулок"
         ],
         "full": "переулок",
-        "canonical": "п"
+        "canonical": "п",
+        "type": "way"
     },
     {
         "tokens": [
@@ -151,7 +352,8 @@
             "проспект"
         ],
         "full": "проспект",
-        "canonical": "прт"
+        "canonical": "прт",
+        "type": "way"
     },
     {
         "tokens": [
@@ -175,7 +377,8 @@
             "улица"
         ],
         "full": "улица",
-        "canonical": "ул"
+        "canonical": "ул",
+        "type": "way"
     },
     {
         "tokens": [
@@ -183,6 +386,7 @@
             "шоссе"
         ],
         "full": "шоссе",
-        "canonical": "ш"
+        "canonical": "ш",
+        "type": "way"
     }
 ]
