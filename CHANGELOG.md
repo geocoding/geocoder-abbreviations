@@ -10,6 +10,14 @@
 
 # Version History
 
+## v4.1.6
+
+- :rocket: Add numbers, ordinals, `type: way` property to Russian tokens
+
+## v4.1.5
+
+- :rocket: Add optional reduceRelevance property
+
 ## v4.1.4
 
 - :rocket: Add `Farm-To-Market` & `Ranch-To-Market`
