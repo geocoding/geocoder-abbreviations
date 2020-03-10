@@ -6,6 +6,7 @@ use fancy_regex::Regex;
 
 lazy_static! {
     static ref LANGUAGE_CODES: Vec<String> = vec![
+        String::from("cs"),
         String::from("de"),
         String::from("en"),
         String::from("es"),
@@ -163,6 +164,7 @@ fn prepare(v: Vec<String>) -> Result<HashMap<String, Vec<Token>>, Error> {
 
 fn import(lc: &str) -> Result<&str, Error> {
     match lc {
+        "cs" => Ok(include_str!("../tokens/cs.json")),
         "de" => Ok(include_str!("../tokens/de.json")),
         "en" => Ok(include_str!("../tokens/en.json")),
         "es" => Ok(include_str!("../tokens/es.json")),
