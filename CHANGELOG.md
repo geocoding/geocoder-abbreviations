@@ -10,6 +10,10 @@
 
 # Version History
 
+## v4.1.7
+
+- :tada: Add Czech tokens
+
 ## v4.1.6
 
 - :rocket: Add numbers, ordinals, `type: way` property to Russian tokens
