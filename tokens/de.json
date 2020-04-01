@@ -17,9 +17,52 @@
     },
     {
         "tokens": [
+            "auf",
+            "auf der",
+            "a.d.",
+            "a.d",
+            "a d"
+
+        ],
+        "full": "auf der",
+        "canonical": "a d",
+        "note": "translates to 'on the'"
+
+    },
+    {
+        "tokens": [
+            "an",
+            "an der",
+            "a.d.",
+            "a.d",
+            "a d"
+
+        ],
+        "full": "an der",
+        "canonical": "a d",
+        "note": "translates to 'at the'"
+
+    },
+    {
+        "tokens": [
+            "in",
+            "in der",
+            "i.d.",
+            "i.d",
+            "i d"
+
+        ],
+        "full": "in der",
+        "canonical": "i d",
+        "note": "translates to 'in the'"
+
+    },
+    {
+        "tokens": [
             "Bf",
             "Bhf",
-            "Bahnhof"
+            "Bahnhof",
+            "Bahnhofstr"
         ],
         "full": "Bahnhof",
         "canonical": "Bf"
@@ -27,7 +70,8 @@
     {
         "tokens": [
             "bg",
-            "berg"
+            "berg",
+            "bergstr"
         ],
         "full": "berg",
         "canonical": "bg"
@@ -80,7 +124,8 @@
     {
         "tokens": [
             "df",
-            "dorf"
+            "dorf",
+            "dorfstr"
         ],
         "full": "dorf",
         "canonical": "df"
@@ -131,6 +176,7 @@
     {
         "tokens": [
             "Hbf",
+            "Hauptstr",
             "Hauptbahnhof"
         ],
         "full": "Hauptbahnhof",
@@ -247,6 +293,14 @@
         ],
         "full": "Rhein",
         "canonical": "Rh"
+    },
+    {
+        "tokens": [
+            "Ring",
+            "Ringstr"
+        ],
+        "full": "Ringstr",
+        "canonical": "Ring"
     },
     {
         "tokens": [
