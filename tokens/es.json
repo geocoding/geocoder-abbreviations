@@ -49,6 +49,13 @@
     },
     {
         "tokens": [
+            "Antonio"
+        ],
+        "full": "Antonio",
+        "canonical": "Antonio"
+    },
+    {
+        "tokens": [
             "Apdro",
             "Apeadero"
         ],
@@ -534,6 +541,20 @@
     },
     {
         "tokens": [
+            "dr"
+        ],
+        "full": "dr",
+        "canonical": "dr"
+    },
+    {
+        "tokens": [
+            "ds"
+        ],
+        "full": "ds",
+        "canonical": "ds"
+    },
+    {
+        "tokens": [
             "del"
         ],
         "full": "del",
@@ -573,10 +594,18 @@
     {
         "tokens": [
             "Disem",
-            "Diseminado"
+            "Diseminado",
+            "Diseminados"
         ],
         "full": "Diseminado",
         "canonical": "Disem"
+    },
+    {
+        "tokens": [
+            "el"
+        ],
+        "full": "el",
+        "canonical": "el"
     },
     {
         "tokens": [
@@ -601,6 +630,13 @@
         ],
         "full": "Entrada",
         "canonical": "Entd"
+    },
+    {
+        "tokens": [
+            "Eras"
+        ],
+        "full": "Eras",
+        "canonical": "Eras"
     },
     {
         "tokens": [
@@ -677,6 +713,13 @@
     },
     {
         "tokens": [
+            "Fuente"
+        ],
+        "full": "Fuente",
+        "canonical": "Fuente"
+    },
+    {
+        "tokens": [
             "Gale",
             "Galería"
         ],
@@ -709,11 +752,60 @@
     },
     {
         "tokens": [
+            "Iglesia"
+        ],
+        "full": "Iglesia",
+        "canonical": "Iglesia"
+    },
+    {
+        "tokens": [
             "Jdin",
             "Jardín"
         ],
         "full": "Jardín",
         "canonical": "Jdin"
+    },
+    {
+        "tokens": [
+            "Jose"
+        ],
+        "full": "Jose",
+        "canonical": "Jose"
+    },
+    {
+        "tokens": [
+            "Juan"
+        ],
+        "full": "Juan",
+        "canonical": "Juan"
+    },
+    {
+        "tokens": [
+            "La"
+        ],
+        "full": "La",
+        "canonical": "La"
+    },
+    {
+        "tokens": [
+            "Las"
+        ],
+        "full": "Las",
+        "canonical": "Las"
+    },
+    {
+        "tokens": [
+            "Los"
+        ],
+        "full": "Los",
+        "canonical": "Los"
+    },
+    {
+        "tokens": [
+            "Lg"
+        ],
+        "full": "Lg",
+        "canonical": "Lg"
     },
     {
         "tokens": [
@@ -741,11 +833,25 @@
     },
     {
         "tokens": [
+            "Mayor"
+        ],
+        "full": "Mayor",
+        "canonical": "Mayor"
+    },
+    {
+        "tokens": [
             "Merc",
             "Mercado"
         ],
         "full": "Mercado",
         "canonical": "Merc"
+    },
+    {
+        "tokens": [
+            "Miguel"
+        ],
+        "full": "Miguel",
+        "canonical": "Miguel"
     },
     {
         "tokens": [
@@ -778,6 +884,13 @@
         ],
         "full": "Núcleo",
         "canonical": "Ncleo"
+    },
+    {
+        "tokens": [
+            "Nueva"
+        ],
+        "full": "Nueva",
+        "canonical": "Nueva"
     },
     {
         "tokens": [
@@ -818,6 +931,13 @@
         ],
         "full": "Pueblo",
         "canonical": "Pblo"
+    },
+    {
+        "tokens": [
+            "Pedro"
+        ],
+        "full": "Pedro",
+        "canonical": "Pedro"
     },
     {
         "tokens": [
@@ -984,11 +1104,25 @@
     },
     {
         "tokens": [
+            "R"
+        ],
+        "full": "R",
+        "canonical": "R"
+    },
+    {
+        "tokens": [
             "Rampa",
             "Rampla"
         ],
         "full": "Rampla",
         "canonical": "Rampa"
+    },
+    {
+        "tokens": [
+            "Ramon"
+        ],
+        "full": "Ramon",
+        "canonical": "Ramon"
     },
     {
         "tokens": [
@@ -1021,6 +1155,13 @@
         ],
         "full": "Rincón",
         "canonical": "Rcon"
+    },
+    {
+        "tokens": [
+            "Real"
+        ],
+        "full": "Real",
+        "canonical": "Real"
     },
     {
         "tokens": [
@@ -1164,6 +1305,13 @@
     },
     {
         "tokens": [
+            "ur"
+        ],
+        "full": "ur",
+        "canonical": "ur"
+    },
+    {
+        "tokens": [
             "Urb",
             "Urbanización"
         ],
@@ -1194,6 +1342,13 @@
         ],
         "full": "Vereda",
         "canonical": "Ver"
+    },
+    {
+        "tokens": [
+            "Virgen"
+        ],
+        "full": "Virgen",
+        "canonical": "Virgen"
     },
     {
         "tokens": [
@@ -1238,6 +1393,20 @@
         "full": "Gran Vía",
         "canonical": "GV",
         "spanBoundaries": 1
+    },
+    {
+        "tokens": [
+            "pd"
+        ],
+        "full": "pd",
+        "canonical": "pd"
+    },
+    {
+        "tokens": [
+            "pz"
+        ],
+        "full": "pz",
+        "canonical": "pz"
     },
     {
         "tokens": [
