@@ -317,8 +317,12 @@
         "tokens": [
             "Cl",
             "Cll",
+            "Calle de",
+            "Calle del",
             "Calle",
-            "Carrer"
+            "Carrer del"
+            "Carrer de"
+            "Carrer del"
         ],
         "full": "Calle",
         "canonical": "Cl",
@@ -537,7 +541,8 @@
             "de"
         ],
         "full": "de",
-        "canonical": "de"
+        "canonical": "de",
+        "type": "article"
     },
     {
         "tokens": [
@@ -558,7 +563,8 @@
             "del"
         ],
         "full": "del",
-        "canonical": "del"
+        "canonical": "del",
+        "type": "article"
     },
     {
         "tokens": [
@@ -605,7 +611,8 @@
             "el"
         ],
         "full": "el",
-        "canonical": "el"
+        "canonical": "el",
+        "type": "article"
     },
     {
         "tokens": [
@@ -1275,10 +1282,11 @@
         "tokens": [
             "Tr",
             "Trva",
-            "Travesia",
-            "Travesía"
+            "Travesia de",
+            "Travesia del",
+            "Travesia"
         ],
-        "full": "Travesía",
+        "full": "Travesia",
         "canonical": "Tr",
         "type": "way"
 
