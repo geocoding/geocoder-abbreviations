@@ -534,6 +534,14 @@
     },
     {
         "tokens": [
+            "d"
+        ],
+        "full": "d",
+        "canonical": "d",
+        "type": "article"
+    },
+    {
+        "tokens": [
             "de"
         ],
         "full": "de",
@@ -789,6 +797,14 @@
         ],
         "full": "Juan",
         "canonical": "Juan"
+    },
+    {
+        "tokens": [
+            "L"
+        ],
+        "full": "L",
+        "canonical": "L",
+        "type": "article"
     },
     {
         "tokens": [
@@ -1300,8 +1316,6 @@
         "tokens": [
             "Tr",
             "Trva",
-            "Travesia de",
-            "Travesia del",
             "Travesia"
         ],
         "full": "Travesia",
