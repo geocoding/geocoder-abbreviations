@@ -564,6 +564,14 @@
     },
     {
         "tokens": [
+            "dels"
+        ],
+        "full": "dels",
+        "canonical": "dels",
+        "type": "article"
+    },
+    {
+        "tokens": [
             "don"
         ],
         "full": "don",
@@ -1054,6 +1062,17 @@
     },
     {
         "tokens": [
+            "pj",
+            "passatge"
+        ],
+        "full": "passatge",
+        "canonical": "pj",
+        "onlyLayers": ["address"],
+        "note": "translates to 'passatge'",
+        "type": "way"
+    },
+    {
+        "tokens": [
             "Psllo",
             "Pasillo"
         ],
@@ -1292,11 +1311,13 @@
     },
     {
         "tokens": [
+            "To",
             "Trrnt",
             "Torrente"
         ],
         "full": "Torrente",
-        "canonical": "Trrnt"
+        "canonical": "To",
+        "type": "way"
     },
     {
         "tokens": [
