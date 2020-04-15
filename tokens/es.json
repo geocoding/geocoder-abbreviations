@@ -787,21 +787,24 @@
             "La"
         ],
         "full": "La",
-        "canonical": "La"
+        "canonical": "La",
+        "type": "article"
     },
     {
         "tokens": [
             "Las"
         ],
         "full": "Las",
-        "canonical": "Las"
+        "canonical": "Las",
+        "type": "article"
     },
     {
         "tokens": [
             "Los"
         ],
         "full": "Los",
-        "canonical": "Los"
+        "canonical": "Los",
+        "type": "article"
     },
     {
         "tokens": [
