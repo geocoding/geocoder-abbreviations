@@ -1,10 +1,13 @@
 [package]
 name = "geocoder-abbreviations"
 version = "0.1.0"
+license = "MIT"
+description = "Geocoding Abbreviations classified by language and type"
 authors = [
     "Mapbox <info@mapbox.com>",
     "Nick Ingalls <nick@ingalls.ca>"
 ]
+
 edition = "2018"
 
 [dependencies]
