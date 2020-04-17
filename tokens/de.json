@@ -410,7 +410,6 @@
         "full": "([^ ]+)(strasse|str|straße)",
         "canonical": "$1 str",
         "regex": true,
-        "skipDiacriticStripping": true,
         "spanBoundaries": 0
     }
 ]
