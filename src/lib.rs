@@ -1,30 +1,24 @@
-use lazy_static::lazy_static;
+use rust_embed::RustEmbed;
 use serde::{Deserialize, Serialize};
 use serde_json;
 use std::collections::HashMap;
 use fancy_regex::Regex;
 
-lazy_static! {
-    static ref LANGUAGE_CODES: Vec<String> = vec![
-        String::from("cs"),
-        String::from("de"),
-        String::from("en"),
-        String::from("es"),
-        String::from("et"),
-        String::from("fi"),
-        String::from("fr"),
-        String::from("he"),
-        String::from("id"),
-        String::from("it"),
-        String::from("ja"),
-        String::from("nl"),
-        String::from("no"),
-        String::from("pl"),
-        String::from("pt"),
-        String::from("ro"),
-        String::from("ru"),
-        String::from("sv")
-    ];
+#[derive(RustEmbed)]
+#[folder = "./tokens/"]
+struct Tokens;
+impl Tokens {
+    pub fn codes(self) -> Vec<String> {
+        let mut codes: Vec<String> = Tokens::iter().filter(|lang| {
+            lang.contains(".json") 
+        }).map(|lang| {
+            String::from(lang).replace(".json", "")
+        }).collect();
+
+        codes.sort();
+
+        codes
+    }
 }
 
 #[derive(Debug, PartialEq)]
@@ -138,10 +132,10 @@ impl TokenType {
 
 pub fn config(v: Vec<String>) -> Result<HashMap<String, Vec<Token>>, Error> {
     if v.is_empty() {
-        return Ok(prepare(LANGUAGE_CODES.to_vec())?)
+        return Ok(prepare(Tokens.codes())?)
     }
     for lc in &v {
-        if !LANGUAGE_CODES.contains(lc) {
+        if !Tokens.codes().contains(lc) {
             return Err(Error::LanguageCodeNotSupported(lc.to_string()))
         }
     }
@@ -199,9 +193,9 @@ mod tests {
         assert!(lcs.contains_key("en"));
 
         let empty_lc = config(Vec::new()).unwrap();
-        let every_lc = prepare(LANGUAGE_CODES.to_vec()).unwrap();
+        let every_lc = prepare(Tokens.codes()).unwrap();
         assert_eq!(empty_lc.len(), every_lc.len());
-        for lc in LANGUAGE_CODES.to_vec() {
+        for lc in Tokens.codes() {
             assert!(empty_lc.contains_key(&lc));
         }
     }
@@ -216,7 +210,7 @@ mod tests {
     fn test_all_lcs() {
         let mut fs_lcs = read_files();
         alphanumeric_sort::sort_str_slice(&mut fs_lcs);
-        assert_eq!(LANGUAGE_CODES.to_vec(), fs_lcs);
+        assert_eq!(Tokens.codes(), fs_lcs);
     }
 
     #[test]
