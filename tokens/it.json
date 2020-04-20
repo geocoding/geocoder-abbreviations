@@ -239,15 +239,52 @@
     },
     {
         "tokens": [
-            "di",
-            "del",
-            "della",
-            "dei",
-            "delle",
-            "de"
+            "de",
+            "d"
         ],
-        "full": "d",
+        "full": "de",
         "canonical": "d",
+        "type": "article"
+    },
+    {
+        "tokens": [
+            "di",
+            "d"
+        ],
+        "full": "di",
+        "canonical": "d",
+        "type": "article"
+    },
+    {
+        "tokens": [
+            "del"
+        ],
+        "full": "del",
+        "canonical": "del",
+        "type": "article"
+    },
+    {
+        "tokens": [
+            "della"
+        ],
+        "full": "della",
+        "canonical": "della",
+        "type": "article"
+    },
+    {
+        "tokens": [
+            "dei"
+        ],
+        "full": "dei",
+        "canonical": "dei",
+        "type": "article"
+    },
+    {
+        "tokens": [
+            "delle"
+        ],
+        "full": "delle",
+        "canonical": "delle",
         "type": "article"
     },
     {
@@ -260,5 +297,4 @@
         "note": "translates to 'street'",
         "type": "way"
     }
-
 ]
