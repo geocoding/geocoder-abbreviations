@@ -236,5 +236,29 @@
         "full": "Strada Statale",
         "canonical": "SS",
         "spanBoundaries": 1
+    },
+    {
+        "tokens": [
+            "di",
+            "del",
+            "della",
+            "dei",
+            "delle",
+            "de"
+        ],
+        "full": "d",
+        "canonical": "d",
+        "type": "article"
+    },
+    {
+        "tokens": [
+            "str",
+            "Strada"
+        ],
+        "full": "Strada",
+        "canonical": "str",
+        "note": "translates to 'street'",
+        "type": "way"
     }
+
 ]
