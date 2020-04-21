@@ -244,7 +244,7 @@
         ],
         "full": "de",
         "canonical": "d",
-        "type": "article"
+        "type": "determiner"
     },
     {
         "tokens": [
@@ -253,7 +253,7 @@
         ],
         "full": "di",
         "canonical": "d",
-        "type": "article"
+        "type": "determiner"
     },
     {
         "tokens": [
@@ -261,7 +261,7 @@
         ],
         "full": "del",
         "canonical": "del",
-        "type": "article"
+        "type": "determiner"
     },
     {
         "tokens": [
@@ -269,7 +269,7 @@
         ],
         "full": "della",
         "canonical": "della",
-        "type": "article"
+        "type": "determiner"
     },
     {
         "tokens": [
@@ -277,7 +277,7 @@
         ],
         "full": "dei",
         "canonical": "dei",
-        "type": "article"
+        "type": "determiner"
     },
     {
         "tokens": [
@@ -285,16 +285,6 @@
         ],
         "full": "delle",
         "canonical": "delle",
-        "type": "article"
-    },
-    {
-        "tokens": [
-            "str",
-            "Strada"
-        ],
-        "full": "Strada",
-        "canonical": "str",
-        "note": "translates to 'street'",
-        "type": "way"
+        "type": "determiner"
     }
 ]

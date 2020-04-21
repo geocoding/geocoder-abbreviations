@@ -60,6 +60,7 @@ how to employ the token list in question. They are:
     * **unit**: a pattern indicating a unit/floor/sub-address designation (e.g.,
         'Apt [0-9]+')
     * **way**: words like 'street', 'road', 'avenue' -- travel throughways
+    * **determiner**: words like 'de', 'di', 'du' -- meaning 'of'
 
 ## Usage
 
