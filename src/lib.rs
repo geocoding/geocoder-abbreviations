@@ -119,7 +119,8 @@ pub enum TokenType {
     Number,
     Ordinal,
     Unit,
-    Way
+    Way,
+    Determiner
 }
 
 impl TokenType {
