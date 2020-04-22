@@ -239,20 +239,18 @@
     },
     {
         "tokens": [
-            "de",
-            "d"
+            "de"
         ],
         "full": "de",
-        "canonical": "d",
+        "canonical": "de",
         "type": "determiner"
     },
     {
         "tokens": [
-            "di",
-            "d"
+            "di"
         ],
         "full": "di",
-        "canonical": "d",
+        "canonical": "di",
         "type": "determiner"
     },
     {
