@@ -404,10 +404,10 @@
     },
     {
         "tokens": [
-            "(straße|str)$"
+            "(strasse|str)$"
         ],
-        "full": "(straße|str)$",
-        "canonical": "strasse",
+        "full": "(strasse|str)$",
+        "canonical": "straße",
         "regex": true,
         "onlyLayers": ["address"],
         "skipDiacriticStripping": true,
