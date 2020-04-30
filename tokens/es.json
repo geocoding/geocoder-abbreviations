@@ -800,9 +800,10 @@
     },
     {
         "tokens": [
-            "Juan"
+            "Juan",
+            "San Juan"
         ],
-        "full": "Juan",
+        "full": "San Juan",
         "canonical": "Juan"
     },
     {
