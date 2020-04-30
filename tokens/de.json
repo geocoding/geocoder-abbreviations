@@ -404,7 +404,7 @@
     },
     {
         "tokens": [
-            "(strasse|str)$"
+            "(strasse|str|straße).?$"
         ],
         "full": "(strasse|str)$",
         "canonical": "straße",
