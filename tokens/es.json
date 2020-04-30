@@ -549,7 +549,7 @@
         ],
         "full": "de",
         "canonical": "de",
-        "type": "determiners"
+        "type": "determiner"
     },
     {
         "tokens": [
@@ -573,7 +573,7 @@
         ],
         "full": "del",
         "canonical": "del",
-        "type": "determiners"
+        "type": "determiner"
     },
     {
         "tokens": [
@@ -581,7 +581,7 @@
         ],
         "full": "dels",
         "canonical": "dels",
-        "type": "determiners"
+        "type": "determiner"
     },
     {
         "tokens": [
@@ -631,7 +631,7 @@
         ],
         "full": "el",
         "canonical": "el",
-        "type": "determiners"
+        "type": "determiner"
     },
     {
         "tokens": [
@@ -811,7 +811,7 @@
         ],
         "full": "La",
         "canonical": "La",
-        "type": "determiners"
+        "type": "determiner"
     },
     {
         "tokens": [
@@ -819,7 +819,7 @@
         ],
         "full": "Las",
         "canonical": "Las",
-        "type": "determiners"
+        "type": "determiner"
     },
     {
         "tokens": [
@@ -827,7 +827,7 @@
         ],
         "full": "Los",
         "canonical": "Los",
-        "type": "determiners"
+        "type": "determiner"
     },
     {
         "tokens": [
