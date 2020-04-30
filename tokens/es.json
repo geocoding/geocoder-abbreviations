@@ -52,7 +52,7 @@
             "Antonio"
         ],
         "full": "Antonio",
-        "canonical": "Antonio"
+        "canonical": "A"
     },
     {
         "tokens": [
@@ -179,7 +179,8 @@
             "Barrio"
         ],
         "full": "Barrio",
-        "canonical": "Bo"
+        "canonical": "Bo",
+        "type": "way"
     },
     {
         "tokens": [
@@ -214,6 +215,15 @@
         "canonical": "Bulev",
         "onlyLayers": ["address"],
         "note": "translates to 'boulevard'",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "Ca",
+            "Canada"
+        ],
+        "full": "Canada",
+        "canonical": "Ca",
         "type": "way"
     },
     {
@@ -546,14 +556,16 @@
             "dr"
         ],
         "full": "dr",
-        "canonical": "dr"
+        "canonical": "dr",
+        "type": "way"
     },
     {
         "tokens": [
             "ds"
         ],
         "full": "ds",
-        "canonical": "ds"
+        "canonical": "ds",
+        "type": "way"
     },
     {
         "tokens": [
@@ -573,10 +585,12 @@
     },
     {
         "tokens": [
-            "don"
+            "don",
+            "dona"
         ],
-        "full": "don",
-        "canonical": "don"
+        "full": "dona",
+        "canonical": "don",
+        "type": "determiners"
     },
     {
         "tokens": [
@@ -845,6 +859,14 @@
         ],
         "full": "Malecón",
         "canonical": "Malec"
+    },
+    {
+        "tokens": [
+            "Martine",
+            "Martinez"
+        ],
+        "full": "Martinez",
+        "canonical": "Martine"
     },
     {
         "tokens": [
@@ -1161,7 +1183,8 @@
     {
         "tokens": [
             "Rbra",
-            "Ribera"
+            "Ribera",
+            "Rivera"
         ],
         "full": "Ribera",
         "canonical": "Rbra"
@@ -1181,6 +1204,14 @@
         ],
         "full": "Rincón",
         "canonical": "Rcon"
+    },
+    {
+        "tokens": [
+            "Rd",
+            "Ronda"
+        ],
+        "full": "Ronda",
+        "canonical": "Rd"
     },
     {
         "tokens": [
@@ -1331,7 +1362,8 @@
             "ur"
         ],
         "full": "ur",
-        "canonical": "ur"
+        "canonical": "ur",
+        "type": "way"
     },
     {
         "tokens": [
