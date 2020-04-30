@@ -120,7 +120,7 @@ pub enum TokenType {
     Ordinal,
     Unit,
     Way,
-    Determiners
+    Determiner
 }
 
 impl TokenType {
@@ -132,7 +132,7 @@ impl TokenType {
             "ordinal" => Ok(TokenType::Ordinal),
             "unit" => Ok(TokenType::Unit),
             "way" => Ok(TokenType::Way),
-            "determiners" => Ok(TokenType::Determiners),
+            "determiner" => Ok(TokenType::Determiner),
             _ => Err(Error::TokenTypeNotSupported(s.to_string()))
         }
     }
