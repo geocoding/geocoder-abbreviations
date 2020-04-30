@@ -800,14 +800,6 @@
     },
     {
         "tokens": [
-            "Juan",
-            "San Juan"
-        ],
-        "full": "San Juan",
-        "canonical": "Juan"
-    },
-    {
-        "tokens": [
             "La"
         ],
         "full": "La",
@@ -1252,9 +1244,10 @@
         "tokens": [
             "S",
             "San",
-            "Sant"
+            "Sant",
+            "San Juan"
         ],
-        "full": "San",
+        "full": "San Juan",
         "canonical": "S"
     },
     {
