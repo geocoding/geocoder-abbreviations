@@ -1242,6 +1242,13 @@
     },
     {
         "tokens": [
+            "San Juan"
+        ],
+        "full": "San Juan",
+        "canonical": "San Juan"
+    },
+    {
+        "tokens": [
             "S",
             "San",
             "Sant"        
