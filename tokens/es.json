@@ -1,6 +1,194 @@
 [
     {
         "tokens": [
+            "1",
+            "un",
+            "uno",
+            "una"
+        ],
+        "full": "uno",
+        "canonical": "1",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "2",
+            "dos"
+        ],
+        "full": "dos",
+        "canonical": "2",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "3",
+            "tres"
+        ],
+        "full": "tres",
+        "canonical": "3",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "4",
+            "quatre",
+            "cuatro"
+        ],
+        "full": "quatre",
+        "canonical": "4",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "5",
+            "cinc",
+            "cinco"
+        ],
+        "full": "cinco",
+        "canonical": "5",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "6",
+            "sis",
+            "seis"
+        ],
+        "full": "seis",
+        "canonical": "6",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "7",
+            "set"
+        ],
+        "full": "set",
+        "canonical": "7",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "8",
+            "vuit",
+            "ocho"
+        ],
+        "full": "ocho",
+        "canonical": "8",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "9",
+            "nou",
+            "nueve"
+        ],
+        "full": "nueve",
+        "canonical": "9",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "10",
+            "deu",
+            "diez"
+        ],
+        "full": "diez",
+        "canonical": "10",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "11",
+            "onze"
+        ],
+        "full": "onze",
+        "canonical": "11",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "12",
+            "dotze"
+        ],
+        "full": "dotze",
+        "canonical": "12",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "13",
+            "tretze"
+        ],
+        "full": "tretze",
+        "canonical": "13",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "14",
+            "catorze"
+        ],
+        "full": "catorze",
+        "canonical": "14",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "15",
+            "quinze"
+        ],
+        "full": "quinze",
+        "canonical": "15",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "16",
+            "setze"
+        ],
+        "full": "setze",
+        "canonical": "16",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "17",
+            "disset"
+        ],
+        "full": "disset",
+        "canonical": "17",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "18",
+            "divuit"
+        ],
+        "full": "divuit",
+        "canonical": "18",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "19",
+            "dinou"
+        ],
+        "full": "nineteen",
+        "canonical": "19",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "20",
+            "vint"
+        ],
+        "full": "vint",
+        "canonical": "20",
+        "type": "number"
+    },
+    {
+        "tokens": [
             "Acces",
             "Acceso"
         ],
@@ -1352,6 +1540,14 @@
     },
     {
         "tokens": [
+            "Trull",
+            "Trull Vell"        
+        ],
+        "full": "Trull Vell",
+        "canonical": "Trull"
+    },
+    {
+        "tokens": [
             "To",
             "Trrnt",
             "Torrente"
@@ -1508,5 +1704,13 @@
         "full": "Paseo marítimo",
         "canonical": "Psmar",
         "spanBoundaries": 1
+    },
+    {
+        "tokens": [
+            "y"
+        ],
+        "full": "y",
+        "canonical": "y",
+        "type": "determiner"
     }
 ]
