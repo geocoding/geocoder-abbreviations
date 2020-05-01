@@ -1441,16 +1441,6 @@
     },
     {
         "tokens": [
-            "Bosco",
-            "Juan Bosco"
-        ],
-        "full": "Juan Bosco",
-        "canonical": "Bosco",
-        "spanBoundaries": 1,
-        "type": "name"
-    },
-    {
-        "tokens": [
             "S",
             "San",
             "Sant"        
@@ -1540,16 +1530,6 @@
         "canonical": "Tr",
         "type": "way"
 
-    },
-    {
-        "tokens": [
-            "Trull",
-            "Trull Vell"        
-        ],
-        "full": "Trull Vell",
-        "canonical": "Trull",
-        "spanBoundaries": 1,
-        "type": "name"
     },
     {
         "tokens": [
