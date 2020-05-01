@@ -1446,6 +1446,7 @@
         ],
         "full": "Juan Bosco",
         "canonical": "Bosco",
+        "spanBoundaries": 1,
         "type": "name"
     },
     {
@@ -1547,6 +1548,7 @@
         ],
         "full": "Trull Vell",
         "canonical": "Trull",
+        "spanBoundaries": 1,
         "type": "name"
     },
     {
