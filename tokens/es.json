@@ -362,6 +362,7 @@
             "Cno",
             "Cam",
             "Cmno",
+            "Cami",
             "Camino"
         ],
         "full": "Camino",
@@ -550,6 +551,15 @@
         "full": "de",
         "canonical": "de",
         "type": "determiner"
+    },
+    {
+        "tokens": [
+            "den"
+        ],
+        "full": "den",
+        "canonical": "den",
+        "type": "determiner",
+        "notes": "to handle d'en"
     },
     {
         "tokens": [
@@ -1001,7 +1011,8 @@
             "Po",
             "Ps",
             "Pso",
-            "Paseo"
+            "Paseo",
+            "Passeig"
         ],
         "full": "Paseo",
         "canonical": "Po",
