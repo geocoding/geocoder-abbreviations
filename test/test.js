@@ -68,7 +68,7 @@ tape((t) => {
                 skipBoundaries: { type: 'boolean', required: false },
                 skipDiacriticStripping: { type: 'boolean', required: false },
                 spanBoundaries: { type: 'number', required: false },
-                type: { type: 'string', required: false, allowed: [ 'box', 'cardinal', 'number', 'ordinal', 'unit', 'way', 'determiner' ] }
+                type: { type: 'string', required: false, allowed: [ 'box', 'cardinal', 'number', 'ordinal', 'unit', 'way', 'determiner', 'name' ] }
             }
 
             for (const group of tokens) {

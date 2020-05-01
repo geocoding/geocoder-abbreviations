@@ -1441,10 +1441,12 @@
     },
     {
         "tokens": [
-            "San Juan"
+            "Bosco",
+            "Juan Bosco"
         ],
-        "full": "San Juan",
-        "canonical": "San Juan"
+        "full": "Juan Bosco",
+        "canonical": "Bosco",
+        "type": "name"
     },
     {
         "tokens": [
@@ -1544,7 +1546,8 @@
             "Trull Vell"        
         ],
         "full": "Trull Vell",
-        "canonical": "Trull"
+        "canonical": "Trull",
+        "type": "name"
     },
     {
         "tokens": [
