@@ -34,7 +34,7 @@
             "quatre",
             "cuatro"
         ],
-        "full": "quatre",
+        "full": "cuatro",
         "canonical": "4",
         "type": "number"
     },
@@ -61,9 +61,10 @@
     {
         "tokens": [
             "7",
-            "set"
+            "set",
+            "siete"
         ],
-        "full": "set",
+        "full": "siete",
         "canonical": "7",
         "type": "number"
     },
@@ -100,90 +101,100 @@
     {
         "tokens": [
             "11",
-            "onze"
+            "onze",
+            "once"
         ],
-        "full": "onze",
+        "full": "once",
         "canonical": "11",
         "type": "number"
     },
     {
         "tokens": [
             "12",
-            "dotze"
+            "dotze",
+            "doce"
         ],
-        "full": "dotze",
+        "full": "doce",
         "canonical": "12",
         "type": "number"
     },
     {
         "tokens": [
             "13",
-            "tretze"
+            "tretze",
+            "trece"
         ],
-        "full": "tretze",
+        "full": "trece",
         "canonical": "13",
         "type": "number"
     },
     {
         "tokens": [
             "14",
-            "catorze"
+            "catorze",
+            "catorce"
         ],
-        "full": "catorze",
+        "full": "catorce",
         "canonical": "14",
         "type": "number"
     },
     {
         "tokens": [
             "15",
-            "quinze"
+            "quinze",
+            "quince"
         ],
-        "full": "quinze",
+        "full": "quince",
         "canonical": "15",
         "type": "number"
     },
     {
         "tokens": [
             "16",
-            "setze"
+            "setze",
+            "dieciseis"
         ],
-        "full": "setze",
+        "full": "dieciseis",
         "canonical": "16",
         "type": "number"
     },
     {
         "tokens": [
             "17",
-            "disset"
+            "disset",
+            "diecisiete"
         ],
-        "full": "disset",
+        "full": "diecisiete",
         "canonical": "17",
         "type": "number"
     },
     {
         "tokens": [
             "18",
-            "divuit"
+            "divuit",
+            "dieciocho"
         ],
-        "full": "divuit",
+        "full": "dieciocho",
         "canonical": "18",
         "type": "number"
     },
     {
         "tokens": [
             "19",
-            "dinou"
+            "dinou",
+            "diecinueve"
         ],
-        "full": "nineteen",
+        "full": "diecinueve",
         "canonical": "19",
         "type": "number"
     },
     {
         "tokens": [
             "20",
-            "vint"
+            "vint",
+            "veinte"
         ],
-        "full": "vint",
+        "full": "veinte",
         "canonical": "20",
         "type": "number"
     },
@@ -234,13 +245,6 @@
         ],
         "full": "Angosta",
         "canonical": "Angta"
-    },
-    {
-        "tokens": [
-            "Antonio"
-        ],
-        "full": "Antonio",
-        "canonical": "A"
     },
     {
         "tokens": [
