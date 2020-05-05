@@ -10,6 +10,10 @@
 
 # Version History
 
+## v4.1.8
+
+- :rocket: Add add `type: determiner` to signify meaning 'of' & update tokens for Spanish, French, and Italian.
+
 ## v4.1.7
 
 - :tada: Add Czech tokens
