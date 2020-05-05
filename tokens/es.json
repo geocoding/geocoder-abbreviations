@@ -1,6 +1,205 @@
 [
     {
         "tokens": [
+            "1",
+            "un",
+            "uno",
+            "una"
+        ],
+        "full": "uno",
+        "canonical": "1",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "2",
+            "dos"
+        ],
+        "full": "dos",
+        "canonical": "2",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "3",
+            "tres"
+        ],
+        "full": "tres",
+        "canonical": "3",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "4",
+            "quatre",
+            "cuatro"
+        ],
+        "full": "cuatro",
+        "canonical": "4",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "5",
+            "cinc",
+            "cinco"
+        ],
+        "full": "cinco",
+        "canonical": "5",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "6",
+            "sis",
+            "seis"
+        ],
+        "full": "seis",
+        "canonical": "6",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "7",
+            "set",
+            "siete"
+        ],
+        "full": "siete",
+        "canonical": "7",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "8",
+            "vuit",
+            "ocho"
+        ],
+        "full": "ocho",
+        "canonical": "8",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "9",
+            "nou",
+            "nueve"
+        ],
+        "full": "nueve",
+        "canonical": "9",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "10",
+            "deu",
+            "diez"
+        ],
+        "full": "diez",
+        "canonical": "10",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "11",
+            "onze",
+            "once"
+        ],
+        "full": "once",
+        "canonical": "11",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "12",
+            "dotze",
+            "doce"
+        ],
+        "full": "doce",
+        "canonical": "12",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "13",
+            "tretze",
+            "trece"
+        ],
+        "full": "trece",
+        "canonical": "13",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "14",
+            "catorze",
+            "catorce"
+        ],
+        "full": "catorce",
+        "canonical": "14",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "15",
+            "quinze",
+            "quince"
+        ],
+        "full": "quince",
+        "canonical": "15",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "16",
+            "setze",
+            "dieciseis"
+        ],
+        "full": "dieciseis",
+        "canonical": "16",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "17",
+            "disset",
+            "diecisiete"
+        ],
+        "full": "diecisiete",
+        "canonical": "17",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "18",
+            "divuit",
+            "dieciocho"
+        ],
+        "full": "dieciocho",
+        "canonical": "18",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "19",
+            "dinou",
+            "diecinueve"
+        ],
+        "full": "diecinueve",
+        "canonical": "19",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "20",
+            "vint",
+            "veinte"
+        ],
+        "full": "veinte",
+        "canonical": "20",
+        "type": "number"
+    },
+    {
+        "tokens": [
             "Acces",
             "Acceso"
         ],
@@ -172,7 +371,8 @@
             "Barrio"
         ],
         "full": "Barrio",
-        "canonical": "Bo"
+        "canonical": "Bo",
+        "type": "way"
     },
     {
         "tokens": [
@@ -207,6 +407,15 @@
         "canonical": "Bulev",
         "onlyLayers": ["address"],
         "note": "translates to 'boulevard'",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "Ca",
+            "Canada"
+        ],
+        "full": "Canada",
+        "canonical": "Ca",
         "type": "way"
     },
     {
@@ -311,7 +520,8 @@
             "Cl",
             "Cll",
             "Calle",
-            "Carrer"
+            "Carrer",
+            "Carrera"
         ],
         "full": "Calle",
         "canonical": "Cl",
@@ -344,6 +554,7 @@
             "Cno",
             "Cam",
             "Cmno",
+            "Cami",
             "Camino"
         ],
         "full": "Camino",
@@ -530,21 +741,58 @@
             "de"
         ],
         "full": "de",
-        "canonical": "de"
+        "canonical": "de",
+        "type": "determiner"
+    },
+    {
+        "tokens": [
+            "den"
+        ],
+        "full": "den",
+        "canonical": "den",
+        "type": "determiner",
+        "note": "to handle d'en"
+    },
+    {
+        "tokens": [
+            "dr"
+        ],
+        "full": "dr",
+        "canonical": "dr",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "ds"
+        ],
+        "full": "ds",
+        "canonical": "ds",
+        "type": "way"
     },
     {
         "tokens": [
             "del"
         ],
         "full": "del",
-        "canonical": "del"
+        "canonical": "del",
+        "type": "determiner"
     },
     {
         "tokens": [
-            "don"
+            "dels"
         ],
-        "full": "don",
-        "canonical": "don"
+        "full": "dels",
+        "canonical": "dels",
+        "type": "determiner"
+    },
+    {
+        "tokens": [
+            "don",
+            "dona"
+        ],
+        "full": "dona",
+        "canonical": "don",
+        "type": "determiner"
     },
     {
         "tokens": [
@@ -573,10 +821,19 @@
     {
         "tokens": [
             "Disem",
-            "Diseminado"
+            "Diseminado",
+            "Diseminados"
         ],
         "full": "Diseminado",
         "canonical": "Disem"
+    },
+    {
+        "tokens": [
+            "el"
+        ],
+        "full": "el",
+        "canonical": "el",
+        "type": "determiner"
     },
     {
         "tokens": [
@@ -717,6 +974,30 @@
     },
     {
         "tokens": [
+            "La"
+        ],
+        "full": "La",
+        "canonical": "La",
+        "type": "determiner"
+    },
+    {
+        "tokens": [
+            "Las"
+        ],
+        "full": "Las",
+        "canonical": "Las",
+        "type": "determiner"
+    },
+    {
+        "tokens": [
+            "Los"
+        ],
+        "full": "Los",
+        "canonical": "Los",
+        "type": "determiner"
+    },
+    {
+        "tokens": [
             "Ldera",
             "Ladera"
         ],
@@ -738,6 +1019,14 @@
         ],
         "full": "Malecón",
         "canonical": "Malec"
+    },
+    {
+        "tokens": [
+            "Martine",
+            "Martinez"
+        ],
+        "full": "Martinez",
+        "canonical": "Martine"
     },
     {
         "tokens": [
@@ -851,7 +1140,8 @@
             "Po",
             "Ps",
             "Pso",
-            "Paseo"
+            "Paseo",
+            "Passeig"
         ],
         "full": "Paseo",
         "canonical": "Po",
@@ -924,6 +1214,17 @@
         "canonical": "Psaje",
         "onlyLayers": ["address"],
         "note": "translates to 'passage'",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "pj",
+            "passatge"
+        ],
+        "full": "passatge",
+        "canonical": "pj",
+        "onlyLayers": ["address"],
+        "note": "translates to 'passatge'",
         "type": "way"
     },
     {
@@ -1001,7 +1302,8 @@
     {
         "tokens": [
             "Rbra",
-            "Ribera"
+            "Ribera",
+            "Rivera"
         ],
         "full": "Ribera",
         "canonical": "Rbra"
@@ -1021,6 +1323,14 @@
         ],
         "full": "Rincón",
         "canonical": "Rcon"
+    },
+    {
+        "tokens": [
+            "Rd",
+            "Ronda"
+        ],
+        "full": "Ronda",
+        "canonical": "Rd"
     },
     {
         "tokens": [
@@ -1053,7 +1363,7 @@
         "tokens": [
             "S",
             "San",
-            "Sant"
+            "Sant"        
         ],
         "full": "San",
         "canonical": "S"
@@ -1133,26 +1443,23 @@
     {
         "tokens": [
             "Tr",
+            "Trva",
             "Travesia"
         ],
         "full": "Travesia",
-        "canonical": "Tr"
+        "canonical": "Tr",
+        "type": "way"
+
     },
     {
         "tokens": [
+            "To",
             "Trrnt",
             "Torrente"
         ],
         "full": "Torrente",
-        "canonical": "Trrnt"
-    },
-    {
-        "tokens": [
-            "Trva",
-            "Travesía"
-        ],
-        "full": "Travesía",
-        "canonical": "Trva"
+        "canonical": "To",
+        "type": "way"
     },
     {
         "tokens": [
@@ -1161,6 +1468,14 @@
         ],
         "full": "Transversal",
         "canonical": "Trval"
+    },
+    {
+        "tokens": [
+            "ur"
+        ],
+        "full": "ur",
+        "canonical": "ur",
+        "type": "way"
     },
     {
         "tokens": [
@@ -1273,5 +1588,13 @@
         "full": "Paseo marítimo",
         "canonical": "Psmar",
         "spanBoundaries": 1
+    },
+    {
+        "tokens": [
+            "y"
+        ],
+        "full": "y",
+        "canonical": "y",
+        "type": "determiner"
     }
 ]

@@ -236,5 +236,53 @@
         "full": "Strada Statale",
         "canonical": "SS",
         "spanBoundaries": 1
+    },
+    {
+        "tokens": [
+            "de"
+        ],
+        "full": "de",
+        "canonical": "de",
+        "type": "determiner"
+    },
+    {
+        "tokens": [
+            "di"
+        ],
+        "full": "di",
+        "canonical": "di",
+        "type": "determiner"
+    },
+    {
+        "tokens": [
+            "del"
+        ],
+        "full": "del",
+        "canonical": "del",
+        "type": "determiner"
+    },
+    {
+        "tokens": [
+            "della"
+        ],
+        "full": "della",
+        "canonical": "della",
+        "type": "determiner"
+    },
+    {
+        "tokens": [
+            "dei"
+        ],
+        "full": "dei",
+        "canonical": "dei",
+        "type": "determiner"
+    },
+    {
+        "tokens": [
+            "delle"
+        ],
+        "full": "delle",
+        "canonical": "delle",
+        "type": "determiner"
     }
 ]
