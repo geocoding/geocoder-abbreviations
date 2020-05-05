@@ -17,52 +17,9 @@
     },
     {
         "tokens": [
-            "auf",
-            "auf der",
-            "a.d.",
-            "a.d",
-            "a d"
-
-        ],
-        "full": "auf der",
-        "canonical": "a d",
-        "note": "translates to 'on the'"
-
-    },
-    {
-        "tokens": [
-            "an",
-            "an der",
-            "a.d.",
-            "a.d",
-            "a d"
-
-        ],
-        "full": "an der",
-        "canonical": "a d",
-        "note": "translates to 'at the'"
-
-    },
-    {
-        "tokens": [
-            "in",
-            "in der",
-            "i.d.",
-            "i.d",
-            "i d"
-
-        ],
-        "full": "in der",
-        "canonical": "i d",
-        "note": "translates to 'in the'"
-
-    },
-    {
-        "tokens": [
             "Bf",
             "Bhf",
-            "Bahnhof",
-            "Bahnhofstr"
+            "Bahnhof"
         ],
         "full": "Bahnhof",
         "canonical": "Bf"
@@ -70,8 +27,7 @@
     {
         "tokens": [
             "bg",
-            "berg",
-            "bergstr"
+            "berg"
         ],
         "full": "berg",
         "canonical": "bg"
@@ -124,8 +80,7 @@
     {
         "tokens": [
             "df",
-            "dorf",
-            "dorfstr"
+            "dorf"
         ],
         "full": "dorf",
         "canonical": "df"
@@ -176,7 +131,6 @@
     {
         "tokens": [
             "Hbf",
-            "Hauptstr",
             "Hauptbahnhof"
         ],
         "full": "Hauptbahnhof",
@@ -296,14 +250,6 @@
     },
     {
         "tokens": [
-            "Ring",
-            "Ringstr"
-        ],
-        "full": "Ringstr",
-        "canonical": "Ring"
-    },
-    {
-        "tokens": [
             "St",
             "Sankt"
         ],
@@ -404,12 +350,12 @@
     },
     {
         "tokens": [
-            "(strasse|str|straße).?$"
+            "$1 str",
+            "([^ ]+)(strasse|str|straße)"
         ],
-        "full": "(strasse|str)$",
-        "canonical": "straße",
+        "full": "([^ ]+)(strasse|str|straße)",
+        "canonical": "$1 str",
         "regex": true,
-        "onlyLayers": ["address"],
         "skipDiacriticStripping": true,
         "spanBoundaries": 0
     }
