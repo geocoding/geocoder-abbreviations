@@ -1,1 +1,44 @@
-[["a","am","an"],["Bf","Bhf","Bahnhof"],["bg","berg","burg"],["Br","Brücke"],["Ch","Chaussee"],["D","Damm"],["d","der"],["df","dorf"],["Dr","Doktor"],["G","Gasse"],["Gr","Große","Großer","Großes"],["Hbf","Hauptbahnhof"],["Hl","Heiligen"],["i","im"],["Kl","Kleine","Kleiner","Kleines"],["Kr","Krs","Kreis"],["Lk","Lkr","Lkrs","Landkrs","Landkreis"],["o","ob"],["Ob","Obere","Oberer","Oberes"],["Pl","Platz"],["Rh","Rhein"],["St","Sankt"],["Str","Straße","Strasse"],["U","Untere","Unterer","Unteres"],["v","von"],["Wg","Weg"],["z","zum"],["ä",{"skipBoundaries":true,"skipDiacriticStripping":true,"text":"ae"}],["ö",{"skipBoundaries":true,"skipDiacriticStripping":true,"text":"oe"}],["ü",{"skipBoundaries":true,"skipDiacriticStripping":true,"text":"ue"}],["$1 str",{"skipDiacriticStripping":true,"regex":true,"text":"([^ ]+)(strasse|str|straße)"}]]
+[
+  ["a", "am", "an", "a d", "a.d", "auf", "an der"],
+  ["a.d.", "auf der"],
+  ["in", "i d", "i.d", "i.d.", "in der"],
+  ["Bf", "Bhf", "Bahnhof", "Bahnhofstr", "Bahnhofstraße"],
+  ["bg", "berg", "burg", "bergstr", "bergstraße"],
+  ["Br", "Brücke"],
+  ["Ch", "Chaussee"],
+  ["D", "Damm"],
+  ["d", "der"],
+  ["df", "dorf", "dorfstr", "dorfstraße"],
+  ["Dr", "Doktor"],
+  ["G", "Gasse"],
+  ["Gr", "Große", "Großer", "Großes"],
+  ["Hbf", "Hauptstr", "Hauptstraße", "Hauptbahnhof"],
+  ["Hl", "Heiligen"],
+  ["i", "im"],
+  ["Kl", "Kleine", "Kleiner", "Kleines"],
+  ["Kr", "Krs", "Kreis"],
+  ["Lk", "Lkr", "Lkrs", "Landkrs", "Landkreis"],
+  ["o", "ob"],
+  ["Ob", "Obere", "Oberer", "Oberes"],
+  ["Pl", "Platz"],
+  ["Rh", "Rhein"],
+  ["Ring", "Ringstr", "Ringstraße"],
+  ["St", "Sankt"],
+  ["Str", "Straße", "Strasse"],
+  ["U", "Untere", "Unterer", "Unteres"],
+  ["v", "von"],
+  ["Wg", "Weg"],
+  ["z", "zum"],
+  [
+    "ä",
+    { "skipBoundaries": true, "skipDiacriticStripping": true, "text": "ae" }
+  ],
+  [
+    "ö",
+    { "skipBoundaries": true, "skipDiacriticStripping": true, "text": "oe" }
+  ],
+  [
+    "ü",
+    { "skipBoundaries": true, "skipDiacriticStripping": true, "text": "ue" }
+  ]
+]
