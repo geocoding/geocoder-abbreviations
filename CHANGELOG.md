@@ -10,7 +10,7 @@
 
 # Version History
 
-## v4.1.9
+## v4.2.0
 
 - :rocket: Add German variations of `on the`, `at the`, and `in the`, along with variations of popular street names ending in `str` or `straße`. Add in regex to convert street names ending in `strasse` or `str` to end in `straße` to match OSM network street names.
 
