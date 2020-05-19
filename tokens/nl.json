@@ -532,7 +532,8 @@
             "Onze-Lieve-Vrouw"
         ],
         "full": "Onze-Lieve-Vrouw",
-        "canonical": "olv"
+        "canonical": "olv",
+        "spanBoundaries": 2
     },
     {
         "tokens": [
@@ -540,7 +541,8 @@
             "Onze-Lieve-Vrouwe"
         ],
         "full": "Onze-Lieve-Vrouwe",
-        "canonical": "olv"
+        "canonical": "olv",
+        "spanBoundaries": 2
     },
     {
         "tokens": [

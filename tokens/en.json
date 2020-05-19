@@ -1197,7 +1197,8 @@
             "Farm-To-Market"
         ],
         "full": "Farm-To-Market",
-        "canonical": "FM"
+        "canonical": "FM",
+        "spanBoundaries": 2
     },
     {
         "tokens": [
@@ -2251,7 +2252,8 @@
             "Ranch-To-Market"
         ],
         "full": "Ranch-To-Market",
-        "canonical": "RM"
+        "canonical": "RM",
+        "spanBoundaries": 2
     },
     {
         "tokens": [

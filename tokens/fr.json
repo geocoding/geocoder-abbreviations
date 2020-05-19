@@ -69,7 +69,8 @@
         ],
         "full": "Dix-septième",
         "canonical": "17e",
-        "type": "ordinal"
+        "type": "ordinal",
+        "spanBoundaries": 1
     },
     {
         "tokens": [
@@ -78,7 +79,8 @@
         ],
         "full": "Dix-huitième",
         "canonical": "18e",
-        "type": "ordinal"
+        "type": "ordinal",
+        "spanBoundaries": 1
     },
     {
         "tokens": [
@@ -87,7 +89,8 @@
         ],
         "full": "Dix-neuvième",
         "canonical": "19e",
-        "type": "ordinal"
+        "type": "ordinal",
+        "spanBoundaries": 1
     },
     {
         "tokens": [
@@ -419,7 +422,8 @@
             "Lieu-dit"
         ],
         "full": "Lieu-dit",
-        "canonical": "Ld"
+        "canonical": "Ld",
+        "spanBoundaries": 1
     },
     {
         "tokens": [
@@ -493,7 +497,8 @@
         ],
         "full": "Nord-Est",
         "canonical": "NE",
-        "type": "cardinal"
+        "type": "cardinal",
+        "spanBoundaries": 1
     },
     {
         "tokens": [
@@ -502,7 +507,8 @@
         ],
         "full": "Nord-Ouest",
         "canonical": "NO",
-        "type": "cardinal"
+        "type": "cardinal",
+        "spanBoundaries": 1
     },
     {
         "tokens": [
@@ -600,7 +606,8 @@
         "canonical": "Rpt",
         "onlyLayers": ["address"],
         "note": "translates to 'roundabout'",
-        "type": "way"
+        "type": "way",
+        "spanBoundaries": 1
     },
     {
         "tokens": [
@@ -629,7 +636,8 @@
         ],
         "full": "Sud-Est",
         "canonical": "SE",
-        "type": "cardinal"
+        "type": "cardinal",
+        "spanBoundaries": 1
     },
     {
         "tokens": [
@@ -638,7 +646,8 @@
         ],
         "full": "Sud-Ouest",
         "canonical": "SO",
-        "type": "cardinal"
+        "type": "cardinal",
+        "spanBoundaries": 1
     },
     {
         "tokens": [
