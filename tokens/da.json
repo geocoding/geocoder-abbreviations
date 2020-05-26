@@ -4,6 +4,7 @@
             "gammel",
             "gl"
         ],
+	"english": "old",
         "full": "Gammel",
         "canonical": "gl",
         "onlyLayers": ["address"],

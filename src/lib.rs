@@ -175,11 +175,10 @@ mod tests {
 
     #[test]
     fn test_config() {
-        let lcs = config(vec![String::from("de"), String::from("en"), String::from("da")]).unwrap();
+        let lcs = config(vec![String::from("de"), String::from("en")]).unwrap();
         assert_eq!(lcs.len(), 2);
         assert!(lcs.contains_key("de"));
         assert!(lcs.contains_key("en"));
-        assert!(lcs.contains_key("da"));
 
         let empty_lc = config(Vec::new()).unwrap();
         let every_lc = prepare(Tokens::codes()).unwrap();
@@ -204,11 +203,10 @@ mod tests {
 
     #[test]
     fn test_prepare() {
-        let lcs = prepare(vec![String::from("de"), String::from("en"), String::from("da")]).unwrap();
+        let lcs = prepare(vec![String::from("de"), String::from("en")]).unwrap();
         assert_eq!(lcs.len(), 2);
         assert!(lcs.contains_key("de"));
         assert!(lcs.contains_key("en"));
-        assert!(lcs.contains_key("da"));
     }
 
     #[test]
