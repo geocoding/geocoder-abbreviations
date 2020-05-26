@@ -4,7 +4,7 @@
             "gammel",
             "gl"
         ],
-	"english": "old",
+  	"notes": "translates to 'old'",
         "full": "Gammel",
         "canonical": "gl",
         "onlyLayers": ["address"],
