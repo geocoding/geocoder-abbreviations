@@ -76,9 +76,7 @@
         "tokens": [
             "Bf",
             "Bhf",
-            "Bahnhof",
-            "Bahnhofstr",
-            "Bahnhofstraße"
+            "Bahnhof"
         ],
         "full": "Bahnhof",
         "canonical": "Bf"
@@ -86,9 +84,7 @@
     {
         "tokens": [
             "bg",
-            "berg",
-            "bergstr",
-            "bergstraße"
+            "berg"
         ],
         "full": "berg",
         "canonical": "bg"
@@ -141,9 +137,7 @@
     {
         "tokens": [
             "df",
-            "dorf",
-            "dorfstr",
-            "dorfstraße"
+            "dorf"
         ],
         "full": "dorf",
         "canonical": "df"
@@ -194,8 +188,6 @@
     {
         "tokens": [
             "Hbf",
-            "Hauptstr",
-            "Hauptstraße",
             "Hauptbahnhof"
         ],
         "full": "Hauptbahnhof",
@@ -304,15 +296,6 @@
         ],
         "full": "Rhein",
         "canonical": "Rh"
-    },
-    {
-        "tokens": [
-            "Ring",
-            "Ringstr",
-            "Ringstraße"
-        ],
-        "full": "Ringstr",
-        "canonical": "Ring"
     },
     {
         "tokens": [
