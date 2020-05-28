@@ -10,6 +10,10 @@
 
 # Version History
 
+## 4.3.0
+
+- :tada: Expand testing of token replacements, and update existing replacements to conform to more-comprehensive tests. Also make some further updates to German abbreviations.
+
 ## v4.2.0
 
 - :rocket: Add German variations of `on the`, `at the`, and `in the`, along with variations of popular street names ending in `str` or `straße`. Add in regex to convert street names ending in `strasse` or `str` to end in `straße` to match OSM network street names.
