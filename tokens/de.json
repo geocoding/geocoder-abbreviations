@@ -417,17 +417,6 @@
     },
     {
         "tokens": [
-            "(strasse|str).?$"
-        ],
-        "full": "(strasse|str).?$",
-        "canonical": "straße",
-        "regex": true,
-        "skipDiacriticStripping": true,
-        "spanBoundaries": 0,
-        "onlyUseWhile": ["processing"]
-    },
-    {
-        "tokens": [
             "$1 str",
             "([^ ]+)(strasse|str|straße)"
         ],
@@ -435,7 +424,6 @@
         "canonical": "$1 str",
         "regex": true,
         "skipDiacriticStripping": true,
-        "spanBoundaries": 0,
-        "onlyUseWhile": ["indexing", "querying"]
+        "spanBoundaries": 0    
     }
 ]
