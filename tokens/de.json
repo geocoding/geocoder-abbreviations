@@ -76,9 +76,7 @@
         "tokens": [
             "Bf",
             "Bhf",
-            "Bahnhof",
-            "Bahnhofstr",
-            "Bahnhofstraße"
+            "Bahnhof"
         ],
         "full": "Bahnhof",
         "canonical": "Bf"
@@ -86,9 +84,7 @@
     {
         "tokens": [
             "bg",
-            "berg",
-            "bergstr",
-            "bergstraße"
+            "berg"
         ],
         "full": "berg",
         "canonical": "bg"
@@ -141,9 +137,7 @@
     {
         "tokens": [
             "df",
-            "dorf",
-            "dorfstr",
-            "dorfstraße"
+            "dorf"
         ],
         "full": "dorf",
         "canonical": "df"
@@ -194,8 +188,6 @@
     {
         "tokens": [
             "Hbf",
-            "Hauptstr",
-            "Hauptstraße",
             "Hauptbahnhof"
         ],
         "full": "Hauptbahnhof",
@@ -307,15 +299,6 @@
     },
     {
         "tokens": [
-            "Ring",
-            "Ringstr",
-            "Ringstraße"
-        ],
-        "full": "Ringstr",
-        "canonical": "Ring"
-    },
-    {
-        "tokens": [
             "St",
             "Sankt"
         ],
@@ -417,17 +400,6 @@
     },
     {
         "tokens": [
-            "(strasse|str).?$"
-        ],
-        "full": "(strasse|str).?$",
-        "canonical": "straße",
-        "regex": true,
-        "skipDiacriticStripping": true,
-        "spanBoundaries": 0,
-        "onlyUseWhile": ["processing"]
-    },
-    {
-        "tokens": [
             "$1 str",
             "([^ ]+)(strasse|str|straße)"
         ],
@@ -435,7 +407,6 @@
         "canonical": "$1 str",
         "regex": true,
         "skipDiacriticStripping": true,
-        "spanBoundaries": 0,
-        "onlyUseWhile": ["indexing", "querying"]
+        "spanBoundaries": 0    
     }
 ]
