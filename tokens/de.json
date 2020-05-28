@@ -1,69 +1,82 @@
 [
     {
         "tokens": [
-            "a",
-            "am"
-        ],
-        "full": "am",
-        "canonical": "a"
-    },
-    {
-        "tokens": [
-            "a",
-            "an"
-        ],
-        "full": "an",
-        "canonical": "a"
-    },
-    {
-        "tokens": [
             "auf",
-            "auf der",
             "a.d.",
-            "a.d",
-            "a d"
-
+            "a.d"
         ],
-        "full": "auf der",
-        "canonical": "a d",
+        "full": "a.d.",
+        "canonical": "auf",
         "note": "translates to 'on the'"
 
     },
     {
         "tokens": [
-            "an",
-            "an der",
-            "a.d.",
-            "a.d",
+            "auf",
+            "auf der",
             "a d"
 
         ],
+        "full": "auf der",
+        "canonical": "auf",
+        "spanBoundaries": 1,
+        "note": "translates to 'on the'; same as above, but this group contains two-token phrases"
+    },
+    {
+        "tokens": [
+            "a",
+            "am",
+            "an",
+            "a.d.",
+            "a.d"
+        ],
         "full": "an der",
-        "canonical": "a d",
+        "canonical": "a",
         "note": "translates to 'at the'"
 
     },
     {
         "tokens": [
-            "in",
-            "in der",
-            "i.d.",
-            "i.d",
-            "i d"
+            "a",
+            "an der",
+            "a d"
+        ],
+        "full": "an der",
+        "canonical": "a",
+        "spanBoundaries": 1,
+        "note": "translates to 'at the'; same as above, but this group contains two-token phrases"
 
+    },
+    {
+        "tokens": [
+            "i",
+            "in",
+            "im",
+            "i.d.",
+            "i.d"
         ],
         "full": "in der",
-        "canonical": "i d",
+        "canonical": "i",
         "note": "translates to 'in the'"
+
+    },
+    {
+        "tokens": [
+            "i",
+            "in der",
+            "i d"
+        ],
+        "full": "in der",
+        "canonical": "i",
+        "spanBoundaries": 1,
+        "note": "translates to 'in the'; same as above, but this group contains two-token phrases"
 
     },
     {
         "tokens": [
             "Bf",
             "Bhf",
-            "Bahnhof",
-            "Bahnhofstr",
-            "Bahnhofstraße"
+            "Bahnhof"
         ],
         "full": "Bahnhof",
         "canonical": "Bf"
@@ -71,9 +84,7 @@
     {
         "tokens": [
             "bg",
-            "berg",
-            "bergstr",
-            "bergstraße"
+            "berg"
         ],
         "full": "berg",
         "canonical": "bg"
@@ -126,9 +137,7 @@
     {
         "tokens": [
             "df",
-            "dorf",
-            "dorfstr",
-            "dorfstraße"
+            "dorf"
         ],
         "full": "dorf",
         "canonical": "df"
@@ -179,8 +188,6 @@
     {
         "tokens": [
             "Hbf",
-            "Hauptstr",
-            "Hauptstraße",
             "Hauptbahnhof"
         ],
         "full": "Hauptbahnhof",
@@ -193,14 +200,6 @@
         ],
         "full": "Heiligen",
         "canonical": "Hl"
-    },
-    {
-        "tokens": [
-            "i",
-            "im"
-        ],
-        "full": "im",
-        "canonical": "i"
     },
     {
         "tokens": [
@@ -297,15 +296,6 @@
         ],
         "full": "Rhein",
         "canonical": "Rh"
-    },
-    {
-        "tokens": [
-            "Ring",
-            "Ringstr",
-            "Ringstraße"
-        ],
-        "full": "Ringstr",
-        "canonical": "Ring"
     },
     {
         "tokens": [
@@ -410,12 +400,13 @@
     },
     {
         "tokens": [
-            "(strasse|str).?$"
+            "$1 str",
+            "([^ ]+)(strasse|str|straße)"
         ],
-        "full": "(strasse|str).?$",
-        "canonical": "straße",
+        "full": "([^ ]+)(strasse|str|straße)",
+        "canonical": "$1 str",
         "regex": true,
         "skipDiacriticStripping": true,
-        "spanBoundaries": 0
+        "spanBoundaries": 0    
     }
 ]
