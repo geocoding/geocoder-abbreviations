@@ -11,8 +11,12 @@ authors = [
 edition = "2018"
 
 [dependencies]
-rust-embed="5.5.1"
 alphanumeric-sort = "1.0.6"
 fancy-regex = "0.1.0"
 serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
+
+[dependencies.rust-embed]
+version = "5.5.1"
+default-features = false
+features = ["debug-embed"]
