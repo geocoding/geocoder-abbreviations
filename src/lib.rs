@@ -1,6 +1,5 @@
 use rust_embed::RustEmbed;
 use serde::{Deserialize, Serialize};
-use serde_json;
 use std::collections::HashMap;
 use fancy_regex::Regex;
 
@@ -221,13 +220,10 @@ mod tests {
 
         for lc in map.values() {
             for tk in lc {
-                assert!(tk.tokens.len() > 0);
-                match &tk.only_layers {
-                    Some(l) => {
-                        assert_eq!(l[0], "address");
-                        assert_eq!(l.len(), 1);
-                    },
-                    _ => (),
+                assert!(!tk.tokens.is_empty());
+                if let Some(l) = &tk.only_layers {
+                    assert_eq!(l[0], "address");
+                    assert_eq!(l.len(), 1);
                 }
             }
         }
@@ -237,7 +233,7 @@ mod tests {
         let mut lcs = Vec::new();
         for entry in fs::read_dir("./tokens").unwrap() {
             let file_name = entry.unwrap().file_name().into_string().unwrap();
-            let file_components: Vec<&str> = file_name.split(".").collect();
+            let file_components: Vec<&str> = file_name.split('.').collect();
             if file_components[1] == "json" {
                 lcs.push(file_components[0].to_owned());
             }
