@@ -1,0 +1,13 @@
+[
+    {
+        "tokens": [
+            "gammel",
+            "gl"
+        ],
+  	"note": "translates to 'old'",
+        "full": "Gammel",
+        "canonical": "gl",
+        "onlyLayers": ["address"],
+        "type": "way"
+    }
+]
