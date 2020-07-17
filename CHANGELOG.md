@@ -10,6 +10,10 @@
 
 # Version History
 
+## 4.3.1
+
+- :bug: Restricted one Czech replacement, `"sev" => "s"`, to only apply to addresses, because applying it to all feature types and then combining it with other languages' tokens leads to weird conflations.
+
 ## 4.3.0
 
 - :tada: Expand testing of token replacements, and update existing replacements to conform to more-comprehensive tests. Also make some further updates to German abbreviations.
