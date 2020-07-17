@@ -17,8 +17,9 @@
     "tokens": ["sever", "s"],
     "full": "sever",
     "canonical": "s",
-    "note": "translates to 'north'",
-    "type": "cardinal"
+    "note": "translates to 'north'; applying this only to addresses because in mixed-language layers it ends up doing weird conflations with 'south', which is 's' elsewhere",
+    "type": "cardinal",
+    "onlyLayers": ["address"]
   },
   {
     "tokens": ["východ", "vychod", "v"],
