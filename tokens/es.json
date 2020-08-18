@@ -982,6 +982,14 @@
     },
     {
         "tokens": [
+            "Les"
+        ],
+        "full": "Les",
+        "canonical": "Les",
+        "type": "determiner"
+    },
+    {
+        "tokens": [
             "Las"
         ],
         "full": "Las",
@@ -1552,7 +1560,8 @@
         ],
         "full": "Gran Vía",
         "canonical": "GV",
-        "spanBoundaries": 1
+        "spanBoundaries": 1,
+        "type": "way"
     },
     {
         "tokens": [
