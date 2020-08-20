@@ -521,7 +521,8 @@
             "Cll",
             "Calle",
             "Carrer",
-            "Carrera"
+            "Carrera",
+            "Cl Quarter"
         ],
         "full": "Calle",
         "canonical": "Cl",
@@ -738,6 +739,7 @@
     },
     {
         "tokens": [
+            "d",
             "de"
         ],
         "full": "de",
