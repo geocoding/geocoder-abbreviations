@@ -528,7 +528,8 @@
         "canonical": "Cl",
         "onlyLayers": ["address"],
         "note": "translates to 'street' ('carrer' is Catalan)",
-        "type": "way"
+        "type": "way",
+        "spanBoundaries": 1
     },
     {
         "tokens": [
