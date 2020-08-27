@@ -806,10 +806,10 @@
     {
         "tokens": [
           "$1$2",
-          "(l|d) ([a|e|i|o|u]\\w+)"
+          "(l|d) ([a|e|i|o|u].+)"
         ],
         "onlyLayers": ["address"],
-        "full": "(l|d) ([a|e|i|o|u]\\w+)",
+        "full": "(l|d) ([a|e|i|o|u].+)",
         "canonical": "$1$2",
         "regex": true,
         "spanBoundaries": 1
