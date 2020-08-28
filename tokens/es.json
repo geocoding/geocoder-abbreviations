@@ -521,12 +521,24 @@
             "Cll",
             "Calle",
             "Carrer",
-            "Carrera",
-            "Cl Quarter"
+            "Carrera"
         ],
         "full": "Calle",
         "canonical": "Cl",
         "onlyLayers": ["address"],
+        "note": "translates to 'street' ('carrer' is Catalan)",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "Cl",
+            "Cl Quarter"
+        ],
+        "full": "Cl Quarter",
+        "canonical": "Cl",
+        "onlyLayers": [
+            "address"
+        ],
         "note": "translates to 'street' ('carrer' is Catalan)",
         "type": "way",
         "spanBoundaries": 1
