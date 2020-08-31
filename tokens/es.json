@@ -989,6 +989,17 @@
     },
     {
         "tokens": [
+            "K",
+            "Kalea",
+            "Karrika"
+        ],
+        "full": "Karrika",
+        "canonical": "K",
+        "note": "translates to 'street' ('kalea' is Catalan)",
+        "type": "way"
+    },
+    {
+        "tokens": [
             "La",
             "L"
         ],
