@@ -761,10 +761,10 @@
     },
     {
         "tokens": [
-            "den"
+            "en"
         ],
-        "full": "den",
-        "canonical": "den",
+        "full": "en",
+        "canonical": "en",
         "type": "determiner",
         "note": "to handle d'en"
     },
