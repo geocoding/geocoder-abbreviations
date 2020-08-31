@@ -1097,6 +1097,15 @@
     },
     {
         "tokens": [
+            "N"
+        ],
+        "full": "N",
+        "canonical": "N",
+        "type": "determiner",
+        "note": "as part of a street n' (example: n'arai)"
+    },
+    {
+        "tokens": [
             "Ncleo",
             "Núcleo"
         ],
