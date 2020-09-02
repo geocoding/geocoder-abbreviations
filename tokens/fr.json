@@ -810,7 +810,7 @@
         ],
         "onlyLayers": ["address"],
         "onlyCountries": ["fr"],
-        "full": "(l|d) ([a|e|i|o|u].+)",
+        "full": "(l|d) ([a|e|i|o|u|h|y].+)",
         "canonical": "$1$2",
         "regex": true,
         "spanBoundaries": 1
