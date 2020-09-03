@@ -806,7 +806,7 @@
     {
         "tokens": [
           "$1$2",
-          "(l|d) ([a|e|i|o|u].+)"
+          "(l|d) ([a|e|i|o|u|h|y].+)"
         ],
         "onlyLayers": ["address"],
         "onlyCountries": ["fr"],
