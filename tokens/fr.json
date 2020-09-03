@@ -806,11 +806,11 @@
     {
         "tokens": [
           "$1$2",
-          "(l|d) ([a|e|i|o|u|h|y].+)"
+          "(l|d) ([aeiouhy][^ ]+)"
         ],
         "onlyLayers": ["address"],
         "onlyCountries": ["fr"],
-        "full": "(l|d) ([a|e|i|o|u|h|y].+)",
+        "full": "(l|d) ([aeiouhy][^ ]+)",
         "canonical": "$1$2",
         "regex": true,
         "spanBoundaries": 1
