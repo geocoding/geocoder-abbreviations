@@ -1597,8 +1597,7 @@
         ],
         "full": "Gran Vía",
         "canonical": "GV",
-        "spanBoundaries": 1,
-        "type": "way"
+        "spanBoundaries": 1
     },
     {
         "tokens": [
