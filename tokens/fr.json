@@ -446,17 +446,17 @@
     },
     {
         "tokens": [
-            "l-dit",
             "ld",
-            "ldit",
-            "lieu-dit"
+            "ldit"
         ],
-        "full": "Lieu-dit",
-        "canonical": "Ld"
+        "full": "ldit",
+        "canonical": "ld"
     },
     {
         "tokens": [
+            "l-dit",
             "l dit",
+            "lieu-dit",
             "lieu dit"
         ],
         "full": "Lieu-dit",
