@@ -280,6 +280,15 @@
     },
     {
         "tokens": [
+            "carriera"
+        ],
+        "full": "carriera",
+        "canonical": "carriera",
+        "note": "synonym to 'rue' in Occitan",
+        "type": "way"
+    },
+    {
+        "tokens": [
             "clos"
         ],
         "full": "clos",
@@ -442,7 +451,8 @@
         ],
         "full": "Impasse",
         "canonical": "Imp",
-        "note": "translates to 'dead end'"
+        "note": "translates to 'dead end'",
+        "type": "way"
     },
     {
         "tokens": [
