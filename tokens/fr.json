@@ -930,6 +930,15 @@
     },
     {
         "tokens": [
+            "ple",
+            "passerelle"
+        ],
+        "full": "passerelle",
+        "canonical": "ple",
+        "note": "translates to 'bridge'"
+    },
+    {
+        "tokens": [
             "$1$2",
             "(l|d) ([aeiouhy][^ ]+)"
         ],
