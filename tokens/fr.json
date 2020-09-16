@@ -193,6 +193,14 @@
     },
     {
         "tokens": [
+            "aux"
+        ],
+        "full": "aux",
+        "canonical": "aux",
+        "type": "determiner"
+    },
+    {
+        "tokens": [
             "A",
             "Aut",
             "Autoroute"
@@ -456,11 +464,21 @@
     },
     {
         "tokens": [
+            "lieu"
+        ],
+        "full": "lieu",
+        "canonical": "lieu",
+        "note": "translates to 'place'",
+        "type": "way"
+    },
+    {
+        "tokens": [
             "ld",
             "ldit"
         ],
         "full": "ldit",
-        "canonical": "ld"
+        "canonical": "ld",
+        "note": "geographical place so small it's what people call it locally without having any political/administrative identity. A few houses grouped together out in the countryside but nothing more"
     },
     {
         "tokens": [
@@ -471,7 +489,8 @@
         ],
         "full": "Lieu-dit",
         "canonical": "Ld",
-        "spanBoundaries": 1
+        "spanBoundaries": 1,
+        "note": "geographical place so small it's what people call it locally without having any political/administrative identity. A few houses grouped together out in the countryside but nothing more"
     },
     {
         "tokens": [
@@ -627,7 +646,8 @@
             "Place"
         ],
         "full": "Place",
-        "canonical": "Pl"
+        "canonical": "Pl",
+        "type": "way"
     },
     {
         "tokens": [
