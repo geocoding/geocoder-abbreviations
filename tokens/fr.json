@@ -635,10 +635,12 @@
     {
         "tokens": [
             "Pas",
+            "Psg",
             "Passage"
         ],
         "full": "Passage",
-        "canonical": "Pas"
+        "canonical": "Pas",
+        "type": "way"
     },
     {
         "tokens": [
@@ -918,7 +920,19 @@
         "type": "determiner"
     },
     {
-        "tokens": ["$1$2", "(l|d) ([aeiouhy][^ ]+)"],
+        "tokens": [
+            "voi",
+            "voie"
+        ],
+        "full": "voie",
+        "canonical": "voi",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "$1$2",
+            "(l|d) ([aeiouhy][^ ]+)"
+        ],
         "onlyLayers": ["address"],
         "onlyCountries": ["fr"],
         "full": "(l|d) ([aeiouhy][^ ]+)",
