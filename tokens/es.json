@@ -531,6 +531,20 @@
     },
     {
         "tokens": [
+            "Cl",
+            "Cl Quarter"
+        ],
+        "full": "Cl Quarter",
+        "canonical": "Cl",
+        "onlyLayers": [
+            "address"
+        ],
+        "note": "translates to 'street' ('carrer' is Catalan)",
+        "type": "way",
+        "spanBoundaries": 1
+    },
+    {
+        "tokens": [
             "Cllja",
             "Calleja"
         ],
@@ -738,6 +752,7 @@
     },
     {
         "tokens": [
+            "d",
             "de"
         ],
         "full": "de",
@@ -746,10 +761,10 @@
     },
     {
         "tokens": [
-            "den"
+            "en"
         ],
-        "full": "den",
-        "canonical": "den",
+        "full": "en",
+        "canonical": "en",
         "type": "determiner",
         "note": "to handle d'en"
     },
@@ -974,10 +989,30 @@
     },
     {
         "tokens": [
-            "La"
+            "K",
+            "Kalea",
+            "Karrika"
+        ],
+        "full": "Karrika",
+        "canonical": "K",
+        "note": "translates to 'street' ('kalea' is Catalan)",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "La",
+            "L"
         ],
         "full": "La",
         "canonical": "La",
+        "type": "determiner"
+    },
+    {
+        "tokens": [
+            "Les"
+        ],
+        "full": "Les",
+        "canonical": "Les",
         "type": "determiner"
     },
     {
@@ -1062,6 +1097,15 @@
     },
     {
         "tokens": [
+            "N"
+        ],
+        "full": "N",
+        "canonical": "N",
+        "type": "determiner",
+        "note": "as part of a street n' (example: n'arai)"
+    },
+    {
+        "tokens": [
             "Ncleo",
             "Núcleo"
         ],
@@ -1111,13 +1155,15 @@
     {
         "tokens": [
             "Pl",
+            "Pz",
             "Pza",
             "Plza",
             "Plaça",
             "Plaza"
         ],
         "full": "Plaza",
-        "canonical": "Pl"
+        "canonical": "Pl",
+        "type": "way"
     },
     {
         "tokens": [
