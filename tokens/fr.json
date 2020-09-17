@@ -306,6 +306,7 @@
     {
         "tokens": [
             "Ch",
+            "Che",
             "Chemin"
         ],
         "full": "Chemin",
@@ -323,6 +324,15 @@
         "canonical": "Ch",
         "onlyLayers": ["address"],
         "note": "translates to 'roadway'",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "Cht",
+            "Chateau"
+        ],
+        "full": "Chateau",
+        "canonical": "Cht",
         "type": "way"
     },
     {
@@ -653,11 +663,21 @@
     },
     {
         "tokens": [
-            "Pnt",
-            "Pointe"
+            "Pont"
         ],
-        "full": "Pointe",
-        "canonical": "Pnt"
+        "full": "Pont",
+        "canonical": "Pont",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "Pas",
+            "Psg",
+            "Passage"
+        ],
+        "full": "Passage",
+        "canonical": "Pas",
+        "type": "way"
     },
     {
         "tokens": [
@@ -700,7 +720,8 @@
             "Résidence"
         ],
         "full": "Résidence",
-        "canonical": "Res"
+        "canonical": "Res",
+        "type": "way"
     },
     {
         "tokens": [
