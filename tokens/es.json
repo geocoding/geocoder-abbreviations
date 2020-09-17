@@ -1162,7 +1162,8 @@
             "Plaza"
         ],
         "full": "Plaza",
-        "canonical": "Pl"
+        "canonical": "Pl",
+        "type": "way"
     },
     {
         "tokens": [
