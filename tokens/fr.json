@@ -193,6 +193,14 @@
     },
     {
         "tokens": [
+            "aux"
+        ],
+        "full": "aux",
+        "canonical": "aux",
+        "type": "determiner"
+    },
+    {
+        "tokens": [
             "A",
             "Aut",
             "Autoroute"
@@ -280,7 +288,25 @@
     },
     {
         "tokens": [
+            "carriera"
+        ],
+        "full": "carriera",
+        "canonical": "carriera",
+        "note": "synonym to 'rue' in Occitan",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "clos"
+        ],
+        "full": "clos",
+        "canonical": "clos",
+        "note": "translates to 'enclosure'"
+    },
+    {
+        "tokens": [
             "Ch",
+            "Che",
             "Chemin"
         ],
         "full": "Chemin",
@@ -298,6 +324,15 @@
         "canonical": "Ch",
         "onlyLayers": ["address"],
         "note": "translates to 'roadway'",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "Cht",
+            "Chateau"
+        ],
+        "full": "Chateau",
+        "canonical": "Cht",
         "type": "way"
     },
     {
@@ -386,6 +421,17 @@
     },
     {
         "tokens": [
+            "général",
+            "general",
+            "gén",
+            "gen",
+            "gal"
+        ],
+        "full": "general",
+        "canonical": "gen"
+    },
+    {
+        "tokens": [
             "Hop",
             "Hôpital"
         ],
@@ -418,11 +464,61 @@
     },
     {
         "tokens": [
-            "Ld",
-            "Lieu-dit"
+            "Imp",
+            "Impasse"
+        ],
+        "full": "Impasse",
+        "canonical": "Imp",
+        "note": "translates to 'dead end'",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "lieu"
+        ],
+        "full": "lieu",
+        "canonical": "lieu",
+        "note": "translates to 'place'",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "ld",
+            "ldit"
+        ],
+        "full": "ldit",
+        "canonical": "ld",
+        "note": "geographical place so small it's what people call it locally without having any political/administrative identity. A few houses grouped together out in the countryside but nothing more"
+    },
+    {
+        "tokens": [
+            "l-dit",
+            "l dit",
+            "lieu-dit",
+            "lieu dit"
         ],
         "full": "Lieu-dit",
         "canonical": "Ld",
+        "spanBoundaries": 1,
+        "note": "geographical place so small it's what people call it locally without having any political/administrative identity. A few houses grouped together out in the countryside but nothing more"
+    },
+    {
+        "tokens": [
+            "lgén",
+            "lgen"
+        ],
+        "full": "leiutenant general",
+        "canonical": "lgen"
+    },
+    {
+        "tokens": [
+            "lieutenant général",
+            "l gén",
+            "l gen",
+            "leiutenant general"
+        ],
+        "full": "leiutenant general",
+        "canonical": "l gen",
         "spanBoundaries": 1
     },
     {
@@ -483,6 +579,33 @@
     },
     {
         "tokens": [
+            "mgén",
+            "mgen"
+        ],
+        "full": "major general",
+        "canonical": "mgen"
+    },
+    {
+        "tokens": [
+            "major général",
+            "m gén",
+            "m gen",
+            "major general"
+        ],
+        "full": "major general",
+        "canonical": "m gen",
+        "spanBoundaries": 1
+    },
+    {
+        "tokens": [
+            "mln",
+            "moulin"
+        ],
+        "full": "moulin",
+        "canonical": "mln"
+    },
+    {
+        "tokens": [
             "N",
             "Nord"
         ],
@@ -522,10 +645,12 @@
     {
         "tokens": [
             "Pas",
+            "Psg",
             "Passage"
         ],
         "full": "Passage",
-        "canonical": "Pas"
+        "canonical": "Pas",
+        "type": "way"
     },
     {
         "tokens": [
@@ -533,15 +658,26 @@
             "Place"
         ],
         "full": "Place",
-        "canonical": "Pl"
+        "canonical": "Pl",
+        "type": "way"
     },
     {
         "tokens": [
-            "Pnt",
-            "Pointe"
+            "Pont"
         ],
-        "full": "Pointe",
-        "canonical": "Pnt"
+        "full": "Pont",
+        "canonical": "Pont",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "Pas",
+            "Psg",
+            "Passage"
+        ],
+        "full": "Passage",
+        "canonical": "Pas",
+        "type": "way"
     },
     {
         "tokens": [
@@ -584,7 +720,8 @@
             "Résidence"
         ],
         "full": "Résidence",
-        "canonical": "Res"
+        "canonical": "Res",
+        "type": "way"
     },
     {
         "tokens": [
@@ -805,8 +942,26 @@
     },
     {
         "tokens": [
-          "$1$2",
-          "(l|d) ([aeiouhy][^ ]+)"
+            "voi",
+            "voie"
+        ],
+        "full": "voie",
+        "canonical": "voi",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "ple",
+            "passerelle"
+        ],
+        "full": "passerelle",
+        "canonical": "ple",
+        "note": "translates to 'bridge'"
+    },
+    {
+        "tokens": [
+            "$1$2",
+            "(l|d) ([aeiouhy][^ ]+)"
         ],
         "onlyLayers": ["address"],
         "onlyCountries": ["fr"],
