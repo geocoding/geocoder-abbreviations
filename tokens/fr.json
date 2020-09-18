@@ -356,6 +356,14 @@
     },
     {
         "tokens": [
+            "au"
+        ],
+        "full": "au",
+        "canonical": "au",
+        "type": "determiner"
+    },
+    {
+        "tokens": [
             "aux"
         ],
         "full": "aux",
@@ -827,7 +835,8 @@
     {
         "tokens": [
             "Pl",
-            "Place"
+            "Place",
+            "Placette"
         ],
         "full": "Place",
         "canonical": "Pl",
@@ -990,6 +999,15 @@
         ],
         "full": "Saintes",
         "canonical": "Stes"
+    },
+    {
+        "tokens": [
+            "sent",
+            "sentier"
+        ],
+        "full": "sentier",
+        "canonical": "sent",
+        "type": "way"
     },
     {
         "tokens": [
