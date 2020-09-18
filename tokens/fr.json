@@ -401,11 +401,23 @@
     {
         "tokens": [
             "All",
-            "Allée"
+            "Allée",
+            "Allee"
         ],
         "full": "Allée",
         "canonical": "All",
         "onlyLayers": ["address"],
+        "note": "translates to 'alley'",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "alls",
+            "allees",
+            "allées"
+        ],
+        "full": "allées",
+        "canonical": "alls",
         "note": "translates to 'alley'",
         "type": "way"
     },
@@ -483,6 +495,16 @@
         "full": "Chemin",
         "canonical": "Ch",
         "onlyLayers": ["address"],
+        "note": "translates to 'path'",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "chem",
+            "cheminement"
+        ],
+        "full": "cheminement",
+        "canonical": "chem",
         "note": "translates to 'path'",
         "type": "way"
     },
