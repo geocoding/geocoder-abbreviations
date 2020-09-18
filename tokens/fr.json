@@ -1,6 +1,169 @@
 [
     {
         "tokens": [
+            "0",
+            "zero"
+        ],
+        "full": "zero",
+        "canonical": "0",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "1",
+            "un",
+            "une"
+        ],
+        "full": "one",
+        "canonical": "1",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "2",
+            "deux"
+        ],
+        "full": "two",
+        "canonical": "2",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "3",
+            "trois"
+        ],
+        "full": "three",
+        "canonical": "3",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "4",
+            "quatre"
+        ],
+        "full": "four",
+        "canonical": "4",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "5",
+            "cinq"
+        ],
+        "full": "five",
+        "canonical": "5",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "6",
+            "six"
+        ],
+        "full": "six",
+        "canonical": "6",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "7",
+            "sept"
+        ],
+        "full": "seven",
+        "canonical": "7",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "8",
+            "huit"
+        ],
+        "full": "eight",
+        "canonical": "8",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "9",
+            "neuf"
+        ],
+        "full": "nine",
+        "canonical": "9",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "10",
+            "dix"
+        ],
+        "full": "ten",
+        "canonical": "10",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "11",
+            "onze"
+        ],
+        "full": "eleven",
+        "canonical": "11",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "12",
+            "douze"
+        ],
+        "full": "twelve",
+        "canonical": "12",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "13",
+            "treize"
+        ],
+        "full": "thirteen",
+        "canonical": "13",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "14",
+            "quatorze"
+        ],
+        "full": "fourteen",
+        "canonical": "14",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "15",
+            "quinze"
+        ],
+        "full": "fifteen",
+        "canonical": "15",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "16",
+            "seize"
+        ],
+        "full": "sixteen",
+        "canonical": "16",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "20",
+            "vingt"
+        ],
+        "full": "twenty",
+        "canonical": "20",
+        "type": "number"
+    },
+    {
+        "tokens": [
             "10e",
             "Dixième"
         ],
@@ -193,6 +356,14 @@
     },
     {
         "tokens": [
+            "au"
+        ],
+        "full": "au",
+        "canonical": "au",
+        "type": "determiner"
+    },
+    {
+        "tokens": [
             "aux"
         ],
         "full": "aux",
@@ -230,11 +401,23 @@
     {
         "tokens": [
             "All",
-            "Allée"
+            "Allée",
+            "Allee"
         ],
         "full": "Allée",
         "canonical": "All",
         "onlyLayers": ["address"],
+        "note": "translates to 'alley'",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "alls",
+            "allees",
+            "allées"
+        ],
+        "full": "allées",
+        "canonical": "alls",
         "note": "translates to 'alley'",
         "type": "way"
     },
@@ -317,6 +500,16 @@
     },
     {
         "tokens": [
+            "chem",
+            "cheminement"
+        ],
+        "full": "cheminement",
+        "canonical": "chem",
+        "note": "translates to 'path'",
+        "type": "way"
+    },
+    {
+        "tokens": [
             "Ch",
             "Chaussée"
         ],
@@ -333,6 +526,15 @@
         ],
         "full": "Chateau",
         "canonical": "Cht",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "Cour"
+        ],
+        "full": "Cour",
+        "canonical": "Cour",
+        "note": "translates to 'course'",
         "type": "way"
     },
     {
@@ -655,7 +857,8 @@
     {
         "tokens": [
             "Pl",
-            "Place"
+            "Place",
+            "Placette"
         ],
         "full": "Place",
         "canonical": "Pl",
@@ -725,6 +928,7 @@
     },
     {
         "tokens": [
+            "Rle",
             "Rlle",
             "Ruelle"
         ],
@@ -817,6 +1021,24 @@
         ],
         "full": "Saintes",
         "canonical": "Stes"
+    },
+    {
+        "tokens": [
+            "sent",
+            "sentier"
+        ],
+        "full": "sentier",
+        "canonical": "sent",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "sen",
+            "sente"
+        ],
+        "full": "sente",
+        "canonical": "sen",
+        "type": "way"
     },
     {
         "tokens": [
@@ -956,7 +1178,34 @@
         ],
         "full": "passerelle",
         "canonical": "ple",
-        "note": "translates to 'bridge'"
+        "note": "translates to 'bridge'",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "res",
+            "residence"
+        ],
+        "full": "residence",
+        "canonical": "res",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "bois"
+        ],
+        "full": "bois",
+        "canonical": "bois",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "ham",
+            "hameau"
+        ],
+        "full": "hameau",
+        "canonical": "ham",
+        "type": "way"
     },
     {
         "tokens": [
