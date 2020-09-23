@@ -14,7 +14,7 @@
             "un",
             "une"
         ],
-        "full": "one",
+        "full": "une",
         "canonical": "1",
         "type": "number"
     },
@@ -23,7 +23,7 @@
             "2",
             "deux"
         ],
-        "full": "two",
+        "full": "deux",
         "canonical": "2",
         "type": "number"
     },
@@ -32,7 +32,7 @@
             "3",
             "trois"
         ],
-        "full": "three",
+        "full": "trois",
         "canonical": "3",
         "type": "number"
     },
@@ -41,7 +41,7 @@
             "4",
             "quatre"
         ],
-        "full": "four",
+        "full": "quatre",
         "canonical": "4",
         "type": "number"
     },
@@ -50,7 +50,7 @@
             "5",
             "cinq"
         ],
-        "full": "five",
+        "full": "cinq",
         "canonical": "5",
         "type": "number"
     },
@@ -68,7 +68,7 @@
             "7",
             "sept"
         ],
-        "full": "seven",
+        "full": "sept",
         "canonical": "7",
         "type": "number"
     },
@@ -77,7 +77,7 @@
             "8",
             "huit"
         ],
-        "full": "eight",
+        "full": "huit",
         "canonical": "8",
         "type": "number"
     },
@@ -86,7 +86,7 @@
             "9",
             "neuf"
         ],
-        "full": "nine",
+        "full": "neuf",
         "canonical": "9",
         "type": "number"
     },
@@ -95,7 +95,7 @@
             "10",
             "dix"
         ],
-        "full": "ten",
+        "full": "dix",
         "canonical": "10",
         "type": "number"
     },
@@ -104,7 +104,7 @@
             "11",
             "onze"
         ],
-        "full": "eleven",
+        "full": "onze",
         "canonical": "11",
         "type": "number"
     },
@@ -113,7 +113,7 @@
             "12",
             "douze"
         ],
-        "full": "twelve",
+        "full": "douze",
         "canonical": "12",
         "type": "number"
     },
@@ -122,7 +122,7 @@
             "13",
             "treize"
         ],
-        "full": "thirteen",
+        "full": "treize",
         "canonical": "13",
         "type": "number"
     },
@@ -131,7 +131,7 @@
             "14",
             "quatorze"
         ],
-        "full": "fourteen",
+        "full": "quatorze",
         "canonical": "14",
         "type": "number"
     },
@@ -140,7 +140,7 @@
             "15",
             "quinze"
         ],
-        "full": "fifteen",
+        "full": "quinze",
         "canonical": "15",
         "type": "number"
     },
@@ -149,7 +149,7 @@
             "16",
             "seize"
         ],
-        "full": "sixteen",
+        "full": "seize",
         "canonical": "16",
         "type": "number"
     },
@@ -158,27 +158,30 @@
             "17",
             "dix sept"
         ],
-        "full": "seventeen",
+        "full": "dix sept",
         "canonical": "17",
-        "type": "number"
+        "type": "number",
+        "spanBoundaries": 1
     },
     {
         "tokens": [
             "18",
             "dix huit"
         ],
-        "full": "eighteen",
+        "full": "dix huit",
         "canonical": "18",
-        "type": "number"
+        "type": "number",
+        "spanBoundaries": 1
     },
     {
         "tokens": [
             "19",
             "dix neuf"
         ],
-        "full": "nineteen",
+        "full": "dix neuf",
         "canonical": "19",
-        "type": "number"
+        "type": "number",
+        "spanBoundaries": 1
     },
     {
         "tokens": [
@@ -880,6 +883,16 @@
         "full": "Passage",
         "canonical": "Pas",
         "type": "way"
+    },
+    {
+      "tokens": [
+          "passage commun"
+        ],
+      "full": "passage commun",
+      "canonical": "passage commun",
+      "type": "way",
+      "spanBoundaries": 1,
+      "note": "translates to 'common border crossings or common paths'"
     },
     {
         "tokens": [
