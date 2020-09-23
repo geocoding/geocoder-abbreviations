@@ -155,6 +155,33 @@
     },
     {
         "tokens": [
+            "17",
+            "dix sept"
+        ],
+        "full": "seventeen",
+        "canonical": "17",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "18",
+            "dix huit"
+        ],
+        "full": "eighteen",
+        "canonical": "18",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "19",
+            "dix neuf"
+        ],
+        "full": "nineteen",
+        "canonical": "19",
+        "type": "number"
+    },
+    {
+        "tokens": [
             "20",
             "vingt"
         ],
