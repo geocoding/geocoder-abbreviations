@@ -1106,6 +1106,15 @@
     },
     {
         "tokens": [
+            "ven",
+            "venelle"
+        ],
+        "full": "venelle",
+        "canonical": "ven",
+        "type": "way"
+    },
+    {
+        "tokens": [
             "BP",
             "Boîte Postale"
         ],
@@ -1201,6 +1210,15 @@
         "full": "Les",
         "canonical": "Les",
         "type": "determiner"
+    },
+    {
+        "tokens": [
+            "zone industrielle",
+            "zi"
+        ],
+        "full": "zone industrielle",
+        "canonical": "zi",
+        "type": "way"
     },
     {
         "tokens": [
