@@ -40,6 +40,7 @@
         "tokens": [
             "4",
             "quatre"
+            "quatres"
         ],
         "full": "quatre",
         "canonical": "4",
@@ -470,7 +471,8 @@
     {
         "tokens": [
             "Av",
-            "Avenue"
+            "Avenue",
+            "Avenues"
         ],
         "full": "Avenue",
         "canonical": "Av",
@@ -520,7 +522,8 @@
         "tokens": [
             "Ch",
             "Che",
-            "Chemin"
+            "Chemin",
+            "Chemins"
         ],
         "full": "Chemin",
         "canonical": "Ch",
@@ -597,7 +600,8 @@
     {
         "tokens": [
             "Dr",
-            "Docteur"
+            "Docteur",
+            "Docteurs"
         ],
         "full": "Docteur",
         "canonical": "Dr"
@@ -664,6 +668,15 @@
     },
     {
         "tokens": [
+            "giratoire"
+        ],
+        "full": "general",
+        "canonical": "gen",
+        "type": "way",
+        "notes": "translates to 'roundabout'"
+    },
+    {
+        "tokens": [
             "Hop",
             "Hôpital"
         ],
@@ -697,7 +710,8 @@
     {
         "tokens": [
             "Imp",
-            "Impasse"
+            "Impasse",
+            "Impasses"
         ],
         "full": "Impasse",
         "canonical": "Imp",
@@ -736,10 +750,18 @@
     },
     {
         "tokens": [
+            "lt",
+            "lieutenant"
+        ],
+        "full": "lieutenant",
+        "canonical": "lt"
+    },
+    {
+        "tokens": [
             "lgén",
             "lgen"
         ],
-        "full": "leiutenant general",
+        "full": "leiutenant",
         "canonical": "lgen"
     },
     {
@@ -980,11 +1002,13 @@
     },
     {
         "tokens": [
-            "Rpt",
-            "Rond-Point"
+            "rpt",
+            "rd pt",
+            "rond point",
+            "rond-point"
         ],
-        "full": "Rond-Point",
-        "canonical": "Rpt",
+        "full": "rond-point",
+        "canonical": "rpt",
         "onlyLayers": ["address"],
         "note": "translates to 'roundabout'",
         "type": "way",
@@ -992,8 +1016,21 @@
     },
     {
         "tokens": [
+            "rpt",
+            "rdpt",
+            "rondpoint"
+        ],
+        "full": "rondpoint",
+        "canonical": "rpt",
+        "onlyLayers": ["address"],
+        "note": "translates to 'roundabout'",
+        "type": "way"
+    },
+    {
+        "tokens": [
             "Rte",
-            "Route"
+            "Route",
+            "Routes"
         ],
         "full": "Route",
         "canonical": "Rte",
@@ -1153,6 +1190,17 @@
     },
     {
         "tokens": [
+            "rampe",
+            "rpe",
+            "rmpe",
+            "rmp"
+        ],
+        "full": "rampe",
+        "canonical": "rmp",
+        "type": "way"
+    },
+    {
+        "tokens": [
             "Za",
             "Zone d'activité"
         ],
@@ -1227,6 +1275,15 @@
         ],
         "full": "voie",
         "canonical": "voi",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "passe",
+            "pass"
+        ],
+        "full": "passe",
+        "canonical": "pass",
         "type": "way"
     },
     {
