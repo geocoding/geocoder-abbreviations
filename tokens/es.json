@@ -1216,6 +1216,7 @@
             "Pz",
             "Pza",
             "Plza",
+            "Placa",
             "Plaça",
             "Plaza"
         ],
@@ -1487,9 +1488,10 @@
     {
         "tokens": [
             "Ru",
-            "Rúa"
+            "Rúa",
+            "Rua"
         ],
-        "full": "Rúa",
+        "full": "Rua",
         "canonical": "Ru"
     },
     {
@@ -1587,7 +1589,8 @@
         "tokens": [
             "Tr",
             "Trva",
-            "Travesia"
+            "Travesia",
+            "Travessia"
         ],
         "full": "Travesia",
         "canonical": "Tr",
