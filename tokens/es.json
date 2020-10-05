@@ -220,7 +220,8 @@
             "Alameda"
         ],
         "full": "Alameda",
-        "canonical": "Alam"
+        "canonical": "Alam",
+        "type": "way"
     },
     {
         "tokens": [
@@ -297,6 +298,7 @@
     {
         "tokens": [
             "Auto",
+            "Autop",
             "Autopista"
         ],
         "full": "Autopista",
@@ -321,14 +323,12 @@
             "Av",
             "Avd",
             "Avda",
-            "Avnda",
-            "Avenida",
-            "Avinguda"
+            "Avenida"
         ],
         "full": "Avenida",
         "canonical": "Av",
         "onlyLayers": ["address"],
-        "note": "translates to 'avenue'; 'avenida' is Castillian whereas 'avinguda' is Catalan'",
+        "note": "translates to 'avenue'",
         "type": "way"
     },
     {
@@ -485,10 +485,11 @@
     {
         "tokens": [
             "Cint",
-            "Cinturón"
+            "Cinturon"
         ],
-        "full": "Cinturón",
-        "canonical": "Cint"
+        "full": "Cinturon",
+        "canonical": "Cint",
+        "type": "way"
     },
     {
         "tokens": [
@@ -540,13 +541,12 @@
             "Cl",
             "Cll",
             "Call",
-            "Calle",
-            "Carrer"
+            "Calle"
         ],
         "full": "Calle",
         "canonical": "Cl",
         "onlyLayers": ["address"],
-        "note": "translates to 'street' ('carrer' is Catalan)",
+        "note": "translates to 'street'",
         "type": "way"
     },
     {
@@ -657,14 +657,6 @@
         ],
         "full": "Carrera",
         "canonical": "Cra"
-    },
-    {
-        "tokens": [
-            "Cro",
-            "Carrero"
-        ],
-        "full": "Carrero",
-        "canonical": "Cro"
     },
     {
         "tokens": [
@@ -961,7 +953,8 @@
             "Estrada"
         ],
         "full": "Estrada",
-        "canonical": "Estda"
+        "canonical": "Estda",
+        "type": "way"
     },
     {
         "tokens": [
@@ -1027,7 +1020,8 @@
             "Glorieta"
         ],
         "full": "Glorieta",
-        "canonical": "Gta"
+        "canonical": "Gta",
+        "type": "way"
     },
     {
         "tokens": [
@@ -1216,8 +1210,6 @@
             "Pz",
             "Pza",
             "Plza",
-            "Placa",
-            "Plaça",
             "Plaza"
         ],
         "full": "Plaza",
@@ -1307,14 +1299,6 @@
         ],
         "full": "Pórtico",
         "canonical": "Prtco"
-    },
-    {
-        "tokens": [
-            "Przla",
-            "Prazuela"
-        ],
-        "full": "Prazuela",
-        "canonical": "Przla"
     },
     {
         "tokens": [
@@ -1408,7 +1392,8 @@
             "Rambla"
         ],
         "full": "Rambla",
-        "canonical": "Rbla"
+        "canonical": "Rbla",
+        "type": "way"
     },
     {
         "tokens": [
@@ -1441,7 +1426,8 @@
             "Ronda"
         ],
         "full": "Ronda",
-        "canonical": "Rd"
+        "canonical": "Rd",
+        "type": "way"
     },
     {
         "tokens": [
@@ -1487,15 +1473,6 @@
     },
     {
         "tokens": [
-            "Ru",
-            "Rúa",
-            "Rua"
-        ],
-        "full": "Rua",
-        "canonical": "Ru"
-    },
-    {
-        "tokens": [
             "ruta",
             "rta"
         ],
@@ -1535,7 +1512,8 @@
             "Subida"
         ],
         "full": "Subida",
-        "canonical": "Sbida"
+        "canonical": "Sbida",
+        "type": "way"
     },
     {
         "tokens": [
@@ -1609,7 +1587,10 @@
     },
     {
         "tokens": [
+            "Tv",
+            "Tr",
             "Trval",
+            "Trvsal",
             "Transversal"
         ],
         "full": "Transversal",
@@ -1694,9 +1675,9 @@
     {
         "tokens": [
             "GV",
-            "Gran Vía"
+            "Gran Via"
         ],
-        "full": "Gran Vía",
+        "full": "Gran Via",
         "canonical": "GV",
         "spanBoundaries": 1
     },
