@@ -1679,15 +1679,6 @@
     },
     {
         "tokens": [
-            "GV",
-            "Gran Vía"
-        ],
-        "full": "Gran Vía",
-        "canonical": "GV",
-        "spanBoundaries": 1
-    },
-    {
-        "tokens": [
             "PI",
             "Pgind"
         ],
@@ -1731,13 +1722,11 @@
     },
     {
         "tokens": [
-            "$1$2",
-            "(l|d) ([aeiouhy][^ ]+)"
+            "gv",
+            "gran via"
         ],
-        "onlyLayers": ["address"],
-        "onlyCountries": ["fr"],
-        "full": "(l|d) ([aeiouhy][^ ]+)",
-        "canonical": "$1$2",
+        "full": "gran via",
+        "canonical": "gv",
         "regex": true,
         "spanBoundaries": 1
     }
