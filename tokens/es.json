@@ -564,20 +564,6 @@
     },
     {
         "tokens": [
-            "Cl",
-            "Cl Quarter"
-        ],
-        "full": "Cl Quarter",
-        "canonical": "Cl",
-        "onlyLayers": [
-            "address"
-        ],
-        "note": "translates to 'street' ('carrer' is Catalan)",
-        "type": "way",
-        "spanBoundaries": 1
-    },
-    {
-        "tokens": [
             "Cllja",
             "Calleja"
         ],
@@ -1217,12 +1203,13 @@
             "Pza",
             "Plza",
             "Placa",
-            "Plaça",
-            "Plaza"
+            "Plaza",
+            "Praza"
         ],
         "full": "Plaza",
         "canonical": "Pl",
-        "type": "way"
+        "type": "way",
+        "note": "'Praza' is Glacian for square"
     },
     {
         "tokens": [
@@ -1488,7 +1475,6 @@
     {
         "tokens": [
             "Ru",
-            "Rúa",
             "Rua"
         ],
         "full": "Rua",
