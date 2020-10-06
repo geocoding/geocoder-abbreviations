@@ -1732,13 +1732,13 @@
     },
     {
         "tokens": [
-            "$1$2",
+            "$1 $2",
             "(l|d) ([aeiouhy][^ ]+)"
         ],
         "onlyLayers": ["address"],
         "onlyCountries": ["es"],
         "full": "(l|d) ([aeiouhy][^ ]+)",
-        "canonical": "$1$2",
+        "canonical": "$1 $2",
         "regex": true,
         "spanBoundaries": 1
     }
