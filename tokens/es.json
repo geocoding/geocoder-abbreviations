@@ -236,7 +236,8 @@
             "alcalde"
         ],
         "full": "alcalde",
-        "canonical": "alc"
+        "canonical": "alc",
+        "onlyCountries": ["es"]
     },
     {
         "tokens": [
@@ -531,7 +532,8 @@
         ],
         "full": "cerrada",
         "canonical": "cer",
-        "type": "way"
+        "type": "way",
+        "onlyCountries": ["es"]
     },
     {
         "tokens": [
@@ -547,7 +549,8 @@
         "canonical": "Cl",
         "onlyLayers": ["address"],
         "note": "translates to 'street' ('carrer' is Catalan)",
-        "type": "way"
+        "type": "way",
+        "onlyCountries": ["es"]
     },
     {
         "tokens": [
@@ -560,7 +563,8 @@
         ],
         "full": "carrera",
         "canonical": "cr",
-        "type": "way"
+        "type": "way",
+        "onlyCountries": ["es"]
     },
     {
         "tokens": [
@@ -817,7 +821,8 @@
             "doctor"
         ],
         "full": "dr",
-        "canonical": "doctor"
+        "canonical": "doctor",
+        "onlyCountries": ["es"]
     },
     {
         "tokens": [
@@ -988,7 +993,8 @@
             "francisco"
         ],
         "full": "francisco",
-        "canonical": "fco"
+        "canonical": "fco",
+        "onlyCountries": ["es"]
     },
     {
         "tokens": [
@@ -1013,7 +1019,8 @@
             "Glorieta"
         ],
         "full": "Glorieta",
-        "canonical": "Gta"
+        "canonical": "Gta",
+        "onlyCountries": ["es"]
     },
     {
         "tokens": [
@@ -1049,7 +1056,8 @@
         ],
         "full": "La",
         "canonical": "La",
-        "type": "determiner"
+        "type": "determiner",
+        "onlyCountries": ["es"]
     },
     {
         "tokens": [
@@ -1240,7 +1248,8 @@
         "canonical": "Po",
         "onlyLayers": ["address"],
         "note": "translates to 'walk'",
-        "type": "way"
+        "type": "way",
+        "onlyCountries": ["es"]
     },
     {
         "tokens": [
@@ -1412,15 +1421,8 @@
             "Rinconada"
         ],
         "full": "Rinconada",
-        "canonical": "Rcda"
-    },
-    {
-        "tokens": [
-            "Rcon",
-            "Rincón"
-        ],
-        "full": "Rincón",
-        "canonical": "Rcon"
+        "canonical": "Rcda",
+        "onlyCountries": ["es"]
     },
     {
         "tokens": [
@@ -1448,7 +1450,8 @@
         ],
         "full": "rincon",
         "canonical": "rin",
-        "type": "way"
+        "type": "way",
+        "onlyCountries": ["es"]
     },
     {
         "tokens": [
@@ -1459,7 +1462,8 @@
         "full": "retorno",
         "canonical": "rt",
         "type": "way",
-        "note": "translates to 'return'"
+        "note": "translates to 'return'",
+        "onlyCountries": ["es"]
     },
     {
         "tokens": [
@@ -1488,7 +1492,8 @@
         "full": "ruta",
         "canonical": "rta",
         "note": "translates to 'route'",
-        "type": "way"
+        "type": "way",
+        "onlyCountries": ["es"]
     },
     {
         "tokens": [
@@ -1728,7 +1733,8 @@
         "full": "gran via",
         "canonical": "gv",
         "regex": true,
-        "spanBoundaries": 1
+        "spanBoundaries": 1,
+        "onlyCountries": ["es"]
     },
     {
         "tokens": [
