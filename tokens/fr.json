@@ -39,7 +39,7 @@
     {
         "tokens": [
             "4",
-            "quatre"
+            "quatre",
             "quatres"
         ],
         "full": "quatre",
@@ -657,9 +657,7 @@
     },
     {
         "tokens": [
-            "général",
             "general",
-            "gén",
             "gen",
             "gal"
         ],
@@ -673,7 +671,7 @@
         "full": "general",
         "canonical": "gen",
         "type": "way",
-        "notes": "translates to 'roundabout'"
+        "note": "translates to 'roundabout'"
     },
     {
         "tokens": [
