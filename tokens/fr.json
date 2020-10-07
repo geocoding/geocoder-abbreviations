@@ -162,7 +162,8 @@
         "full": "dix sept",
         "canonical": "17",
         "type": "number",
-        "spanBoundaries": 1
+        "spanBoundaries": 1,
+        "regex": true
     },
     {
         "tokens": [
@@ -172,7 +173,8 @@
         "full": "dix huit",
         "canonical": "18",
         "type": "number",
-        "spanBoundaries": 1
+        "spanBoundaries": 1,
+        "regex": true
     },
     {
         "tokens": [
@@ -182,7 +184,8 @@
         "full": "dix neuf",
         "canonical": "19",
         "type": "number",
-        "spanBoundaries": 1
+        "spanBoundaries": 1,
+        "regex": true
     },
     {
         "tokens": [
@@ -666,15 +669,6 @@
     },
     {
         "tokens": [
-            "giratoire"
-        ],
-        "full": "general",
-        "canonical": "gen",
-        "type": "way",
-        "note": "translates to 'roundabout'"
-    },
-    {
-        "tokens": [
             "Hop",
             "Hôpital"
         ],
@@ -728,7 +722,8 @@
     {
         "tokens": [
             "ld",
-            "ldit"
+            "ldit",
+            "lieudit"
         ],
         "full": "ldit",
         "canonical": "ld",
@@ -744,7 +739,8 @@
         "full": "Lieu-dit",
         "canonical": "Ld",
         "spanBoundaries": 1,
-        "note": "geographical place so small it's what people call it locally without having any political/administrative identity. A few houses grouped together out in the countryside but nothing more"
+        "note": "geographical place so small it's what people call it locally without having any political/administrative identity. A few houses grouped together out in the countryside but nothing more",
+        "regex": true
     },
     {
         "tokens": [
@@ -756,22 +752,14 @@
     },
     {
         "tokens": [
-            "lgén",
-            "lgen"
-        ],
-        "full": "leiutenant",
-        "canonical": "lgen"
-    },
-    {
-        "tokens": [
-            "lieutenant général",
-            "l gén",
+            "lgen",
             "l gen",
             "leiutenant general"
         ],
         "full": "leiutenant general",
-        "canonical": "l gen",
-        "spanBoundaries": 1
+        "canonical": "lgen",
+        "spanBoundaries": 1,
+        "regex": true
     },
     {
         "tokens": [
@@ -792,9 +780,9 @@
     {
         "tokens": [
             "Mal",
-            "Maréchal"
+            "Marechal"
         ],
-        "full": "Maréchal",
+        "full": "Marechal",
         "canonical": "Mal"
     },
     {
@@ -831,22 +819,17 @@
     },
     {
         "tokens": [
-            "mgén",
-            "mgen"
-        ],
-        "full": "major general",
-        "canonical": "mgen"
-    },
-    {
-        "tokens": [
-            "major général",
-            "m gén",
+            "mgen",
             "m gen",
+            "maj gen",
+            "maj general",
+            "major gen",
             "major general"
         ],
         "full": "major general",
-        "canonical": "m gen",
-        "spanBoundaries": 1
+        "canonical": "mgen",
+        "spanBoundaries": 1,
+        "regex": true
     },
     {
         "tokens": [
@@ -912,7 +895,8 @@
       "canonical": "passage commun",
       "type": "way",
       "spanBoundaries": 1,
-      "note": "translates to 'common border crossings or common paths'"
+      "note": "translates to 'common border crossings or common paths'",
+      "regex": true
     },
     {
         "tokens": [
@@ -1010,7 +994,8 @@
         "onlyLayers": ["address"],
         "note": "translates to 'roundabout'",
         "type": "way",
-        "spanBoundaries": 1
+        "spanBoundaries": 1,
+        "regex": true
     },
     {
         "tokens": [
@@ -1264,7 +1249,8 @@
         ],
         "full": "zone industrielle",
         "canonical": "zi",
-        "type": "way"
+        "type": "way",
+        "regex": true
     },
     {
         "tokens": [
