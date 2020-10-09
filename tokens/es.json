@@ -1229,8 +1229,7 @@
         "canonical": "Po",
         "onlyLayers": ["address"],
         "note": "translates to 'walk'",
-        "type": "way",
-        "onlyCountries": ["es"]
+        "type": "way"
     },
     {
         "tokens": [
@@ -1402,8 +1401,7 @@
             "Rinconada"
         ],
         "full": "Rinconada",
-        "canonical": "Rcda",
-        "onlyCountries": ["es"]
+        "canonical": "Rcda"
     },
     {
         "tokens": [
@@ -1442,8 +1440,7 @@
         "full": "retorno",
         "canonical": "rt",
         "type": "way",
-        "note": "translates to 'return'",
-        "onlyCountries": ["es"]
+        "note": "translates to 'return'"
     },
     {
         "tokens": [
@@ -1472,8 +1469,7 @@
         "full": "ruta",
         "canonical": "rta",
         "note": "translates to 'route'",
-        "type": "way",
-        "onlyCountries": ["es"]
+        "type": "way"
     },
     {
         "tokens": [
