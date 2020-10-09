@@ -556,14 +556,14 @@
             "kr",
             "kra",
             "cr",
+            "cra",
             "carr",
             "carra",
             "carrera"
         ],
         "full": "carrera",
         "canonical": "cr",
-        "type": "way",
-        "onlyCountries": ["es"]
+        "type": "way"
     },
     {
         "tokens": [
@@ -638,14 +638,6 @@
         ],
         "full": "Costera",
         "canonical": "Coste"
-    },
-    {
-        "tokens": [
-            "Cra",
-            "Carrera"
-        ],
-        "full": "Carrera",
-        "canonical": "Cra"
     },
     {
         "tokens": [
