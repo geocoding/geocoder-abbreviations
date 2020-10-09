@@ -549,8 +549,7 @@
         "canonical": "Cl",
         "onlyLayers": ["address"],
         "note": "translates to 'street' ('carrer' is Catalan)",
-        "type": "way",
-        "onlyCountries": ["es"]
+        "type": "way"
     },
     {
         "tokens": [
@@ -989,15 +988,6 @@
     },
     {
         "tokens": [
-            "fco",
-            "francisco"
-        ],
-        "full": "francisco",
-        "canonical": "fco",
-        "onlyCountries": ["es"]
-    },
-    {
-        "tokens": [
             "Gale",
             "Galería"
         ],
@@ -1056,8 +1046,7 @@
         ],
         "full": "La",
         "canonical": "La",
-        "type": "determiner",
-        "onlyCountries": ["es"]
+        "type": "determiner"
     },
     {
         "tokens": [
@@ -1450,8 +1439,7 @@
         ],
         "full": "rincon",
         "canonical": "rin",
-        "type": "way",
-        "onlyCountries": ["es"]
+        "type": "way"
     },
     {
         "tokens": [
@@ -1733,8 +1721,7 @@
         "full": "gran via",
         "canonical": "gv",
         "regex": true,
-        "spanBoundaries": 1,
-        "onlyCountries": ["es"]
+        "spanBoundaries": 1
     },
     {
         "tokens": [
