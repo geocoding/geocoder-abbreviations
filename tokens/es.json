@@ -1722,17 +1722,5 @@
         "canonical": "gv",
         "regex": true,
         "spanBoundaries": 1
-    },
-    {
-        "tokens": [
-            "$1 $2",
-            "(l|d) ([aeiouhy][^ ]+)"
-        ],
-        "onlyLayers": ["address"],
-        "onlyCountries": ["es"],
-        "full": "(l|d) ([aeiouhy][^ ]+)",
-        "canonical": "$1 $2",
-        "regex": true,
-        "spanBoundaries": 1
     }
 ]
