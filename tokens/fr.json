@@ -162,8 +162,7 @@
         "full": "dix sept",
         "canonical": "17",
         "type": "number",
-        "spanBoundaries": 1,
-        "regex": true
+        "spanBoundaries": 1
     },
     {
         "tokens": [
@@ -173,8 +172,7 @@
         "full": "dix huit",
         "canonical": "18",
         "type": "number",
-        "spanBoundaries": 1,
-        "regex": true
+        "spanBoundaries": 1
     },
     {
         "tokens": [
@@ -184,8 +182,7 @@
         "full": "dix neuf",
         "canonical": "19",
         "type": "number",
-        "spanBoundaries": 1,
-        "regex": true
+        "spanBoundaries": 1
     },
     {
         "tokens": [
@@ -660,7 +657,9 @@
     },
     {
         "tokens": [
+            "général",
             "general",
+            "gén",
             "gen",
             "gal"
         ],
@@ -739,8 +738,7 @@
         "full": "Lieu-dit",
         "canonical": "Ld",
         "spanBoundaries": 1,
-        "note": "geographical place so small it's what people call it locally without having any political/administrative identity. A few houses grouped together out in the countryside but nothing more",
-        "regex": true
+        "note": "geographical place so small it's what people call it locally without having any political/administrative identity. A few houses grouped together out in the countryside but nothing more"
     },
     {
         "tokens": [
@@ -752,14 +750,15 @@
     },
     {
         "tokens": [
+            "lgén",
             "lgen",
+            "l gén",
             "l gen",
             "leiutenant general"
         ],
         "full": "leiutenant general",
         "canonical": "lgen",
-        "spanBoundaries": 1,
-        "regex": true
+        "spanBoundaries": 1
     },
     {
         "tokens": [
@@ -780,9 +779,9 @@
     {
         "tokens": [
             "Mal",
-            "Marechal"
+            "Maréchal"
         ],
-        "full": "Marechal",
+        "full": "Maréchal",
         "canonical": "Mal"
     },
     {
@@ -819,17 +818,18 @@
     },
     {
         "tokens": [
+            "mgén",
             "mgen",
             "m gen",
             "maj gen",
             "maj general",
             "major gen",
+            "major général",
             "major general"
         ],
         "full": "major general",
         "canonical": "mgen",
-        "spanBoundaries": 1,
-        "regex": true
+        "spanBoundaries": 1
     },
     {
         "tokens": [
@@ -895,8 +895,7 @@
       "canonical": "passage commun",
       "type": "way",
       "spanBoundaries": 1,
-      "note": "translates to 'common border crossings or common paths'",
-      "regex": true
+      "note": "translates to 'common border crossings or common paths'"
     },
     {
         "tokens": [
@@ -989,13 +988,12 @@
             "rond point",
             "rond-point"
         ],
-        "full": "rond-point",
-        "canonical": "rpt",
+        "full": "Rond-Point",
+        "canonical": "Rpt",
         "onlyLayers": ["address"],
         "note": "translates to 'roundabout'",
         "type": "way",
-        "spanBoundaries": 1,
-        "regex": true
+        "spanBoundaries": 1
     },
     {
         "tokens": [
@@ -1249,8 +1247,7 @@
         ],
         "full": "zone industrielle",
         "canonical": "zi",
-        "type": "way",
-        "regex": true
+        "type": "way"
     },
     {
         "tokens": [
