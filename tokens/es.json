@@ -1708,7 +1708,6 @@
         ],
         "full": "gran via",
         "canonical": "gv",
-        "regex": true,
         "spanBoundaries": 1
     }
 ]
