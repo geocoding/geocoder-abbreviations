@@ -750,7 +750,6 @@
     },
     {
         "tokens": [
-            "lgén",
             "lgen",
             "l gén",
             "l gen",
@@ -819,7 +818,6 @@
     },
     {
         "tokens": [
-            "mgén",
             "mgen",
             "m gén",
             "m gen",
@@ -990,8 +988,8 @@
             "rond point",
             "rond-point"
         ],
-        "full": "Rond-Point",
-        "canonical": "Rpt",
+        "full": "rond point",
+        "canonical": "rpt",
         "onlyLayers": ["address"],
         "note": "translates to 'roundabout'",
         "type": "way",
@@ -1249,7 +1247,8 @@
         ],
         "full": "zone industrielle",
         "canonical": "zi",
-        "type": "way"
+        "type": "way",
+        "spanBoundaries": 1
     },
     {
         "tokens": [
