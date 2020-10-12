@@ -1192,6 +1192,7 @@
             "Pza",
             "Plza",
             "Placa",
+            "Plaça",
             "Plaza",
             "Praza"
         ],
@@ -1421,13 +1422,14 @@
     },
     {
         "tokens": [
+            "rincón",
             "rincon",
             "rcon",
             "rin",
             "rncn",
             "rncon"
         ],
-        "full": "rincon",
+        "full": "rincón",
         "canonical": "rin",
         "type": "way"
     },
@@ -1456,9 +1458,10 @@
     {
         "tokens": [
             "Ru",
-            "Rua"
+            "Rua",
+            "Rúa"
         ],
-        "full": "Rua",
+        "full": "Rúa",
         "canonical": "Ru"
     },
     {
