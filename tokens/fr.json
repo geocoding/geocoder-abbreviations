@@ -888,16 +888,6 @@
         "type": "way"
     },
     {
-      "tokens": [
-          "passage commun"
-        ],
-      "full": "passage commun",
-      "canonical": "passage commun",
-      "type": "way",
-      "spanBoundaries": 1,
-      "note": "translates to 'common border crossings or common paths'"
-    },
-    {
         "tokens": [
             "Pl",
             "Place",
