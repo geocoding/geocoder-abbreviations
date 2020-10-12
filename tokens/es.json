@@ -567,20 +567,6 @@
     },
     {
         "tokens": [
-            "Cl",
-            "Cl Quarter"
-        ],
-        "full": "Cl Quarter",
-        "canonical": "Cl",
-        "onlyLayers": [
-            "address"
-        ],
-        "note": "translates to 'street' ('carrer' is Catalan)",
-        "type": "way",
-        "spanBoundaries": 1
-    },
-    {
-        "tokens": [
             "Cllja",
             "Calleja"
         ],
