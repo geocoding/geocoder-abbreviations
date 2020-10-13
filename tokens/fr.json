@@ -750,7 +750,14 @@
     },
     {
         "tokens": [
-            "lgen",
+            "lgén",
+            "lgen"
+        ],
+        "full": "leiutenant general",
+        "canonical": "lgen"
+    },
+    {
+        "tokens": [
             "l gén",
             "l gen",
             "lieutenant général",
@@ -818,7 +825,14 @@
     },
     {
         "tokens": [
-            "mgen",
+            "mgén",
+            "mgen"
+        ],
+        "full": "major general",
+        "canonical": "mgen"
+    },
+    {
+        "tokens": [
             "m gén",
             "m gen",
             "maj gen",
