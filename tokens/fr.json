@@ -757,7 +757,7 @@
             "leiutenant general"
         ],
         "full": "leiutenant general",
-        "canonical": "lgen",
+        "canonical": "l gen",
         "spanBoundaries": 1
     },
     {
@@ -828,7 +828,7 @@
             "major general"
         ],
         "full": "major general",
-        "canonical": "mgen",
+        "canonical": "m gen",
         "spanBoundaries": 1
     },
     {
