@@ -14,7 +14,7 @@
             "un",
             "une"
         ],
-        "full": "one",
+        "full": "une",
         "canonical": "1",
         "type": "number"
     },
@@ -23,7 +23,7 @@
             "2",
             "deux"
         ],
-        "full": "two",
+        "full": "deux",
         "canonical": "2",
         "type": "number"
     },
@@ -32,16 +32,17 @@
             "3",
             "trois"
         ],
-        "full": "three",
+        "full": "trois",
         "canonical": "3",
         "type": "number"
     },
     {
         "tokens": [
             "4",
-            "quatre"
+            "quatre",
+            "quatres"
         ],
-        "full": "four",
+        "full": "quatre",
         "canonical": "4",
         "type": "number"
     },
@@ -50,7 +51,7 @@
             "5",
             "cinq"
         ],
-        "full": "five",
+        "full": "cinq",
         "canonical": "5",
         "type": "number"
     },
@@ -68,7 +69,7 @@
             "7",
             "sept"
         ],
-        "full": "seven",
+        "full": "sept",
         "canonical": "7",
         "type": "number"
     },
@@ -77,7 +78,7 @@
             "8",
             "huit"
         ],
-        "full": "eight",
+        "full": "huit",
         "canonical": "8",
         "type": "number"
     },
@@ -86,7 +87,7 @@
             "9",
             "neuf"
         ],
-        "full": "nine",
+        "full": "neuf",
         "canonical": "9",
         "type": "number"
     },
@@ -95,7 +96,7 @@
             "10",
             "dix"
         ],
-        "full": "ten",
+        "full": "dix",
         "canonical": "10",
         "type": "number"
     },
@@ -104,7 +105,7 @@
             "11",
             "onze"
         ],
-        "full": "eleven",
+        "full": "onze",
         "canonical": "11",
         "type": "number"
     },
@@ -113,7 +114,7 @@
             "12",
             "douze"
         ],
-        "full": "twelve",
+        "full": "douze",
         "canonical": "12",
         "type": "number"
     },
@@ -122,7 +123,7 @@
             "13",
             "treize"
         ],
-        "full": "thirteen",
+        "full": "treize",
         "canonical": "13",
         "type": "number"
     },
@@ -131,7 +132,7 @@
             "14",
             "quatorze"
         ],
-        "full": "fourteen",
+        "full": "quatorze",
         "canonical": "14",
         "type": "number"
     },
@@ -140,7 +141,7 @@
             "15",
             "quinze"
         ],
-        "full": "fifteen",
+        "full": "quinze",
         "canonical": "15",
         "type": "number"
     },
@@ -149,9 +150,39 @@
             "16",
             "seize"
         ],
-        "full": "sixteen",
+        "full": "seize",
         "canonical": "16",
         "type": "number"
+    },
+    {
+        "tokens": [
+            "17",
+            "dix sept"
+        ],
+        "full": "dix sept",
+        "canonical": "17",
+        "type": "number",
+        "spanBoundaries": 1
+    },
+    {
+        "tokens": [
+            "18",
+            "dix huit"
+        ],
+        "full": "dix huit",
+        "canonical": "18",
+        "type": "number",
+        "spanBoundaries": 1
+    },
+    {
+        "tokens": [
+            "19",
+            "dix neuf"
+        ],
+        "full": "dix neuf",
+        "canonical": "19",
+        "type": "number",
+        "spanBoundaries": 1
     },
     {
         "tokens": [
@@ -440,7 +471,8 @@
     {
         "tokens": [
             "Av",
-            "Avenue"
+            "Avenue",
+            "Avenues"
         ],
         "full": "Avenue",
         "canonical": "Av",
@@ -490,7 +522,8 @@
         "tokens": [
             "Ch",
             "Che",
-            "Chemin"
+            "Chemin",
+            "Chemins"
         ],
         "full": "Chemin",
         "canonical": "Ch",
@@ -567,7 +600,8 @@
     {
         "tokens": [
             "Dr",
-            "Docteur"
+            "Docteur",
+            "Docteurs"
         ],
         "full": "Docteur",
         "canonical": "Dr"
@@ -667,7 +701,8 @@
     {
         "tokens": [
             "Imp",
-            "Impasse"
+            "Impasse",
+            "Impasses"
         ],
         "full": "Impasse",
         "canonical": "Imp",
@@ -686,7 +721,8 @@
     {
         "tokens": [
             "ld",
-            "ldit"
+            "ldit",
+            "lieudit"
         ],
         "full": "ldit",
         "canonical": "ld",
@@ -706,6 +742,14 @@
     },
     {
         "tokens": [
+            "lt",
+            "lieutenant"
+        ],
+        "full": "lieutenant",
+        "canonical": "lt"
+    },
+    {
+        "tokens": [
             "lgén",
             "lgen"
         ],
@@ -714,9 +758,9 @@
     },
     {
         "tokens": [
-            "lieutenant général",
             "l gén",
             "l gen",
+            "lieutenant général",
             "leiutenant general"
         ],
         "full": "leiutenant general",
@@ -789,9 +833,12 @@
     },
     {
         "tokens": [
-            "major général",
             "m gén",
             "m gen",
+            "maj gen",
+            "maj general",
+            "major gen",
+            "major général",
             "major general"
         ],
         "full": "major general",
@@ -940,11 +987,13 @@
     },
     {
         "tokens": [
-            "Rpt",
-            "Rond-Point"
+            "rpt",
+            "rd pt",
+            "rond point",
+            "rond-point"
         ],
-        "full": "Rond-Point",
-        "canonical": "Rpt",
+        "full": "rond point",
+        "canonical": "rpt",
         "onlyLayers": ["address"],
         "note": "translates to 'roundabout'",
         "type": "way",
@@ -952,8 +1001,21 @@
     },
     {
         "tokens": [
+            "rpt",
+            "rdpt",
+            "rondpoint"
+        ],
+        "full": "rondpoint",
+        "canonical": "rpt",
+        "onlyLayers": ["address"],
+        "note": "translates to 'roundabout'",
+        "type": "way"
+    },
+    {
+        "tokens": [
             "Rte",
-            "Route"
+            "Route",
+            "Routes"
         ],
         "full": "Route",
         "canonical": "Rte",
@@ -1066,6 +1128,15 @@
     },
     {
         "tokens": [
+            "ven",
+            "venelle"
+        ],
+        "full": "venelle",
+        "canonical": "ven",
+        "type": "way"
+    },
+    {
+        "tokens": [
             "BP",
             "Boîte Postale"
         ],
@@ -1101,6 +1172,17 @@
         "full": "Route Nationale",
         "canonical": "RN",
         "spanBoundaries": 1
+    },
+    {
+        "tokens": [
+            "rampe",
+            "rpe",
+            "rmpe",
+            "rmp"
+        ],
+        "full": "rampe",
+        "canonical": "rmp",
+        "type": "way"
     },
     {
         "tokens": [
@@ -1164,11 +1246,30 @@
     },
     {
         "tokens": [
+            "zone industrielle",
+            "zi"
+        ],
+        "full": "zone industrielle",
+        "canonical": "zi",
+        "type": "way",
+        "spanBoundaries": 1
+    },
+    {
+        "tokens": [
             "voi",
             "voie"
         ],
         "full": "voie",
         "canonical": "voi",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "passe",
+            "pass"
+        ],
+        "full": "passe",
+        "canonical": "pass",
         "type": "way"
     },
     {
