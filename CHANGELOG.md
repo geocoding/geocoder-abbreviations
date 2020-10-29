@@ -10,6 +10,10 @@
 
 # Version History
 
+## 4.4.0
+
+- :rocket: Token additions for Italian, Spanish, and French.
+
 ## 4.3.1
 
 - :bug: Restricted one Czech replacement, `"sev" => "s"`, to only apply to addresses, because applying it to all feature types and then combining it with other languages' tokens leads to weird conflations.
