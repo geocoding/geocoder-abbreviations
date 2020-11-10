@@ -28,5 +28,37 @@
         "onlyLayers": ["address"],
         "note": "translates to 'street'",
         "type": "way"
+    },
+    {
+        "tokens": [
+            "Św.",
+            "Świętego"
+        ],
+        "full": "Świętego",
+        "canonical": "Św."
+    },
+    {
+        "tokens": [
+            "Św",
+            "Świętej"
+        ],
+        "full": "Świętej",
+        "canonical": "Św"
+    },
+    {
+        "tokens": [
+            "Gen.",
+            "Generała"
+        ],
+        "full": "Generała",
+        "canonical": "Gen."
+    },
+    {
+        "tokens": [
+            "Mjr.",
+            "Majora"
+        ],
+        "full": "Majora",
+        "canonical": "Mjr."
     }
 ]
