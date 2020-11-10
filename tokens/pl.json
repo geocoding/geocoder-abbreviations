@@ -37,7 +37,7 @@
         ],
         "full": "Świętego",
         "canonical": "Św.",
-        "note": "translates to 'Saint'",
+        "note": "translates to 'Saint'"
     },
     {
         "tokens": [
@@ -46,7 +46,7 @@
         ],
         "full": "Generała",
         "canonical": "Gen.",
-        "note": "translates to 'general'",
+        "note": "translates to 'general'"
     },
     {
         "tokens": [
@@ -55,6 +55,6 @@
         ],
         "full": "Majora",
         "canonical": "Mjr.",
-        "note": "translates to 'raise'",
+        "note": "translates to 'raise'"
     }
 ]
