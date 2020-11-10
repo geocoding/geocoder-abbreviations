@@ -32,18 +32,12 @@
     {
         "tokens": [
             "Św.",
-            "Świętego"
-        ],
-        "full": "Świętego",
-        "canonical": "Św."
-    },
-    {
-        "tokens": [
-            "Św",
+            "Świętego",
             "Świętej"
         ],
-        "full": "Świętej",
-        "canonical": "Św"
+        "full": "Świętego",
+        "canonical": "Św.",
+        "note": "translates to 'Saint'",
     },
     {
         "tokens": [
@@ -51,7 +45,8 @@
             "Generała"
         ],
         "full": "Generała",
-        "canonical": "Gen."
+        "canonical": "Gen.",
+        "note": "translates to 'general'",
     },
     {
         "tokens": [
@@ -59,6 +54,7 @@
             "Majora"
         ],
         "full": "Majora",
-        "canonical": "Mjr."
+        "canonical": "Mjr.",
+        "note": "translates to 'raise'",
     }
 ]
