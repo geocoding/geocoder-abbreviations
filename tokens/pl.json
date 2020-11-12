@@ -31,30 +31,30 @@
     },
     {
         "tokens": [
-            "Św.",
+            "Św",
             "Świętego",
             "Świętej"
         ],
         "full": "Świętego",
-        "canonical": "Św.",
+        "canonical": "Św",
         "note": "translates to 'Saint'"
     },
     {
         "tokens": [
-            "Gen.",
+            "Gen",
             "Generała"
         ],
         "full": "Generała",
-        "canonical": "Gen.",
+        "canonical": "Gen",
         "note": "translates to 'general'"
     },
     {
         "tokens": [
-            "Mjr.",
+            "Mjr",
             "Majora"
         ],
         "full": "Majora",
-        "canonical": "Mjr.",
+        "canonical": "Mjr",
         "note": "translates to 'major'"
     }
 ]
