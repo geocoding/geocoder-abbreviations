@@ -10,6 +10,10 @@
 
 # Version History
 
+## 4.5.0
+
+- :rocket: Token additions for Polish.
+ 
 ## 4.4.0
 
 - :rocket: Token additions for Italian, Spanish, and French.
