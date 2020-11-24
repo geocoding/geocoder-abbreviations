@@ -564,7 +564,8 @@
         "full": "astrada marginal",
         "canonical": "estr marg",
         "onlyLayers": ["address"],
-        "type": "way"
+        "type": "way",
+        "spanBoundaries": 1
     },
     {
         "tokens": [
@@ -576,7 +577,8 @@
         "full": "estrada municipal",
         "canonical": "em",
         "onlyLayers": ["address"],
-        "type": "way"
+        "type": "way",
+        "spanBoundaries": 1
     },
     {
         "tokens": [
@@ -588,7 +590,8 @@
         "full": "estrada nacional",
         "canonical": "en",
         "onlyLayers": ["address"],
-        "type": "way"
+        "type": "way",
+        "spanBoundaries": 1
     },
     {
         "tokens": [
@@ -600,7 +603,8 @@
         "full": "estrada regional",
         "canonical": "er",
         "onlyLayers": ["address"],
-        "type": "way"
+        "type": "way",
+        "spanBoundaries": 1
     },
     {
         "tokens": [
@@ -1056,7 +1060,8 @@
             "v"
         ],
         "full": "via",
-        "canonical": "v"
+        "canonical": "v",
+        "type": "way"
     },
     {
         "tokens": [
@@ -1080,7 +1085,8 @@
             "ve"
         ],
         "full": "viela",
-        "canonical": "ve"
+        "canonical": "ve",
+        "type": "way"
     },
     {
         "tokens": [
@@ -1101,12 +1107,18 @@
     {
         "tokens": [
             "CM",
-            "Câmara Municipal",
             "camara municipal",
-            "c.m.",
             "c. m."
         ],
-        "full": "Câmara Municipal",
+        "full": "camara municipal",
+        "canonical": "CM",
+        "spanBoundaries": 1
+    },
+    {
+        "tokens": [
+            "c.m."
+        ],
+        "full": "camara municipal",
         "canonical": "CM"
     }
 ]
