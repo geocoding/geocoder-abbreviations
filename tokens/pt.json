@@ -1,6 +1,189 @@
 [
     {
         "tokens": [
+            "1",
+            "uma",
+            "um"
+        ],
+        "full": "uma",
+        "canonical": "1",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "2",
+            "dois",
+            "duas"
+        ],
+        "full": "dois",
+        "canonical": "2",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "3",
+            "três",
+            "tres"
+        ],
+        "full": "três",
+        "canonical": "3",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "4",
+            "quatro"
+        ],
+        "full": "quatro",
+        "canonical": "4",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "5",
+            "cinco"
+        ],
+        "full": "cinco",
+        "canonical": "5",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "6",
+            "seis"
+        ],
+        "full": "seis",
+        "canonical": "6",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "7",
+            "sete"
+        ],
+        "full": "sete",
+        "canonical": "7",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "8",
+            "oito"
+        ],
+        "full": "oito",
+        "canonical": "8",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "9",
+            "nove"
+        ],
+        "full": "nove",
+        "canonical": "9",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "10",
+            "dez"
+        ],
+        "full": "dez",
+        "canonical": "10",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "11",
+            "onze"
+        ],
+        "full": "onze",
+        "canonical": "11",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "12",
+            "doze"
+        ],
+        "full": "doze",
+        "canonical": "12",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "13",
+            "treze"
+        ],
+        "full": "treze",
+        "canonical": "13",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "14",
+            "catorze"
+        ],
+        "full": "catorze",
+        "canonical": "14",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "15",
+            "quinze"
+        ],
+        "full": "quinze",
+        "canonical": "15",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "16",
+            "dezesseis"
+        ],
+        "full": "dezesseis",
+        "canonical": "16",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "17",
+            "dezessete"
+        ],
+        "full": "dezessete",
+        "canonical": "17",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "18",
+            "dezoito"
+        ],
+        "full": "dezoito",
+        "canonical": "18",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "19",
+            "dezenove"
+        ],
+        "full": "dezenove",
+        "canonical": "19",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "20",
+            "vinte"
+        ],
+        "full": "vinte",
+        "canonical": "20",
+        "type": "number"
+    },
+    {
+        "tokens": [
             "Al",
             "Alameda"
         ],
@@ -218,11 +401,59 @@
     },
     {
         "tokens": [
+            "da"
+        ],
+        "full": "da",
+        "canonical": "da",
+        "type": "determiner"
+    },
+    {
+        "tokens": [
+            "das"
+        ],
+        "full": "das",
+        "canonical": "das",
+        "type": "determiner"
+    },
+    {
+        "tokens": [
+            "de"
+        ],
+        "full": "de",
+        "canonical": "de",
+        "type": "determiner"
+    },
+    {
+        "tokens": [
+            "dela"
+        ],
+        "full": "dela",
+        "canonical": "dela",
+        "type": "determiner"
+    },
+    {
+        "tokens": [
             "Dep",
             "Deputado"
         ],
         "full": "Deputado",
         "canonical": "Dep"
+    },
+    {
+        "tokens": [
+            "do"
+        ],
+        "full": "do",
+        "canonical": "do",
+        "type": "determiner"
+    },
+    {
+        "tokens": [
+            "dos"
+        ],
+        "full": "dos",
+        "canonical": "dos",
+        "type": "determiner"
     },
     {
         "tokens": [
@@ -324,6 +555,56 @@
         "onlyLayers": ["address"],
         "note": "translates to 'road'",
         "type": "way"
+    },
+    {
+        "tokens": [
+            "astrada marginal",
+            "estr marg"
+        ],
+        "full": "astrada marginal",
+        "canonical": "estr marg",
+        "onlyLayers": ["address"],
+        "type": "way",
+        "spanBoundaries": 1
+    },
+    {
+        "tokens": [
+            "estrada municipal",
+            "em",
+            "e m",
+            "estr m"
+        ],
+        "full": "estrada municipal",
+        "canonical": "em",
+        "onlyLayers": ["address"],
+        "type": "way",
+        "spanBoundaries": 1
+    },
+    {
+        "tokens": [
+            "estrada nacional",
+            "en",
+            "e n",
+            "estr n"
+        ],
+        "full": "estrada nacional",
+        "canonical": "en",
+        "onlyLayers": ["address"],
+        "type": "way",
+        "spanBoundaries": 1
+    },
+    {
+        "tokens": [
+            "estrada regional",
+            "er",
+            "e r",
+            "estr r"
+        ],
+        "full": "estrada regional",
+        "canonical": "er",
+        "onlyLayers": ["address"],
+        "type": "way",
+        "spanBoundaries": 1
     },
     {
         "tokens": [
@@ -775,6 +1056,15 @@
     },
     {
         "tokens": [
+            "via",
+            "v"
+        ],
+        "full": "via",
+        "canonical": "v",
+        "type": "way"
+    },
+    {
+        "tokens": [
             "Visc",
             "Visconde"
         ],
@@ -788,6 +1078,15 @@
         ],
         "full": "Vila",
         "canonical": "Vl"
+    },
+    {
+        "tokens": [
+            "viela",
+            "ve"
+        ],
+        "full": "viela",
+        "canonical": "ve",
+        "type": "way"
     },
     {
         "tokens": [
@@ -808,9 +1107,10 @@
     {
         "tokens": [
             "CM",
-            "Câmara Municipal"
+            "camara municipal",
+            "c. m."
         ],
-        "full": "Câmara Municipal",
+        "full": "camara municipal",
         "canonical": "CM",
         "spanBoundaries": 1
     }
