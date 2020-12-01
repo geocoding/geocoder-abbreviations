@@ -1113,12 +1113,5 @@
         "full": "camara municipal",
         "canonical": "CM",
         "spanBoundaries": 1
-    },
-    {
-        "tokens": [
-            "c.m."
-        ],
-        "full": "camara municipal",
-        "canonical": "CM"
     }
 ]
