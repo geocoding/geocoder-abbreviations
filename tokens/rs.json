@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "tokens": [
+      "bulevar",
+      "bul"
+    ],
+    "full": "bulevar",
+    "canonical": "bul",
+    "note": "translates to 'boulevard'",
+    "type": "way"
+  },
+  {
+    "tokens": [
+      "ul",
+      "ulica"
+    ],
+    "full": "ulica",
+    "canonical": "ul",
+    "note": "translates to 'street'",
+    "type": "way"
+  }
+]
