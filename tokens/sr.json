@@ -84,7 +84,8 @@
       "доктор"
     ],
     "full": "доктор",
-    "canonical": "др"
+    "canonical": "др",
+    "note": "translates to 'doctor'"
   },
   {
     "tokens": [
@@ -92,7 +93,8 @@
       "генерала"
     ],
     "full": "генерала",
-    "canonical": "ген"
+    "canonical": "ген",
+    "note": "translates to 'general'"
   },
   {
     "tokens": [
@@ -108,7 +110,8 @@
       "светог"
     ],
     "full": "светог",
-    "canonical": "св"
+    "canonical": "св",
+    "note": "translates to 'holy'"
   },
   {
     "tokens": [
