@@ -48,6 +48,7 @@
     ],
     "full": "Првог",
     "canonical": "1",
+    "note": "translates to 'first'",
     "type": "number"
   },
   {
@@ -58,6 +59,7 @@
     ],
     "full": "један",
     "canonical": "1",
+    "note": "translates to 'one'",
     "type": "number"
   },
   {
