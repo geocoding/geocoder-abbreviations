@@ -1,0 +1,126 @@
+[
+  {
+    "tokens": [
+      "bulevar",
+      "bul"
+    ],
+    "full": "bulevar",
+    "canonical": "bul",
+    "note": "translates to 'boulevard'",
+    "type": "way"
+  },
+  {
+    "tokens": [
+      "ul",
+      "ulica"
+    ],
+    "full": "ulica",
+    "canonical": "ul",
+    "note": "translates to 'street'",
+    "type": "way"
+  },
+  {
+    "tokens": [
+      "бул",
+      "булевар"
+    ],
+    "full": "булевар",
+    "canonical": "бул",
+    "note": "translates to 'boulevard'",
+    "type": "way"
+  },
+  {
+    "tokens": [
+      "ул",
+      "улица"
+    ],
+    "full": "улица",
+    "canonical": "ул",
+    "note": "translates to 'street'",
+    "type": "way"
+  },
+  {
+    "tokens": [
+      "1",
+      "Прве",
+      "Први",
+      "Првог"
+    ],
+    "full": "Првог",
+    "canonical": "1",
+    "note": "translates to 'first'",
+    "type": "number"
+  },
+  {
+    "tokens": [
+      "1",
+      "jedan",
+      "један"
+    ],
+    "full": "један",
+    "canonical": "1",
+    "note": "translates to 'one'",
+    "type": "number"
+  },
+  {
+    "tokens": [
+      "2",
+      "друго",
+      "Други"
+    ],
+    "full": "Други",
+    "canonical": "2",
+    "type": "number"
+  },
+  {
+    "tokens": [
+      "dr",
+      "doktor"
+    ],
+    "full": "doktor",
+    "canonical": "dr"
+  },
+  {
+    "tokens": [
+      "др",
+      "доктор"
+    ],
+    "full": "доктор",
+    "canonical": "др",
+    "note": "translates to 'doctor'"
+  },
+  {
+    "tokens": [
+      "ген",
+      "генерала"
+    ],
+    "full": "генерала",
+    "canonical": "ген",
+    "note": "translates to 'general'"
+  },
+  {
+    "tokens": [
+      "gen",
+      "generala"
+    ],
+    "full": "generala",
+    "canonical": "gen"
+  },
+  {
+    "tokens": [
+      "св",
+      "светог"
+    ],
+    "full": "светог",
+    "canonical": "св",
+    "note": "translates to 'holy'"
+  },
+  {
+    "tokens": [
+      "sv",
+      "svetor"
+    ],
+    "full": "svetor",
+    "canonical": "sv"
+  }
+]

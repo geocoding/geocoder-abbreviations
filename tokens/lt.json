@@ -1,0 +1,92 @@
+[
+    {
+        "tokens": [
+            "alėja",
+            "al"
+        ],
+        "full": "alėja",
+        "canonical": "al",
+        "note": "translates to 'alley'",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "plentas",
+            "pl"
+        ],
+        "full": "plentas",
+        "canonical": "pl",
+        "note": "translates to 'highway'",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "prospektas",
+            "pr"
+        ],
+        "full": "prospektas",
+        "canonical": "pr",
+        "note": "translates to 'avenue'",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "skersgatvis",
+            "skg"
+        ],
+        "full": "skersgatvis",
+        "canonical": "skg",
+        "note": "translates to 'cross street'",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "takas",
+            "tak"
+        ],
+        "full": "takas",
+        "canonical": "tak",
+        "note": "translates to 'path'",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "skveras",
+            "skv"
+        ],
+        "full": "skveras",
+        "canonical": "skv",
+        "note": "translates to 'square'",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "akligatvis",
+            "aklg"
+        ],
+        "full": "akligatvis",
+        "canonical": "aklg",
+        "note": "translates to 'blind street'",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "aplinkkelis",
+            "aplinkl"
+        ],
+        "full": "aplinkkelis",
+        "canonical": "aplinkl",
+        "note": "translates to 'bypass'",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "kelias",
+            "kel"
+        ],
+        "full": "kelias",
+        "canonical": "kel",
+        "note": "translates to 'road'",
+        "type": "way"
+    }
+]
