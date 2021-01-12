@@ -10,6 +10,10 @@
 
 # Version History
 
+## 4.6.1
+
+- :rocket: Token additions for Slovak(SK), Slovania(SI), Serbia(RS), Lithuania(LT), Hungary(HU).
+
 ## 4.6.0
 
 - :rocket: Token additions for Portuguese.
