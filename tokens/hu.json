@@ -28,5 +28,16 @@
         "canonical": "rpt",
         "note": "translates to 'quay'",
         "type": "way"
+    },
+    {
+        "tokens": [
+            "utca",
+            "ut",
+            "u"
+        ],
+        "full": "utca",
+        "canonical": "u",
+        "note": "translates to 'street'",
+        "type": "way"
     }
 ]

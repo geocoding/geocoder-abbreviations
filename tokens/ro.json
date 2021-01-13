@@ -20,7 +20,14 @@
     },
     {
         "tokens": [
+            "bd",
+            "bul",
+            "blv",
+            "bdul",
             "blvd",
+            "bulev",
+            "bulevard",
+            "bulevardu",
             "bulevardul"
         ],
         "full": "bulevardul",
@@ -39,5 +46,17 @@
         "note": "translates to 'highway'",
         "onlyLayers": ["address"],
         "type": "way"
+    },
+    {
+        "tokens": [
+            "$1",
+            "(?:NR|NR.)\s?\d+"
+        ],
+        "canonical": "$1",
+        "full": "(?:NR|NR.)\s?\d+",
+        "regex": true,
+        "spanBoundaries": 1,
+        "onlyLayers": ["address"],
+        "type": "unit"
     }
 ]
