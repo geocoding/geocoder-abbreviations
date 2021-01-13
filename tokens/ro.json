@@ -50,10 +50,10 @@
     {
         "tokens": [
             "$1",
-            "(?:NR|NR.)\s?\d+"
+            "(?:NR|NR.)\\s?\\d+"
         ],
         "canonical": "$1",
-        "full": "(?:NR|NR.)\s?\d+",
+        "full": "(?:NR|NR.)\\s?\\d+",
         "regex": true,
         "spanBoundaries": 1,
         "onlyLayers": ["address"],
