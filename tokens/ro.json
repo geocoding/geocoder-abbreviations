@@ -50,7 +50,7 @@
     {
         "tokens": [
             "$1",
-            "(?:NR|NR.)\\s?\\d+"
+            "(?:NR|NR.)\\s?(\\d+)"
         ],
         "canonical": "$1",
         "full": "(?:NR|NR.)\\s?\\d+",

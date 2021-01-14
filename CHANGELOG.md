@@ -10,6 +10,10 @@
 
 # Version History
 
+## 4.6.3
+
+- :bug: Fix a regex bug in Romania(RO).
+
 ## 4.6.2
 
 - :rocket: Token additions for Hungary(HU) and Romania(RO).
