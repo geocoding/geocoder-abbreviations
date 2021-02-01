@@ -2988,8 +2988,18 @@
         "full": "([0-9]+)(?:st|nd|rd|th)",
         "regex": true,
         "onlyLayers": ["address"],
-        "onlyCountries": ["us", "ca"],
+        "onlyCountries": ["us"],
         "reduceRelevance": true
-
+    },
+    {
+        "tokens": [
+            "$1",
+            "([0-9]+)(?:st|nd|rd|th)"
+        ],
+        "canonical": "$1",
+        "full": "([0-9]+)(?:st|nd|rd|th)",
+        "regex": true,
+        "onlyLayers": ["address"],
+        "onlyCountries": ["ca"]
     }
 ]
