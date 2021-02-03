@@ -1314,7 +1314,7 @@
             "(l|d) ([aeiouhy][^ ]+)"
         ],
         "onlyLayers": ["address"],
-        "onlyCountries": ["fr"],
+        "onlyCountries": ["fr", "ca"],
         "full": "(l|d) ([aeiouhy][^ ]+)",
         "canonical": "$1$2",
         "regex": true,
