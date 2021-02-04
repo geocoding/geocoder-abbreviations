@@ -10,6 +10,10 @@
 
 # Version History
 
+## 4.6.4
+
+- :rocket: Add elison support for Canada.
+
 ## 4.6.3
 
 - :bug: Fix a regex bug in Romania(RO).
