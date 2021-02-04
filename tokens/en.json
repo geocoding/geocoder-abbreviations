@@ -2990,6 +2990,5 @@
         "onlyLayers": ["address"],
         "onlyCountries": ["us"],
         "reduceRelevance": true
-
     }
 ]
