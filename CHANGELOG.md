@@ -10,6 +10,10 @@
 
 # Version History
 
+## 4.6.5
+
+- :rocket: Token additions for Latvia(LV).
+
 ## 4.6.4
 
 - :rocket: Add elison support for Canada.
