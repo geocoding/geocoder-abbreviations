@@ -27,23 +27,5 @@
         "full": "numurs",
         "canonical": "no",
         "note": "translates to 'nummber'"
-    },
-    {
-        "tokens": [
-            "iela"
-        ],
-        "full": "iela",
-        "canonical": "iela",
-        "note": "translates to 'street'",
-        "type": "way"
-    },
-    {
-        "tokens": [
-            "prospekts"
-        ],
-        "full": "prospekts",
-        "canonical": "prospekts",
-        "note": "translates to 'avenue'",
-        "type": "way"
     }
 ]
