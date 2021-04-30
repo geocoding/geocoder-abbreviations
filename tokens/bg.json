@@ -57,25 +57,5 @@
         "canonical": "ul",
         "note": "translates to 'street'",
         "type": "way"
-    },
-    {
-        "tokens": [
-            "бл",
-            "блок"
-        ],
-        "full": "блок",
-        "canonical": "бл",
-        "note": "translates to 'block'",
-        "type": "way"
-    },
-    {
-        "tokens": [
-            "bl",
-            "blok"
-        ],
-        "full": "blok",
-        "canonical": "bl",
-        "note": "translates to 'block'",
-        "type": "way"
     }
 ]
