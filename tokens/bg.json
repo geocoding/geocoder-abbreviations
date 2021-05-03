@@ -1,4 +1,16 @@
-[    {
+[    
+    {
+        "tokens": [
+            "бл",
+            "Блок",
+            "blok"
+        ],
+        "full": "blok",
+        "canonical": "бл",
+        "note": "translates to 'block'",
+        "type": "way"
+    },
+    {
         "tokens": [
             "бул",
             "Булевард"
@@ -51,6 +63,7 @@
     {
         "tokens": [
             "ul",
+            "ulica",
             "ulitsa"
         ],
         "full": "ulitsa",
