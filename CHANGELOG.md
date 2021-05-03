@@ -10,6 +10,10 @@
 
 # Version History
 
+## 4.6.6
+
+- :rocket: Token additions for Bulgaria(BG).
+
 ## 4.6.5
 
 - :rocket: Token additions for Latvia(LV).
