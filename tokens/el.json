@@ -1,0 +1,37 @@
+[
+  {
+    "tokens": ["odos", "odhos"],
+    "full": "odhos",
+    "canonical": "odos",
+    "type": "way",
+    "note": "translates to 'street'"
+  },
+  {
+    "tokens": ["λεωφορος", "λ", "λεωφ"],
+    "full": "λεωφορος",
+    "canonical": "λεωφ",
+    "type": "way",
+    "note": "translates to 'avenue'"
+  },
+  {
+    "tokens": ["leoforos", "l", "leof"],
+    "full": "leoforos",
+    "canonical": "leof",
+    "type": "way",
+    "note": "translates to 'avenue'"
+  },
+  {
+    "tokens": ["πλατεια", "πλ"],
+    "full": "πλατεια",
+    "canonical": "πλ",
+    "type": "way",
+    "note": "translates to 'square'"
+  },
+  {
+    "tokens": ["plateia", "pl"],
+    "full": "plateia",
+    "canonical": "pl",
+    "type": "way",
+    "note": "translates to 'plaza'"
+  }
+]
