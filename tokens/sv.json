@@ -2,7 +2,7 @@
     {
         "tokens": [
             "$1v",
-            "(.+)vägen"
+            "(.+)vägen$"
         ],
         "full": "(.+)vägen",
         "canonical": "$1v",
@@ -14,7 +14,7 @@
     {
         "tokens": [
             "$1v",
-            "(.+)väg"
+            "(.+)väg$"
         ],
         "full": "(.+)väg",
         "canonical": "$1v",
@@ -26,7 +26,7 @@
     {
         "tokens": [
             "$1g",
-            "(.+)gatan"
+            "(.+)gatan$"
         ],
         "full": "(.+)gatan",
         "canonical": "$1g",
@@ -38,7 +38,7 @@
     {
         "tokens": [
             "$1g",
-            "(.+)gata"
+            "(.+)gata$"
         ],
         "full": "(.+)gata",
         "canonical": "$1g",
@@ -50,7 +50,7 @@
     {
         "tokens": [
             "$1gr",
-            "(.+)gränd"
+            "(.+)gränd$"
         ],
         "full": "(.+)gränd",
         "canonical": "$1gr",
@@ -62,7 +62,7 @@
     {
         "tokens": [
             "$1g",
-            "(.+)gränden"
+            "(.+)gränden$"
         ],
         "full": "(.+)gränden",
         "canonical": "$1g",

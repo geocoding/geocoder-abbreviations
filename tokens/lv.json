@@ -27,16 +27,5 @@
         "full": "numurs",
         "canonical": "no",
         "note": "translates to 'nummber'"
-    },
-    {
-        "tokens": [
-            "$1",
-            "([^ ]+)(gatan)"
-        ],
-        "full": "([^ ]+)(gatan)",
-        "canonical": "$1",
-        "regex": true,
-        "skipDiacriticStripping": true,
-        "spanBoundaries": 0    
     }
 ]
