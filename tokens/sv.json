@@ -1,11 +1,11 @@
 [
     {
         "tokens": [
-            "${1}v",
+            "$1v",
             "(.+)vägen$"
         ],
         "full": "(.+)vägen$",
-        "canonical": "${1}v",
+        "canonical": "$1v",
         "onlyLayers": ["address"],
         "note": "translates to 'way'",
         "type": "way",
@@ -13,11 +13,11 @@
     },
     {
         "tokens": [
-            "${1}v",
+            "$1v",
             "(.+)väg$"
         ],
         "full": "(.+)väg$",
-        "canonical": "${1}v",
+        "canonical": "$1v",
         "onlyLayers": ["address"],
         "note": "translates to 'way'",
         "type": "way",
@@ -25,11 +25,11 @@
     },
     {
         "tokens": [
-            "${1}g",
+            "$1g",
             "(.+)gatan$"
         ],
         "full": "(.+)gatan$",
-        "canonical": "${1}g",
+        "canonical": "$1g",
         "onlyLayers": ["address"],
         "note": "translates to 'street'",
         "type": "way",
@@ -37,11 +37,11 @@
     },
     {
         "tokens": [
-            "${1}g",
+            "$1g",
             "(.+)gata$"
         ],
         "full": "(.+)gata$",
-        "canonical": "${1}g",
+        "canonical": "$1g",
         "onlyLayers": ["address"],
         "note": "translates to 'street'",
         "type": "way",
@@ -49,11 +49,11 @@
     },
     {
         "tokens": [
-            "${1}gr",
+            "$1gr",
             "(.+)gränd$"
         ],
         "full": "(.+)gränd$",
-        "canonical": "${1}gr",
+        "canonical": "$1gr",
         "onlyLayers": ["address"],
         "note": "translates to 'alley'",
         "type": "way",
@@ -61,11 +61,11 @@
     },
     {
         "tokens": [
-            "${1}g",
+            "$1g",
             "(.+)gränden$"
         ],
         "full": "(.+)gränden$",
-        "canonical": "${1}g",
+        "canonical": "$1g",
         "onlyLayers": ["address"],
         "note": "translates to 'alley'",
         "type": "way",
