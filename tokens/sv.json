@@ -65,7 +65,7 @@
             "(.+g)(?:ränden)$"
         ],
         "full": "(.+g)(?:ränden)$",
-        "canonical": "$1g",
+        "canonical": "$1",
         "onlyLayers": ["address"],
         "note": "translates to 'alley'",
         "type": "way",
