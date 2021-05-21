@@ -10,9 +10,14 @@
 
 # Version History
 
+## 4.6.9
+
+- :bug: Fix a regex bug in Sweden(SV).
+
 ## 4.6.8
 
 - :rocket: Token additions for Greece(EL), Croatia (HR), Bosnia and Herzegovina (BA) and Cyprus (CY).
+
 ## 4.6.6
 
 - :rocket: Token additions for Bulgaria(BG).

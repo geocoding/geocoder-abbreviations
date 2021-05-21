@@ -1,11 +1,11 @@
 [
     {
         "tokens": [
-            "$1v",
-            "(.+)vägen"
+            "$1",
+            "(.+v)(?:ägen)$"
         ],
-        "full": "(.+)vägen",
-        "canonical": "$1v",
+        "full": "(.+v)(?:ägen)$",
+        "canonical": "$1",
         "onlyLayers": ["address"],
         "note": "translates to 'way'",
         "type": "way",
@@ -13,11 +13,11 @@
     },
     {
         "tokens": [
-            "$1v",
-            "(.+)väg"
+            "$1",
+            "(.+v)(?:äg)$"
         ],
-        "full": "(.+)väg",
-        "canonical": "$1v",
+        "full": "(.+v)(?:äg)$",
+        "canonical": "$1",
         "onlyLayers": ["address"],
         "note": "translates to 'way'",
         "type": "way",
@@ -25,11 +25,11 @@
     },
     {
         "tokens": [
-            "$1g",
-            "(.+)gatan"
+            "$1",
+            "(.+g)(?:atan)$"
         ],
-        "full": "(.+)gatan",
-        "canonical": "$1g",
+        "full": "(.+g)(?:atan)$",
+        "canonical": "$1",
         "onlyLayers": ["address"],
         "note": "translates to 'street'",
         "type": "way",
@@ -37,11 +37,11 @@
     },
     {
         "tokens": [
-            "$1g",
-            "(.+)gata"
+            "$1",
+            "(.+g)(?:ata)$"
         ],
-        "full": "(.+)gata",
-        "canonical": "$1g",
+        "full": "(.+g)(?:ata)$",
+        "canonical": "$1",
         "onlyLayers": ["address"],
         "note": "translates to 'street'",
         "type": "way",
@@ -49,11 +49,11 @@
     },
     {
         "tokens": [
-            "$1gr",
-            "(.+)gränd"
+            "$1",
+            "(.+gr)(?:änd)$"
         ],
-        "full": "(.+)gränd",
-        "canonical": "$1gr",
+        "full": "(.+gr)(?:änd)$",
+        "canonical": "$1",
         "onlyLayers": ["address"],
         "note": "translates to 'alley'",
         "type": "way",
@@ -61,11 +61,11 @@
     },
     {
         "tokens": [
-            "$1g",
-            "(.+)gränden"
+            "$1",
+            "(.+g)(?:ränden)$"
         ],
-        "full": "(.+)gränden",
-        "canonical": "$1g",
+        "full": "(.+g)(?:ränden)$",
+        "canonical": "$1",
         "onlyLayers": ["address"],
         "note": "translates to 'alley'",
         "type": "way",
