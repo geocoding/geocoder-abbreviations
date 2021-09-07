@@ -10,6 +10,10 @@
 
 # Version History
 
+## 4.6.10
+
+- :rocket: Reduced scope of Spanish and French number tokens.
+
 ## 4.6.9
 
 - :bug: Fix a regex bug in Sweden(SV).

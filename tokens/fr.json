@@ -6,7 +6,8 @@
         ],
         "full": "zero",
         "canonical": "0",
-        "type": "number"
+        "type": "number",
+        "onlyUseWhile": ["processing"]
     },
     {
         "tokens": [
@@ -16,7 +17,8 @@
         ],
         "full": "une",
         "canonical": "1",
-        "type": "number"
+        "type": "number",
+        "onlyUseWhile": ["processing"]
     },
     {
         "tokens": [
@@ -25,7 +27,8 @@
         ],
         "full": "deux",
         "canonical": "2",
-        "type": "number"
+        "type": "number",
+        "onlyUseWhile": ["processing"]
     },
     {
         "tokens": [
@@ -34,7 +37,8 @@
         ],
         "full": "trois",
         "canonical": "3",
-        "type": "number"
+        "type": "number",
+        "onlyUseWhile": ["processing"]
     },
     {
         "tokens": [
@@ -44,7 +48,8 @@
         ],
         "full": "quatre",
         "canonical": "4",
-        "type": "number"
+        "type": "number",
+        "onlyUseWhile": ["processing"]
     },
     {
         "tokens": [
@@ -53,7 +58,8 @@
         ],
         "full": "cinq",
         "canonical": "5",
-        "type": "number"
+        "type": "number",
+        "onlyUseWhile": ["processing"]
     },
     {
         "tokens": [
@@ -62,7 +68,8 @@
         ],
         "full": "six",
         "canonical": "6",
-        "type": "number"
+        "type": "number",
+        "onlyUseWhile": ["processing"]
     },
     {
         "tokens": [
@@ -71,7 +78,8 @@
         ],
         "full": "sept",
         "canonical": "7",
-        "type": "number"
+        "type": "number",
+        "onlyUseWhile": ["processing"]
     },
     {
         "tokens": [
@@ -80,7 +88,8 @@
         ],
         "full": "huit",
         "canonical": "8",
-        "type": "number"
+        "type": "number",
+        "onlyUseWhile": ["processing"]
     },
     {
         "tokens": [
@@ -89,7 +98,8 @@
         ],
         "full": "neuf",
         "canonical": "9",
-        "type": "number"
+        "type": "number",
+        "onlyUseWhile": ["processing"]
     },
     {
         "tokens": [
@@ -98,7 +108,8 @@
         ],
         "full": "dix",
         "canonical": "10",
-        "type": "number"
+        "type": "number",
+        "onlyUseWhile": ["processing"]
     },
     {
         "tokens": [
@@ -107,7 +118,8 @@
         ],
         "full": "onze",
         "canonical": "11",
-        "type": "number"
+        "type": "number",
+        "onlyUseWhile": ["processing"]
     },
     {
         "tokens": [
@@ -116,7 +128,8 @@
         ],
         "full": "douze",
         "canonical": "12",
-        "type": "number"
+        "type": "number",
+        "onlyUseWhile": ["processing"]
     },
     {
         "tokens": [
@@ -125,7 +138,8 @@
         ],
         "full": "treize",
         "canonical": "13",
-        "type": "number"
+        "type": "number",
+        "onlyUseWhile": ["processing"]
     },
     {
         "tokens": [
@@ -134,7 +148,8 @@
         ],
         "full": "quatorze",
         "canonical": "14",
-        "type": "number"
+        "type": "number",
+        "onlyUseWhile": ["processing"]
     },
     {
         "tokens": [
@@ -143,7 +158,8 @@
         ],
         "full": "quinze",
         "canonical": "15",
-        "type": "number"
+        "type": "number",
+        "onlyUseWhile": ["processing"]
     },
     {
         "tokens": [
@@ -152,7 +168,8 @@
         ],
         "full": "seize",
         "canonical": "16",
-        "type": "number"
+        "type": "number",
+        "onlyUseWhile": ["processing"]
     },
     {
         "tokens": [
@@ -162,7 +179,8 @@
         "full": "dix sept",
         "canonical": "17",
         "type": "number",
-        "spanBoundaries": 1
+        "spanBoundaries": 1,
+        "onlyUseWhile": ["processing"]
     },
     {
         "tokens": [
@@ -172,7 +190,8 @@
         "full": "dix huit",
         "canonical": "18",
         "type": "number",
-        "spanBoundaries": 1
+        "spanBoundaries": 1,
+        "onlyUseWhile": ["processing"]
     },
     {
         "tokens": [
@@ -182,7 +201,8 @@
         "full": "dix neuf",
         "canonical": "19",
         "type": "number",
-        "spanBoundaries": 1
+        "spanBoundaries": 1,
+        "onlyUseWhile": ["processing"]
     },
     {
         "tokens": [
@@ -191,7 +211,8 @@
         ],
         "full": "twenty",
         "canonical": "20",
-        "type": "number"
+        "type": "number",
+        "onlyUseWhile": ["processing"]
     },
     {
         "tokens": [
