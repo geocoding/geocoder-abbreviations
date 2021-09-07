@@ -8,7 +8,8 @@
         ],
         "full": "uno",
         "canonical": "1",
-        "type": "number"
+        "type": "number",
+        "onlyUseWhile": ["processing"]
     },
     {
         "tokens": [
@@ -17,7 +18,8 @@
         ],
         "full": "dos",
         "canonical": "2",
-        "type": "number"
+        "type": "number",
+        "onlyUseWhile": ["processing"]
     },
     {
         "tokens": [
@@ -26,7 +28,8 @@
         ],
         "full": "tres",
         "canonical": "3",
-        "type": "number"
+        "type": "number",
+        "onlyUseWhile": ["processing"]
     },
     {
         "tokens": [
@@ -36,7 +39,8 @@
         ],
         "full": "cuatro",
         "canonical": "4",
-        "type": "number"
+        "type": "number",
+        "onlyUseWhile": ["processing"]
     },
     {
         "tokens": [
@@ -46,7 +50,8 @@
         ],
         "full": "cinco",
         "canonical": "5",
-        "type": "number"
+        "type": "number",
+        "onlyUseWhile": ["processing"]
     },
     {
         "tokens": [
@@ -56,7 +61,8 @@
         ],
         "full": "seis",
         "canonical": "6",
-        "type": "number"
+        "type": "number",
+        "onlyUseWhile": ["processing"]
     },
     {
         "tokens": [
@@ -66,7 +72,8 @@
         ],
         "full": "siete",
         "canonical": "7",
-        "type": "number"
+        "type": "number",
+        "onlyUseWhile": ["processing"]
     },
     {
         "tokens": [
@@ -76,7 +83,8 @@
         ],
         "full": "ocho",
         "canonical": "8",
-        "type": "number"
+        "type": "number",
+        "onlyUseWhile": ["processing"]
     },
     {
         "tokens": [
@@ -86,7 +94,8 @@
         ],
         "full": "nueve",
         "canonical": "9",
-        "type": "number"
+        "type": "number",
+        "onlyUseWhile": ["processing"]
     },
     {
         "tokens": [
@@ -96,7 +105,8 @@
         ],
         "full": "diez",
         "canonical": "10",
-        "type": "number"
+        "type": "number",
+        "onlyUseWhile": ["processing"]
     },
     {
         "tokens": [
@@ -106,7 +116,8 @@
         ],
         "full": "once",
         "canonical": "11",
-        "type": "number"
+        "type": "number",
+        "onlyUseWhile": ["processing"]
     },
     {
         "tokens": [
@@ -116,7 +127,8 @@
         ],
         "full": "doce",
         "canonical": "12",
-        "type": "number"
+        "type": "number",
+        "onlyUseWhile": ["processing"]
     },
     {
         "tokens": [
@@ -126,7 +138,8 @@
         ],
         "full": "trece",
         "canonical": "13",
-        "type": "number"
+        "type": "number",
+        "onlyUseWhile": ["processing"]
     },
     {
         "tokens": [
@@ -136,7 +149,8 @@
         ],
         "full": "catorce",
         "canonical": "14",
-        "type": "number"
+        "type": "number",
+        "onlyUseWhile": ["processing"]
     },
     {
         "tokens": [
@@ -146,7 +160,8 @@
         ],
         "full": "quince",
         "canonical": "15",
-        "type": "number"
+        "type": "number",
+        "onlyUseWhile": ["processing"]
     },
     {
         "tokens": [
@@ -156,7 +171,8 @@
         ],
         "full": "dieciseis",
         "canonical": "16",
-        "type": "number"
+        "type": "number",
+        "onlyUseWhile": ["processing"]
     },
     {
         "tokens": [
@@ -166,7 +182,8 @@
         ],
         "full": "diecisiete",
         "canonical": "17",
-        "type": "number"
+        "type": "number",
+        "onlyUseWhile": ["processing"]
     },
     {
         "tokens": [
@@ -176,7 +193,8 @@
         ],
         "full": "dieciocho",
         "canonical": "18",
-        "type": "number"
+        "type": "number",
+        "onlyUseWhile": ["processing"]
     },
     {
         "tokens": [
@@ -186,7 +204,8 @@
         ],
         "full": "diecinueve",
         "canonical": "19",
-        "type": "number"
+        "type": "number",
+        "onlyUseWhile": ["processing"]
     },
     {
         "tokens": [
@@ -196,7 +215,8 @@
         ],
         "full": "veinte",
         "canonical": "20",
-        "type": "number"
+        "type": "number",
+        "onlyUseWhile": ["processing"]
     },
     {
         "tokens": [
