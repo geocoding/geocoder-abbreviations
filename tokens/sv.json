@@ -1,12 +1,13 @@
 [
     {
         "tokens": [
-            "$1$2",
+            "$1 $2",
             "(\\d{3})\\s?(\\d{2})"
         ],
         "full": "(\\d{3})\\s?(\\d{2})",
-        "canonical": "$1$2",
+        "canonical": "$1 $2",
         "onlyLayers": ["address"],
+        "spanBoundaries": 2,
         "note": "normalize postal code",
         "regex": true
     },
