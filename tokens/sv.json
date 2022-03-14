@@ -1,6 +1,17 @@
 [
     {
         "tokens": [
+            "$1$2",
+            "(\\d{3})\\s?(\\d{2})"
+        ],
+        "full": "(\\d{3})\\s?(\\d{2})",
+        "canonical": "$1$2",
+        "onlyLayers": ["address"],
+        "note": "normalize postal code",
+        "regex": true
+    },
+    {
+        "tokens": [
             "$1",
             "(.+v)(?:ägen)$"
         ],
