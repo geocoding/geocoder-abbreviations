@@ -8,7 +8,7 @@
         "canonical": "$1$2",
         "onlyLayers": ["address"],
         "onlyCountries": ["se"],
-        "spanBoundaries": 2,
+        "spanBoundaries": 1,
         "note": "normalize postal code",
         "regex": true
     },
