@@ -1,14 +1,14 @@
 [
     {
         "tokens": [
-            "$1$2",
-            "(\\d{3})\\s(\\d{2})"
+            "$1 $2",
+            "([0-9]{3})([0-9]{2})"
         ],
-        "full": "(\\d{3})\\s(\\d{2})",
-        "canonical": "$1$2",
+        "full": "([0-9]{3})([0-9]{2})",
+        "canonical": "$1 $2",
         "onlyLayers": ["address"],
         "onlyCountries": ["se"],
-        "spanBoundaries": 1,
+        "spanBoundaries": 0,
         "note": "normalize postal code",
         "regex": true
     },
