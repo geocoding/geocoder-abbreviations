@@ -1,18 +1,6 @@
 [
     {
         "tokens": [
-            "$1$2",
-            "([0-9]{3})\\s([0-9]{2})"
-        ],
-        "full": "([0-9]{3})\\s([0-9]{2})",
-        "canonical": "$1$2",
-        "onlyCountries": ["se"],
-        "spanBoundaries": 1,
-        "note": "normalize postal code",
-        "regex": true
-    },
-    {
-        "tokens": [
             "$1",
             "(.+v)(?:ägen)$"
         ],
