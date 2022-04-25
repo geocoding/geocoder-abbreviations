@@ -164,7 +164,7 @@
   {
     "tokens": [
       "лінія",
-      "лін",
+      "лін"
     ],
     "full": "лінія",
     "canonical": "лін",
@@ -231,5 +231,5 @@
     "canonical": "vul",
     "note": "translates to 'street'",
     "type": "way"
-  },
+  }
 ]
