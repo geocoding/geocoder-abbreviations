@@ -1,0 +1,235 @@
+[
+  {
+    "tokens": [
+      "аллея",
+      "ал"
+    ],
+    "full": "аллея",
+    "canonical": "ал",
+    "note": "translates to 'alley'",
+    "type": "way"
+  },
+  {
+    "tokens": [
+      "alleya",
+      "al"
+    ],
+    "full": "alleya",
+    "canonical": "al",
+    "note": "translates to 'boulevard'",
+    "type": "way"
+  },
+  {
+    "tokens": [
+      "бульвар",
+      "бул"
+    ],
+    "full": "бульвар",
+    "canonical": "бул",
+    "note": "translates to 'boulevard'",
+    "type": "way"
+  },
+  {
+    "tokens": [
+      "bulvar",
+      "bul"
+    ],
+    "full": "bulvar",
+    "canonical": "bul",
+    "note": "translates to 'boulevard'",
+    "type": "way"
+  },
+  {
+    "tokens": [
+      "boulevard",
+      "blvd"
+    ],
+    "full": "boulevard",
+    "canonical": "blvd",
+    "note": "translates to 'boulevard'",
+    "type": "way"
+  },
+  {
+    "tokens": [
+      "дорога",
+      "дор"
+    ],
+    "full": "дорога",
+    "canonical": "дор",
+    "note": "translates to 'road'",
+    "type": "way"
+  },
+  {
+    "tokens": [
+      "doroha",
+      "dor"
+    ],
+    "full": "doroha",
+    "canonical": "dor",
+    "note": "translates to 'road'",
+    "type": "way"
+  },
+  {
+    "tokens": [
+      "набережна",
+      "наб"
+    ],
+    "full": "набережна",
+    "canonical": "наб",
+    "note": "translates to 'quay'",
+    "type": "way"
+  },
+  {
+    "tokens": [
+      "naberezhna",
+      "nab"
+    ],
+    "full": "naberezhna",
+    "canonical": "nab",
+    "note": "translates to 'quay'",
+    "type": "way"
+  },
+  {
+    "tokens": [
+      "провулок",
+      "пров"
+    ],
+    "full": "провулок",
+    "canonical": "пров",
+    "note": "translates to 'lane'",
+    "type": "way"
+  },
+  {
+    "tokens": [
+      "provulok",
+      "pro"
+    ],
+    "full": "provulok",
+    "canonical": "pro",
+    "note": "translates to 'lane'",
+    "type": "way"
+  },
+  {
+    "tokens": [
+      "площа",
+      "пл"
+    ],
+    "full": "площа",
+    "canonical": "пл",
+    "note": "translates to 'square'",
+    "type": "way"
+  },
+  {
+    "tokens": [
+      "ploshcha",
+      "pl"
+    ],
+    "full": "ploshcha",
+    "canonical": "pl",
+    "note": "translates to 'square'",
+    "type": "way"
+  },
+  {
+    "tokens": [
+      "проїзд",
+      "пр"
+    ],
+    "full": "проїзд",
+    "canonical": "пр",
+    "note": "translates to 'journey'",
+    "type": "way"
+  },
+  {
+    "tokens": [
+      "проспект",
+      "просп",
+      "пр"
+    ],
+    "full": "проспект",
+    "canonical": "пр",
+    "note": "translates to 'avenue'",
+    "type": "way"
+  },
+  {
+    "tokens": [
+      "prospekt",
+      "prkt",
+      "pr"
+    ],
+    "full": "prospekt",
+    "canonical": "pr",
+    "note": "translates to 'avenue'",
+    "type": "way"
+  },
+  {
+    "tokens": [
+      "лінія",
+      "лін",
+    ],
+    "full": "лінія",
+    "canonical": "лін",
+    "note": "translates to 'line'",
+    "type": "way"
+  },
+  {
+    "tokens": [
+      "liniya",
+      "liniia",
+      "lin"
+    ],
+    "full": "liniya",
+    "canonical": "lin",
+    "note": "translates to 'line'",
+    "type": "way"
+  },
+  {
+    "tokens": [
+      "shose",
+      "sh"
+    ],
+    "full": "shose",
+    "canonical": "sh",
+    "note": "translates to 'highway'",
+    "type": "way"
+  },
+  {
+    "tokens": [
+      "тупик",
+      "туп"
+    ],
+    "full": "тупик",
+    "canonical": "туп",
+    "note": "translates to 'impasse'",
+    "type": "way"
+  },
+  {
+    "tokens": [
+      "tupyk",
+      "tup"
+    ],
+    "full": "tupyk",
+    "canonical": "tup",
+    "note": "translates to 'impasse'",
+    "type": "way"
+  },
+  {
+    "tokens": [
+      "вулиця",
+      "вул"
+    ],
+    "full": "вулиця",
+    "canonical": "вул",
+    "note": "translates to 'street'",
+    "type": "way"
+  },
+  {
+    "tokens": [
+      "vulytsya",
+      "vul"
+    ],
+    "full": "vulytsya",
+    "canonical": "vul",
+    "note": "translates to 'street'",
+    "type": "way"
+  },
+]
