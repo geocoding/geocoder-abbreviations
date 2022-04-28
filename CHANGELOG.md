@@ -10,6 +10,9 @@
 
 # Version History
 
+## 4.6.11
+
+- :rocket: Regex for postcode searching with and without space.
 ## 4.6.10
 
 - :rocket: Reduced scope of Spanish and French number tokens.
