@@ -13,7 +13,7 @@ jobs:
           command: "sudo apt-get -y update && sudo apt-get install -y yarn curl"
       - run:
           name: "Auth NPM"
-          command: "echo \"//registry.npmjs.org/:_authToken=$NPM_TOKEN\" > ~/.npmrc"
+          command: "echo \"//registry.npmjs.org/:_authToken=$NPMAccessToken\" > ~/.npmrc"
       - run:
           name: "Locked NPM Version"
           command: "source ~/.bashrc && nvm install 8.11.3 && nvm use 8.11.3 && nvm alias default 8.11.3"
