@@ -14,9 +14,11 @@ jobs:
       - run:
           name: "Auth NPM"
           command: "echo \"//registry.npmjs.org/:_authToken=$NPM_TOKEN\" > ~/.npmrc"
+        - run:
+          name: "Unset NPM version"
+          command: "nvm use --delete-prefix v6.1.0 --silent"
       - run:
           name: "Locked NPM Version"
-          command: "nvm use --delete-prefix v6.1.0 --silent"
           command: "source ~/.bashrc && nvm install 8.11.3 && nvm use 8.11.3 && nvm alias default 8.11.3"
       - run:
           name: "Install Rust"
