@@ -14,7 +14,7 @@ jobs:
       - run:
           name: "Auth NPM"
           command: "echo \"//registry.npmjs.org/:_authToken=$NPM_TOKEN\" > ~/.npmrc"
-     - run:
+      - run:
           name: "Delete NPM prefix"
           command: "npm config delete prefix"
       - run:
