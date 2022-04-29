@@ -1,6 +1,6 @@
 [
-  ["a.d.", "auf der"],
   ["a", "am", "an", "a d", "a.d", "auf", "an der"],
+  ["a.d.", "auf der"],
   ["i", "im", "in", "i d", "i.d", "i.d.", "in der"],
   ["Bf", "Bhf", "Bahnhof"],
   ["bg", "berg", "burg"],
