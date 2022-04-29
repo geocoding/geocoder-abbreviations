@@ -14,6 +14,9 @@ jobs:
       - run:
           name: "Auth NPM"
           command: "echo \"//registry.npmjs.org/:_authToken=$NPM_TOKEN\" > ~/.npmrc"
+     - run:
+          name: "Delete NPM prefix"
+          command: "npm config delete prefix"
       - run:
           name: "Locked NPM Version"
           command: "source ~/.bashrc && nvm install 8.11.3 && nvm use 8.11.3 && nvm alias default 8.11.3"
