@@ -15,17 +15,8 @@ jobs:
           name: "Auth NPM"
           command: "echo \"//registry.npmjs.org/:_authToken=$NPM_TOKEN\" > ~/.npmrc"
       - run:
-          name: "source ~/.bashrc"
-          command: "source ~/.bashrc"
-      - run:
-          name: "nvm install 8.11.3"
-          command: "nvm install 8.11.3"
-      - run:
-          name: "nvm use 8.11.3"
-          command: "nvm use 8.11.3"
-      - run:
-          name: "nvm alias default 8.11.3"
-          command: "nvm alias default 8.11.3"
+          name: "Locked NPM Version"
+          command: "source ~/.bashrc && nvm install 8.11.3"
       - run:
           name: "Install Rust"
           command: "curl https://sh.rustup.rs -sSf | sh -s -- -y --default-toolchain 1.34.0"
