@@ -59,5 +59,18 @@
     "canonical": "tř",
     "note": "translates to 'avenue'",
     "type": "way"
-  }
+  },
+  {
+    "tokens": [
+        "$1$2",
+        "([A-Z]{1,2}[0-9][0-9A-Z]?) ?([0-9][A-Z]{2})"
+    ],
+    "full": "([A-Z]{1,2}[0-9][0-9A-Z]?) ?([0-9][A-Z]{2})",
+    "canonical": "$1$2",
+    "onlyCountries": ["cz"],
+    "onlyLayers": ["address"],
+    "spanBoundaries": 1,
+    "note": "normalize postal code",
+    "regex": true
+}
 ]
