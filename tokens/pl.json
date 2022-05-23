@@ -56,5 +56,18 @@
         "full": "Majora",
         "canonical": "Mjr",
         "note": "translates to 'major'"
+    },
+    {
+        "tokens": [
+            "$1$2",
+            "([0-9]{2})([ -])?([0-9]{3})"
+        ],
+        "full": "([0-9]{2})([ -])?([0-9]{3})",
+        "canonical": "$1$2",
+        "onlyCountries": ["nl"],
+        "onlyLayers": ["address"],
+        "spanBoundaries": 1,
+        "note": "normalize postal code",
+        "regex": true
     }
 ]
