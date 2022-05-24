@@ -3003,5 +3003,18 @@
         "spanBoundaries": 1,
         "note": "normalize postal code",
         "regex": true
+    },
+    {
+        "tokens": [
+            "$1$2",
+            "([0-9A-Z]{3}) ?([0-9A-Z]{3})"
+        ],
+        "full": "([0-9A-Z]{3}) ?([0-9A-Z]{3})",
+        "canonical": "$1$2",
+        "onlyCountries": ["ca"],
+        "onlyLayers": ["address"],
+        "spanBoundaries": 1,
+        "note": "normalize postal code",
+        "regex": true
     }
 ]

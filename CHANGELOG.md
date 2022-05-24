@@ -10,6 +10,10 @@
 
 # Version History
 
+## 4.6.13
+
+- :rocket: Regex for postcode searching with and without space for additional countries.
+
 ## 4.6.12
 
 - :rocket: Token additions for Ukrainian(UK), Albanian(SQ).
