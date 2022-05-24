@@ -12,7 +12,7 @@
 
 ## 4.6.14
 
-- :bug: Regex for postcode searching with and without space for additional countries.
+- :bug: Fix country code for Poland postcode regex.
 
 ## 4.6.13
 
