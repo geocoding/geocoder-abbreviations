@@ -10,6 +10,10 @@
 
 # Version History
 
+## 4.6.14
+
+- :bug: Fix country code for Poland postcode regex.
+
 ## 4.6.13
 
 - :rocket: Regex for postcode searching with and without space for additional countries.

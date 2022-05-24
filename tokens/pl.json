@@ -64,7 +64,7 @@
         ],
         "full": "([0-9]{2})([ -])?([0-9]{3})",
         "canonical": "$1$2",
-        "onlyCountries": ["nl"],
+        "onlyCountries": ["pl"],
         "onlyLayers": ["address"],
         "spanBoundaries": 1,
         "note": "normalize postal code",
