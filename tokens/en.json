@@ -3007,9 +3007,9 @@
     {
         "tokens": [
             "$1$2",
-            "([0-9A-Z]{3}) ?([0-9A-Z]{3})"
+            "([A-Z]\\d[A-Z]) ?(\\d[A-Z]\\d)"
         ],
-        "full": "([0-9A-Z]{3}) ?([0-9A-Z]{3})",
+        "full": "([A-Z]\\d[A-Z]) ?(\\d[A-Z]\\d)",
         "canonical": "$1$2",
         "onlyCountries": ["ca"],
         "onlyLayers": ["address"],
