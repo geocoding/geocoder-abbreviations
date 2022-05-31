@@ -1340,5 +1340,18 @@
         "canonical": "$1$2",
         "regex": true,
         "spanBoundaries": 1
+    },
+    {
+        "tokens": [
+            "$1$2",
+            "([A-Z]\\d[A-Z]) ?(\\d[A-Z]\\d)"
+        ],
+        "full": "([A-Z]\\d[A-Z]) ?(\\d[A-Z]\\d)",
+        "canonical": "$1$2",
+        "onlyCountries": ["ca"],
+        "onlyLayers": ["postcode"],
+        "spanBoundaries": 1,
+        "note": "normalize postal code",
+        "regex": true
     }
 ]
