@@ -12,6 +12,9 @@
 
 ## 4.6.14
 
+- :rocket: Update regex for Canada in English and add in regex in French.
+## 4.6.14
+
 - :bug: Fix country code for Poland postcode regex.
 
 ## 4.6.13
