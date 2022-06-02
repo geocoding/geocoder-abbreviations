@@ -1349,7 +1349,7 @@
         "full": "([A-Z]\\d[A-Z]) ?(\\d[A-Z]\\d)",
         "canonical": "$1$2",
         "onlyCountries": ["ca"],
-        "onlyLayers": ["postcode"],
+        "onlyLayers": ["address"],
         "spanBoundaries": 1,
         "note": "normalize postal code",
         "regex": true
