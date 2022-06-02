@@ -10,6 +10,9 @@
 
 # Version History
 
+## 4.6.15
+
+- :rocket: Update regex for Canada in English and add in regex in French.
 ## 4.6.14
 
 - :bug: Fix country code for Poland postcode regex.
