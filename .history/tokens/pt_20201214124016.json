@@ -1,0 +1,1100 @@
+[
+    {
+        "tokens": [
+            "1",
+            "uma",
+            "um"
+        ],
+        "full": "uma",
+        "canonical": "1",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "2",
+            "dois",
+            "duas"
+        ],
+        "full": "dois",
+        "canonical": "2",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "3",
+            "três",
+            "tres"
+        ],
+        "full": "três",
+        "canonical": "3",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "4",
+            "quatro"
+        ],
+        "full": "quatro",
+        "canonical": "4",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "5",
+            "cinco"
+        ],
+        "full": "cinco",
+        "canonical": "5",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "6",
+            "seis"
+        ],
+        "full": "seis",
+        "canonical": "6",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "7",
+            "sete"
+        ],
+        "full": "sete",
+        "canonical": "7",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "8",
+            "oito"
+        ],
+        "full": "oito",
+        "canonical": "8",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "9",
+            "nove"
+        ],
+        "full": "nove",
+        "canonical": "9",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "10",
+            "dez"
+        ],
+        "full": "dez",
+        "canonical": "10",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "11",
+            "onze"
+        ],
+        "full": "onze",
+        "canonical": "11",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "12",
+            "doze"
+        ],
+        "full": "doze",
+        "canonical": "12",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "13",
+            "treze"
+        ],
+        "full": "treze",
+        "canonical": "13",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "14",
+            "catorze"
+        ],
+        "full": "catorze",
+        "canonical": "14",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "15",
+            "quinze"
+        ],
+        "full": "quinze",
+        "canonical": "15",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "16",
+            "dezesseis"
+        ],
+        "full": "dezesseis",
+        "canonical": "16",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "17",
+            "dezessete"
+        ],
+        "full": "dezessete",
+        "canonical": "17",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "18",
+            "dezoito"
+        ],
+        "full": "dezoito",
+        "canonical": "18",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "19",
+            "dezenove"
+        ],
+        "full": "dezenove",
+        "canonical": "19",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "20",
+            "vinte"
+        ],
+        "full": "vinte",
+        "canonical": "20",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "Al",
+            "Alameda"
+        ],
+        "full": "Alameda",
+        "canonical": "Al",
+        "onlyLayers": ["address"],
+        "note": "translates to 'avenue'",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "Alf",
+            "Alferes"
+        ],
+        "full": "Alferes",
+        "canonical": "Alf"
+    },
+    {
+        "tokens": [
+            "Alm",
+            "Almirante"
+        ],
+        "full": "Almirante",
+        "canonical": "Alm"
+    },
+    {
+        "tokens": [
+            "Arq",
+            "Arquitecto"
+        ],
+        "full": "Arquitecto",
+        "canonical": "Arq"
+    },
+    {
+        "tokens": [
+            "Ass",
+            "Associação"
+        ],
+        "full": "Associação",
+        "canonical": "Ass"
+    },
+    {
+        "tokens": [
+            "Av",
+            "Avenida"
+        ],
+        "full": "Avenida",
+        "canonical": "Av",
+        "onlyLayers": ["address"],
+        "note": "translates to 'avenue'",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "Az",
+            "Azinhaga"
+        ],
+        "full": "Azinhaga",
+        "canonical": "Az"
+    },
+    {
+        "tokens": [
+            "Br",
+            "Bairro"
+        ],
+        "full": "Bairro",
+        "canonical": "B"
+    },
+    {
+        "tokens": [
+            "Bc",
+            "Beco"
+        ],
+        "full": "Beco",
+        "canonical": "Bc",
+        "onlyLayers": ["address"],
+        "note": "translates to 'alley'",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "Bl",
+            "Bloco"
+        ],
+        "full": "Bloco",
+        "canonical": "Bl"
+    },
+    {
+        "tokens": [
+            "Brg",
+            "Brigadeiro"
+        ],
+        "full": "Brigadeiro",
+        "canonical": "Brg"
+    },
+    {
+        "tokens": [
+            "Cac",
+            "Cacique"
+        ],
+        "full": "Cacique",
+        "canonical": "Cac"
+    },
+    {
+        "tokens": [
+            "Cam",
+            "Caminho"
+        ],
+        "full": "Caminho",
+        "canonical": "Cam",
+        "onlyLayers": ["address"],
+        "note": "translates to 'way'",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "Cap",
+            "Capitão"
+        ],
+        "full": "Capitão",
+        "canonical": "Cap"
+    },
+    {
+        "tokens": [
+            "Cc",
+            "Calçada"
+        ],
+        "full": "Calçada",
+        "canonical": "Cc"
+    },
+    {
+        "tokens": [
+            "Ccnh",
+            "Calçadinha"
+        ],
+        "full": "Calçadinha",
+        "canonical": "Ccnh"
+    },
+    {
+        "tokens": [
+            "Cel",
+            "Cor",
+            "Coronel"
+        ],
+        "full": "Coronel",
+        "canonical": "Cel"
+    },
+    {
+        "tokens": [
+            "Chac",
+            "Chácara",
+            "Chacara",
+            "Chácaras"
+        ],
+        "full": "Chácaras",
+        "canonical": "Chac"
+    },
+    {
+        "tokens": [
+            "Cmdt",
+            "Comandante"
+        ],
+        "full": "Comandante",
+        "canonical": "Cmdt"
+    },
+    {
+        "tokens": [
+            "Comend",
+            "Comendador"
+        ],
+        "full": "Comendador",
+        "canonical": "Comend"
+    },
+    {
+        "tokens": [
+            "Cj",
+            "Conjunto",
+            "Conjuntos"
+        ],
+        "full": "Conjuntos",
+        "canonical": "Cj"
+    },
+    {
+        "tokens": [
+            "Cons",
+            "Conselheiro"
+        ],
+        "full": "Conselheiro",
+        "canonical": "Cons"
+    },
+    {
+        "tokens": [
+            "Csl",
+            "Casal"
+        ],
+        "full": "Casal",
+        "canonical": "Csl"
+    },
+    {
+        "tokens": [
+            "Cv",
+            "Cave"
+        ],
+        "full": "Cave",
+        "canonical": "Cv"
+    },
+    {
+        "tokens": [
+            "da"
+        ],
+        "full": "da",
+        "canonical": "da",
+        "type": "determiner"
+    },
+    {
+        "tokens": [
+            "das"
+        ],
+        "full": "das",
+        "canonical": "das",
+        "type": "determiner"
+    },
+    {
+        "tokens": [
+            "de"
+        ],
+        "full": "de",
+        "canonical": "de",
+        "type": "determiner"
+    },
+    {
+        "tokens": [
+            "dela"
+        ],
+        "full": "dela",
+        "canonical": "dela",
+        "type": "determiner"
+    },
+    {
+        "tokens": [
+            "Dep",
+            "Deputado"
+        ],
+        "full": "Deputado",
+        "canonical": "Dep"
+    },
+    {
+        "tokens": [
+            "do"
+        ],
+        "full": "do",
+        "canonical": "do",
+        "type": "determiner"
+    },
+    {
+        "tokens": [
+            "dos"
+        ],
+        "full": "dos",
+        "canonical": "dos",
+        "type": "determiner"
+    },
+    {
+        "tokens": [
+            "Dq",
+            "Duque"
+        ],
+        "full": "Duque",
+        "canonical": "Dq"
+    },
+    {
+        "tokens": [
+            "Dr",
+            "Doutor"
+        ],
+        "full": "Doutor",
+        "canonical": "Dr"
+    },
+    {
+        "tokens": [
+            "Dr",
+            "Doutora"
+        ],
+        "full": "Doutora",
+        "canonical": "Dr"
+    },
+    {
+        "tokens": [
+            "Dto",
+            "Direito"
+        ],
+        "full": "Direito",
+        "canonical": "Dto"
+    },
+    {
+        "tokens": [
+            "Ed",
+            "Edf",
+            "Edifício"
+        ],
+        "full": "Edifício",
+        "canonical": "Ed"
+    },
+    {
+        "tokens": [
+            "Emb",
+            "Embaixador"
+        ],
+        "full": "Embaixador",
+        "canonical": "Emb"
+    },
+    {
+        "tokens": [
+            "Enf",
+            "Enfo",
+            "Enfermeiro"
+        ],
+        "full": "Enfermeiro",
+        "canonical": "Enf"
+    },
+    {
+        "tokens": [
+            "Eng",
+            "Engenheiro"
+        ],
+        "full": "Engenheiro",
+        "canonical": "Eng"
+    },
+    {
+        "tokens": [
+            "Esc",
+            "Escadas"
+        ],
+        "full": "Escadas",
+        "canonical": "Esc"
+    },
+    {
+        "tokens": [
+            "Escnh",
+            "Escadinhas"
+        ],
+        "full": "Escadinhas",
+        "canonical": "Escnh"
+    },
+    {
+        "tokens": [
+            "Esq",
+            "Esquerdo"
+        ],
+        "full": "Esquerdo",
+        "canonical": "Esq"
+    },
+    {
+        "tokens": [
+            "Estr",
+            "Estrada"
+        ],
+        "full": "Estrada",
+        "canonical": "Estr",
+        "onlyLayers": ["address"],
+        "note": "translates to 'road'",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "astrada marginal",
+            "estr marg"
+        ],
+        "full": "astrada marginal",
+        "canonical": "estr marg",
+        "onlyLayers": ["address"],
+        "type": "way",
+        "spanBoundaries": 1
+    },
+    {
+        "tokens": [
+            "estrada municipal",
+            "em",
+            "e m",
+            "estr m"
+        ],
+        "full": "estrada municipal",
+        "canonical": "em",
+        "onlyLayers": ["address"],
+        "type": "way",
+        "spanBoundaries": 1
+    },
+    {
+        "tokens": [
+            "estrada nacional",
+            "en",
+            "e n",
+            "estr n"
+        ],
+        "full": "estrada nacional",
+        "canonical": "en",
+        "onlyLayers": ["address"],
+        "type": "way",
+        "spanBoundaries": 1
+    },
+    {
+        "tokens": [
+            "estrada regional",
+            "er",
+            "e r",
+            "estr r"
+        ],
+        "full": "estrada regional",
+        "canonical": "er",
+        "onlyLayers": ["address"],
+        "type": "way",
+        "spanBoundaries": 1
+    },
+    {
+        "tokens": [
+            "Fr",
+            "Frei"
+        ],
+        "full": "Frei",
+        "canonical": "Fr"
+    },
+    {
+        "tokens": [
+            "Ft",
+            "Frente"
+        ],
+        "full": "Frente",
+        "canonical": "Ft"
+    },
+    {
+        "tokens": [
+            "Gal",
+            "Gen",
+            "General"
+        ],
+        "full": "General",
+        "canonical": "Gal"
+    },
+    {
+        "tokens": [
+            "Hab",
+            "Habitação"
+        ],
+        "full": "Habitação",
+        "canonical": "Hab"
+    },
+    {
+        "tokens": [
+            "Im",
+            "Ima",
+            "Irmã"
+        ],
+        "full": "Irmã",
+        "canonical": "Im"
+    },
+    {
+        "tokens": [
+            "Imo",
+            "Irmão"
+        ],
+        "full": "Irmão",
+        "canonical": "Imo"
+    },
+    {
+        "tokens": [
+            "Inf",
+            "Infante"
+        ],
+        "full": "Infante",
+        "canonical": "Inf"
+    },
+    {
+        "tokens": [
+            "Inst",
+            "Instituto"
+        ],
+        "full": "Instituto",
+        "canonical": "Inst"
+    },
+    {
+        "tokens": [
+            "Jr",
+            "Júnior"
+        ],
+        "full": "Júnior",
+        "canonical": "Jr"
+    },
+    {
+        "tokens": [
+            "Jrd",
+            "Jardim"
+        ],
+        "full": "Jardim",
+        "canonical": "Jrd"
+    },
+    {
+        "tokens": [
+            "Lda",
+            "Limitada"
+        ],
+        "full": "Limitada",
+        "canonical": "Lda"
+    },
+    {
+        "tokens": [
+            "Lg",
+            "Largo"
+        ],
+        "full": "Largo",
+        "canonical": "Lg"
+    },
+    {
+        "tokens": [
+            "Lg",
+            "Lug",
+            "Lugar"
+        ],
+        "full": "Lugar",
+        "canonical": "Lg"
+    },
+    {
+        "tokens": [
+            "Lj",
+            "Loja"
+        ],
+        "full": "Loja",
+        "canonical": "Lj"
+    },
+    {
+        "tokens": [
+            "Loteam",
+            "Loteamento"
+        ],
+        "full": "Loteamento",
+        "canonical": "Loteam"
+    },
+    {
+        "tokens": [
+            "Lt",
+            "Lote"
+        ],
+        "full": "Lote",
+        "canonical": "Lt"
+    },
+    {
+        "tokens": [
+            "Maj",
+            "Major"
+        ],
+        "full": "Major",
+        "canonical": "Maj"
+    },
+    {
+        "tokens": [
+            "Mal",
+            "Marechal"
+        ],
+        "full": "Marechal",
+        "canonical": "Mal"
+    },
+    {
+        "tokens": [
+            "Me",
+            "Madre"
+        ],
+        "full": "Madre",
+        "canonical": "Me"
+    },
+    {
+        "tokens": [
+            "Me",
+            "Mestre"
+        ],
+        "full": "Mestre",
+        "canonical": "Me"
+    },
+    {
+        "tokens": [
+            "Min",
+            "Ministério"
+        ],
+        "full": "Ministério",
+        "canonical": "Min"
+    },
+    {
+        "tokens": [
+            "Mons",
+            "Monsenhor"
+        ],
+        "full": "Monsenhor",
+        "canonical": "Mons"
+    },
+    {
+        "tokens": [
+            "Mq",
+            "Marquês"
+        ],
+        "full": "Marquês",
+        "canonical": "Mq"
+    },
+    {
+        "tokens": [
+            "Mto",
+            "Maestro"
+        ],
+        "full": "Maestro",
+        "canonical": "Mto"
+    },
+    {
+        "tokens": [
+            "Part",
+            "Particular"
+        ],
+        "full": "Particular",
+        "canonical": "Part"
+    },
+    {
+        "tokens": [
+            "Pav",
+            "Pavilhão"
+        ],
+        "full": "Pavilhão",
+        "canonical": "Pav"
+    },
+    {
+        "tokens": [
+            "Pc",
+            "Praça"
+        ],
+        "full": "Praça",
+        "canonical": "Pc"
+    },
+    {
+        "tokens": [
+            "Pct",
+            "Praceta"
+        ],
+        "full": "Praceta",
+        "canonical": "Pct"
+    },
+    {
+        "tokens": [
+            "Pe",
+            "Padre"
+        ],
+        "full": "Padre",
+        "canonical": "Pe"
+    },
+    {
+        "tokens": [
+            "Pq",
+            "Parque"
+        ],
+        "full": "Parque",
+        "canonical": "Pq"
+    },
+    {
+        "tokens": [
+            "Presid",
+            "Presidente"
+        ],
+        "full": "Presidente",
+        "canonical": "Presid"
+    },
+    {
+        "tokens": [
+            "Prof",
+            "Professor"
+        ],
+        "full": "Professor",
+        "canonical": "Prof"
+    },
+    {
+        "tokens": [
+            "Prolng",
+            "Prolongamento"
+        ],
+        "full": "Prolongamento",
+        "canonical": "Prolng"
+    },
+    {
+        "tokens": [
+            "Pto",
+            "Pátio"
+        ],
+        "full": "Pátio",
+        "canonical": "Pto"
+    },
+    {
+        "tokens": [
+            "Q",
+            "Qd",
+            "Qr",
+            "Quadra"
+        ],
+        "full": "Quadra",
+        "canonical": "Q"
+    },
+    {
+        "tokens": [
+            "Qta",
+            "Quinta"
+        ],
+        "full": "Quinta",
+        "canonical": "Qta"
+    },
+    {
+        "tokens": [
+            "R",
+            "Rio"
+        ],
+        "full": "Rio",
+        "canonical": "R"
+    },
+    {
+        "tokens": [
+            "R",
+            "Rua"
+        ],
+        "full": "Rua",
+        "canonical": "R",
+        "onlyLayers": ["address"],
+        "note": "translates to 'street'",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "Rot",
+            "Rotunda"
+        ],
+        "full": "Rotunda",
+        "canonical": "Rot",
+        "onlyLayers": ["address"],
+        "note": "translates to 'roundabout'",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "S",
+            "São"
+        ],
+        "full": "São",
+        "canonical": "S"
+    },
+    {
+        "tokens": [
+            "S",
+            "Sr",
+            "Senhor"
+        ],
+        "full": "Senhor",
+        "canonical": "S"
+    },
+    {
+        "tokens": [
+            "S",
+            "Sra",
+            "Senhora"
+        ],
+        "full": "Senhora",
+        "canonical": "S"
+    },
+    {
+        "tokens": [
+            "Sarg",
+            "Sargento"
+        ],
+        "full": "Sargento",
+        "canonical": "Sarg"
+    },
+    {
+        "tokens": [
+            "Soc",
+            "Sociedade"
+        ],
+        "full": "Sociedade",
+        "canonical": "Soc"
+    },
+    {
+        "tokens": [
+            "Sq",
+            "Superquadra"
+        ],
+        "full": "Superquadra",
+        "canonical": "Sq"
+    },
+    {
+        "tokens": [
+            "St",
+            "Sto",
+            "Santo"
+        ],
+        "full": "Santo",
+        "canonical": "St"
+    },
+    {
+        "tokens": [
+            "Sta",
+            "Santa"
+        ],
+        "full": "Santa",
+        "canonical": "Sta"
+    },
+    {
+        "tokens": [
+            "Ten",
+            "Tenente"
+        ],
+        "full": "Tenente",
+        "canonical": "Ten"
+    },
+    {
+        "tokens": [
+            "Tr",
+            "Torre"
+        ],
+        "full": "Torre",
+        "canonical": "Tr"
+    },
+    {
+        "tokens": [
+            "Transv",
+            "Transversal"
+        ],
+        "full": "Transversal",
+        "canonical": "Transv"
+    },
+    {
+        "tokens": [
+            "Tv",
+            "Trv",
+            "Trav",
+            "Travessa"
+        ],
+        "full": "Travessa",
+        "canonical": "Tv"
+    },
+    {
+        "tokens": [
+            "Univ",
+            "Universidade"
+        ],
+        "full": "Universidade",
+        "canonical": "Univ"
+    },
+    {
+        "tokens": [
+            "Urb",
+            "Urbanização"
+        ],
+        "full": "Urbanização",
+        "canonical": "Urb"
+    },
+    {
+        "tokens": [
+            "via",
+            "v"
+        ],
+        "full": "via",
+        "canonical": "v",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "Visc",
+            "Visconde"
+        ],
+        "full": "Visconde",
+        "canonical": "Visc"
+    },
+    {
+        "tokens": [
+            "Vl",
+            "Vila"
+        ],
+        "full": "Vila",
+        "canonical": "Vl"
+    },
+    {
+        "tokens": [
+            "viela",
+            "ve"
+        ],
+        "full": "viela",
+        "canonical": "ve",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "Vv",
+            "Vivenda"
+        ],
+        "full": "Vivenda",
+        "canonical": "Vv"
+    },
+    {
+        "tokens": [
+            "Zn",
+            "Zona"
+        ],
+        "full": "Zona",
+        "canonical": "Zn"
+    },
+    {
+        "tokens": [
+            "CM",
+            "camara municipal",
+            "c. m."
+        ],
+        "full": "camara municipal",
+        "canonical": "CM",
+        "spanBoundaries": 1
+    }
+]

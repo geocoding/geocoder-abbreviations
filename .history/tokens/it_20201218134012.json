@@ -1,0 +1,534 @@
+[
+    {
+        "tokens": [
+            "0",
+            "quattro"
+        ],
+        "full": "quattro",
+        "canonical": "4",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "1",
+            "uno"
+        ],
+        "full": "uno",
+        "canonical": "1",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "2",
+            "ii",
+            "due"
+        ],
+        "full": "quattro",
+        "canonical": "4",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "3",
+            "iii",
+            "tre"
+        ],
+        "full": "tre",
+        "canonical": "3",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "4",
+            "iv",
+            "quattro"
+        ],
+        "full": "quattro",
+        "canonical": "4",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "5",
+            "v",
+            "cinque"
+        ],
+        "full": "cinque",
+        "canonical": "5",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "6",
+            "vi",
+            "sei"
+        ],
+        "full": "sei",
+        "canonical": "6",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "7",
+            "vii",
+            "sette"
+        ],
+        "full": "sette",
+        "canonical": "7",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "8",
+            "iiX",
+            "sette"
+        ],
+        "full": "sette",
+        "canonical": "7",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "11",
+            "xi",
+            "undici"
+        ],
+        "full": "undici",
+        "canonical": "21",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "20",
+            "xx",
+            "venti"
+        ],
+        "full": "venti",
+        "canonical": "20",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "25",
+            "xxv",
+            "venticinque"
+        ],
+        "full": "venticinque",
+        "canonical": "25",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "cna",
+            "cascina"
+        ],
+        "full": "cascina",
+        "canonical": "cna"
+    },
+    {
+        "tokens": [
+            "C.le",
+            "Calle"
+        ],
+        "full": "Calle",
+        "canonical": "C.le",
+        "onlyLayers": ["address"],
+        "note": "translates to 'street'",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "C.po",
+            "Campo"
+        ],
+        "full": "Campo",
+        "canonical": "C.po"
+    },
+    {
+        "tokens": [
+            "cnt",
+            "cda",
+            "contra",
+            "contrada"
+        ],
+        "full": "contrada",
+        "canonical": "cnt"
+    },
+    {
+        "tokens": [
+            "C.so",
+            "Corso"
+        ],
+        "full": "Corso",
+        "canonical": "C.so"
+    },
+    {
+        "tokens": [
+            "C.te",
+            "Corte"
+        ],
+        "full": "Corte",
+        "canonical": "C.te",
+        "onlyLayers": ["address"],
+        "note": "translates to 'court'",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "X",
+            "Decima"
+        ],
+        "full": "Decima",
+        "canonical": "X",
+        "type": "ordinal"
+    },
+    {
+        "tokens": [
+            "X",
+            "Decimo"
+        ],
+        "full": "Decimo",
+        "canonical": "X",
+        "type": "ordinal"
+    },
+    {
+        "tokens": [
+            "F.ta",
+            "Fondamenta"
+        ],
+        "full": "Fondamenta",
+        "canonical": "F.ta"
+    },
+    {
+        "tokens": [
+            "L.go",
+            "Largo"
+        ],
+        "full": "Largo",
+        "canonical": "L.go"
+    },
+    {
+        "tokens": [
+            "Loc.",
+            "Localita"
+        ],
+        "full": "Localita",
+        "canonical": "Loc."
+    },
+    {
+        "tokens": [
+            "mte",
+            "monte"
+        ],
+        "full": "monte",
+        "canonical": "mte"
+    },
+    {
+        "tokens": [
+            "P.za",
+            "P.zza",
+            "Piazza"
+        ],
+        "full": "Piazza",
+        "canonical": "P.za"
+    },
+    {
+        "tokens": [
+            "P.le",
+            "Piazzale"
+        ],
+        "full": "Piazzale",
+        "canonical": "P.le"
+    },
+    {
+        "tokens": [
+            "P.ta",
+            "Piazzetta"
+        ],
+        "full": "Piazzetta",
+        "canonical": "P.ta"
+    },
+    {
+        "tokens": [
+            "P.te",
+            "Ponte"
+        ],
+        "full": "Ponte",
+        "canonical": "P.te"
+    },
+    {
+        "tokens": [
+            "P.ta",
+            "Porta"
+        ],
+        "full": "Porta",
+        "canonical": "P.ta"
+    },
+    {
+        "tokens": [
+            "S.da",
+            "Salizada"
+        ],
+        "full": "Salizada",
+        "canonical": "S.da"
+    },
+    {
+        "tokens": [
+            "S.",
+            "San"
+        ],
+        "full": "San",
+        "canonical": "S."
+    },
+    {
+        "tokens": [
+            "S.",
+            "Santa"
+        ],
+        "full": "Santa",
+        "canonical": "S."
+    },
+    {
+        "tokens": [
+            "S.",
+            "Santo"
+        ],
+        "full": "Santo",
+        "canonical": "S."
+    },
+    {
+        "tokens": [
+            "SS.",
+            "Santi"
+        ],
+        "full": "Santi",
+        "canonical": "SS."
+    },
+    {
+        "tokens": [
+            "Staz.",
+            "Stazione"
+        ],
+        "full": "Stazione",
+        "canonical": "Staz."
+    },
+    {
+        "tokens": [
+            "V.",
+            "Vica",
+            "Viale",
+            "Via"
+        ],
+        "full": "Via",
+        "canonical": "V.",
+        "onlyLayers": ["address"],
+        "note": "translates to 'street'",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "V.le",
+            "Viale"
+        ],
+        "full": "Viale",
+        "canonical": "V.le",
+        "onlyLayers": ["address"],
+        "note": "translates to 'avenue'",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "V.lo",
+            "Vicolo"
+        ],
+        "full": "Vicolo",
+        "canonical": "V.lo",
+        "onlyLayers": ["address"],
+        "note": "translates to 'alley'",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "strada",
+            "str.a",
+            "stra",
+            "str"
+        ],
+        "full": "strada",
+        "canonical": "str",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "SC",
+            "Strada Comunale"
+        ],
+        "full": "Strada Comunale",
+        "canonical": "SC",
+        "spanBoundaries": 1
+    },
+    {
+        "tokens": [
+            "snu",
+            "strada nuova"
+        ],
+        "full": "strada nuova",
+        "canonical": "snu",
+        "spanBoundaries": 1
+    },
+    {
+        "tokens": [
+            "spr",
+            "strada privata"
+        ],
+        "full": "strada privata",
+        "canonical": "spr",
+        "spanBoundaries": 1
+    },
+    {
+        "tokens": [
+            "sve",
+            "strada vecchia"
+        ],
+        "full": "strada vecchia",
+        "canonical": "sve",
+        "spanBoundaries": 1
+    },
+    {
+        "tokens": [
+            "sdl",
+            "stradale"
+        ],
+        "full": "stradale",
+        "canonical": "sdl"
+    },
+    {
+        "tokens": [
+            "sp",
+            "s p",
+            "str provinciale",
+            "s provinciale",
+            "str prov",
+            "s prov",
+            "strada provinciale"
+        ],
+        "full": "strada provinciale",
+        "canonical": "sp",
+        "spanBoundaries": 1
+    },
+    {
+        "tokens": [
+            "sv",
+            "s v",
+            "str vic",
+            "str vicinale",
+            "s vicinale",
+            "strada vicinale"
+        ],
+        "full": "strada vicinale",
+        "canonical": "sv",
+        "spanBoundaries": 1
+    },
+    {
+        "tokens": [
+            "sr",
+            "s r",
+            "str reg",
+            "str r",
+            "str reginale",
+            "s reginale",
+            "strada regionale"
+        ],
+        "full": "strada regionale",
+        "canonical": "sr",
+        "spanBoundaries": 1
+    },
+    {
+        "tokens": [
+            "ss",
+            "s s",
+            "str s",
+            "str st",
+            "str statale",
+            "s statale",
+            "strada statale"
+        ],
+        "full": "strada statale",
+        "canonical": "ss",
+        "spanBoundaries": 1
+    },
+    {
+        "tokens": [
+            "de"
+        ],
+        "full": "de",
+        "canonical": "de",
+        "type": "determiner"
+    },
+    {
+        "tokens": [
+            "di"
+        ],
+        "full": "di",
+        "canonical": "di",
+        "type": "determiner"
+    },
+    {
+        "tokens": [
+            "del"
+        ],
+        "full": "del",
+        "canonical": "del",
+        "type": "determiner"
+    },
+    {
+        "tokens": [
+            "della"
+        ],
+        "full": "della",
+        "canonical": "della",
+        "type": "determiner"
+    },
+    {
+        "tokens": [
+            "dei"
+        ],
+        "full": "dei",
+        "canonical": "dei",
+        "type": "determiner"
+    },
+    {
+        "tokens": [
+            "delle"
+        ],
+        "full": "delle",
+        "canonical": "delle",
+        "type": "determiner"
+    },
+    {
+        "tokens": [
+            "tra",
+            "traversa"
+        ],
+        "full": "traversa",
+        "canonical": "tra"
+    },
+    {
+        "tokens": [
+            "vic",
+            "vico"
+        ],
+        "full": "vico",
+        "canonical": "vic"
+    },
+    {
+        "tokens": [
+            "vnu",
+            "via nuova"
+        ],
+        "full": "via nuova",
+        "canonical": "vnu",
+        "spanBoundaries": 1,
+        "type": "way"
+    }
+]

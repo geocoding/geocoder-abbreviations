@@ -280,7 +280,8 @@
             "линия"
         ],
         "full": "линия",
-        "canonical": "лин"
+        "canonical": "лин",
+        "type": "way"
     },
     {
         "tokens": [
@@ -325,7 +326,8 @@
             "площадь"
         ],
         "full": "площадь",
-        "canonical": "п"
+        "canonical": "п",
+        "type": "way"
     },
     {
         "tokens": [
@@ -334,7 +336,8 @@
             "проезд"
         ],
         "full": "проезд",
-        "canonical": "пр"
+        "canonical": "пр",
+        "type": "way"
     },
     {
         "tokens": [
@@ -369,7 +372,8 @@
             "тупик"
         ],
         "full": "тупик",
-        "canonical": "туп"
+        "canonical": "туп",
+        "type": "way"
     },
     {
         "tokens": [

@@ -83,5 +83,7 @@ geocoder-abbreviations isn't currently published on crates.io. To add it to your
 project, add the following to your `Cargo.toml` `[dependencies]`:
 
 ```
-geocoder-abbreviations = { git = "https://github.com/mapbox/geocoder-abbreviations", rev = "master" }
+geocoder-abbreviations = { git = "ssh://git@github.com/mapbox/geocoder-abbreviations.git", rev = "master" }
 ```
+
+SSH authentication requires ssh-agent to be running to acquire the SSH key. Make sure the appropriate environment variables are set up (SSH_AUTH_SOCK on most Unix-like systems), and that the correct keys are added (with ssh-add).

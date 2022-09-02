@@ -976,6 +976,14 @@
     },
     {
         "tokens": [
+            "Rang"
+        ],
+        "full": "Rang",
+        "canonical": "Rang",
+        "onlyCountries": ["ca"]
+    },
+    {
+        "tokens": [
             "R",
             "Rue"
         ],

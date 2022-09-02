@@ -1,4 +1,6 @@
 [
+  ["1.", "Erste"],
+  ["2.", "Zweite"],
   ["a", "am", "an", "a d", "a.d", "auf", "an der"],
   ["a.d.", "auf der"],
   ["i", "im", "in", "i d", "i.d", "i.d.", "in der"],

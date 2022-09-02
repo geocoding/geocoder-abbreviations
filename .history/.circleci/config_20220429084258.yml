@@ -1,0 +1,49 @@
+version: 2
+
+jobs:
+  build:
+    machine: true
+    parallelism: 1
+    steps:
+      - run:
+          name: "Install Yarn PPAs"
+          command: "curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add - && echo 'deb https://dl.yarnpkg.com/debian/ stable main' | sudo tee /etc/apt/sources.list.d/yarn.list"
+      - run:
+          name: "Update APT Cache & Install latest yarn"
+          command: "sudo apt-get -y update && sudo apt-get install -y yarn curl"
+      - run:
+          name: "Auth NPM"
+          command: "echo \"//registry.npmjs.org/:_authToken=$NPM_TOKEN\" > ~/.npmrc"
+      - run:
+          name: "source ~/.bashrc"
+          command: "source ~/.bashrc"
+      - run:
+          name: "nvm install 8.11.3"
+          command: "nvm install 8.11.3"
+                - run:
+          name: "nvm use 8.11.3"
+          command: "nvm use 8.11.3"
+                - run:
+          name: "Locked NPM Version"
+          command: "source ~/.bashrc && nvm install 8.11.3 && nvm use 8.11.3 && nvm alias default 8.11.3"
+      - run:
+          name: "Install Rust"
+          command: "curl https://sh.rustup.rs -sSf | sh -s -- -y --default-toolchain 1.34.0"
+      - run:
+          name: "Install Clippy"
+          command: "~/.cargo/bin/rustup component add clippy"
+
+      - checkout
+
+      - run:
+          name: "yarn install"
+          command: "source ~/.bashrc && yarn install"
+      - run:
+          name: "yarn test"
+          command: "source ~/.bashrc && yarn test"
+      - run:
+          name: "cargo test"
+          command: "~/.cargo/bin/cargo test"
+      - run:
+          name: "cargo clippy"
+          command: "~/.cargo/bin/cargo clippy --all-targets --all-features -- -D warnings"

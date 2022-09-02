@@ -1,0 +1,69 @@
+[    {
+        "tokens": [
+            "Al",
+            "Alameda"
+        ],
+        "full": "Alameda",
+        "canonical": "Al",
+        "onlyLayers": ["address"],
+        "note": "translates to 'avenue'",
+        "type": "way"
+    },
+        {
+        "tokens": [
+            "Al",
+            "Alameda"
+        ],
+        "full": "Alameda",
+        "canonical": "Al",
+        "onlyLayers": ["address"],
+        "note": "translates to 'avenue'",
+        "type": "way"
+    },
+        {
+        "tokens": [
+            "Al",
+            "Alameda"
+        ],
+        "full": "Alameda",
+        "canonical": "Al",
+        "onlyLayers": ["address"],
+        "note": "translates to 'avenue'",
+        "type": "way"
+    },
+        {
+        "tokens": [
+            "Al",
+            "Alameda"
+        ],
+        "full": "Alameda",
+        "canonical": "Al",
+        "onlyLayers": ["address"],
+        "note": "translates to 'avenue'",
+        "type": "way"
+    },
+        {
+        "tokens": [
+            "ул",
+            "улица"
+        ],
+        "full": "улица",
+        "canonical": "ул",
+        "note": "translates to 'avenue'",
+        "type": "way"
+    },
+        {
+        "tokens": [
+            "ul",
+            "ulitsa"
+        ],
+        "full": "ulitsa",
+        "canonical": "ul",
+        "note": "translates to 'avenue'",
+        "type": "way"
+    }
+    Булевард|бул
+bulevard|bul
+площад|пл
+ploshtad|pl
+]

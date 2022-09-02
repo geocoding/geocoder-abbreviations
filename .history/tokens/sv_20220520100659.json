@@ -1,0 +1,198 @@
+[
+    {
+        "tokens": [
+            "$1",
+            "(.+v)(?:ägen)$"
+        ],
+        "full": "(.+v)(?:ägen)$",
+        "canonical": "$1",
+        "onlyLayers": ["address"],
+        "note": "translates to 'way'",
+        "type": "way",
+        "regex": true
+    },
+    {
+        "tokens": [
+            "$1",
+            "(.+v)(?:äg)$"
+        ],
+        "full": "(.+v)(?:äg)$",
+        "canonical": "$1",
+        "onlyLayers": ["address"],
+        "note": "translates to 'way'",
+        "type": "way",
+        "regex": true
+    },
+    {
+        "tokens": [
+            "$1",
+            "(.+g)(?:atan)$"
+        ],
+        "full": "(.+g)(?:atan)$",
+        "canonical": "$1",
+        "onlyLayers": ["address"],
+        "note": "translates to 'street'",
+        "type": "way",
+        "regex": true
+    },
+    {
+        "tokens": [
+            "$1",
+            "(.+g)(?:ata)$"
+        ],
+        "full": "(.+g)(?:ata)$",
+        "canonical": "$1",
+        "onlyLayers": ["address"],
+        "note": "translates to 'street'",
+        "type": "way",
+        "regex": true
+    },
+    {
+        "tokens": [
+            "$1",
+            "(.+gr)(?:änd)$"
+        ],
+        "full": "(.+gr)(?:änd)$",
+        "canonical": "$1",
+        "onlyLayers": ["address"],
+        "note": "translates to 'alley'",
+        "type": "way",
+        "regex": true
+    },
+    {
+        "tokens": [
+            "$1",
+            "(.+g)(?:ränden)$"
+        ],
+        "full": "(.+g)(?:ränden)$",
+        "canonical": "$1",
+        "onlyLayers": ["address"],
+        "note": "translates to 'alley'",
+        "type": "way",
+        "regex": true
+    },
+    {
+        "tokens": [
+            "gamla"
+        ],
+        "full": "gamla",
+        "canonical": "gamla"
+    },
+    {
+        "tokens": [
+            "s",
+            "södra"
+        ],
+        "full": "södra",
+        "canonical": "s",
+        "type": "cardinal"
+    },
+    {
+        "tokens": [
+            "n",
+            "norra"
+        ],
+        "full": "norra",
+        "canonical": "n",
+        "type": "cardinal"
+    },
+    {
+        "tokens": [
+            "ö",
+            "östra"
+        ],
+        "full": "östra",
+        "canonical": "ö",
+        "type": "cardinal"
+    },
+    {
+        "tokens": [
+            "v",
+            "västra"
+        ],
+        "full": "västra",
+        "canonical": "v",
+        "type": "cardinal"
+    },
+    {
+        "tokens": [
+            "st",
+            "stig"
+        ],
+        "full": "stig",
+        "canonical": "st",
+        "onlyLayers": ["address"],
+        "note": "translates to 'path'",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "st",
+            "stigen"
+        ],
+        "full": "stigen",
+        "canonical": "st",
+        "onlyLayers": ["address"],
+        "note": "translates to 'path'",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "sankt"
+        ],
+        "full": "sankt",
+        "canonical": "sankt"
+    },
+    {
+        "tokens": [
+            "sankta"
+        ],
+        "full": "sankta",
+        "canonical": "sankta"
+    },
+    {
+        "tokens": [
+            "pl",
+            "plats"
+        ],
+        "full": "plats",
+        "canonical": "pl"
+    },
+    {
+        "tokens": [
+            "pl",
+            "platsen"
+        ],
+        "full": "platsen",
+        "canonical": "pl"
+    },
+    {
+        "tokens": [
+            "l",
+            "lilla"
+        ],
+        "full": "lilla",
+        "canonical": "l"
+    },
+    {
+        "tokens": [
+            "st",
+            "stora"
+        ],
+        "full": "stora",
+        "canonical": "st"
+    },
+    {
+        "tokens": [
+            "$1$2",
+            "([A-Z]{1,2}[0-9][0-9A-Z]?) ?([0-9][A-Z]{2})"
+        ],
+        "full": "([A-Z]{1,2}[0-9][0-9A-Z]?) ?([0-9][A-Z]{2})",
+        "canonical": "$1$2",
+        "onlyCountries": ["nl"],
+        "onlyLayers": ["address"],
+        "spanBoundaries": 1,
+        "note": "normalize postal code",
+        "regex": true
+    }
+]

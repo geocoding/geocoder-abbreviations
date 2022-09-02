@@ -573,6 +573,7 @@
     },
     {
         "tokens": [
+            "Bv",
             "Blv",
             "Blvd",
             "Boulevard"
@@ -666,6 +667,7 @@
     },
     {
         "tokens": [
+            "Ci",
             "Cir",
             "Circle"
         ],
@@ -781,6 +783,7 @@
     {
         "tokens": [
             "Co",
+            "Cty",
             "County"
         ],
         "full": "County",
@@ -855,6 +858,15 @@
     },
     {
         "tokens": [
+            "Cr",
+            "County Road"
+        ],
+        "full": "County Road",
+        "canonical": "Cr",
+        "spanBoundaries": 1
+    },
+    {
+        "tokens": [
             "Crcs",
             "Circus"
         ],
@@ -919,6 +931,7 @@
     {
         "tokens": [
             "Ct",
+            "Crt",
             "Court"
         ],
         "full": "Court",
@@ -2634,7 +2647,8 @@
             "Trail"
         ],
         "full": "Trail",
-        "canonical": "Tr"
+        "canonical": "Tr",
+        "type": "way"
     },
     {
         "tokens": [

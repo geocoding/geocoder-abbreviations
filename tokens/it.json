@@ -1,6 +1,213 @@
 [
     {
         "tokens": [
+            "1",
+            "uno"
+        ],
+        "full": "uno",
+        "canonical": "1",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "2",
+            "due"
+        ],
+        "full": "due",
+        "canonical": "2",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "3",
+            "tre"
+        ],
+        "full": "tre",
+        "canonical": "3",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "4",
+            "quattro"
+        ],
+        "full": "quattro",
+        "canonical": "4",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "5",
+            "cinque"
+        ],
+        "full": "cinque",
+        "canonical": "5",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "6",
+            "sei"
+        ],
+        "full": "sei",
+        "canonical": "6",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "7",
+            "sette"
+        ],
+        "full": "sette",
+        "canonical": "7",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "8",
+            "otto"
+        ],
+        "full": "otto",
+        "canonical": "8",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "9",
+            "nove"
+        ],
+        "full": "nove",
+        "canonical": "9",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "10",
+            "dieci"
+        ],
+        "full": "dieci",
+        "canonical": "10",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "11",
+            "undici"
+        ],
+        "full": "undici",
+        "canonical": "11",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "12",
+            "dodici"
+        ],
+        "full": "dodici",
+        "canonical": "12",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "13",
+            "tredici"
+        ],
+        "full": "tredici",
+        "canonical": "13",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "14",
+            "quattordici"
+        ],
+        "full": "quattordici",
+        "canonical": "14",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "16",
+            "sedici"
+        ],
+        "full": "sedici",
+        "canonical": "16",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "17",
+            "diciassette"
+        ],
+        "full": "diciassette",
+        "canonical": "17",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "18",
+            "diciotto"
+        ],
+        "full": "diciotto",
+        "canonical": "18",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "19",
+            "diciannove"
+        ],
+        "full": "diciannove",
+        "canonical": "19",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "20",
+            "venti"
+        ],
+        "full": "venti",
+        "canonical": "20",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "21",
+            "ventuno"
+        ],
+        "full": "ventuno",
+        "canonical": "21",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "22",
+            "ventidue"
+        ],
+        "full": "ventidue",
+        "canonical": "22",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "23",
+            "ventitre"
+        ],
+        "full": "ventitre",
+        "canonical": "23",
+        "type": "number"
+    },
+    {
+        "tokens": [
+            "1000",
+            "mille"
+        ],
+        "full": "mille",
+        "canonical": "1000",
+        "type": "number"
+    },
+    {
+        "tokens": [
             "C.le",
             "Calle"
         ],
@@ -20,11 +227,20 @@
     },
     {
         "tokens": [
+            "Contrada"
+        ],
+        "full": "Contrada",
+        "canonical": "Contrada",
+        "type": "way"
+    },
+    {
+        "tokens": [
             "C.so",
             "Corso"
         ],
         "full": "Corso",
-        "canonical": "C.so"
+        "canonical": "C.so",
+        "type": "way"
     },
     {
         "tokens": [
@@ -86,7 +302,8 @@
             "Piazza"
         ],
         "full": "Piazza",
-        "canonical": "P.za"
+        "canonical": "P.za",
+        "type": "way"
     },
     {
         "tokens": [
@@ -170,6 +387,22 @@
     },
     {
         "tokens": [
+            "Strada"
+        ],
+        "full": "Strada",
+        "canonical": "Strada",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "Traversa"
+        ],
+        "full": "Traversa",
+        "canonical": "Traversa",
+        "type": "way"
+    },
+    {
+        "tokens": [
             "V.",
             "Via"
         ],
@@ -193,6 +426,7 @@
     {
         "tokens": [
             "V.lo",
+            "Vico",
             "Vicolo"
         ],
         "full": "Vicolo",
@@ -208,7 +442,8 @@
         ],
         "full": "Strada Comunale",
         "canonical": "SC",
-        "spanBoundaries": 1
+        "spanBoundaries": 1,
+        "type": "way"
     },
     {
         "tokens": [
@@ -217,7 +452,8 @@
         ],
         "full": "Strada Provinciale",
         "canonical": "SP",
-        "spanBoundaries": 1
+        "spanBoundaries": 1,
+        "type": "way"
     },
     {
         "tokens": [
@@ -226,7 +462,8 @@
         ],
         "full": "Strada Regionale",
         "canonical": "SR",
-        "spanBoundaries": 1
+        "spanBoundaries": 1,
+        "type": "way"
     },
     {
         "tokens": [
@@ -235,7 +472,8 @@
         ],
         "full": "Strada Statale",
         "canonical": "SS",
-        "spanBoundaries": 1
+        "spanBoundaries": 1,
+        "type": "way"
     },
     {
         "tokens": [

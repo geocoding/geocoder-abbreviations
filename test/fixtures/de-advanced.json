@@ -1,5 +1,17 @@
 [
   {
+    "tokens": ["1.", "Erste"],
+    "full": "Erste",
+    "canonical": "1.",
+    "type": "ordinal"
+  },
+  {
+    "tokens": ["2.", "Zweite"],
+    "full": "Zweite",
+    "canonical": "2.",
+    "type": "ordinal"
+  },
+  {
     "tokens": ["auf", "a.d.", "a.d"],
     "full": "a.d.",
     "canonical": "auf",

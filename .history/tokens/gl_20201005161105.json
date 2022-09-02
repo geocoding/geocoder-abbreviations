@@ -1,0 +1,63 @@
+[
+  {
+    "full": "avenida",
+    "canonical": "av",
+    "tokens": ["avenida", "av", "avd", "avda"],
+    "type": "way"
+  },
+  {
+    "full": "estrada",
+    "canonical": "estda",
+    "tokens": ["estrada", "estda"],
+    "type": "way"
+  },
+  {
+    "full": "glorieta",
+    "canonical": "gta",
+    "tokens": ["g", "gta", "glorieta"],
+    "type": "way"
+  },
+  {
+    "full": "praza",
+    "canonical": "pr",
+    "tokens": ["praza", "pr", "pza"],
+    "type": "way"
+  },
+  {
+    "full": "prazuela",
+    "canonical": "przla",
+    "tokens": ["prazuela", "przla"],
+    "type": "way"
+  },
+  {
+    "full": "rambla",
+    "canonical": "rbla",
+    "tokens": ["rambla", "rbla"],
+    "type": "way"
+  },
+  {
+    "full": "ronda",
+    "canonical": "rda",
+    "tokens": ["ronda", "rda", "rd"],
+    "type": "way"
+  },
+  {
+    "full": "rúa",
+    "canonical": "r",
+    "tokens": ["rúa", "rua", "r", "ru"],
+    "type": "way"
+  },
+  {
+    "full": "rúas",
+    "canonical": "rs",
+    "tokens": ["rúas", "ruas", "rs"],
+    "type": "way"
+  },
+  {
+    "full": "subida",
+    "canonical": "sbida",
+    "tokens": ["subida", "sbida"],
+    "type": "way"
+  },
+  { "full": "viela", "canonical": "viela", "tokens": ["viela"], "type": "way" }
+]
