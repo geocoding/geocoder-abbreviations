@@ -1,0 +1,108 @@
+[
+  {
+    "full": "avenida",
+    "canonical": "av",
+    "tokens": ["avenida", "av", "avd", "avda"],
+    "type": "way"
+  },
+  {
+    "full": "alameda",
+    "canonical": "alameda",
+    "tokens": ["alameda"],
+    "type": "way"
+  },
+  {
+    "full": "baixada",
+    "canonical": "baixada",
+    "tokens": ["baixada"],
+    "type": "way"
+  },
+  {
+    "full": "estrada",
+    "canonical": "estda",
+    "tokens": ["estrada", "estda"],
+    "type": "way"
+  },
+  {
+    "full": "glorieta",
+    "canonical": "gta",
+    "tokens": ["g", "gta", "glorieta"],
+    "type": "way"
+  },
+  { "full": "paseo", "canonical": "paseo", "tokens": ["paseo"], "type": "way" },
+  {
+    "full": "praza",
+    "canonical": "pr",
+    "tokens": ["praza", "pr", "pza"],
+    "type": "way"
+  },
+  {
+    "full": "praciña",
+    "canonical": "praciña",
+    "tokens": ["praciña", "pracina"],
+    "type": "way"
+  },
+  {
+    "full": "prazuela",
+    "canonical": "przla",
+    "tokens": ["prazuela", "przla"],
+    "type": "way"
+  },
+  {
+    "full": "rambla",
+    "canonical": "rbla",
+    "tokens": ["rambla", "rbla"],
+    "type": "way"
+  },
+  {
+    "full": "ronda",
+    "canonical": "rda",
+    "tokens": ["ronda", "rda"],
+    "type": "way"
+  },
+  {
+    "full": "rotonda",
+    "canonical": "rtda",
+    "tokens": ["rotonda", "rtda"],
+    "type": "way"
+  },
+  {
+    "full": "rúa",
+    "canonical": "r",
+    "tokens": ["rúa", "rua", "r", "ru"],
+    "type": "way"
+  },
+  {
+    "full": "rúas",
+    "canonical": "rs",
+    "tokens": ["rúas", "ruas", "rs"],
+    "type": "way"
+  },
+  { "full": "ruela", "canonical": "ruela", "tokens": ["ruela"], "type": "way" },
+  {
+    "full": "sendeiro",
+    "canonical": "sendeiro",
+    "tokens": ["sendeiro"],
+    "type": "way"
+  },
+  { "full": "suba", "canonical": "suba", "tokens": ["suba"], "type": "way" },
+  {
+    "full": "subida",
+    "canonical": "sbida",
+    "tokens": ["subida", "sbida"],
+    "type": "way"
+  },
+  {
+    "full": "travesía",
+    "canonical": "trav",
+    "tokens": ["travesía", "travesia", "trav"],
+    "type": "way"
+  },
+  {
+    "full": "vía",
+    "canonical": "vía",
+    "tokens": ["vía", "via"],
+    "type": "way"
+  },
+  { "full": "viela", "canonical": "viela", "tokens": ["viela"], "type": "way" }
+]

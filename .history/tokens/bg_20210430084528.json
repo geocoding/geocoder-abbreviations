@@ -1,0 +1,18 @@
+[    {
+        "tokens": [
+            "Al",
+            "Alameda"
+        ],
+        "full": "Alameda",
+        "canonical": "Al",
+        "onlyLayers": ["address"],
+        "note": "translates to 'avenue'",
+        "type": "way"
+    },
+    Булевард|бул
+bulevard|bul
+площад|пл
+ploshtad|pl
+улица|ул
+ulitsa|ul
+]

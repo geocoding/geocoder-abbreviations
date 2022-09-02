@@ -1,0 +1,63 @@
+[
+  {
+    "tokens": ["ulice", "uliční", "ul", "u"],
+    "full": "ulice",
+    "canonical": "ul",
+    "note": "translates to 'street'",
+    "type": "way"
+  },
+  {
+    "tokens": ["jih", "j"],
+    "full": "jih",
+    "canonical": "j",
+    "note": "translates to 'south'",
+    "type": "cardinal"
+  },
+  {
+    "tokens": ["sever", "s"],
+    "full": "sever",
+    "canonical": "s",
+    "note": "translates to 'north'; applying this only to addresses because in mixed-language layers it ends up doing weird conflations with 'south', which is 's' elsewhere",
+    "type": "cardinal",
+    "onlyLayers": ["address"]
+  },
+  {
+    "tokens": ["východ", "vychod", "v"],
+    "full": "východ",
+    "canonical": "v",
+    "note": "translates to 'east'",
+    "type": "cardinal"
+  },
+  {
+    "tokens": ["západ", "zapad", "z"],
+    "full": "západ",
+    "canonical": "z",
+    "note": "translates to 'west'",
+    "type": "cardinal"
+  },
+  {
+    "tokens": ["nábřeží", "nabrezi", "nábř", "nabr"],
+    "full": "nábřeží",
+    "canonical": "nábř",
+    "note": "translates to 'seafront'"
+  },
+  {
+    "tokens": ["náměstí", "nám", "namesti", "nam"],
+    "full": "náměstí",
+    "canonical": "nám",
+    "note": "translates to 'square'"
+  },
+  {
+    "tokens": ["příčná", "pricna"],
+    "full": "příčná",
+    "canonical": "příčná",
+    "note": "translates to 'traverse'"
+  },
+  {
+    "tokens": ["třída", "trida", "tř.", "tr"],
+    "full": "třída",
+    "canonical": "tř",
+    "note": "translates to 'avenue'",
+    "type": "way"
+  }
+]

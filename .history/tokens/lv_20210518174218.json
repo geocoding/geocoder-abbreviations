@@ -1,0 +1,42 @@
+[
+    {
+        "tokens": [
+            "dzīvoklis",
+            "dz"
+        ],
+        "full": "dzīvoklis",
+        "canonical": "dz",
+        "note": "translates to 'apartment'"
+    },
+    {
+        "tokens": [
+            "gatve",
+            "g"
+        ],
+        "full": "gatve",
+        "canonical": "g",
+        "note": "translates to 'alley'",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "numurs",
+            "nr",
+            "no"
+        ],
+        "full": "numurs",
+        "canonical": "no",
+        "note": "translates to 'nummber'"
+    },
+    {
+        "tokens": [
+            "$1",
+            "([^ ]+)(gatan)"
+        ],
+        "full": "([^ ]+)(gatan)",
+        "canonical": "$1 str",
+        "regex": true,
+        "skipDiacriticStripping": true,
+        "spanBoundaries": 0    
+    }
+]

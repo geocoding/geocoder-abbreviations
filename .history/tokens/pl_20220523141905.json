@@ -1,0 +1,73 @@
+[
+    {
+        "tokens": [
+            "al",
+            "aleja"
+        ],
+        "full": "aleja",
+        "canonical": "al",
+        "onlyLayers": ["address"],
+        "note": "translates to 'avenue'",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "pl",
+            "plac"
+        ],
+        "full": "plac",
+        "canonical": "pl"
+    },
+    {
+        "tokens": [
+            "ul",
+            "ulica"
+        ],
+        "full": "ulica",
+        "canonical": "ul",
+        "onlyLayers": ["address"],
+        "note": "translates to 'street'",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "Św",
+            "Świętego",
+            "Świętej"
+        ],
+        "full": "Świętego",
+        "canonical": "Św",
+        "note": "translates to 'Saint'"
+    },
+    {
+        "tokens": [
+            "Gen",
+            "Generała"
+        ],
+        "full": "Generała",
+        "canonical": "Gen",
+        "note": "translates to 'general'"
+    },
+    {
+        "tokens": [
+            "Mjr",
+            "Majora"
+        ],
+        "full": "Majora",
+        "canonical": "Mjr",
+        "note": "translates to 'major'"
+    },
+    {
+        "tokens": [
+            "$1$2",
+            "([0-9]{4}) ?([A-Z]{2})"
+        ],
+        "full": "([0-9]{4}) ?([A-Z]{2})",
+        "canonical": "$1$2",
+        "onlyCountries": ["nl"],
+        "onlyLayers": ["address"],
+        "spanBoundaries": 1,
+        "note": "normalize postal code",
+        "regex": true
+    }
+]

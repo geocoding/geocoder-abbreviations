@@ -143,14 +143,14 @@ impl TokenType {
 
 pub fn config(v: Vec<String>) -> Result<HashMap<String, Vec<Token>>, Error> {
     if v.is_empty() {
-        return Ok(prepare(Tokens::codes())?)
+        return prepare(Tokens::codes())
     }
     for lc in &v {
         if !Tokens::codes().contains(lc) {
             return Err(Error::LanguageCodeNotSupported(lc.to_string()))
         }
     }
-    Ok(prepare(v)?)
+    prepare(v)
 }
 
 fn prepare(v: Vec<String>) -> Result<HashMap<String, Vec<Token>>, Error> {

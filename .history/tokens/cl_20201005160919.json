@@ -1,0 +1,100 @@
+[
+  {
+    "type": "way",
+    "tokens": ["autovia", "autov"],
+    "canonical": "autov",
+    "full": "autovia"
+  },
+  {
+    "type": "way",
+    "tokens": ["avinguda", "av", "avd", "avda", "avgda"],
+    "canonical": "av",
+    "full": "avinguda"
+  },
+  {
+    "type": "way",
+    "tokens": ["carrer", "carr"],
+    "canonical": "carr",
+    "full": "carrer",
+    "note": "translates to 'street'"
+  },
+  {
+    "type": "way",
+    "tokens": ["cró", "carrero", "cro", "carro", "carr"],
+    "canonical": "cró",
+    "full": "carreró"
+  },
+  {
+    "type": "way",
+    "tokens": ["cinturó", "cint", "cinturo", "cinturón"],
+    "canonical": "cint",
+    "full": "cinturó"
+  },
+  {
+    "type": "way",
+    "tokens": ["drecera", "drec"],
+    "canonical": "drec",
+    "full": "drecera"
+  },
+  {
+    "type": "way",
+    "tokens": ["entrada", "entr"],
+    "canonical": "entr",
+    "full": "entrada"
+  },
+  {
+    "type": "way",
+    "tokens": ["passadís", "pdís", "passadis", "pdis"],
+    "canonical": "pdís",
+    "full": "passadís"
+  },
+  {
+    "type": "way",
+    "tokens": ["passatge", "ptge"],
+    "canonical": "ptge",
+    "full": "passatge"
+  },
+  {
+    "type": "way",
+    "tokens": ["passeig", "pg"],
+    "canonical": "pg",
+    "full": "passeig"
+  },
+  {
+    "type": "way",
+    "tokens": ["plaça", "pl", "placa", "pça", "pca", "plç", "plc"],
+    "canonical": "pl",
+    "full": "plaça"
+  },
+  {
+    "type": "way",
+    "tokens": ["portal", "ptal"],
+    "canonical": "ptal",
+    "full": "portal"
+  },
+  {
+    "type": "way",
+    "tokens": ["ronda", "rda"],
+    "canonical": "rda",
+    "full": "ronda"
+  },
+  {
+    "type": "way",
+    "tokens": ["sortida", "sort"],
+    "canonical": "sort",
+    "full": "sortida"
+  },
+  {
+    "type": "way",
+    "tokens": ["transversal", "trval", "trvsal"],
+    "canonical": "trval",
+    "full": "transversal"
+  },
+  {
+    "type": "way",
+    "tokens": ["travessera", "trav"],
+    "canonical": "trav",
+    "full": "travessera"
+  },
+  { "type": "way", "tokens": ["via", "v"], "canonical": "v", "full": "via" }
+]

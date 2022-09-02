@@ -10,6 +10,12 @@
 
 # Version History
 
+## 4.6.16
+
+- :rocket: Token additions for Italian, German and Spanish
+- :rocket: Added `type: way` property to Russian, Italian and Spanish tokens
+- :rocket: Added English abbreviations common for Canada
+
 ## 4.6.15
 
 - :rocket: Update regex for Canada in English and add in regex in French.

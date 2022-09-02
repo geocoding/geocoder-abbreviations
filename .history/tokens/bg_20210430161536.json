@@ -1,0 +1,74 @@
+[    
+    {
+        "tokens": [
+            "бл",
+            "Блок",
+            "blok"
+        ],
+        "full": "blok",
+        "canonical": "бл",
+        "note": "translates to 'block'",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "бул",
+            "Булевард"
+        ],
+        "full": "Булевард",
+        "canonical": "бул",
+        "note": "translates to 'boulevard'",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "bul",
+            "bulevard"
+        ],
+        "full": "bulevard",
+        "canonical": "bul",
+        "note": "translates to 'boulevard'",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "пл",
+            "площад"
+        ],
+        "full": "площад",
+        "canonical": "пл",
+        "note": "translates to 'plaza'",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "pl",
+            "ploshtad"
+        ],
+        "full": "ploshtad",
+        "canonical": "pl",
+        "note": "translates to 'plaza'",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "ул",
+            "улица"
+        ],
+        "full": "улица",
+        "canonical": "ул",
+        "note": "translates to 'street'",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "ul",
+            "ulica",
+            "ulitsa"
+        ],
+        "full": "ulitsa",
+        "canonical": "ul",
+        "note": "translates to 'street'",
+        "type": "way"
+    }
+]

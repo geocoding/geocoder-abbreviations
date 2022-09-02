@@ -963,7 +963,8 @@
             "Estrada"
         ],
         "full": "Estrada",
-        "canonical": "Estda"
+        "canonical": "Estda",
+        "type": "way"
     },
     {
         "tokens": [
@@ -1091,6 +1092,15 @@
         ],
         "full": "Ladera",
         "canonical": "Ldera"
+    },
+    {
+        "tokens": [
+            "Lg",
+            "Lugar"
+        ],
+        "full": "Lugar",
+        "canonical": "Lg",
+        "type": "way"
     },
     {
         "tokens": [
@@ -1405,7 +1415,8 @@
             "Rambla"
         ],
         "full": "Rambla",
-        "canonical": "Rbla"
+        "canonical": "Rbla",
+        "type": "way"
     },
     {
         "tokens": [
@@ -1430,7 +1441,8 @@
             "Ronda"
         ],
         "full": "Ronda",
-        "canonical": "Rd"
+        "canonical": "Rd",
+        "type": "way"
     },
     {
         "tokens": [
@@ -1482,7 +1494,8 @@
             "Rúa"
         ],
         "full": "Rúa",
-        "canonical": "Ru"
+        "canonical": "Ru",
+        "type": "way"
     },
     {
         "tokens": [

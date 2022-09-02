@@ -1,0 +1,321 @@
+[
+    {
+        "tokens": [
+            "C.le",
+            "Calle"
+        ],
+        "full": "Calle",
+        "canonical": "C.le",
+        "onlyLayers": ["address"],
+        "note": "translates to 'street'",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "C.po",
+            "Campo"
+        ],
+        "full": "Campo",
+        "canonical": "C.po"
+    },
+    {
+        "tokens": [
+            "C.so",
+            "Corso"
+        ],
+        "full": "Corso",
+        "canonical": "C.so"
+    },
+    {
+        "tokens": [
+            "C.te",
+            "Corte"
+        ],
+        "full": "Corte",
+        "canonical": "C.te",
+        "onlyLayers": ["address"],
+        "note": "translates to 'court'",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "X",
+            "Decima"
+        ],
+        "full": "Decima",
+        "canonical": "X",
+        "type": "ordinal"
+    },
+    {
+        "tokens": [
+            "X",
+            "Decimo"
+        ],
+        "full": "Decimo",
+        "canonical": "X",
+        "type": "ordinal"
+    },
+    {
+        "tokens": [
+            "F.ta",
+            "Fondamenta"
+        ],
+        "full": "Fondamenta",
+        "canonical": "F.ta"
+    },
+    {
+        "tokens": [
+            "L.go",
+            "Largo"
+        ],
+        "full": "Largo",
+        "canonical": "L.go"
+    },
+    {
+        "tokens": [
+            "Loc.",
+            "Localita"
+        ],
+        "full": "Localita",
+        "canonical": "Loc."
+    },
+    {
+        "tokens": [
+            "P.za",
+            "P.zza",
+            "Piazza"
+        ],
+        "full": "Piazza",
+        "canonical": "P.za"
+    },
+    {
+        "tokens": [
+            "P.le",
+            "Piazzale"
+        ],
+        "full": "Piazzale",
+        "canonical": "P.le"
+    },
+    {
+        "tokens": [
+            "P.ta",
+            "Piazzetta"
+        ],
+        "full": "Piazzetta",
+        "canonical": "P.ta"
+    },
+    {
+        "tokens": [
+            "P.te",
+            "Ponte"
+        ],
+        "full": "Ponte",
+        "canonical": "P.te"
+    },
+    {
+        "tokens": [
+            "P.ta",
+            "Porta"
+        ],
+        "full": "Porta",
+        "canonical": "P.ta"
+    },
+    {
+        "tokens": [
+            "S.da",
+            "Salizada"
+        ],
+        "full": "Salizada",
+        "canonical": "S.da"
+    },
+    {
+        "tokens": [
+            "S.",
+            "San"
+        ],
+        "full": "San",
+        "canonical": "S."
+    },
+    {
+        "tokens": [
+            "S.",
+            "Santa"
+        ],
+        "full": "Santa",
+        "canonical": "S."
+    },
+    {
+        "tokens": [
+            "S.",
+            "Santo"
+        ],
+        "full": "Santo",
+        "canonical": "S."
+    },
+    {
+        "tokens": [
+            "SS.",
+            "Santi"
+        ],
+        "full": "Santi",
+        "canonical": "SS."
+    },
+    {
+        "tokens": [
+            "Staz.",
+            "Stazione"
+        ],
+        "full": "Stazione",
+        "canonical": "Staz."
+    },
+    {
+        "tokens": [
+            "V.",
+            "Via"
+        ],
+        "full": "Via",
+        "canonical": "V.",
+        "onlyLayers": ["address"],
+        "note": "translates to 'street'",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "V.le",
+            "Viale"
+        ],
+        "full": "Viale",
+        "canonical": "V.le",
+        "onlyLayers": ["address"],
+        "note": "translates to 'avenue'",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "V.lo",
+            "Vicolo"
+        ],
+        "full": "Vicolo",
+        "canonical": "V.lo",
+        "onlyLayers": ["address"],
+        "note": "translates to 'alley'",
+        "type": "way"
+    },
+    {
+        "tokens": [
+            "strada",
+            "str.a",
+            "stra",
+            "str"
+        ],
+        "full": "strada",
+        "canonical": "str"
+    },
+    {
+        "tokens": [
+            "SC",
+            "Stc",
+            "Strada Comunale"
+        ],
+        "full": "Strada Comunale",
+        "canonical": "SC",
+        "spanBoundaries": 1
+    },
+    {
+        "tokens": [
+            "snu",
+            "strada nuova"
+        ],
+        "full": "strada nuova",
+        "canonical": "snu",
+        "spanBoundaries": 1
+    },
+
+    {
+        "tokens": [
+            "sp",
+            "s p",
+            "str provinciale",
+            "s provinciale",
+            "str prov",
+            "s prov",
+            "strada provinciale"
+        ],
+        "full": "strada provinciale",
+        "canonical": "sp",
+        "spanBoundaries": 1
+    },
+    // strada privata|spr
+// strada regionale|
+// strada statale|ss|s.s.|s.s|s s|str.s|str s|str.st|str st|str statale|s statale|sts
+// strada vecchia|sve
+// strada vicinale|sv|s.v.|s.v|s v|str.vic|str vic|str vicinale|s vicinale|svc
+// stradale|sdl
+    {
+        "tokens": [
+            "SR",
+            "sr|s.r.|s.r|s r|str.reg|str reg|str r|str.r|str reginale|s reginale"
+            "Strada Regionale"
+        ],
+        "full": "Strada Regionale",
+        "canonical": "SR",
+        "spanBoundaries": 1
+    },
+    {
+        "tokens": [
+            "SS",
+            "Strada Statale"
+        ],
+        "full": "Strada Statale",
+        "canonical": "SS",
+        "spanBoundaries": 1
+    },
+    {
+        "tokens": [
+            "de"
+        ],
+        "full": "de",
+        "canonical": "de",
+        "type": "determiner"
+    },
+    {
+        "tokens": [
+            "di"
+        ],
+        "full": "di",
+        "canonical": "di",
+        "type": "determiner"
+    },
+    {
+        "tokens": [
+            "del"
+        ],
+        "full": "del",
+        "canonical": "del",
+        "type": "determiner"
+    },
+    {
+        "tokens": [
+            "della"
+        ],
+        "full": "della",
+        "canonical": "della",
+        "type": "determiner"
+    },
+    {
+        "tokens": [
+            "dei"
+        ],
+        "full": "dei",
+        "canonical": "dei",
+        "type": "determiner"
+    },
+    {
+        "tokens": [
+            "delle"
+        ],
+        "full": "delle",
+        "canonical": "delle",
+        "type": "determiner"
+    }
+]
